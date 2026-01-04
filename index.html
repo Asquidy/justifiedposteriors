@@ -51,16 +51,24 @@ title: Home
 
 {% if site.data.beliefs.episodes.size > 0 %}
 <section class="beliefs-section">
-  <h2 class="beliefs-section__title">Every episode, we state our priors about the topics covered by the papers we read. We then discuss the paper and state how we updated our priors. <br><br>
-    This is our Belief Updates Tracker - how we updated our priors across {{ site.data.beliefs.episodes.size }} episodes</h2>
+  <div class="beliefs-section__header">
+    <h2 class="beliefs-section__main-title">Belief Updates Tracker</h2>
+    <p class="beliefs-section__subtitle">How we updated our priors across {{ site.data.beliefs.episodes.size }} episodes</p>
+  </div>
 
   <div class="beliefs-filter">
-    <input
-      type="text"
-      id="beliefs-search"
-      class="beliefs-search"
-      placeholder="Search episodes, papers, or beliefs..."
-    >
+    <div class="search-container">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input
+        type="text"
+        id="beliefs-search"
+        class="beliefs-search"
+        placeholder="Search episodes, papers, or beliefs..."
+      >
+    </div>
   </div>
 
   <div class="beliefs-table-container" id="beliefs-table">
@@ -69,7 +77,11 @@ title: Home
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">{{ episode.title }}</span>
         <span class="belief-row__paper">{{ episode.paper | truncate: 60 }}</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>

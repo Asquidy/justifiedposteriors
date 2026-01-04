@@ -77,16 +77,24 @@
 
 
 <section class="beliefs-section">
-  <h2 class="beliefs-section__title">Every episode, we state our priors about the topics covered by the papers we read. We then discuss the paper and state how we updated our priors. <br><br>
-    This is our Belief Updates Tracker - how we updated our priors across 22 episodes</h2>
+  <div class="beliefs-section__header">
+    <h2 class="beliefs-section__main-title">Belief Updates Tracker</h2>
+    <p class="beliefs-section__subtitle">How we updated our priors across 22 episodes</p>
+  </div>
 
   <div class="beliefs-filter">
-    <input
-      type="text"
-      id="beliefs-search"
-      class="beliefs-search"
-      placeholder="Search episodes, papers, or beliefs..."
-    >
+    <div class="search-container">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input
+        type="text"
+        id="beliefs-search"
+        class="beliefs-search"
+        placeholder="Search episodes, papers, or beliefs..."
+      >
+    </div>
   </div>
 
   <div class="beliefs-table-container" id="beliefs-table">
@@ -95,7 +103,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Techno-Prophets Try Macroeconomics</span>
         <span class="belief-row__paper">Epoch AI's GATE model projecting 23% GDP growth in 2027</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -136,7 +148,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Evaluating GDPVal</span>
         <span class="belief-row__paper">OpenAI's economic value task evaluation measuring AI perf...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -177,7 +193,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Are We There Yet?</span>
         <span class="belief-row__paper">METR's 'Measuring AI Ability to Complete Long Tasks' trac...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -218,7 +238,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">One LLM to Rule Them All</span>
         <span class="belief-row__paper">Analysis of LLM competitive dynamics and multi-homing beh...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -259,7 +283,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">When Humans and Machines Don't Say</span>
         <span class="belief-row__paper">Braghieri et al. on preference falsification in surveys; ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -300,7 +328,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Claude Just Refereed</span>
         <span class="belief-row__paper">Anthropic's Economic Index analyzing AI task usage patter...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -341,7 +373,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">We Won't Be Missed</span>
         <span class="belief-row__paper">Restrepo's theoretical model of work and growth dynamics ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -382,7 +418,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Did Meta's Algorithms Swing the 2020 Election?</span>
         <span class="belief-row__paper">Guess et al. (Science) experimental study of algorithmic ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -423,7 +463,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Scaling Laws Meet Persuasion</span>
         <span class="belief-row__paper">Research on diminishing returns for AI-generated politica...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -464,7 +508,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">The Simple Macroeconomics of AI</span>
         <span class="belief-row__paper">Daron Acemoglu's task-based model predicting less than 1 ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -505,7 +553,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Beyond Task Replacement</span>
         <span class="belief-row__paper">Timothy Bresnahan's analysis of General Purpose Technolog...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -546,7 +598,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Is Social Media a Trap?</span>
         <span class="belief-row__paper">Bertoni et al. on TikTok and Instagram as 'collective tra...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -587,7 +643,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">AI and Labor Market Effects</span>
         <span class="belief-row__paper">Ide and Talamas 'Artificial Intelligence and the Knowledg...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -628,7 +688,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Can Political Science Contribute?</span>
         <span class="belief-row__paper">Henry Farrell's 'AI is Governance' from Annual Review of ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -669,7 +733,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Emergency Pod: AI Already Causing Labor Effects?</span>
         <span class="belief-row__paper">Brynjolfsson et al. 'Canaries in the Coal Mine' documenti...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -710,7 +778,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Should AI Read Without Permission?</span>
         <span class="belief-row__paper">'Books Encounters' analyzing how pirated Books3 training ...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -751,7 +823,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">How Much Should We Invest in AI Safety?</span>
         <span class="belief-row__paper">Chad Jones papers on optimal AI investment given existent...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -792,7 +868,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">If Robots Are Coming, Why Aren't Interest Rates Higher?</span>
         <span class="belief-row__paper">Chow et al. using real interest rates to infer market exp...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -833,7 +913,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Can AI Make Better Decisions Than Doctors?</span>
         <span class="belief-row__paper">Mullainathan and Obermeyer 'Diagnosing Physician Error' u...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -874,7 +958,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Robots for the Retired</span>
         <span class="belief-row__paper">Acemoglu and Restrepo 'Demographics and Automation' linki...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -915,7 +1003,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">A Resource Curse for AI</span>
         <span class="belief-row__paper">Drago and Lane 'The Intelligence Curse' exploring whether...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
@@ -956,7 +1048,11 @@
       <button class="belief-row__header" aria-expanded="false">
         <span class="belief-row__title">Situational Awareness</span>
         <span class="belief-row__paper">Leopold Aschenbrenner's essay on AI scaling trajectories,...</span>
-        <span class="belief-row__toggle" aria-hidden="true">+</span>
+        <span class="belief-row__toggle" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
       </button>
 
       <div class="belief-row__content" hidden>
