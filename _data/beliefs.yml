@@ -96,7 +96,7 @@ episodes:
     paper: "Daron Acemoglu's task-based model predicting less than 1 percentage point additional GDP growth over 10 years from AI"
     andrey:
       prior: "Effects will be small if AI adoption remains limited to 'using ChatGPT a little bit.' Could be huge if AI accelerates scientific research and discovery."
-      posterior: "Moved down my median estimate for AI's growth impact. Diffusion limitations will constrain macro effects even if capability advances rapidly. Acemoglu's careful task-based accounting is persuasive."
+      posterior: "Moved down my median estimate for AI's growth impact. Diffusion limitations will constrain macro effects even if capability advances rapidly."
     seth:
       prior: "Expected 2-4 percentage points additional GDP growth over 20-50 years from AI adoption."
       posterior: "Cut growth estimate roughly in half. Now estimate around 30 basis points annually rather than closer to 100. It's hard to read something this carefully reasoned and not update significantly."
