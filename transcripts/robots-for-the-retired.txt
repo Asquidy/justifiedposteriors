@@ -1,0 +1,698 @@
+ [MUSIC]
+ >> Welcome to the Justify Pasteurias Podcast,
+ the podcast that updates beliefs about the economics of AI and technology.
+ This is Seth Benzel,
+ apparently wasting my youth in comparative advantage by
+ not specializing in production tasks directly coming to you
+ from Chapman University in sunny Southern California.
+ This is Andrei Fratkin,
+ ready with a cross-country regression whenever I have a theory I need to justify.
+ Coming to you from sunny San Francisco today.
+ >> A cross-country regression.
+ Yeah, we're going to see a lot of these in the paper today.
+ I guess we'll talk about some.
+ What do you think when you see a paper with a cross-country regression?
+ I know that's not something that usually gets you excited, Andrei.
+ >> It gets me excited to make fun of it.
+ >> No, no, I mean, look,
+ this is the difference being academic economics and practical questions, right?
+ In the end, there are certain issues in which we have nothing
+ better than comparing countries,
+ and so we have to look at this evidence even though how much we update based on it,
+ may not be as much as the authors of the paper would help.
+ >> Yeah, that's a fair point.
+ >> But I guess we'll introduce the hypothesis that's under consideration today very shortly.
+ But I think the hypothesis isn't necessarily only going to be at the country level.
+ So they'll try to do some things at the sub-country level,
+ but also going to find limited data issues.
+ So the question that we're talking about today is from
+ a very concretely named paper by our two,
+ I would say heroes or people looked up to by this podcast,
+ Derona Simoglu and Pasquale Restrepo.
+ This is a conversation based on their paper,
+ demographics and automation,
+ which asks the question to what extent does the decision to
+ automate is that a function of the demographics of your country,
+ and they're going to take a very particular take on why demographics are important.
+ Why do they think demographics are important, Andrei?
+ >> Well, if you need to get some stuff done,
+ and you no longer have able-bodied humans to do those things,
+ so carrying stuff, screwing stuff and walking around, etc.
+ Then it might be worthwhile for you to invest in
+ a technology that can do some of those same things.
+ So that's the automation of hypothesis.
+ So if you have less labor, you have a labor scarcity,
+ you're going to automate more.
+ >> Right. We should talk about that this paper is looking backward at
+ the period like approximately 1990 to the late 2000s,
+ where they're specifically the automation that is relevant is
+ physical task, industrial robot automation.
+ That's not to say that there aren't other kinds of automation happening at the time.
+ But when the title of this paper says,
+ automation in demographics, you should think industrial robots,
+ because that's what this paper wants to talk about.
+ >> Yeah. So if you're, let's say, manufacturing a car,
+ we're talking about the sorts of robots that might be in
+ the factory that are combining the different pieces together and moving them around.
+ >> Exactly. So we're thinking about these big robot arms coming in,
+ and the hypothesis is as you employ that regions that are older,
+ that have too many old workers relative,
+ excuse me, to middle-aged workers.
+ If older workers are specialized in not being really
+ small and lifting heavy things, but rather other skills,
+ it's hard for me to rack my brains to think of what you could possibly be
+ good at other than being small, Andre.
+ Maybe you'll give us some ideas that then you're going to want to
+ differentially adopt these technologies that substitute for being
+ able to lift heavy thing, fit heavy thing, sit in uncomfortable positions,
+ which a lot of these jobs,
+ the paper talks about them as production tasks.
+ These production tasks tend to entail things that middle-aged people are
+ better at or younger people are better at than older people.
+ So that's the direction of the prediction,
+ more old people, more automation.
+ I think we should think about this Andre as we start to move into our priors.
+ I want to think about this in a backward-looking way and a forward-looking way, right?
+ So I think first, let's ask ourselves about what's our prior going in in terms of looking backward.
+ Do we think in different countries and different US regions that were
+ differentially older, were they causally more likely to adopt these industrial robots?
+ That's the looking backwards question.
+ Now we can ask the looking forwards question.
+ We know the world is getting way older.
+ Specifically in the developed world,
+ there's still a big demographic boom going on in Africa.
+ But in the Western and developed countries,
+ we're really seeing a baby crunch or a baby bust,
+ however you want to talk about it.
+ So then crisis, if you will.
+ A fertility crisis.
+ Once you have a crisis that allows the,
+ if only there were a way to use emergency tariff powers to solve that crisis.
+ Although this paper, we'll talk about endogenous friendability later on, I'm sure.
+ So like, yeah, the question looking forward is,
+ do we think that this will be an important effect moving forward?
+ Do we think that a world with a baby crunch is going to
+ automate faster and more deeply than a counterfactual world without a baby crisis fertility crunch?
+ So, you know, Andre, you want to take on one or both of those questions?
+ Yeah, so let's start with the first.
+ I think there's a question of whether the theory is directionally right
+ and how much it explains.
+ I think those are maybe two different questions.
+ I think it's hard to even imagine an econ-based model where labor scarcity
+ doesn't result in some amount of investment or things that are substitutable to it, right?
+ So if we have some factories in our country and now we have no one to work in those factories,
+ you'd imagine that the owners of those factories face two choices.
+ One of those choices is to invest in technologies that allow the factory to keep running.
+ They could raise their wages, but obviously in equilibrium, they will do other things.
+ And then the other thing is to close down the factory and open it up somewhere else.
+ So those are kind of the two choices that they have.
+ So surely there is some adjustment on this margin.
+ I think this paper makes the argument that this is like a huge causal factor.
+ It's not just directionally right, it's a big causal factor here.
+ I think that's with a pretty high probability.
+ With some probability, you've got to put a number on it, that's the name of the podcast, dude.
+ Let's say a lot, let's say, does it explain, I don't know,
+ 20% of the variation in industrial robot adoption across countries,
+ put that at, I don't know, 40%.
+ OK, 40%.
+ So more likely than not, that the effect is less than explaining 20% of the variation.
+ Yes, but if we're talking about like 1% of the variation, I'd be like a 99%.
+ So I just--
+ Oh, OK, I see.
+ So as we move up the strength of the causal thing.
+ OK, so definitely some directional effect.
+ Well, I'll tell you, I came at this kind of thinking at it already
+ from like what data was going to be available, right?
+ And I know that you're going to find a strong correlation,
+ because I know at the global level, the world's been getting older
+ and we've been adopting robots, right?
+ So that correlation's going to be there.
+ And then at the regional level, I know in the United States,
+ we kind of have this Rust Belt area that is both getting older and automating, right?
+ So I feel like before I even looked at the evidence in this paper,
+ I was coming in kind of understanding that the correlation is going to be there,
+ that older places, older time periods are going to have more robots.
+ So I was not surprised to see that correlation later on when we look at the evidence.
+ But as I knew that correlation was there, I knew in the back of my head
+ that it isn't necessarily a causal relationship.
+ And I'll tell you why, Andre, well, maybe I was a little bit more skeptical
+ about the hypothesis that the direction has to be in this one direction, right?
+ Okay. So we'll talk about this a little bit later.
+ But if the very narrow point is when the wages of factory workers are relatively high,
+ you want to automate, setter as parabas, everything,
+ that effect's got to be real, right?
+ However, the question is about demographics and actually kind of like a lot of shit.
+ There's a lot of moving parts in demographics other than one particular price difference, right?
+ You know, you can imagine that young people bring energy and dynamism
+ and they're going to, you know, lead to more technology.
+ I guess that's going to be my main kind of forward-looking point.
+ Without going too far down that road, what I would say about, you know,
+ doubting any sort of observed relationship we see in the data is is that
+ given how universal ish this phenomenon is
+ of the Western world getting more automation and getting older,
+ I'm worried that there's like some sort of like overdetermination here
+ and maybe like the right way of thinking about this is
+ there's an emitted variable, which is like a modernity,
+ which is causing oldness and robots.
+ So that's kind of my, so that's my backward-looking, I guess we'll go at each other.
+ What do you think forward-looking, Andre?
+ Yeah, so forward-looking, I mean, once again, given that, you know,
+ I understand you can come up with, you know, models where it's not so obvious,
+ but I think on some margins, it must be true that older people
+ mean like that we're going to need some robots to do the jobs
+ that, you know, they used to be doing.
+ But I do think, and I think this is exactly where I was thinking as well,
+ said, is that, you know, as automation goes from something
+ that's relatively nichely situated in a manufacturing sector
+ to something that happens throughout the economy,
+ it becomes just innovation, right?
+ It's just the table stakes for competition.
+ And at that point, I think the demographics as an explanatory variable
+ might stop losing, it might stop being as best powerful.
+ So then there are, of course, two issues that are involved here.
+ One is like, who is inventing the robots, or who's inventing the automation technology, right?
+ And, you know, certainly if we look at LMs and related technologies,
+ here the key inventors seem to be happening in the US and in China, right?
+ And, you know, you can, there are a lot of differences between the US and China
+ and the rest of the world, right?
+ And then in terms of adoption, you know, it may be the case
+ that adoption is still determined more by demographics, right?
+ You do have more of an incentive to adopt certain technologies
+ if you're in a world of labor scarcity.
+ But once again, there is a little bit of a countervailing force
+ in that older countries, or you might think that they are old people,
+ you know, old habits die hard, as they say.
+ Science, you know, what, the TFP advances one death at a time.
+ Yeah, so you might be worried that if you have a bunch of old people
+ in an organization, and, you know, a country that's pretty aging,
+ they might not adopt those technologies.
+ And, but once again, I think when we're thinking about future-looking automation technologies,
+ we have to, like, distinguish green, you know, robotics, physical, like, automation,
+ and non-robotics automations.
+ So I'd still imagine it to be the case that for manufacturing related robotics,
+ or for, you know, let's say medical robotics, you know, the incentives are going to be so strong
+ that you're going to see older societies adopt them more.
+ But automation technology in general, I think, is going to be more driven by just overall R&D,
+ you know, capacity of a country.
+ Right. So that's not something that's contemplated in Pascual and Inassimo-Glu's model, right?
+ That the idea that you need young people to make the automation.
+ In fact, as we'll see, the automation kind of comes out of final production.
+ There's no sense in which you, like, need young people's ideas.
+ And, like, I don't know if you kind of kill the one thing that young people can do.
+ Maybe it's not surprising that you want to, that they can just automate away from them.
+ Okay. My forward-looking thoughts are pretty similar to yours.
+ So again, we both agree on this main sort of, like, youth to innovation angle seems ignored here.
+ Another angle that I think actually kind of pushes in the direction of this hypothesis,
+ but is not contemplated in the model that we're about to read is, and this is kind of,
+ you know, of course I'm thinking about this because the only thing I ever think about,
+ which is older people are wealthier than younger people.
+ If you have an older society, you have a wealthier society.
+ And we think that the automation versus augmentation decision,
+ you should automate more when interest rates are low and wages are high, right?
+ Which should be the period of time when you have old wealthy people.
+ And that's, this is the, I mean, I don't know,
+ DeRone is just not interested in that mechanism.
+ Yeah. Yeah. I mean, all right. So now that we've stated our...
+ Wait, I didn't give him a percent. I didn't give him a percent.
+ Okay. So my percent is, I would say 60% chance.
+ So more likely than not, the net effect of aging is to increase the rate of automation.
+ But I, that's with wide uncertainty principles given that I feel like we need a second paper
+ measuring the usefulness of the youth in innovating to balance against this other mechanism.
+ Okay. Now I'm ready for the evidence.
+ Well, you know, being a podcast about, hey, we should mention that if you invent AGI,
+ presumably you'll figure out how to automate everything else, right?
+ So... So the epic AI guys say... Yeah.
+ So, you know, whatever conditions lead to AGI, we need to lead down the road to automation.
+ Right. That's the correct rationalist take.
+ The rationalist take is how dare you even contemplate partial automations
+ that our viewers are listening to. Yeah. It's, it's all the transition, you know.
+ Wait, so I got, did we get a percent, can I get a numerical prediction out of you for our
+ forward looking question? So I wanted to frame it as the percentage chance that all else equal
+ the aging society advances increases the rate of automation.
+ 70%. 70%. All right. Okay. Well, let's see if we can move you at all a little bit with this data.
+ So there's a theory and there's some data they bring to it.
+ Maybe, Andre, why don't you start telling us a little bit about the theoretical model? It's a
+ pretty straight forward extension of asymo blue wrist repo raised between the end of the machine,
+ right? Yeah. So we have a bunch of industries. They're going to use a mix of inputs and they're
+ going to have some manufacturing production required and then there's going to have some services
+ required. And then they're also going to have a choice of what share of the tasks involved in
+ in the production process are automated or not. And then they're going to have, for each industry,
+ I believe, a monopolist innovator, who's going to be, you know, that's going to be the mechanism
+ by which they're going to determine how much to invest in increasing the automation level for a
+ given industry. Right. The way there's this, there's a basic model where we're just going to exogenously
+ say here's the maximum level of automation and endogenous, endogenous people will use the maximum
+ level of automation. And then they have an endogenizing the automation decision.
+ Yeah. And then the production and the services are going to use a different, you know, mix of old
+ and young workers and there's going to be wages determining equilibrium. And they, you know, show
+ that under certain conditions, there exists an equilibrium or sometimes there are multiple
+ equilibrium and they prove some comparative statics about it, such as the aforementioned
+ statements about older societies resulting in more automation.
+ Right. And I think, you know, and there's a couple of other things that, you know, automation is good
+ for productivity. Is ambiguous for wages. But I think we can focus in on kind of just this main
+ hypothesis who's automating, who's developing the automation, who's improving. Yes. All right.
+ I think that was a really kind of fair description. It's coming, you know, this is all inspired by
+ the task based model where we're going to explain different differential impacts on workers from
+ technology as well, they were doing different tasks. And that's why they're going to be affected
+ differently. So that's the task based framework that's been so influential. So in terms of data
+ that they bring to this, this is where, so maybe let's talk about the theory section for a little bit.
+ I think for what is in the theory, it is, you know, straightforwardly makes an argument that,
+ you know, makes sense to us the relative, when the relative price of factory workers goes up,
+ you want less factory workers. It's the stuff that's kind of not in here. That is the interesting
+ thing about the model. Yeah. So I think that's sometimes true with macroeconomic models.
+ But by necessity, they can't have everything. Right. So in some ways, it's their rhetorical
+ arguments pointing us towards one causal mechanism. That's very often how these models work.
+ Right. Yeah. I mean, so this is not a bad way. Yeah, not in a bad way. I will say that like,
+ you know, if I'm teaching this, especially to people who are not super obsessed with the
+ task-based model, I think you can get like 90% of the points of the model by just, you know,
+ drawing a supply and demand curve, but you don't need a lot. There's a lot of apparatus here to
+ make a pretty simple point. But but it works. It does what it says. What's not in here that we
+ both would both think are important. The first thing is, is you buy automation out of final
+ production, which is in a world where we think young people have some special role in innovation
+ that's probably not kosher. The second thing that's not missing here is the essentially,
+ you know, in the simplified model, the exogenous price of the automation technology.
+ Basically, there's no there's no modeling here of the price of capital side. Right.
+ So if you think that aging is going to have an effect on the price of capital,
+ then that's also missing for you here. Yes. There's also no trade in this model. Certainly
+ something really. There's an extension of trade. There's an extension of trade. There's trade
+ in the extension. It's, you know, it's simplified. It's fine. It does what they need it to do.
+ When you want robots, you also import robots. Yes. And then on the shore that that's there. I
+ guess like to the extent that you're shifting your industry composition. Ah, that's right.
+ There's like there's short, there's trading goods, but there's no trade in industry and there's no
+ migration, right? So you might imagine like in the long run, you know, just like the industries go
+ where the young people are, right? Rather than vice versa. Yeah. I mean, this is a key, you know,
+ question, you know, in the current policy debate, right? Why does China have so much manufacturing?
+ Why did you, why did the US lose so much manufacturing? The price of labor seems really,
+ really important here, right? And obviously this paper's not trying to address that, but it's
+ getting at some underlying mechanisms. Yeah, but like you're totally right. So exactly. So what
+ do I try to say here that's missing? It seems like the story about the US automating is mostly
+ about wages being expensive and capital being cheap and like much secondarily about middle-aged
+ people being relatively expensive compared to old people, right? And that, you know, and that's
+ the mechanism from the other paper, not this paper. Yes. Okay, so let's talk about the data.
+ We're going to look across countries for some of the analysis and we're going to look within the
+ United States for some of the analysis within the United States. Whoa, within the United States,
+ we got two measures. We got one measure by commuting zone, which is our robot integrator's presence
+ that's like the presence from this other paper of people who specialize in helping you install robots.
+ That's a binary indicator at the county level. I think it's not even panel. I think it's just a
+ cross-section. So you get a sense of how how thin some of this data is. Okay, so they got a cross
+ section. And then they've got a second cross section, which is actually a result from one of
+ their previous papers, Asamogul and Restrepo. You know, we've talked about them a lot. They're
+ they're leaders in thinking about these questions in a paper that we have not yet to discuss, but
+ perhaps someday we will. They look across the United States to see whether quote unquote exposure
+ to robots is bad for wages and employment in routine factory jobs. Exposure to robots is a
+ combination of the region's industrial specification in like the 80s combined with how much Europeans
+ in those industries start to use robots over time. Okay, so this is like kind of a real kind of like
+ going all the way around the block to try to get how many robots are there in a US
+ industry times location, right? But they do it. So that's that's their country level measures,
+ their US level measures, I should say. The US level, yes. And then across countries,
+ they've got a couple of different sources. Also of dubious reliability. One is the IFR,
+ the International Federation of Robots. Andre, do you remember that brief time in like the late
+ 2010s or it felt like every paper used this data set? It was not without its controversies
+ further. Well, one of the controversies is so I, you know, to the listener, we're economists.
+ And so to us, the natural unit of measurement of the universe is the almighty dollar, right?
+ You know, how many chairs do you have versus sofas? I don't need to fucking know how many. I just
+ know the value of my chairs and the value of my sofas in a bizarre perversion of basic accounting
+ practices. The way that the data on robots is accumulated is not by the value of the robot or
+ the sale price of the robot or the tax rate of the robot or any economically interpretable measure
+ of amount of robots. What instead do they measure? Andre, can you tell us a number of robots?
+ The number of robots.
+ I don't know what a robot is to be clear. Is it an arm? Is it a is it a Roomba? I don't know.
+ Completely opaque, heterogeneous counting variable is going to be our main
+ treatment or I guess mean outcome for our main outcome. I've been told to curse less on this
+ podcast. Hey, viewers at home, let us be known. Let us know on, you know, the comments. How much
+ do you want to listen? The kids are listening, Seth, and they might be offended. They want to
+ listen in their cars. Not all children are from New Jersey. They're not used to our rough ways.
+ Okay, so I'm going to we're going to limit our cursing to moments of really intense emotion,
+ I think. Okay, so IFR data. So that gives you a measure of the quote unquote number of robots
+ in a country times industry year. Then we have com trade, which is some international trade data,
+ and that gives us some information on I believe the value of robots being imported and exported
+ in different countries. I believe that those are the two, and then there's like some variations
+ on those two data sets. Did I miss a big data set? Yes, and actually there's a third one.
+ There's also patenting. So we also can see across different regions of the world,
+ the share of the patents that are in automation versus not automation technologies.
+ So before we go into those results, so I've already talked to you about some problems with
+ the international federations of robots data. Let me continue to list additional challenges
+ with this data. Did you notice the footnote? We're darron in past while I'll say we're just going
+ to we're going to emit mena countries because they don't fit our hypothesis. I thought you were
+ going to say we're going to the footnote where they say that you're panins. Oh, no, they don't
+ but yeah, they just they, they have it in Korea, they have it in Korea. So and all they say it's
+ robust, including or drop exactly. But no, the mena countries are the ones that blew my mind
+ because it's just like they I think the footnote literally says we omit them because they do not
+ fit our hypothesis, right? Let me see if I can find that footnote. What what jumped out at you
+ about some of these data selection decisions? I mean, look, I don't I just have very little bar
+ for cross-country regressions. I assume that they're that is just going to be like this because
+ so many cross-country regression papers are like that. I actually just like looking at the scatter
+ plots. Like I just feel like rather than focusing on these regression results, which I feel are not
+ super, you know, they're credible to the extent that they point us in the right direction. We'll
+ talk about the instrumenting for fertility because I think that that helps. That only helps. Okay,
+ so let me I just want to read this footnote because I feel like I should always have an
+ aside to read the best footnote in the paper. All right, footnote seven. Although international
+ federation of robots data reports numbers for Japan and Russia, the danger for these countries
+ underwent major reclassifications, etc, making the numbers reported for Japan not comparable over
+ time. Therefore, we exclude Russia and Japan. The IFR also reports data for Belarus, Bosnia,
+ Herzegovina, North Korea, Puerto Rico, and Uzbekistan, which are omitted because we lack data on key
+ covariates. Finally, we emit data from Iran, Kuwait, Oman, Saudi Arabia, and UAE, which are
+ excluded both because they have few robots and also because their demographics are highly influenced
+ by immigration. I mean, if you emit a third of your data, because it doesn't fit your hypothesis,
+ I'd be surprised if you couldn't get a regression. Yeah, I mean, look, like I said, I look at the plots
+ with the points and I look at each point, I'm like, oh, that's interesting. Tell me what you see in the
+ South Korea is. What's on the X axis? What's on the Y axis? The X axis aging, the Y axis number of
+ robots, the increase in robots, let's be very precise, because it's really trying to measure the
+ change in the in the aging and the change in the robots. Yes, well, no, not a day. Yeah, so
+ we have South Korea has a ton of robots. And it's also experienced a lot of aging.
+ So I think that's it's kind of the clear outlier one side. On the other side, a very old society
+ without a lot of robots is Hong Kong. And it's very easy for us to post hoc rationalize, maybe why
+ Hong Kong doesn't have that many robots, right? It's a financial capital. Robots are a complement
+ to space. Yeah, it hasn't been, all the manufacturing happens in Shenzhen.
+ It's right across the border that used to happen in Hong Kong, right? But I think like just by doing
+ enough of these case examples, you know, we can learn something. I'm not sure we learned something
+ from the regression itself. We also have, you know, countries like Pakistan and Egypt, which are
+ pretty young and have no robots. You know, I think an interesting one. You can't you think of an
+ admitted variable that in different H Pakistan and Egypt from South Korea and Taiwan? Yeah, so I mean,
+ look, sorry, who was you saying the middle? I interrupted your view of the discussion of the
+ figure. No, the US is in the middle. The US is in the middle. Pretty much on the line. We're pretty
+ close to the line. They're in the middle in terms of aging. They're in the middle in terms of robots.
+ So yeah, that's kind of the basic outline of the story. They have another plot where they
+ kind of focus on that OECD countries. And they're, you know, interestingly, we see kind of below
+ trend is Italy, which is a very old society, which doesn't have that many robots. And then we have
+ Sweden, which is a pretty young society that has a lot of robots. Yes. Yeah. I guess you would,
+ I guess, if Pasquale was here, he'd say, well, that's the immigration story, right? Yeah. But,
+ yeah. I mean, look, the immigration and demographics are like, you know, join at the hip. Like, what
+ are we talking about here? Right? So certainly it's an endogenous to aging, whether you have an
+ immigration. Okay, so yeah. So all right. So to lock that in for in the minor or listeners,
+ kind of the headline result is if you just put up a scatter block across countries,
+ the older ones have the ones who are aging more or getting more robots,
+ the planet's face, the relationship holds. Is it the same way within countries within the United
+ States? Yeah. So it seems to be the same way within the United States. And, you know, within
+ even industries within the United States, right? So kind of, I mean, one of the strengths of this
+ paper is that they really do bring a lot of different data sets that are all kind of pointing to the
+ same trend, even if each piece of the evidence is not, you know, the best piece of evidence that
+ we can imagine. Okay. Well, each piece of the evidence. All right. So I'm looking at their main
+ regression table here, table four, which you told me not to look at Andre, but you know how I love
+ at this respecting of, you know, reports to include. All right. So we've got imports and exports. I
+ think there is a similar table table three, which does the same for just the amount of robots.
+ Maybe we'll talk through table three. We have these OLS regressions of amount of robots on aging,
+ pretty strong, significant, positive relationship of about one more robot per thousand workers
+ per year, which is a tongue twister. Then what they do, I think this is probably like the most
+ compelling thing in the entire paper, more compelling than the elaboration of the model,
+ more compelling than all of this different data gathering. It's just instrumenting for
+ olderness age of the population using historical fertility, right? So like you point out, like
+ population is endogenous. People do migrate, but a lot of the population of any given place is
+ going to be its native born population. And the hypothesis that, you know, economic factors today
+ lead to migration today, obviously that's pretty strong, but it's a lot harder to argue that economic
+ conditions today are creating fertility 30 years ago, right? So if we look at these instrumental
+ variable results, let's do a little reader listener service and explain what instrumental
+ variables are. All right. So they're like, they tell you like how many oboes you have,
+ how many violins you have. I prefer the drums, you know. What's an instrumental variable, Andre?
+ Yeah. Well, all right. So this is kind of the perfect case where we might be worried that
+ we can't control for all things that are happening across countries. And we might be worried that
+ countries who have different ages might have other factors that affect automation, you know,
+ their religion or their war causes, work causes, and stuff on automation, war, various economic
+ conditions, like the financial crises and so on, just you can list so many things. And obviously,
+ with very few observations, you can't control for all that. And so one idea was, is that what
+ if you could find a variable that affects just one of the causal pathways and nothing else,
+ then econometrics gives you the ability to use that to isolate a causal effect. So actually,
+ the best case scenario for an instrumental variable is actually in an experiment. Let's say that I
+ want to understand what the effect of Seth buying a new mic is on his audio quality,
+ but I can't force him to use using a new mic. Sorry, using that. I can't force him to use
+ it, but I can buy it for him. And so the fact, you know, let's say we have a bunch of Seth's and
+ I've randomly bought some microphones for some of them. And then I also measure where they end
+ up using the microphone. And then I can kind of use that experiment to say, what is the causal
+ effect of using this microphone that I bought on Seth's audio quality? That's kind of the best
+ case scenario. The way the reason it's the best case scenario is if I've randomized,
+ then the people who I've bought the microphones for and the people who I didn't buy the microphones
+ for are on average very similar to each other. Now, with instrumental variables, you're look,
+ you know, without an experiment, you're looking for something that's similar in nature to that.
+ Right. So what's the natural experiment here? So what's the natural experiment? So the authors
+ are trying to say that, you know, how many the fertility rate a long time ago, it obviously affects
+ how old the society is today, but they're kind of two key assumptions. So the fertility rate long
+ ago isn't correlated with other persistent country level things that might affect robot adoption
+ today. And also the fertility rate a long time ago doesn't affect any other causal pathways
+ that have nothing to do with the relative number of workers. You might be thinking, dear listener,
+ that there might be perhaps other things going on. Now, I for one thing, one of the key problems
+ in our society is the boomer generation continuously electing their very old candidates.
+ Four positions of power. Back to your medicine. This is not a political podcast, but, you know,
+ we'll let it put as an ageist, but it is ageist.
+ You know, old people have a lot of time to go vote, but they certainly vote differently than
+ young people. And they might vote in specific ways that affect the economy. But for example,
+ the instrument would also affect the political outcomes in a country, right? And the political
+ outcomes are not in any way modeled in a theory model here. Right, so the answer to the question
+ that was positive for the instrument is fertility rate. So you're imagining that more fertile people
+ might have different politics than less fertile people. Well, that's certainly true. But the
+ instrument here is historical fertility, right? Yeah, yeah, yeah. So that affects some. It's not
+ that it's just contemporaneous. Okay, so you're saying it's not just, but I guess that's what
+ the question is, right? So when I read this paper, I took it to make the narrower claim
+ that the causal impact of age on automation decisions, right? What you're pointing out is
+ there could be a mechanism for that, which is not the contemplated mechanism of the paper,
+ which is, but that's not necessarily saying the claims wrong. Yeah, so that's right. There are
+ kind of two critiques. I mean, I think one critique is, you know, if historical fertility is correlated
+ with other things that still matter today, you know, religion is certainly one that you can think about,
+ that's one thing. And then the other thing is just that there are many reasons that age composition
+ can matter. For example, it might affect immigration and immigration might affect the adoption of
+ automation, right? Or it might affect politics and that might affect automation. And I think,
+ yeah, the authors are a little playing loose with the theory is very narrow. The theory is very
+ narrow. It's really, yeah, it's really just about this, the factor supply, you know, but the cross
+ country regret fins with instrument are potentially, you know, even if we kind of believe them on its
+ face are including many different mechanisms. Right. Okay, but so let's actually interpret
+ these results. Do you have a table three and table four in front of you? I have table three in front
+ of me. Yes. Okay. Well, table four, let's start with table four and let's work back to table three.
+ So look at table four, this is imports and exports. On the top row, we've got the OLS estimates of
+ the effect of aging on imports and exports. And we see maybe three more robots per thousand people
+ as a function of agent, depending on the specification. And when you move to the instrumented version,
+ again, it's a way since that says let's be precise. It's imports of robots to intermediate. Oh, yes,
+ it's the share. It's the percentage share of robots. That's a good point. Because obviously,
+ out of intermediate imports. Right, right. So it is, it's pretty specific measure. And when we do
+ the instrumenting, I would say that that is cutting the point estimates slightly, maybe not even
+ consistently. It's not, not even consistently. Wait estimates don't change that much confidence
+ intervals. Whiting a little bit. This is kind of what you expect to happen if you've just kind
+ of got a shitty answer. Sorry. So I actually think that's not how I put it all. Okay. I would just
+ put it as that the it's super predictive, right? Like it's it's pretty, demographics is one of
+ those things that's very easy to forecast in a way. Why is there F stat so bad? I don't know if
+ it's so bad. Isn't cut off for being good? Yeah. And I see a 13. All right. Fair enough. I mean,
+ yeah, I don't know. I don't know. I just like now we're getting into the like the when you look at
+ one of these tables, what do you think about right? Or I mean, I guess my thought process with you,
+ they're kind of isolating a piece of, you know, variation that it's demographics are highly correlated,
+ you know, hardly predictable over time. And so yes, you can predict demographics, but it's still not
+ really telling you why demographics may matter or whether there's a minute variable bias. Right.
+ And we'll come back to the minute variable in a little bit. All right. Now, if we may move up to
+ table three, are you seeing what I'm seeing in table three? What are you seeing set up?
+ Compare the OLS estimates to the IV estimates, panel A to panel B in table three. They are identical.
+ Right. That's got this is an error, right? I think they reported the IV twice because why is
+ there an F stat for the OLS? That can't be. I'm sure I read this like three times trying to figure
+ out what was going on here. No, yeah, it has it has to be a double paced issue, I guess. Yeah.
+ All right. So yeah, I didn't look at it this like too closely, but yes. I noted it and I was like,
+ Oh, that's probably something. It's not it's not quite log of any ICS, but it's a little bit
+ embarrassing that the restud editors let this through. Yeah. Yeah. All right, dirt cream. We love
+ you. We love you senior editor, Dirk Kruger, you're a great economist. Sometimes the stuff
+ actually gets introduced in the very last bit like when you're editing. Oh, okay. Yeah, I there's
+ no way like the referees would have noticed this. I actually think there must have been some at some
+ point some sort of caught like past the referees or the copy mistake. You've heard it here first.
+ Andre was more sympathetic to an error in a paper than I was. I was not so not anticipating that in
+ today's today's episode. Well, I guess like my presumption is that this table was correctly written
+ in the submitted version. That's kind of what I, but if it definitely if it got through,
+ if I got through the referees in this form, that would be pretty much now I have to look up the
+ preprint. Yeah. Yeah. All right. All right. So we checked the tape Andre and you were totally right,
+ of course, past wall and to run are perfect. And it was an error introduced after the preprint.
+ What can you say? Now you're going to get me talking about how, you know, pointless,
+ the modern publication processes where you have a working paper five years before the damn thing
+ is published. And by the time it's published, you don't even want to look at it ever again.
+ By the time it's published, you know, nobody even cares that no one at Courtney research has ever
+ done at his experiment like this. So Andre, the last result I wanted to highlight and I think maybe
+ you wanted to talk about patents for a minute is is that they've got this like we talked about
+ earlier to run in past wall have this measure of kind of differential exposure to robots in
+ United States regions and industries. And so what if the hypothesis, one of the predictions of their
+ model is when you bring in these industrial robots, you know, said or is parabas, if we think they're
+ substitutes for the middle aged workers and compliments to the old people, we should see the wages and
+ employment of the middle aged people go down when the robots come in. And, you know, maybe a boost
+ for the old people. And they do seem to have that effect. So to the extent that you trust this
+ exposure measure as being a good measure and being fully exogenous, it is consistent with this idea
+ that it is the middle aged guys who are getting automated by the robot. So that's another complimentary
+ piece of evidence. Yeah, I mean, what do you, what do you think of that? I think that's compelling
+ on the mechanism side, right? Remember, I was earlier arguing that I think an important mechanism
+ is the wealth to population distribution, right? And that's a story where the relative age isn't
+ so much important, so much as just the quantity of old people who have assets. And this, I mean,
+ this differential effect on its face says, Hey, look, it looks like this is more, this technology
+ is more substitutable for the middle aged people. So that I think that speaks to the mechanism.
+ Okay, so then let's talk a little bit about the patents. So I think an interesting question,
+ is this, I think we're very late at the forward lookingness of this is, are we going to see
+ more innovation and automation in older societies, right? And so what they're going to do is they're
+ going to measure patents related to various automation technologies. Yes, so table five. So
+ table five estimates the impact of aging on patents related to robotics. And they're going to find
+ once again, statistically significant results. So that's true. And both of their
+ all less and the instrumental variable strategy. So the argument is that countries that are older
+ are patenting more in automation. I think what do you think about that? I think this is kind of
+ dependent on the quality of the quote or quote, automation measure. And specifically about whether
+ this is a kind of automation that is relevant to middle school people, right? So I do not dive deep
+ enough into this appendix to figure out if I like, I like their definition of automatable
+ and automation patents. You know, another running feeling that I make clear in this show is that
+ it's often not obvious from the technology level, whether the technology is an automation technology
+ or a labor complimenting technology. So I'm just kind of suspicious of this at the, at the like,
+ what they're trying to do phase is to get that right from the patenting. But I'm sure they did a
+ solid job. This, you know, it's a nice complimentary piece of evidence, but I don't know how much I
+ really leave it. Yeah, I mean, I think they do try to isolate it to robotics. So they are robotics
+ related patents. So that might comfort us a little bit. They call it robotics patents,
+ not automation patents. Sorry, they do, they do. It's a lot of robotics related patents.
+ They do call it. They do. Oh, man. I'm maybe in the pre they called it automation patents. Okay.
+ Yeah, I guess I'd want to know whether we think of these patents as being good patents or not,
+ because that I think is where the predictive value comes in, because I think both of our concern is
+ that the true innovations are happening due to young people or young, you know, middle-aged
+ people around talking young people talking about middle-aged people, you know, people in their
+ 30s and so on. And if this is really just measuring like, oh, we have like a factory and we have to do
+ some minor adjustments, we're going to patent everything. That's quite different than like,
+ we've invented a new way to do robots. Right. Right. I mean, I feel like this should just be like,
+ it's weird that it's share of patents that are automation, right? Like, it seems like the argument
+ should be it's still like a level effect, or like level as a function of the populate. Like,
+ maybe this should be like a amount of automation patents scaled by the number of people, right?
+ It's not because the decision isn't necessarily between automation and other technology,
+ the decision should be between automation and like nothing, right?
+ Yeah, I agree with that as well. All right. Any, any other evidence you want to cover said?
+ No, I think we kind of, I mean, listen, I think we talked as much as you can of how these, you know,
+ in some of the most specified specifications, we're down to 30 observations. I mean, like,
+ honestly, how much can you say about 30 observations, dude? You know, the older place.
+ Well, we have the industry level results.
+ The industry level, okay.
+ But they split by industry.
+ Yeah, they point in the same direction. You might be, that was, you know, when I think about like,
+ in the intro, I, you know, thought like the different countries have different amounts of
+ manufacturing, and that's going to be something you really want to think hard about when thinking
+ about robots used in manufacturing. And so they, they kind of throw that to the extent that
+ industries are now allowing you to control for how much scope for robots there is,
+ still within country industry pairs that this is there.
+ Okay. So maybe let's like keep on talking a little bit about our limitations before we start
+ getting into our past years. I think that like the kind of the macro idea here is that either age
+ times industry or fertility times industry is somehow exogenous by region, right? That's kind
+ of like the framework that makes this work. But as we've talked about, like industries move,
+ people move, it seems like a theory of demographics and automation would at least need to think about
+ those things as not being like measurement error, therefore, delete observation.
+ Second one, I don't know. I, did you understand why the scientists in the international model
+ care about their domestic oversupplier undersupply of factory workers? Didn't they care about the
+ international mix of factory workers when they're making? I mean, if I'm selling my thing abroad,
+ it seems like it's the international prices that should matter, right?
+ I mean, it depends on which types of science. This goes back to the small versus big innovation.
+ So like, look, I'm like the fact, you know, the fact there is scientists, engineer, and I make
+ this adjustment to this invariable that makes it more autumn, you know, they're a part of less
+ oversight. It's patentable, but, you know, it's obvious too. And, you know, the other kind of
+ people in the other country will do it as well. I mean, you know, we think about Chinese manufacturing
+ sector, my understanding is that a lot of the innovations there in terms of productivity are not
+ related. We're not patented. Right. Okay. Yeah. I mean, that's a huge, that's why we're not focused
+ on patents, guys. Obviously patents don't cover that much of innovation. Okay. So you tell me if
+ you are worried about this kind of emitted variable, right, which is my fertility decisions today
+ are influenced by my anticipated regional economic expectations 30 years from now.
+ Is it really that implausible that a 30 year old making fertility decisions in 1980 is more,
+ is what is differently excited if the region is making computer chips instead of buggy whips?
+ It's not obvious that that can't be a factor. Sure. Yeah. I mean, certainly, if we think that
+ GDP per capita is persistent at the very least, and you would think that that's going to affect
+ everything, including fertility, everything about communism affecting fertility. Well, you came up.
+ You came up. That's a big one. You know, I'm anticipating political changes. I mean,
+ you brought up one very potential important emidifactor here, which is religion, which we
+ think is going to have impacts on fertility decisions and like adoption of new technology.
+ Maybe as a bonus episode someday, we'll release more on economics of religion. But yeah, and
+ the emitted variable I'm kind of thinking about is just like post modernity, right? It just seems
+ to be this vibe internationally that, you know, having kids isn't cool and robots are cool, right?
+ So with only 30 data points and not a good way, not a good natural experiment of controlling for
+ the vibe effect. I kind of, we're back to this is sort of like over-determined, right?
+ This is the culture. Culture is different across countries. Yes. Right. Right. It's just that
+ there's a big like thing called Western modernity, and inside of that package are things like an
+ aging population and robotics, but also things like, you know, texting a lot and social media and,
+ you know, having a liberal democracy. You know, obviously that's going out of fashion, but.
+ Well, but Seth, but what about them? What about the industry by country results?
+ Right. So now we're going to have, so in those specifications, we distinguish by industry.
+ The, so what are you, you're saying that that controls for race, for religion, because you think
+ that the religious mix in one industry should be the same as the religious mix in the, the adjacent
+ industry? Well, no, to the extent that you are then able to add in country fixed effects,
+ that's getting at some of your concerns, no? Well, it could be, well, country trend in one
+ specification that you can have the other country trend. That helps. I mean, there's no reason to
+ think that this relationship is linear. I'm not, at this point, I'm not appealing to there is a
+ statistical test that would satisfy me. This is more just kind of skepticism about you have 30
+ observations and a lot of things are going together. Right. I guess I was responding to 30
+ observations, right? In the sense that like, you know, there are 12,000 observations.
+ Well, okay. So you tell me, which specification do you really love? You tell me, which one should
+ I look at, the one that really convinces you? Well, it's not, I don't want to be in position at this,
+ but this really convinces me. I'm just saying that, you know, it's a bit unfair to say that
+ there are only 30 observations. When you think about table seven, we have an outcome as the
+ replaceability index, and we have, you know, this is country industry pairs. So when they're able
+ to go to the country industry level, they multiply up from 58 countries up to 11,000 country industry
+ years, which is obviously that's a lot more compelling. Yeah, right. That's kind of awesome. No,
+ that's fair. Okay. Fair point. Fair point. Okay. Any other limitations you want to add or limitations
+ that I said that you wanted to take down? Um, no, I think, I think I've mentioned a bunch of them.
+ Okay. All right. So it's time to move into our posterior years. Andre, are you ready to justify
+ your posterior? Yes. All right. Our backward looking question asked, did differential aging of
+ US regions and countries have an economically significant causal role on which regions adopted
+ industrial robots? Where did you start? And where did you end up? Yeah, so I think I had this
+ statement about, you know, 40% that the effect explained 20% of the variation. Yeah. Now, I think
+ now I'm probably like 50% or something like that. I moved up. And I think just generally, I do think
+ that aging should affect automation adoption. And I, you know, I'm probably that on the margin that
+ has to, you know, not that it has to be true, but that it's very likely to be true. Yeah. And I still
+ believe that. Yeah. Okay. So then I guess I started more confident and got more confident. So I was
+ at about 75% that this is an economically important effect in contributing to automation that went,
+ I went up from 75% to 85% on that question. Excuse me. They're really squeezing this stone.
+ There's, you know, in some of these specifications, they're really squeezing it. But every time they
+ show it to us, every reasonable specification, every reasonable additional control, you know,
+ after throwing out the observations they don't like, which fair enough, it does seem to hold up.
+ What, why am I not at 100%? I think 10% of my, my Bayesian prior is you should really,
+ like you should not split off this as a separate effect that the correct model is, is that modernity
+ is causing this, right? And like there wouldn't be any statistical test that we necessarily
+ convince me, but it's just, it's, it's over determined maybe. And then I would say 5% is on,
+ these are not super duper high quality measures, right? So we talked about like, what is a robot?
+ You know, we talked about, they throw out Nigeria, because they don't trust their data.
+ They throw out Russian, Japan, because they don't trust the data. I think like,
+ yeah, so I think there's at least a 5% chance that like this is just garbage and garbage out and like,
+ we shouldn't learn anything from this favor, but like, like non-zero, but also not high.
+ Okay, okay. What about the future?
+ What about the future? That's what we're here for. That's what we're here for, dude.
+ That and justifying our posterior's. I would say that the way I ask the question is,
+ do I think ceteris parabas compared to a world without a baby bust, does automation happen faster
+ in our world, right? Because we got this baby bust coming. I see. I move from 60% to 65%,
+ that automation happens faster in that counterfact. Automation moves faster in our world versus the
+ counterfactual. Why is that? Well, the model in this paper is very narrowly about kind of like,
+ the relative prices of old versus young labor, right? Coming into this paper,
+ I thought that that mechanism was going to be relatively unimportant, but we would still see
+ this big correlation. And then like the paper would be about convincing me that that was the
+ important mechanism, right? I come away feeling like, yeah, actually that probably is an important
+ mechanism. We see that, especially, I think in the US data, that kind of convinces me is that,
+ you know, here's our AR approved measure of exogenous robot shock, and it does differentially hurt
+ the middle aged people compared to the old people. That's strong evidence to me for this specific
+ mechanism. I still think that like, at a meta level, probably the more important reason that
+ aging is going to lead to automation is due to this old people are wealthier. And there's less
+ labor overall, rather than it being a, you know, there's less physical labor and more service labor
+ because that like old people provide service labor argument. It's like a part that's in here,
+ but it's not like a long term compelling argument, right? And in fact, we think new waves of automation
+ might differentially come for those kinds of jobs. So yeah, I move slightly in the direction
+ that, yeah, you do want to automate harder when people are old, but we've talked about the youth
+ energy, we've talked about other reasons that the effect might go in the other direction. So,
+ more likely than not, but not overwhelmingly confident where you at. Yeah, yeah, I mean,
+ I think like I said, you know, 70% that there's at least some increasing and adoption at the very
+ least of automation technologies from having an older population. And I think, you know, I'm
+ would say updated to 75%. You're both looking a little bit in that direction. We both still have
+ this concern that young people really are essential for the innovation process. You were right to
+ point out that there's like kind of a differentiation here between kind of marginal or less exciting
+ innovations where old people might be fine. Maybe Boopers can handle that. And kind of the more
+ extreme innovations that we think are going to make the difference between AGI and not AGI. And
+ then, you know, obviously, if you believe the Epic AI model, AGI is the only thing that matters.
+ Yeah, yeah. I mean, it's one one way to like, you know, since now we're talking about the future
+ posterior, right, is think about like autonomous vehicles, right? They are a form of robot. Although
+ I'm not sure that that would be counted in this paper. Not mess. You know, I'm not sure. I'm not
+ sure like robotics patents. Maybe they do include some of that. Maybe they don't. Yeah, I don't know.
+ But you know, when we think about the innovators of autonomous vehicle industry, they were all
+ pretty young at the time they were doing their innovating. And my understanding is that the reason
+ they were doing it isn't that there was a shortage of Uber drivers, right? It was really that
+ this is a pretty useful fundamental technology for a lot of things. Some of it might end up,
+ you know, surely will end up substituting for Uber drivers. But a lot of it will end up
+ substituting for regular drivers and doing all sorts of rides that wouldn't have happened
+ otherwise. And I think that's kind of the more exciting form of automation that we should be
+ thinking about in the future. What's the form of automation that we should be thinking about in
+ the future? The exciting kind? We're like, we're creating new products based on the automation.
+ New products. I mean, yeah, like we've talked about, and this goes back to our
+ a breast and a hand paper, you know, reading about, I mean, I think both of us agree that automation
+ going from, you know, 50%, you know, whatever, what's going from a certain percentage of jobs
+ automated to, you know, that plus X percent of jobs automated. At most, you're only getting GDP
+ of the amount of jobs you automated, right? Until you get up to like 95, 99% of jobs
+ automated and then sort of different dynamics take place. The place that you can have like
+ unlimited gains without getting hurt by scale is innovation in these intellectual property products,
+ right? If they can invent, if the AI, the real gains come from the AI, inventing new medicines
+ and inventing new games and inventing new art, that's the stuff that we aren't held down by the
+ sclerotic bureaucracy that prevents us from building things in the physical world. And I know, I know
+ that there are some who have told us it's a time to build. But in the short term, if you want TFP,
+ it's better to keep it in cyberspace. And that's a great way to end this episode, Seth. Keep it
+ in the cyberspace of listening to our podcast on all fine purveyors of podcasts. And make sure to
+ like and comment and subscribe. And we'll see you next time. Keep your pasta, your yours justified.
+ It's good.

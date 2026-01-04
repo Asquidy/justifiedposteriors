@@ -3,15 +3,19 @@
     <div class="footer-row">
       <div class="footer-col">
         <div class="footer-title">{{ site.title }}</div>
-        <div class="footer-text">{{ site.description }}</div>
+        <div class="footer-text">{{ site.tagline }}</div>
       </div>
       <div class="footer-col footer-links">
-        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
-        <a href="mailto:{{ site.podcast.email | escape }}">Email</a>
+        <a href="{{ site.links.substack }}" target="_blank" rel="noopener">Substack</a>
+        <a href="{{ site.links.apple }}" target="_blank" rel="noopener">Apple Podcasts</a>
+        <a href="{{ site.links.spotify }}" target="_blank" rel="noopener">Spotify</a>
+        <a href="{{ site.links.youtube }}" target="_blank" rel="noopener">YouTube</a>
       </div>
     </div>
     <div class="footer-meta">
-      © {{ "now" | date: "%Y" }} {{ site.podcast.author }}.
+      &copy; {{ "now" | date: "%Y" }} {{ site.podcast.author }}
     </div>
   </div>
 </footer>
+
+<script src="{{ "/assets/js/beliefs.js" | relative_url }}"></script>

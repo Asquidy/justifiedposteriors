@@ -1,0 +1,1248 @@
+ (upbeat music)
+ - Welcome to the Justified Pasturiors Podcast,
+ the podcast that updates beliefs
+ about the economics of AI and technology.
+ This is Seth Benzel, ready to lead the punk rebellion
+ against AI middle management,
+ coming to you from Chapman University
+ in sunny Southern California.
+ - And this is Andre Fratkin,
+ managing by exception long before AI was happening,
+ coming to you from San Francisco.
+ All right, what are we talking about today, Seth?
+ - So, I think it's a question that's a little bit different
+ than we've discussed before.
+ Like, you know, we are always obsessed with,
+ is this question of how is AI gonna plug into
+ the social production function?
+ What will it unlock?
+ What will it help?
+ Who might it hinder?
+ And today we're coming at it
+ from like a little bit of a different direction than before.
+ Previously, we kind of talked about like,
+ maybe some kinds of skills or tasks,
+ might be more substitutable or more complimentary.
+ Here, we might end up in the same place
+ in terms of complementarities or what matters,
+ but we're asking about like, is AI gonna be our worker?
+ Is AI gonna be our manager?
+ Or is AI gonna be an expert, right?
+ I think those are kind of three modes of interaction
+ with AI that I'd love to know where we're gonna end up at.
+ And we read a very interesting paper
+ that is trying to think through theoretically
+ what those different worlds look like.
+ - Yeah, so just to kind of reframe that a little bit is,
+ we're thinking about a new model
+ of organizations with AI.
+ That's kind of what this paper is all about.
+ We might as well introduce the paper.
+ It's called "Artificial Intelligence and the Knowledge Economy."
+ It's by Enrique Yide and Eduard Halamaz.
+ - I have a question for you, Andre,
+ which is like all else equal.
+ You can only have one of the three.
+ Would you prefer to have an AI manager, an AI worker,
+ or an AI expert to help you?
+ So like maybe the worker can do more stuff
+ at like a lower price point,
+ but maybe can't do the hardest stuff.
+ Whereas maybe you could have an expert
+ who could help you kind of more theoretically,
+ but with just like a light touch,
+ this is like an oracle AI
+ as opposed to like an agent robot worker AI,
+ versus a manager.
+ Maybe you would love to have the perfect AI boss
+ that understands how to optimize all of your behaviors
+ and gives you feedback.
+ Which of those three visions for AI
+ is the most exciting for you?
+ - From the economy point of view or personal--
+ - Please, give me Andre Fradkin's point of view
+ and then give me the macroeconomics.
+ - Well, I don't want anyone managing me.
+ I think I've lived my life to minimize
+ the amount of managers I have.
+ So I'm certainly not that one.
+ - So would you rather have like a tireless worker
+ or would you rather have an oracle
+ who can help you with a rare difficult problem?
+ - This is like a knowledge worker
+ that kind of does my coding for me.
+ Yeah, I'd rather have the worker.
+ I mean, I think in the end, the work needs to get done.
+ I mean, and so someone needs to do it
+ and I'd rather not be doing the tedious work involved.
+ But from a society point of view, obviously,
+ it has to be one of the others, right?
+ - Explain.
+ Well, yes, that was exactly my intuition too, right?
+ Which is that, you know, intuitively,
+ we all want to boss around AI surfs doing our bidding.
+ But when you look at like A,
+ what's actually the constraint on output of the economy
+ and sort of B, where the highest marginal product tasks are,
+ or I guess those are kind of the same thing,
+ it really isn't in ordinary workers,
+ which, and again, if you increase the supply of these guys,
+ you might drive down their wages,
+ exacerbating inequality.
+ Like if you want to unlock growth and lower inequality,
+ you need AI experts and AI managers.
+ And that's, I wonder if that's not just like attention
+ that society is going to have to deal with
+ in the next 10 years.
+ - I mean, it's definitely, it's definitely attention, right?
+ I mean, what is so special about cognitive work anyway,
+ when I was ready, can seemingly do large chunks of it.
+ Certainly they can do the cognitive work
+ of my students homework very well, you know,
+ but not perfectly, but better than my students.
+ (laughing)
+ - Right, okay, and your students
+ are presumably vertically differentiated?
+ - From each other?
+ - Yeah.
+ - Sure, sure that--
+ - Yeah, they're somewhere better and some who are worse.
+ - Sure.
+ - And if you were going to plug them into a firm,
+ well, now I'm starting to kind of lay out
+ the model that we're about to consider.
+ But maybe--
+ - Let's talk about our priors,
+ before we talk about the model in particular.
+ - Okay, awesome.
+ Okay, so that's kind of a vague question.
+ Like, do we want an AI manager?
+ Do we want an AI expert?
+ Do we want an AI worker?
+ Let's try to operationalize that into like,
+ rather than a desire or a prediction.
+ So here's one prediction I'd like you to think about,
+ Andre. - Mm-hmm.
+ - Within five years, let's do two cutoffs.
+ Within five years, 10% of US workers
+ will have managing or creating or deploying teams
+ of AI agents as their main job,
+ give me the percentage chance of 10% of workers
+ having that as a main job,
+ and then give me, for the same five years,
+ 2% of workers having that as their main job.
+ - All right, so I'll start with 2%
+ 'cause obviously that's gonna be the higher number.
+ - Sure.
+ - 65%.
+ - 65%, you think we're on path for that.
+ That's my sense too.
+ - Yeah, at least 60%.
+ - At least.
+ - And that's mostly coders.
+ That's mostly people who have really hands-on
+ coding tech-y jobs, right?
+ - Not only that, I mean, a lot of people spend their days
+ interacting with B2B SAS software,
+ and I imagine a lot of that will be
+ agentized pretty quickly.
+ - Right, right.
+ Obviously, LLM tools are really important
+ and useful in all of these systems.
+ So the question is to what,
+ how much of that can be delegated to multi-step
+ agent processes, right?
+ - Receipts, let's do receipts and invoicing.
+ Our department has an admin.
+ One of the things she does is track down
+ every single payment made on the department card,
+ gets receipts, puts them into some system,
+ presumably manually.
+ I can't imagine that being a non-agent process
+ five years.
+ - Okay, but now you, for that, okay.
+ But for, you know, you need the second part of the scenario,
+ which is that she still has a job, right?
+ - That's right.
+ So I, yeah, I mean, he still has a job
+ for the reason that communication with everyone else
+ may be something that requires a little bit of a human touch.
+ And I have a hard time managing the university
+ being so forward as to get rid of that.
+ But, you know, we'll see.
+ - Well, you can imagine a universe where,
+ instead of having this kind of more secretarial role,
+ we have a vice president of sales operations
+ or cost operations who is got one AI agent
+ that's doing the receipt handling
+ and one AI agent that's doing some sort of scheduling task.
+ And, you know, you can imagine a manager
+ taking on many of these previously separate administrative
+ tasks and delegating them to AI agents.
+ - Yeah, but the same person does scheduling.
+ I mean, I guess I'm just saying that I don't know
+ to what extent people will be fired.
+ Some people will be fired for this,
+ but I think a lot of people will keep their jobs
+ but it'll just look quite differently.
+ I don't know if that's any different
+ than what you're saying.
+ - Right, well, yeah, there's a couple of ways
+ this could work.
+ You could imagine creating a new job
+ and that new job is, you know, agent wrangler
+ and that involves, you know, firing people
+ and retraining and reallocation across the economy.
+ That's kind of like the more dramatic vision,
+ which I think is still feasible.
+ And then there's a kind of more modest vision
+ where everyone's kind of quiet,
+ kit quitting by slowly offloading more
+ and more of their stuff to their AI agents.
+ And, you know, it's out of like, you know,
+ and they never substitute that time back
+ into doing something else.
+ Or maybe they're doing quality improvements
+ and they're handling the most extreme cases, right?
+ - Yeah, and I mean, that's why I kind of mentioned
+ the University as a prototypical employer
+ and that it's not very good at firing people.
+ If people hang around even long past their useful date.
+ And so, yes, there'll be some quiet quitting.
+ But I do imagine that there are other things
+ that admins can be, they can be more like concierges
+ in the future, right?
+ - Right.
+ - Like I'd say like, for example, you know,
+ other universities of an admin per faculty
+ or two faculty, we have an admin for like 14 faculty, right?
+ I mean, there's plenty of things for someone like this to do.
+ So that's what, I don't think they'll be fired right away.
+ That's all I was saying.
+ - Right.
+ - All right, but let's do the 10% of the US workers.
+ 10% of the US workers now, that gets a little harder, right?
+ Because we're now reaching a point
+ where we're getting into some non-traditional,
+ not the jobs that are traditionally spending their days
+ interacting with computers, right?
+ And so it's possible, but I put the probability
+ they're lower, maybe at around 25%.
+ - 25%.
+ I'm even coming in lower than that.
+ I would say about 10%.
+ I think there's something, agent management
+ seems like actually a pretty sophisticated task
+ versus set up automated system and ignore it, right?
+ So I definitely think that this will be a job description.
+ And maybe if you were asking me like 50 years from now,
+ where are we?
+ Maybe that is like 20, 30% of the economy
+ is managing these AIs, like in the same way that like,
+ you know, a lot of our job today is interacting
+ with technology, I wouldn't describe like my job
+ as operating a keyboard, right?
+ But it might kind of look like my job
+ is operating a keyboard to someone from the 1800s, right?
+ So there's also the kind of this like feeling question
+ of when our job is managing AI workers,
+ will it feel like that?
+ Or will they all be moving silently in the background
+ and will feel like we're just naturally handling exceptions
+ and we're not interacting with those guys?
+ It comes down to like, are you managing these things?
+ Or are you part of a system where this is automated
+ by agents sometimes?
+ - Yeah, I guess another thing I'll say is
+ there are plenty of like small business owners
+ or solo entrepreneurs in the US, right?
+ And I have a hard time imagining them
+ not managing AI agents, right?
+ Some of them already manage contractors,
+ but there's so many tasks involved in running a business
+ and to the extent that we still have these people around
+ they will be using AI agents all the time.
+ - Yep, and I think there will be a whole,
+ I mean, this is kind of a secondary hypothesis
+ about whether we think the long tail
+ of like weirdos and small firms will be getting
+ more or less important in the long run.
+ But you imagine that some of that long tail
+ is only gonna be possible
+ because it's like one guy made an entire movie
+ from his living room, you know,
+ by putting together teams of AI systems
+ and you know, some of them might be AI agents,
+ some of them might be their own direct creativity,
+ but really kind of making what we would think of
+ as more of a production role in a movie,
+ even if it's a movie of one rather than a, you know.
+ - Yes, yeah.
+ - Producer role, I should say.
+ - Yeah, but we can also think about like Uber drivers, right?
+ Uber drivers are, you know, quintessential small entrepreneur
+ types, you know, I know self-driving cars, et cetera,
+ but we're talking about five years,
+ so I don't think they're all gonna be eliminated.
+ And they have expenses, they have to file all sorts of things
+ and I guess Uber can help them out,
+ but you know, there's another world in which they're just
+ gonna have, you know, an agent deal
+ with all the mundane things that are involved
+ with being an Uber driver, right?
+ - Well, I'm kind of, well, so it's two thoughts immediately.
+ The first is, as I would give Uber drivers
+ as an example of the reverse, like it feels like a,
+ Uber is an example of the AI managing the human, right?
+ That's a perfect example of high frequency AI feedback
+ that communicates exactly how well you're doing
+ and exactly how much you're getting paid
+ and is like basically making algorithmic firing decisions.
+ I mean, isn't Uber the perfect example
+ of being managed by AI?
+ - So Seth, I mean, so let's, we need attention,
+ like talk about how the paper works,
+ but I will say that because you're assuming
+ that the audience knows what the paper is.
+ - Oh, I wasn't.
+ - No, no, I don't think your question makes too much,
+ too much sense. - Okay, go ahead.
+ - I mean, it's very clear to me that Uber drivers
+ are entrepreneurs and they have to hire
+ or do various tasks that are involved
+ with running a small business, all the money.
+ - It's better to say the model
+ doesn't really contemplate Uber drivers too well.
+ - Yeah, so it's called the Uber driver.
+ - You know, no, no, you know, factory workers truly,
+ everything's kind of, you know, they're just workers, right?
+ But I think a lot of jobs are obviously intermediate.
+ They're not just workers and they're not just managers
+ or they're not just, you know, owners if you will.
+ - And this is maybe a way for us to talk about it later
+ is but they're horizontally differentiated.
+ This is a vision of workers as vertically differentiated
+ as better and worse when it's like, you know,
+ you know, sometimes the basketball player is taller
+ and sometimes they're faster.
+ - Right, yeah, so let's go to the other prior.
+ - Okay, other prior.
+ - The other prior is that LM-based agents
+ will exacerbate incompolarization versus a counterfactual
+ where they don't exist but other technology moves forward
+ and, you know, just to bring up this prior,
+ I think if we forgot about the past five years,
+ the traditional story in economics
+ is the race between education and technology.
+ So essentially technology increases the returns
+ to high human capital, you know,
+ but at the same time, people are getting more and more
+ educated over time.
+ And so this creates kind of the two main forces
+ that drive incompolarization towards, you know,
+ at this point, you know, the gains in education
+ or at least the share of the population
+ that has a college degree or a master's degree,
+ it's kind of leveling off.
+ So the prediction would have been
+ that we get to more and more unequal world
+ as their unequal returns to human capital.
+ And now the question is do AI agents kind of reverse
+ that trend or not or in what margins?
+ So what do you think, Seth?
+ - So I've been thinking really hard about this question, right?
+ Because there is a lot of kind of emerging
+ experimental evidence on does AI increase
+ or decrease inequality amongst workers, right?
+ We've, you know, friend of the show,
+ Eric Brynjolfsson and Oh, help me out
+ who's co-authored on the paper, the co-center paper.
+ - Daniel Lee and Lindsey Ramon.
+ - Yes, also friends of the show Daniel Lee
+ and Lindsey Raymond have an excellent paper
+ looking at co-center workers and showing,
+ well, actually inequality and productivity goes down
+ as a result of AI because it helps the worst workers
+ solve the easiest problems.
+ So that'd be a story in which if you want to go
+ from that story to the economy as a whole,
+ that's a story in which AI is bringing up the bottom
+ by helping the worst performers master this,
+ you know, the most basic tasks.
+ You might think that that's just a partial equilibrium result.
+ You might be worried, well, sure, in the short term,
+ this is a tool that's good enough to boost the bottom
+ up to the middle, but in the long term,
+ isn't this a tool that just eliminates the bottom?
+ So that's kind of the back and forth
+ that's going on in my mind.
+ I do think that there's some sense in which labor
+ always has to be reintroduced.
+ So it's not like you can't eat stuff,
+ like you can kill the bottom, right?
+ There's no going to be, I don't believe in long-term,
+ structural unemployment from technology.
+ I think if you look around the world,
+ people work approximately the same amount,
+ high wage, low wage.
+ And so therefore I do think this polarization change,
+ it could reduce polarization.
+ That's kind of my instinct.
+ I think if you look at the economy as a whole,
+ you do see, I think people are more vertically
+ differentiated than horizontally differentiated.
+ In other words, I think the way,
+ the reason you would get polarization due to AI
+ is because AI is good at automating either people
+ in the people who tend to have like middle wages, right?
+ But I don't know, I think that if you help people
+ at the bottom, you decrease polarization,
+ went a little bit in a circle,
+ but I end up at 25%.
+ I think more likely than not,
+ it reduces polarization if we're talking about--
+ - So you're at 75%.
+ - I'm at, no, I'm at--
+ - That it can exacerbate.
+ - That it will exacerbate, I'm at--
+ - No, yeah, you're at 25% that it won't exacerbate, okay.
+ - I'm at, I went at 25% that it will exacerbate,
+ 75% that it won't exacerbate.
+ That's kind of my theoretical prediction.
+ That seems to be what's coming through
+ in the studies we have available right now.
+ Maybe 25% is a little bit too strong,
+ given that this is pretty preliminary,
+ and we obviously have a story in which AI can boost inequality,
+ maybe it's gonna boost inequality across firms,
+ but maybe let me, that's my sense,
+ is that you're gonna boost up the bottom,
+ that seems to be where the evidence is right now.
+ Andre, tell me why I'm wrong.
+ (laughs)
+ - Well, you're, yeah, I mean, that seems overconfident.
+ The way I think about this is that I don't trust
+ any of these partial equilibrium results to begin with.
+ They just don't tell you,
+ it's not even about the call center workers being automated.
+ It's just that the entire production structure
+ of the economy is gonna change,
+ and who's gonna get the rent,
+ and that is very hard to predict.
+ So what am I thinking about here
+ in terms of polarization specifically?
+ One thing is that we have a lot of highly paid jobs
+ in the economy, which are essentially rent-seeking jobs.
+ So thinking about lawyers and the like,
+ it's essentially their structural constraints
+ to their being competition in the industry.
+ Now there's a world in which AI agents break through that.
+ So then I expect a reduction in polarization,
+ mostly because these people had just undue rents.
+ Now on the other hand,
+ and this gets the question
+ of what type of inequality we're talking about,
+ I gotta see a lot more opportunity
+ for entrepreneurial types to create valuable goods
+ and services through making their own companies
+ or through joining smaller companies,
+ which have managing lots of agents.
+ Now, what share of that income is labor income
+ versus capital income is a very interesting question.
+ - Right, yeah, I was evaluating this as wage polarization.
+ And so I think that's how you were thinking about it too,
+ but you're absolutely right.
+ If all of these extreme wins from blockbuster AI-driven companies,
+ is that going to labor or capital?
+ If it goes to capital, I'm more confident in my prediction
+ that we're gonna see wage depolarization.
+ - Yeah, so, and then I guess like,
+ it's not like inequalities.
+ Certainly people summarize it by one number,
+ but there's different parts for distribution.
+ I have a hard time thinking about like the top 1%
+ losing wages as a result of this.
+ You know, you have to come up
+ with like a lot of industry disruption for that to happen.
+ I think that's unlikely.
+ I think they will likely gain.
+ They'll figure out a way to gain from these AI agents.
+ And the rest of the distribution,
+ it's really hard for me to predict
+ because we have all these countervailing forces,
+ including that like certainly low wage cognitive,
+ like labor will get a lot of competition.
+ So I would say my bed is that 55% of,
+ my bed is that with 55% that it exacerbates it,
+ just because I'm following the trend,
+ which is that technology tends
+ to exacerbate polarization,
+ but I'm very uncomfortable about this.
+ - Right, and then so you buy the Piketty story
+ where inequality only goes down
+ if there's a war that blows up all the rich people.
+ - No, I mean, inequality would go down, for example,
+ wage inequality would go down
+ if we had low productivity growth, for example, right?
+ Like where does income inequality come from in my mind?
+ It's that when there are like high returns to doing things.
+ If there are no returns to doing things,
+ then maybe we don't have an increase.
+ - So somewhat a split in opinions going into the reading.
+ I'm excited to see where we go.
+ I think one just kind of side idea I wanna bring up
+ is I have noticed the stylized fact,
+ which it seems that human managers
+ and managerial skills have been increasing in demand.
+ And like I don't have a good sense of
+ whether as LLMs get more agenty,
+ to what extent that substitutes
+ for having agency versus compliments
+ people who already have agency.
+ San Francisco is convinced
+ that a compliment's people who have agency.
+ But I guess maybe it depends how much agency you have.
+ - Depends on, yeah, we get truly autonomous AI beings
+ versus just agents we call via API that are kind of, you know?
+ Anyway, let's talk about the paper.
+ (upbeat music)
+ Let's talk about the paper.
+ All right, AI and the knowledge economy
+ by Enrique I'day and Edward Talamas
+ at the Journal of Political Economy, as I just learned.
+ It's a theoretical paper to pure theory model.
+ And I appreciate just the kind of the comprehensiveness
+ of the vision of the model.
+ It's a pretty, the setup is very intuitive.
+ There are two kinds, there are firms
+ that are up to two levels either.
+ So, okay, so what do firms do in this model?
+ Firms, they are faced with problems
+ in the knowledge economy firms.
+ They're faced with the problem.
+ And then the first decision is like,
+ what kind of hierarchy do I wanna have?
+ Do I wanna just have,
+ just a worker try to solve the problem,
+ just an AI try to solve the problem,
+ a human worker with a human boss/expert assistant,
+ and then every permutation thereof, right?
+ So, worker, robot worker, robot boss, et cetera, right?
+ Okay, so you make that decision.
+ And then in order to make output,
+ when the company is faced with a problem,
+ first the worker tries to solve the problem.
+ If there's only a worker, that's the end of it.
+ The worker gets paid according to the probability
+ with which he solves the problem.
+ But if you have a two layer firm
+ and the worker fails to solve the problem at the first stage,
+ the worker can bounce it up a level
+ to either an AI manager or a human manager
+ that then gets a second crack at the apple,
+ second bite at the apple to solve the problem.
+ So this question, this paper kind of asks,
+ given that setup, what kind of arrangements
+ are going to be efficient as AI gets more productive?
+ - Yeah, so that's a good description.
+ Let me kind of just give some context.
+ I've used these types of papers as kind of intuition pumps
+ more than anything else, right?
+ 'Cause it's very clearly like not the fully,
+ full fidelity model of how organizations work.
+ It's kind of gesturing at what a model of true,
+ detailed model of firm would look like
+ because there is a hierarchy,
+ but it's still obviously not how,
+ and it doesn't work out any firm I know works, right?
+ - Make a video game, okay, you'd said it to your boss,
+ he has to make the video game now, I guess.
+ - Yeah, yeah, yeah, I mean, that said,
+ I think we want to contrast this setup
+ with another setup that we've talked about
+ in this podcast series and just the most common
+ task-based model that is used to think about AI, right?
+ - In that model, tasks are partially substitutable
+ with each other, and there's one parameter
+ that kind of governs it usually,
+ and it's a very, essentially the functional form
+ by which tasks are aggregated to output
+ is very, very constrained, and it's constrained in ways
+ where you might think they're quite problematic.
+ - Well, CS. - When you're thinking
+ about when we're, yeah, the CS,
+ which when we think about how the economy
+ actually organized with firms, and these kind of hierarchies
+ of collaboration and production.
+ - Well, can I ask you that, can I stop you there then?
+ Because I mean, it seems like the most natural,
+ so just talk about the task-based model.
+ So in a typical task-based model, final output
+ is the CES aggregate over all of these different tasks.
+ If you try to answer the question,
+ what is AI's effect in polarization in that model,
+ the answer would be, well, what is AI substitutable
+ for middle-skill people, then it's polarizing, right?
+ That would be how you would answer it in that framework.
+ - Yes. - Are you just saying
+ that you would want to see like nested CESes?
+ Like there's a CES for tasks aggregating to a job,
+ and then there's a CES from jobs aggregating to a firm,
+ and then there's a CES across firms.
+ Because I think that's, I mean, if it's implied
+ in Osmo Global Restrepo, even if they never actually say it,
+ I guess. - I mean, it's not obvious
+ to me that that structure would give you the same thing
+ as this structure, I mean, this structure has a sense.
+ - Let's give it a net, yes, this is different, right?
+ - This structure has a flavor
+ of like having a matching model, right?
+ We're thinking about what types of people to match
+ with what types of people or what types of AI's
+ in a production function.
+ - And there we kind of get things that are a lot more
+ at a non-linear, non-constant than in a one parameter,
+ let's say even a nested parameter or a CES model.
+ - The way I think about the difference
+ is less that one's better and one's worse.
+ I think about this as this is a model that wants to think
+ about people as being vertically differentiated,
+ and the task-based model is fundamentally about wanting
+ to think about people as horizontally differentiated.
+ - Yeah, so I never claimed that this is a better model.
+ - Sorry, I didn't need to say that.
+ - I guess I would say like the emphasis,
+ you're right in the emphasis,
+ but I still think that you can have a horizontal model
+ where you have much more interesting production networks
+ than the CES.
+ - Right, okay, so this is gonna explicitly think
+ about what that production hierarchy is gonna look like.
+ - Yeah, I'm gonna ask you a question about the setup set.
+ - Please.
+ - Because you keep using the word manager.
+ - Okay, yeah.
+ - What does a manager do?
+ - What is a manager?
+ - Yeah, what does a manager do?
+ (laughing)
+ - It's a good question, right?
+ So in this paper, the paper refers to the people
+ at the higher level of the company as solvers,
+ which is not a position at any company I've ever heard of.
+ It kind of seems like a conflation of two different things.
+ It seems like they have a model of workers on the one hand
+ and then like experts/managers/exception handlers
+ as the second type of job.
+ It does, it conflates all those things.
+ What do I think of as a manager?
+ I think of a manager as someone who sets strategic direction,
+ who shapes company culture,
+ who makes hiring and firing decisions.
+ What do I think of as an expert?
+ I think as someone who can advise low-skilled workers
+ on exceptional cases and can bring additional context
+ that might be able to help them solve a problem
+ that they were stuck on.
+ We don't usually think of, yeah,
+ so the paper I think absolutely conflates these two
+ because it talks about a hierarchy
+ when it's really talking more about expertise
+ rather than about manager-ness
+ or how do you think about what the paper is doing?
+ - Yeah, it's talking about consultants.
+ That's how I think about it.
+ It's bringing consultants.
+ - It reminded me what I do, you know?
+ So I get brought in, people ask me a really hard question
+ and I come up with an answer,
+ but it's not management when it's,
+ oftentimes you see a job posting for a manager.
+ What are they gonna say?
+ Leader leadership.
+ What is leadership?
+ Leadership is the ability to interpersonally
+ be connected to a bunch of people, right?
+ To get them to all move, work together in a productive way
+ and that requires kind of building a team culture.
+ And so, and I just,
+ and I think one of these things
+ is actually a lot easier for AIs to do than the other, right?
+ It's much easier for the AI
+ to answer expert level questions
+ than to build a team culture and be a leader.
+ - I think that's probably right.
+ I mean, I think you're, in order to talk about that,
+ you need heterogeneous abilities, right?
+ You need someone to be good at leadership
+ and someone to be good at solving the object level problem.
+ And this paper does not contemplate
+ those being separate things.
+ - Yes, I just wanted to flag that.
+ But once again, we're viewing this as an intuition pump.
+ - Right, it's an intuition pump.
+ - We're not thinking it super seriously.
+ - I do think that's a key, but that's a key context
+ is that we're conflating experts and managers.
+ - Okay, so set, great.
+ So without AIs, let me tell you kind of what happens
+ in the model.
+ We have, and let's talk about the version of the model
+ where no one is kind of working for themselves
+ or their situations where that might happen.
+ So essentially the highest, based on skills,
+ you're either gonna be a solver or a worker,
+ and there's gonna be a cutoff point.
+ So everyone with a skill greater than that cutoff point
+ is gonna be a solver.
+ Everyone below is gonna be a worker.
+ And also, people are assortatively matched.
+ So that kind of means that the best people
+ who are still workers are matched with the best managers
+ or sorry, with the best solvers.
+ And that's something that creates the most production.
+ 'Cause the model is solved in a way
+ in which there's a perfectly competitive economy,
+ which is kind of, probably doesn't mean very much
+ to people who are not economists.
+ And then we kind of go to the world with AI.
+ Now, how they're gonna think about it is that AI
+ can do, it has a skill level,
+ and all AI's have the same skill level.
+ And that's because--
+ - There's like one AI.
+ - It's trivial to copy an AI.
+ That's kind of there.
+ They're definitely not thinking about
+ the reasoning models here, right?
+ They're not thinking about compute as something
+ that is a flexible variable that solves harder
+ or less hard problems.
+ They're really thinking--
+ - They're also not thinking, yeah.
+ - And they're also not thinking
+ about a price quality trade-off,
+ which also is a very live issue.
+ - Yes, yes, that is very true.
+ But anyway, so depending on the skill level of the AI,
+ it's either gonna be a worker or a solver.
+ And it's gonna affect the equilibrium,
+ and I think kind of the meat of the paper,
+ like the paper does several things,
+ but I think kind of the key thing of the paper
+ is they're gonna draw essentially two different wage curves,
+ one wage curve for when there's no AI
+ and one wage curve when there is AI.
+ - And then the third one when the AI isn't allowed
+ to work without supervision, the easiest case.
+ - Yes, but let's first focus on the case without that.
+ So if the AI skill level is that of a worker,
+ then we see an equilibrium where for people
+ with a lowest skill level, their wages actually go down
+ for people who have the highest skill levels,
+ their wages go up.
+ That's kind of the simple TLDR, perhaps not surprising.
+ They're not talking about robots as knowledge work,
+ but imagine we had a bunch of robots
+ that could automate factory labor,
+ then you'd imagine that factory workers are gonna be hurt
+ by this and maybe everyone else is hurt by this.
+ - Right, this is the classic.
+ It substitutes for low skill work,
+ and it's like implicitly a compliment to high school workers
+ because the high skill workers don't have to do
+ the dumb shit anymore.
+ - Yeah, yeah.
+ Now if we have kind of very knowledgeable,
+ very skilled AI labor, then we get that
+ there's some amount of solvers were actually hurt by this,
+ but the best solvers are still helped,
+ and then the workers are helped as well.
+ And that's kind of because everyone is becoming
+ more productive now we have all this additional,
+ you know, production capacity due to the AI.
+ - Yeah, so that's kind of the basic gist of it and--
+ - Right, I would just like to try one
+ in more intuition I think is good here.
+ So one other intuition here is just that
+ the very, very best expert is only ever gonna get helped
+ by AI because that one last edge case that they can solve
+ is just gonna get more and more valuable
+ as AI solves the easier cases.
+ - Yeah, that seems pretty plausible.
+ - That's right.
+ I mean, I mean, to me it just seems a little strange
+ to think that AI is the one shotness of these problems
+ is a little weird, right?
+ Like we can take like 10 different tries
+ to solve a really hard problem, or, you know,
+ if it's the Riemann hypothesis that may be a million tries.
+ I don't know, like, right, so it's,
+ there's a sense in which they're not really seriously
+ engaging with how much effort it takes
+ to solve a problem and they're just assuming
+ that every problem--
+ - You don't wanna think about this as like a day.
+ What about if you reinterpret this as like,
+ you show up to the office that day
+ and you either have a productive day
+ or you don't have a productive day?
+ - I just don't think that that's how,
+ it just doesn't seem true to how many problems,
+ maybe the most important problems work.
+ But anyway.
+ - Right, so, okay, so how would I think about
+ solving the Riemann hypothesis in this model?
+ Yeah, I mean, in this model,
+ it's just you go to the most expert expert
+ and you pay them what it costs, right?
+ - Yeah, yeah.
+ It does, there's no probabilistic solving.
+ It's just some problems are really hard
+ and only the smartest people can solve them.
+ But that's not also not true in the world, right?
+ If you got enough, not that smart people,
+ they'll eventually solve the problem too.
+ I mean--
+ - Right, that's not in here.
+ The associative matching.
+ There should be associative matching of firms to problems.
+ - Yeah, and then, you know, and also people
+ are better at solving problems in teams,
+ even if they're not all very smart, right?
+ And there's no sense in which this is true.
+ Anyway, we're getting to kind of the limitations already.
+ I guess, is there anything else you wanted to say
+ about this paper?
+ It does have some other side results,
+ but--
+ - I think let's just throw in that last result, which is,
+ okay, so, the result is, Andre just gave the result
+ for what they consider AI that's allowed to be,
+ quote unquote, autonomous, so that is AI that is allowed
+ to be a worker that's either managed by a human
+ or managed by other AIs.
+ The paper also considers a case, which Andre,
+ it's a year since that this is a reviewer too,
+ but they added this case 'cause it feels a little ad hoc,
+ which is, what if AI is banned from being a worker?
+ It can only be a manager.
+ Slash expert, slash co-pilot, you know, the term,
+ you know, the conflation gets a little bit even more extreme
+ as we get to this phase.
+ In that case, we, you know, you kind of get
+ the opposite result, right?
+ If the AI is able to now boost the productivity
+ of the worst workers by, you know, advising them, et cetera,
+ but isn't allowed to be a worker under the best workers,
+ then you're gonna boost up the bottom,
+ and I think they try to connect this to that,
+ and say Raymond, you know, Daniela Lee, you know,
+ bring off some set of results.
+ - Yeah, yeah, it is quite contrived, in my opinion,
+ of a setup, I don't think, by the way,
+ I don't think it's a referee too at all.
+ - No.
+ - I really don't, no, no, I think it's a little game
+ that economists play where they wanna make their model
+ seem relevant, and autonomy makes it more interesting.
+ I mean-- - The buzzword.
+ - Yeah, I mean, it's not a buzzword.
+ Obviously, we think it's really important,
+ but you have a model that's ostensibly, you know,
+ about AI, and you wanna incorporate autonomy into it,
+ so you define it in the model in a way that no one else
+ would ever think about defining it.
+ (laughing)
+ And then you may claim it claims
+ about what autonomy is gonna do.
+ - Right, there's a little bit of a parlor game of, you know,
+ can you find it under the hat, right?
+ They're moving around the definitions
+ of the goalposts on you.
+ To a certain extent, good theory work should be about
+ helping you build a better definition.
+ And this seems to be just muddying the waters
+ about these terms, rather than clarifying these importance.
+ - Yeah, to what extent is a consultant?
+ Yeah, a consulting AI versus a working AI.
+ I'm certainly using worker AIs to do some of my code right now.
+ So, just to, in terms of this model,
+ I don't know what to make of it of this.
+ - Well, obviously, we're in the reality
+ where worker AIs have not been banned.
+ There, that's the Butlerian Jihad scenario, I guess.
+ But it's like not even because the AI is allowed to be your boss.
+ It's so, yeah, it's a little bit confirmed, in my opinion.
+ - Yeah, so let me talk a little bit
+ about what I think is another key issue in this paper
+ for how seriously we should take it.
+ And it's actually kind of why I did not take,
+ oh, I just simply don't take this paper seriously, actually.
+ - Well, it assumes that there's an infinite set of problems
+ and that they're equally valuable.
+ - Right, you could think about this as a divisibility idea, right?
+ That any problem is divisible into atoms,
+ that might be all of those.
+ - No, that's wrong.
+ That is not the right way to interpret this paper at all.
+ - No.
+ - Because once again, if the problems were divisible,
+ then each one of them would be worthless.
+ But every problem here is worth exactly the same amount.
+ The problem with this paper is that marginal problems
+ are just as important as inframarginal problems.
+ And that is absolutely not true.
+ And as a result, when we think about even the basic results
+ where wages might go up for certain types of workers,
+ that in no way takes into account
+ that this marginal production is gonna be less valuable
+ than inframarginal production.
+ And I can imagine wages just going down across the board
+ if marginal problems are not very important.
+ - Right, so let me try to wrap my head around this concern.
+ So the idea here is we should think about each firm
+ as making a differentiated good.
+ And maybe some of them solve problems
+ that are on average easier.
+ And some of them solve problems that are on average harder.
+ If we get better at solving easy problems
+ that should disproportionately boost the productivity
+ of the makes easy stuff firm,
+ they're by lowering the price.
+ That's kind of the argument.
+ - Quite, it does not about harder or easy problems.
+ This is because there are plenty of problems.
+ - Is it a marginal problem?
+ That's the Riemann hypothesis,
+ or am I not mis-understanding what the marginal problem is?
+ - So we can think about it that way,
+ but I had something that's a little more basic.
+ Forget about differentiated problems
+ in terms of difficulty.
+ There are difficult problems that no one cares about
+ and there are difficult problems that people care about.
+ Currently, the economy is working on the difficult problems
+ that more people care about.
+ And now we have a bunch more production.
+ And so now the problems that people are gonna be working on,
+ even if they're very difficult,
+ no one really cares about them, right?
+ By the way, that might be the Riemann hypothesis.
+ I don't know, but to the extent that some problems,
+ let's think about the entrepreneurship framework.
+ We can think about building robots for doing, you know,
+ cleaning the house,
+ which a lot of people would care about
+ that could be pretty useful, right?
+ - Right.
+ - And then we can think about robots that juggle.
+ And we clearly robots that juggle are not as valuable
+ to the economy as robots that clean home,
+ but those are both problems to be solved, right?
+ There's no sense in which--
+ - No, I mean, okay, but I think that's an unfair,
+ I don't think that's a fair critique,
+ 'cause you can imagine that there is a difficult,
+ every problem is in a place on difficulty usefulness space.
+ - There's no usefulness here in this model.
+ - No, I'm saying, yeah, I'm saying, okay, zoom out,
+ and I'm gonna tell you why this model captures that, all right?
+ - Okay.
+ - So imagine that there is this space
+ of the difficulty of a problem
+ against the usefulness of the problem.
+ And you're right, there's a whole bunch of that space
+ where no one's ever gonna do the job
+ 'cause it's super unuseful and it's super hard.
+ But there's gonna be like a pareto possibilities frontier
+ of the best problems to work on, right?
+ It's gonna be the curve of problems
+ that have the right difficulty usefulness trade off.
+ - And now when you increase production levels,
+ surely the usefulness has to go down on average.
+ - Right, and then you would need there
+ to be heterogeneous firms attacking heterogeneous problems
+ and then they're all producing at prices, right?
+ That's how I would think about adding that in.
+ - Yeah, you can think about different prices.
+ Sure, but regardless, I mean, look,
+ like there's a world where the robots
+ can just make everything, right?
+ And there's that everything we currently need, let's say,
+ and that is kind of not allowed for in this model
+ because there's infinite things
+ that are equally valuable to humans,
+ which to me is a lot of the key reasons
+ why we think there might be wage effects.
+ And I'm specifically talking about the wage part of this.
+ A lot of the key reasons we think there might be wage effects
+ is this aggregate influx of workers
+ taking away the useful problems.
+ Sorry, that was me going on a rant about this.
+ - No, that's good.
+ I'm sure this is a topic we'll continue to revisit,
+ effective AI on inequality is just going to be perennial.
+ So if you like this content audience, let us know.
+ All right, before we move into maybe posteriors,
+ I wanted to just bring up quickly a complimentary paper.
+ Listeners might be interested
+ if they liked this paper in the paper,
+ Generative AI and Organizational Structure
+ in the Knowledge Economy, very similar title
+ from Chet Fashang Zu, Xing Hu, Wei Chen, and Karen Xi
+ that I recently saw at Dan Rock's Work and AI Conference.
+ The reason I bring it up
+ is it's just kind of an interesting example
+ of kind of convergent evolution and modeling
+ and also maybe a reason to kind of lower your confidence
+ in the results of these modelists
+ because I would say that they start
+ with kind of a very similar setup,
+ which is that there's a continuum of workers
+ from like the most expert to the least expert workers,
+ the workers either solve the problem on their own
+ or they can boost it up to either an AI expert
+ or a human expert.
+ It's got a lot of the same elements.
+ And yet because they have slightly different assumptions
+ about the qualities of AI,
+ so for example, they distinguish between
+ the level of problems AI's can attack
+ and their hallucination rate
+ at different levels of advancedness.
+ They end up getting sort of in anything goes result.
+ So you might need more managers,
+ you might need less managers.
+ They do find one interesting result
+ is they do find a little bit of de-skilling.
+ So in the model we just considered,
+ workers skill is exogenous.
+ I think, if I recall correctly,
+ did I, or no, the people pay to get skills?
+ I forget.
+ - No, they don't.
+ - They don't, it's exogenous skill.
+ In the model I'm just bringing up,
+ there's endogenous skill formation.
+ And what they find is if workers are able
+ to delegate some of the complicated situations to AI's,
+ that can lead to de-skilling and workers
+ acquiring less education.
+ So like you can see how even if you start
+ with a very similar premise,
+ by giving the agents different affordances,
+ you kind of get very different results.
+ - Yeah, I mean, but this is kind of why
+ I'm not a huge fan of the approach of that paper.
+ - It's obvious that you can get anything goes.
+ We've all taken micro theory.
+ We know, these are all,
+ you make them a model complicated enough
+ and you can allow for anything.
+ And I think like, you know,
+ even though the paper we're currently discussing,
+ I'm not super convinced by it.
+ What it's nice about is very simple
+ and it gets very stark implications.
+ So it is an intuition problem.
+ Once you build a complicated enough model
+ with many moving pieces, all that kind of goes away.
+ And like I tried reading the abstract of the paper,
+ you're recommending and it's unreadable.
+ It is completely unreadable.
+ Once, look, I don't blame the author.
+ - Because the image uses a lot of terms that it needs like,
+ okay, like, yeah, I mean, in the same way
+ that the first paper uses autonomous and non-autonomous
+ and then you have to dig to page 30
+ to figure out what that means.
+ - Yeah, exactly, but there's a way more in that direction
+ 'cause they try to bottle a bunch more things
+ and very ad hoc ways, right?
+ - Right, they try to do more stuff, right?
+ Because they try to do more stuff,
+ you end up with more of these like, you know,
+ conflated ideas.
+ - Yeah, so kind of like, when I think about economics papers,
+ I like either papers that are quite simple
+ but given you intuition or like that have the minimum
+ of the minimal set of assumptions to give an intuition
+ or papers that are quantitative.
+ Where, because we know that more or less anything goes
+ in a lot of ways, if we can tie things to the data
+ that at least tells us kind of which of the various forces
+ in a model wins out or what are the magnitudes involved.
+ But this middle ground of a complicated theory model
+ where anything goes to me is not very useful.
+ - Right, and I'll say, but I'll add one more thing
+ which is that I would have loved to see in this paper
+ that we just read, the JP paper.
+ Like a little bit of, you know,
+ here's some theoretical predictions
+ about like what you should see in different experiments.
+ I feel like maybe I missed it
+ but they didn't take particularly song strands on,
+ you know, this is the experiment that would either prove
+ or disprove this theory.
+ And I'd love, I'd love when that's thrown into these things.
+ - Yeah, yeah.
+ I mean, I do think they speculate a lot in the conclusion
+ and I found those speculation very non-compets.
+ So.
+ (laughing)
+ - All right.
+ Any more limitations or other things you wanna bring up
+ or are you ready to move into posteriors?
+ - Mm.
+ I mean, yeah, I think a final limitation, you know,
+ I don't think they needed to include this
+ but it should affect how much we learned from it
+ is that we're talking about five-year span for a prior.
+ Surely we need adjustment costs, right?
+ Surely we need, we're not seamlessly moving
+ from one perfectly competitive equilibrium to another
+ and that the transitional dynamics might have,
+ might result in very different wage dynamics
+ and employment dynamics than, you know, what we see in this paper.
+ - Right.
+ So this is a model after everyone gets perfectly resorted
+ into their firms of exactly the correct productivity.
+ There is, I mean, there's not an adjustment cost.
+ There is a cost of bumping your problem up to the higher level.
+ I know that's not what you have in mind.
+ - That's not it.
+ - But I guess if you had that bumping up cost
+ be like decreasing over time for bumping up to AI,
+ maybe that's how you'd implement this.
+ - No, I don't think so because I think what I'm envisioning
+ is like hiring and firing costs.
+ Costs of bringing AI online, you know,
+ investment in, you know, data centers and chips and so on.
+ Perms that might not be willing,
+ might not have enough competitive pressure to adjust
+ because they're, they have market power, right?
+ I mean, we have to be really careful with, you know,
+ thinking that we're going to move
+ from one competitive vehicle to another
+ in a very short time span
+ without anything else happening.
+ - Right, right.
+ Even if the technology was, you know, perfectly,
+ even if the technology did get out to everyone
+ just to use the technology,
+ that takes even longer to diffuse.
+ Good point.
+ All right, let's time to justify your posterior.
+ The first question, Andre, we asked was,
+ within five years, will greater than 10%
+ and will greater than 2% of US workers
+ have managing or creating or deploying teams of AI agents
+ as their main job?
+ When we talked earlier, I think you said a 65% chance
+ of 3% or 2%, yeah?
+ And then a 25% chance of greater than 10%,
+ have your beliefs moved?
+ - No.
+ - No.
+ (laughs)
+ I came in with a 2% chance of greater than 60%
+ and 10% chance of greater than 10%,
+ my opinions have also not moved.
+ (laughs)
+ On the second one, though, maybe I've moved a little bit.
+ How about you, Andre?
+ LLM agents based on AI agents, excuse me,
+ will exacerbate income polarization
+ versus a counterfactual where we get
+ every other technology except for AI agent workers.
+ You said 55% chance that this exacerbates income polarization,
+ did your view change?
+ - It didn't.
+ And I really have to say that without this aggregate demand,
+ you know, aggregate diminishing returns to problems,
+ I just, it's not a macro model.
+ So how can I take it to be, to have macro predictions?
+ - What you're calling, yeah, the way I think about it is,
+ either heterogeneity at the task level or heterogeneity
+ at the product level, right?
+ You need a little bit of that in order to have
+ the real Jew.
+ Still, I would say over the course of this conversation,
+ maybe in addition to reading the paper,
+ I would move up from like 25% to maybe 30%.
+ I think the reason, you know, this paper tells a story
+ in which the very top always has to benefit
+ from better and better AIs,
+ just because AIs up until they get to the point
+ where they can fix, do everything,
+ there's some sense in which that's kind of mechanically
+ complementary to the last thing that they can't do.
+ Andre on the, you know, difficulty usefulness curve,
+ right, you know, taking that into account.
+ So I move a little bit in that direction,
+ just because my intuition was pumped a little bit more
+ just for that edge case.
+ - Yeah, and I guess like my model,
+ like I really like the O-ring theory of production
+ and generally, I think that AIs,
+ until they can truly do everything,
+ which I think is gonna take a very long time,
+ where we're in an O-ringy world
+ and that last bit of human labor
+ is actually gonna get a lot of benefit.
+ - Right, and so, and then the question is,
+ is that very, very last guy,
+ is he someone who is he or she,
+ is he someone who's already at the 99th percentile,
+ or is that someone at the 50th percentile
+ or 25th percentile, right?
+ - Well, yeah, but we don't know,
+ but this is the thing is like,
+ ability is clearly, you know,
+ I think a lot of people would be tempted to put
+ in human capital or IQ or whatever,
+ something like that as a stand in here,
+ and it's not obvious to me,
+ maybe it's a very specialized skill that not,
+ you know, everyone has.
+ For example, leadership, right, leadership, right?
+ - Yeah.
+ - Yeah, like, yeah, exactly.
+ Yeah, maybe it turns out that, you know,
+ when we automate everything,
+ at the last job is plumbing, right?
+ - Yeah, yeah.
+ - And so that, and that's a vision where the heterogeneity,
+ the heterogeneity, sorry,
+ the horizontal differentiation is so much more important
+ than the vertical differentiation,
+ which is what this is a paper about.
+ - Yeah.
+ - All right, well, that was a spirited discussion,
+ but a very critical paper, yes.
+ Oh, I want to throw it before we close out, Andre.
+ I want to so do some shout outs.
+ - Shout out, shout out.
+ - I'll do a shout out for friend of the show,
+ Sht Sebastian Stefan, who and Matt Bean,
+ who have both sent on excellent comments
+ about material that we should cover soon.
+ We're taking a close look.
+ I know there are many more who have also suggested stuff.
+ When we choose your paper,
+ we will talk about you on the show
+ and probably say nice things, although it's hard for us.
+ - We can say nice things about our friends.
+ - Our fans, we can say nice things about our fans.
+ - Fans, you don't have to be our friend to be our fan.
+ That's very important.
+ - Very true.
+ - We have the best fans.
+ We have the best listenership of any podcast.
+ I have no doubt about that.
+ - Our beautiful, brilliant, enticing fan base,
+ I dream about you.
+ I hope you think about us.
+ - Matt, no, thanks for listening
+ and please make sure to like, comment, and subscribe.

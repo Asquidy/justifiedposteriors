@@ -1,0 +1,223 @@
+# Priors & Posteriors from Justified Posteriors Podcast
+# Belief updates from Andrey Fradkin and Seth Benzell
+
+episodes:
+  - title: "Techno-Prophets Try Macroeconomics"
+    paper: "Epoch AI's GATE model projecting 23% GDP growth in 2027"
+    andrey:
+      prior: "The probability of 23% GDP growth in 2027 is approximately 1 in 1000. While the model is technically impressive, I'm deeply skeptical that such dramatic growth is achievable in the near term."
+      posterior: "I moved a tiny bit on a tiny bit - essentially unchanged. The model is useful for bridging the conversation between technologists and economists, but it hasn't convinced me that explosive growth is imminent."
+    seth:
+      prior: "Also approximately 1 in 1000 probability for 23% growth in 2027. The baseline seems extraordinarily optimistic."
+      posterior: "Unchanged, possibly moved slightly away from belief. The model needs explicit policy levers and more realistic saving dynamics before I'd update meaningfully."
+    insight: "The GATE model represents a valuable attempt to formalize how AI might affect macroeconomic growth, but both hosts found the 23% figure implausible. The model's main contribution may be in providing a common framework for technologists and economists to discuss AI's economic potential, rather than generating reliable forecasts. The lack of realistic policy mechanisms and savings behavior limits its predictive value."
+
+  - title: "Evaluating GDPVal"
+    paper: "OpenAI's economic value task evaluation measuring AI performance vs. expert humans"
+    andrey:
+      prior: "AI win rate against expert humans on substantive tasks is around 10%. In two years, I expect 90% of knowledge workers will still be producing artifacts 'by hand' rather than managing AI agents."
+      posterior: "Updated AI win rate from 10% to 30% - a significant shift. Still expect 85% of workers to be producing by hand in two years. The key insight is that 'taste' and subjective preferences matter enormously - there's only 70% inter-human agreement on quality."
+    seth:
+      prior: "AI win rate vs experts around 10%. Only about 5% of workers will be primarily managing AI agents by 2027, with 95% still working collaboratively or independently."
+      posterior: "Updated win rate from 10% to 25%. The 95% collaborative figure remains. The most important takeaway is that model progress dramatically dwarfs prompt engineering improvements."
+    insight: "Both hosts significantly updated their beliefs about AI capability after seeing OpenAI's GDPVal results, roughly tripling their estimated win rate against experts. However, they remained skeptical about rapid workforce transformation. A crucial finding was the low inter-human agreement rate (70%), suggesting that much of what we evaluate as 'quality' reflects subjective taste rather than objective performance. This limits how much AI can definitively 'beat' humans when the target itself is fuzzy."
+
+  - title: "Are We There Yet?"
+    paper: "METR's 'Measuring AI Ability to Complete Long Tasks' tracking AI progress on software engineering tasks"
+    andrey:
+      prior: "50/50 probability that AI can complete a human-month equivalent task within 5 years. Almost certain (very high confidence) within 10 years."
+      posterior: "More confident in the 5-year timeline based on personal experience with Opus 4.5. The 10-year estimate remains unchanged. However, the domain tested is too narrow - it's mostly software engineering, which may not generalize."
+    seth:
+      prior: "50/50 in 5 years for human-month task completion. Greater than 90% probability within 10 years."
+      posterior: "5-year estimate unchanged but error bars are larger. 10-year estimate dropped from 90% to 70-80%. The paper was less impressive when I dug into the methodology and domain coverage."
+    insight: "The METR paper prompted divergent updates: Andrey became more confident in near-term AI capability based on direct experience, while Seth became more uncertain about the 10-year horizon after scrutinizing the methodology. Both noted that the narrow focus on software engineering tasks limits generalizability to broader cognitive work. The paper highlights the difficulty of creating meaningful benchmarks that capture economically relevant capabilities rather than artificial test scenarios."
+
+  - title: "One LLM to Rule Them All"
+    paper: "Analysis of LLM competitive dynamics and multi-homing behavior across AI providers"
+    andrey:
+      prior: "Multi-homing behavior among users suggests genuine horizontal differentiation between models - different models are better for different purposes, which would support a competitive market."
+      posterior: "60% probability the industry becomes more concentrated over the next 2 years. The market is more competitive than search engines but will likely end up less concentrated than smartphone operating systems. Multi-homing may reflect legacy systems and backwards compatibility rather than true differentiation."
+    seth:
+      prior: "Models are primarily vertically differentiated - some are simply better than others. Multi-homing exists mainly due to legacy systems and backwards compatibility needs, not because different models excel at different things."
+      posterior: "85% probability of increased concentration in 2 years. Horizontal differentiation happens at the application layer, not at the foundation model level. The market dynamics favor consolidation."
+    insight: "Both hosts expect significant market consolidation in AI models, though Seth is more confident (85% vs 60%). The key disagreement resolved around whether multi-homing indicates healthy competition or transitional friction. They concluded that while users might switch between models today, this likely reflects immature infrastructure rather than genuine product differentiation. True horizontal differentiation may emerge at the application layer built on top of foundation models, not among the models themselves."
+
+  - title: "When Humans and Machines Don't Say"
+    paper: "Braghieri et al. on preference falsification in surveys; Anthropic's research on chain-of-thought faithfulness in AI"
+    andrey:
+      prior: "For preference falsification, I expected transgender athletes in sports would show the largest gap between private and public opinions (45%), with blackface Halloween costumes showing no gap. For AI chain-of-thought, I thought reasoning was pretty good but not perfect."
+      posterior: "Surprised that effects were uniformly small (0.1-0.2 standard deviations) across topics. Racial microaggressions actually showed the largest gap. On AI reasoning, I now believe systems are fundamentally limited in self-understanding."
+    seth:
+      prior: "Expected racial microaggressions to show the largest gap between public and private opinions. For AI transparency, I put 50% probability that systems can be built that never lie or hide their reasoning."
+      posterior: "Confirmed that campus issues show larger gaps. Updated probability that AI transparency is fundamentally limited from 50% to 60-70%. The Anthropic research suggests chain-of-thought may not faithfully represent actual reasoning processes."
+    insight: "The preference falsification research revealed that social desirability bias operates fairly uniformly across controversial topics, rather than being dramatically higher for any single issue. Both hosts were surprised by this finding. The parallel discussion of AI chain-of-thought faithfulness raised deeper concerns: if AI systems cannot reliably explain their own reasoning, interpretability and alignment become harder problems. Seth substantially updated toward believing transparent AI may be fundamentally impossible, not just technically challenging."
+
+  - title: "Claude Just Refereed"
+    paper: "Anthropic's Economic Index analyzing AI task usage patterns from Claude conversations"
+    andrey:
+      prior: "Expected most AI usage to be for writing and programming tasks, reflecting the obvious strengths of language models."
+      posterior: "Confirmed on writing and programming dominance, but surprised by how low office and administrative task usage was despite clear capability. Usage reflects adoption barriers - legal fears, conservative management - not capability limitations."
+    seth:
+      prior: "Estimated coding and writing would account for roughly 80% of usage."
+      posterior: "Surprised by the lack of managerial task usage like scheduling and time management. The data can't distinguish homework from professional use, which limits interpretation."
+    insight: "The Anthropic Economic Index provided unique ground-truth data on how people actually use AI, revealing a significant gap between capability and adoption. While AI demonstrably can help with office administration and scheduling, usage in these areas remains low. This suggests that organizational and cultural barriers - risk aversion, unclear liability, professional identity - are currently more binding constraints than technical limitations. The path to economic impact runs through adoption, not just capability development."
+
+  - title: "We Won't Be Missed"
+    paper: "Restrepo's theoretical model of work and growth dynamics after AGI, exploring labor share trajectories"
+    andrey:
+      prior: "Skeptical that asymptotic results about labor share approaching zero tell us much about the next 100 years. The long-run predictions are too speculative to be actionable."
+      posterior: "Unchanged. The paper is mathematically interesting but I remain unconvinced that limit theorems provide practical insight about medium-term dynamics."
+    seth:
+      prior: "Greater than 90% probability of large decline in labor share. Less than 10% probability of labor share hitting approximately 0% within 100 years. 70% probability that real wages continue rising post-AGI."
+      posterior: "Unchanged on labor share trajectory. Real wage prediction moved marginally from 70% to 69% - essentially no update. The model didn't provide evidence that changed my views."
+    insight: "Despite engaging seriously with Restrepo's formal model of post-AGI labor dynamics, neither host updated their beliefs. The paper explores an important question - what happens to labor's share of income when machines can do everything - but both hosts felt the asymptotic framing was too disconnected from policy-relevant timeframes. The real question isn't whether labor share eventually approaches zero, but how the transition unfolds and whether real wages can continue rising during it."
+
+  - title: "Did Meta's Algorithms Swing the 2020 Election?"
+    paper: "Guess et al. (Science) experimental study of algorithmic feed effects on political attitudes during 2020 election"
+    andrey:
+      prior: "80% confident that algorithmic effects on political attitudes would be very small. Social media effects are overstated."
+      posterior: "Reconsidering but remaining cautious about content moderation effects. The ML component of algorithms seems less important than previously thought. The study reinforced my skepticism but raised questions about what else might matter."
+    seth:
+      prior: "67% probability that algorithms put significant thumb on the scale of political attitudes and behavior."
+      posterior: "Major update: dropped from 67% to 5% for polarization effects, 30% for candidate preference effects. This was my largest belief update. Realized impact is much lower than potential impact - even if algorithms could manipulate users, they apparently don't much."
+    insight: "This paper produced Seth's largest documented belief update, dropping his concern about algorithmic polarization from 67% to 5%. The experimental design - randomly switching users to chronological feeds - provided unusually clean causal evidence. The finding that sophisticated recommendation algorithms barely affect political attitudes suggests either that content matters more than ordering, or that users' predispositions dominate algorithmic influence. This substantially deflates concerns about social media companies deliberately polarizing users for engagement."
+
+  - title: "Scaling Laws Meet Persuasion"
+    paper: "Research on diminishing returns for AI-generated political persuasion as model capability increases"
+    andrey:
+      prior: "Very high confidence in diminishing returns - better AI doesn't translate linearly to more persuasion. Less than 1% probability that super-persuasive AI represents an existential risk."
+      posterior: "Increased to 99.9% confidence in diminishing returns. X-risk from super-persuasion remains below 1%. Persuasion is fundamentally a social process, not one-to-one communication."
+    seth:
+      prior: "99% confident in diminishing returns for AI persuasion. 60% probability that super-persuasive AI could be an existential-level concern."
+      posterior: "Increased to 99.9% on diminishing returns. Reduced X-risk concern from 60% to 55%. Current models aren't that persuasive yet, and there's no clear path to superintelligent persuaders."
+    insight: "Both hosts converged on near-certainty (99.9%) that more capable AI models face diminishing returns in persuasion. This finding has important implications for AI safety discussions: if persuasion naturally saturates, then concerns about superintelligent manipulators may be overblown. Seth notably reduced his X-risk estimate, though still maintains meaningful concern. The deeper insight is that persuasion operates through social networks and repeated exposure, not single compelling arguments, which limits how much any technology can supercharge it."
+
+  - title: "The Simple Macroeconomics of AI"
+    paper: "Daron Acemoglu's task-based model predicting less than 1 percentage point additional GDP growth over 10 years from AI"
+    andrey:
+      prior: "Effects will be small if AI adoption remains limited to 'using ChatGPT a little bit.' Could be huge if AI accelerates scientific research and discovery."
+      posterior: "Moved down my median estimate for AI's growth impact. Diffusion limitations will constrain macro effects even if capability advances rapidly. Acemoglu's careful task-based accounting is persuasive."
+    seth:
+      prior: "Expected 2-4 percentage points additional GDP growth over 20-50 years from AI adoption."
+      posterior: "Cut growth estimate roughly in half. Now estimate around 30 basis points annually rather than closer to 100. It's hard to read something this carefully reasoned and not update significantly."
+    insight: "Acemoglu's rigorous task-based analysis had a sobering effect on both hosts' growth expectations. The model accounts for which tasks AI can actually automate, how quickly adoption spreads, and what fraction of economic activity those tasks represent. The conclusion that AI adds less than 1 percentage point to growth is far below silicon valley hype but methodologically sound. Capital accumulation and diffusion dynamics are the binding constraints, not AI capability per se."
+
+  - title: "Beyond Task Replacement"
+    paper: "Timothy Bresnahan's analysis of General Purpose Technologies (GPTs) - value comes from organizational reorganization, not direct task replacement"
+    andrey:
+      prior: "Roughly 20% of AI's economic value comes from direct task replacement. The remaining 80% comes from innovation, new products, robotics, and organizational transformation."
+      posterior: "Moved significantly toward Bresnahan's framing. Reorganization and capital deepening are more accurate ways to think about AI's economic impact than tallying up automated tasks."
+    seth:
+      prior: "Estimated 30-50% of AI's economic value would come from direct task replacement of human labor."
+      posterior: "Reduced task replacement contribution to below previous estimates. The task replacement framing is actively misleading about how technological transformation works."
+    insight: "Bresnahan's GPT framework shifted both hosts toward thinking about AI as enabling organizational transformation rather than automating individual tasks. Historical parallels with electricity and computing suggest that the largest gains come from restructuring work processes to take advantage of new capabilities, not from one-for-one substitution. This has policy implications: focusing on which jobs AI will 'replace' misses the more important question of how organizations will reorganize around AI capabilities."
+
+  - title: "Is Social Media a Trap?"
+    paper: "Bertoni et al. on TikTok and Instagram as 'collective traps' where individual choices lead to collectively suboptimal outcomes"
+    andrey:
+      prior: "The collective trap hypothesis is pretty reasonable. Some users might be worse off in equilibrium even if they're choosing freely."
+      posterior: "Surprised by the magnitude of effects in the data, but skeptical of the methodology. This may reflect cultural preference rather than genuine economic inefficiency."
+    seth:
+      prior: "Very implausible that the average person is worse off from social media. Initially estimated 5-10% of users might be harmed."
+      posterior: "Doubled estimate of harmed users from 5-10% to 20%. Still convinced net effect is positive on average, but the harm is more widespread than I expected."
+    insight: "The collective trap framing suggests users might rationally choose social media while being made worse off - like everyone standing at a concert because everyone else is standing. Seth notably doubled his estimate of harmed users while maintaining that average effects are positive. The methodological concerns highlight how difficult it is to measure welfare effects of freely chosen activities. Whether this represents inefficiency requiring intervention or simply revealed preference for a new form of entertainment remains contested."
+
+  - title: "AI and Labor Market Effects"
+    paper: "Ide and Talamas 'Artificial Intelligence and the Knowledge Economy' modeling AI as worker, manager, or expert with different distributional implications"
+    andrey:
+      prior: "65% probability that only 2% of workers will be primarily managing AI agents within 5 years. 55% probability that AI exacerbates wage polarization."
+      posterior: "Management adoption estimate unchanged. Polarization estimate unchanged at 55%. Without modeling aggregate demand, I can't take macro predictions from these frameworks seriously."
+    seth:
+      prior: "60% probability on the 2% management figure. 25% probability AI exacerbates polarization."
+      posterior: "Management estimate unchanged. Polarization probability increased from 25% to 30%. The top must benefit until AI can literally do everything - the question is whether the middle or bottom loses more."
+    insight: "The paper's framework distinguishing AI-as-worker, AI-as-manager, and AI-as-expert provides useful conceptual clarity, but both hosts remained skeptical of specific predictions. The polarization question - does AI help the middle class or hollow it out - saw modest movement, with Seth becoming slightly more concerned. Both emphasized that partial equilibrium models miss crucial feedback effects through wages, employment, and aggregate demand that determine actual distributional outcomes."
+
+  - title: "Can Political Science Contribute?"
+    paper: "Henry Farrell's 'AI is Governance' from Annual Review of Political Science arguing AI should be understood as a governance technology"
+    andrey:
+      prior: "60-70% probability that AI requires fundamentally new conceptual frameworks from political science. About 10% probability that AI is primarily a cultural technology."
+      posterior: "Increased to 90% probability that political scientists haven't adequately conceptualized AI. It represents governance challenges they haven't thought through. Cultural technology framing unchanged."
+    seth:
+      prior: "Ambiguous on new frameworks. 40% probability AI is primarily a cultural technology shaping how humans interact and communicate."
+      posterior: "Updated cultural technology framing from 40% to 80-90% - AI is significantly about culture, not just capability. But as the primary way to understand AI, only increased from 10% to 15%."
+    insight: "Farrell's framing of AI as governance - systems that shape behavior through rules, incentives, and constraints - resonated strongly with both hosts. Andrey substantially updated toward believing political science lacks adequate frameworks for AI, while Seth embraced the cultural technology dimension. The insight that AI is as much about social coordination and norm-setting as about capability suggests policy discussions focused narrowly on safety or automation may miss larger questions about power and social organization."
+
+  - title: "Emergency Pod: AI Already Causing Labor Effects?"
+    paper: "Brynjolfsson et al. 'Canaries in the Coal Mine' documenting slower employment growth for young workers in AI-exposed occupations"
+    andrey:
+      prior: "About 50% probability we would see evidence of slower young worker employment growth in AI-exposed fields."
+      posterior: "95% confidence the descriptive pattern is accurate, but uncertain on causal interpretation. The timing - late 2022 - doesn't match when AI should bite. Could be interest rates or other factors."
+    seth:
+      prior: "About 70% probability of early evidence of AI labor effects."
+      posterior: "75% probability that early-stage workers are particularly challenged by AI. Technology is often skill-biased in ways that hurt new entrants. This dims my vision for Generation Alpha's career prospects."
+    insight: "The paper documents a concerning pattern: employment growth for young workers in AI-exposed occupations has slowed relative to other workers. Both hosts found the descriptive evidence convincing but struggled with causal interpretation. The timing coincides with interest rate increases, making it hard to isolate AI effects. If confirmed as causal, this suggests AI may not replace workers directly but rather reduce demand for new entrants - a more subtle but still significant labor market transformation with implications for career development and training."
+
+  - title: "Should AI Read Without Permission?"
+    paper: "'Books Encounters' analyzing how pirated Books3 training data affects LLM performance and memorization"
+    andrey:
+      prior: "Less than 1% improvement in model quality from including Books3 data. Marginal training data has diminishing returns at scale."
+      posterior: "Even more marginal than expected. The memorization rates were surprisingly low, suggesting models extract concepts rather than text."
+    seth:
+      prior: "Similar to Andrey - diminishing marginal returns from additional training data."
+      posterior: "Wrong on initial prediction about measurable improvement. Moved toward 'wait and see' on copyright implications. If you want to read the book, you'd actually read it - models don't reproduce content meaningfully."
+    insight: "The paper addressed the heated copyright debate over AI training data by measuring actual impact of the Books3 dataset. The finding that this data contributes marginally to performance - and that memorization rates are surprisingly low - suggests the copyright debate may be less about economic harm to authors and more about principles. Models appear to extract abstract patterns rather than reproducible content, complicating arguments that training constitutes infringement."
+
+  - title: "How Much Should We Invest in AI Safety?"
+    paper: "Chad Jones papers on optimal AI investment given existential risk tradeoffs"
+    andrey:
+      prior: "Willing to tolerate less than 1% additional existential risk per year (specifically around 0.5%). Skeptical that GDP-scale safety investments (suggested 1.8-15.8%) are warranted."
+      posterior: "Moved risk tolerance up slightly from 0.5% to about 1% per year. Remain skeptical of massive safety investments but more willing to accept some risk for AI benefits."
+    seth:
+      prior: "Willing to tolerate multiple percentage points of existential risk per year. 10% confidence that significant GDP fraction should go to safety."
+      posterior: "Not moved on risk tolerance. Skeptical that the AI safety community's claimed risks are well-calibrated. Concerned about Pascal's Mugger dynamics - tiny probability of huge harm justifying any expenditure."
+    insight: "The Jones papers force explicit tradeoffs between AI development speed and safety spending. Both hosts engaged seriously but remained skeptical of high safety investment recommendations. Seth articulated concern about Pascal's Mugger - that existential risk arguments can justify unlimited spending based on tiny probabilities of huge harms. The discussion highlighted how much depends on contested probability estimates that are difficult to validate empirically."
+
+  - title: "If Robots Are Coming, Why Aren't Interest Rates Higher?"
+    paper: "Chow et al. using real interest rates to infer market expectations about AGI timelines"
+    andrey:
+      prior: "Only 10% probability that low interest rates indicate markets don't believe in near-term AGI. Many alternative mechanisms could explain rates."
+      posterior: "Moved slightly to 10-20% but remain skeptical of macro-finance inference about AI timelines. Wealth effects, demographic changes, and other factors complicate interpretation."
+    seth:
+      prior: "90% probability that low rates indicate markets don't expect imminent AGI. If AGI were coming, investment demand would drive rates up."
+      posterior: "Increased to 95%, convinced by the investment demand logic. If companies really expected transformative AI returns, they'd invest more aggressively, pushing rates up."
+    insight: "The paper uses an elegant revealed-preference argument: if AGI were imminent, the expected returns to capital investment would be enormous, driving up interest rates. The fact that rates remain low suggests markets don't believe AGI is near. Seth found this convincing while Andrey remained skeptical that macro aggregates can cleanly identify AI expectations. The timing ambiguity - how far in advance would rates move - makes this an imperfect test but an interesting data point against near-term AGI forecasts."
+
+  - title: "Can AI Make Better Decisions Than Doctors?"
+    paper: "Mullainathan and Obermeyer 'Diagnosing Physician Error' using ML to identify suboptimal heart attack testing decisions"
+    andrey:
+      prior: "90% confident doctors make systematic errors that could be identified. 50% probability that ML methods could reliably flag these errors."
+      posterior: "Increased doctor error confidence to 95%. Dramatically increased ML identification probability from 50% to 85%, convinced by the natural experiment design."
+    seth:
+      prior: "About 80% confident in systematic physician errors. Moderate-high confidence ML could help identify them."
+      posterior: "Error confidence increased to 85%. ML identification increased to 85%, matching Andrey. The natural experiment showing doctors miss high-risk patients who happened not to be tested was compelling."
+    insight: "Both hosts substantially updated on AI's ability to improve medical decisions after seeing the natural experiment evidence. The paper compared patients who were tested versus those who weren't, finding that untested patients often had higher risk profiles that ML could identify. This suggests significant efficiency gains from AI-assisted diagnosis. However, both emphasized that adoption remains the bottleneck - technical capability to improve decisions exists, but integrating AI into clinical workflows faces organizational, legal, and professional resistance."
+
+  - title: "Robots for the Retired"
+    paper: "Acemoglu and Restrepo 'Demographics and Automation' linking aging populations to industrial robot adoption"
+    andrey:
+      prior: "40% probability the backward-looking evidence (aging explains 20% of variation in robot adoption) is economically significant. 70% probability that aging increases automation going forward."
+      posterior: "Backward estimate increased from 40% to 50%. Forward estimate increased from 70% to 75%. The natural experiment using demographic variation across countries was convincing."
+    seth:
+      prior: "75% probability backward evidence is economically significant. 60% probability aging drives future automation."
+      posterior: "Backward increased from 75% to 85%. Forward increased from 60% to 65%. The key insight is that automation creates new products, not just job substitution."
+    insight: "The paper uses cross-country variation in aging to identify causal effects on robot adoption, finding that older workforces drive automation investment. Both hosts increased their confidence in this relationship. The finding that aging populations adopt more robots suggests automation may be partly a response to labor scarcity rather than purely technological opportunity. This has optimistic implications: automation might arrive precisely when needed to offset declining workforces rather than creating unemployment."
+
+  - title: "A Resource Curse for AI"
+    paper: "Drago and Lane 'The Intelligence Curse' exploring whether AI might make elites less responsive to citizens"
+    andrey:
+      prior: "50-55% probability elites become less responsive to citizen preferences by 2050 due to AI. 20% probability of a new social contract emerging to address this."
+      posterior: "Increased elite unresponsiveness probability from 50% to 57%. New social contract probability unchanged at 20%. Property rights are critical to prevent totalitarian outcomes."
+    seth:
+      prior: "60% probability of reduced elite responsiveness by 2050. 20% probability of new social contract."
+      posterior: "Both unchanged at 60% and 20%. Many contingent steps required for either the dystopian or optimistic scenarios to unfold."
+    insight: "The 'intelligence curse' analogy to resource curses suggests that AI might allow elites to become less dependent on citizen cooperation, reducing incentives for responsive governance. Both hosts found this concerning but noted the many contingent steps required. The historical parallel is imperfect - oil wealth provides direct revenue while AI still requires human workers and consumers. Whether AI concentration enables authoritarian governance depends on technical architecture and institutional responses we can still influence."
+
+  - title: "Situational Awareness"
+    paper: "Leopold Aschenbrenner's essay on AI scaling trajectories, AGI timelines, and national security implications"
+    andrey:
+      prior: "AGI is way more than 5 years away. Skeptical that linear extrapolation of scaling laws guarantees AGI. Doubtful that superhuman AI solves geopolitical problems."
+      posterior: "Maintaining skepticism on timelines. A 'world model of the internet' may be incomplete for AGI - real-world sensor data matters. Still doubt superintelligence solves all problems."
+    seth:
+      prior: "Takes 5-10 year AGI timeline seriously but with reservations. Concerned but not panicked about alignment challenges."
+      posterior: "Moved toward accepting the national security framing. If AGI is developed, it needs government control rather than remaining in private hands. 'Won't be able to identify when we're one breakthrough away.'"
+    insight: "Aschenbrenner's essay prompted divergent reactions. Andrey remained skeptical of the aggressive timeline and the implicit assumption that scaling necessarily produces AGI. Seth engaged more with the national security framing, accepting that if transformative AI emerges, governance questions become paramount. Both emphasized uncertainty: the scaling laws have empirical support but don't guarantee any particular capability threshold. The inability to predict breakthrough timing complicates both safety and policy planning."

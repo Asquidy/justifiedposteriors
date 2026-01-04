@@ -1,0 +1,1171 @@
+ (upbeat music)
+ - Welcome to the Justified Pasteuriors Podcast,
+ the podcast that updates beliefs
+ about the economics of AI and technology.
+ I'm Seth Benzel, born too late
+ to screw over millennials with government deficits,
+ but just at the right time to screw over
+ Generation Alpha with AI,
+ coming to you from Chapman University
+ in sunny Southern California.
+ - And I'm Andre Kraken, putting on my miners hat
+ as I run into the coal mine,
+ finding those supposed canneries,
+ coming to you from the canaries.
+ Oh, I thought you were gonna make like the Minecraft reference
+ of the children and your and for the mines.
+ - The children have experienced many things.
+ - The children love Minecraft.
+ If Minecraft was a hobby, would you say?
+ - Well, it is, but these days,
+ the kids are into Roblox, Seth.
+ I don't know if you got the memo.
+ They got, why can't Porcano list us?
+ The reason I'm asking you, Andre,
+ is like, is Minecraft exposed to AI
+ and arc the kids these, the kids these days?
+ Interested in Minecraft is because
+ we're reading something today about
+ how does the rollout of AI technologies
+ affect employment and occupational outcomes
+ for youthful people, which is really exciting
+ given that youthful people will be paying
+ my social security benefits with any luck.
+ (laughing)
+ - That's a very selfish way of looking at it, Seth.
+ - I'm sure future generations also have intrinsic value.
+ I say this as someone who is just reproduced.
+ So, you know, step right.
+ - Tip of the cap.
+ - So this is, we are as a brief personal aside.
+ This is the first episode recording post my paternity.
+ And I'm as obsessed with intergenerational justice as ever.
+ Can't say it's changing.
+ And Andre, not only can I not say that,
+ what I also cannot say is that there is no emergency
+ because there is an emergency.
+ This is our first emergency podcast as well.
+ What's the emergency, Andre?
+ - Well, you know, listeners of the show
+ and followers of the AI discourse will know
+ that the public demands evidence
+ that the AI is taking our jobs.
+ But so far, the world has not provided said evidence.
+ - Unfortunately, reality has not complied.
+ (laughing)
+ - Reality has been slow to comply.
+ So obviously we've been on the lookout.
+ And I think everyone has been on the lookout
+ for this first evidence that AI is doing something
+ to the labor market.
+ And recently, there have been two papers
+ that report to show that there are effects of the AI
+ on certain aspects of the labor market.
+ And one in particular has gotten a lot of media attention
+ by our postdoctoral advisor, Eric Brynjoffson,
+ Bharat Chandar and Rayu Chen,
+ called Canaries, Canaries, in full line,
+ six facts about the recent employment effects
+ of artificial intelligence.
+ A lot of our listeners and a lot of people around the world
+ want someone to actually read this paper
+ rather than just reading the abstract and publicizing it.
+ - Clearly, it's been the paper heard around the world.
+ And if you're listening in,
+ you're gonna get the inside scoop about,
+ what do we actually learn from this emergency dump
+ of information?
+ - Yeah.
+ So, you know, as in our usual format,
+ we should state our prior set, isn't that right?
+ - Like we said, we're talking today about,
+ is the AI taking our jobs?
+ But specifically, is the AI taking
+ those good gen alpha jobs, right?
+ That, you know, people graduate from college,
+ they're ready for their new software engineering career,
+ they're ready for their new customer service career
+ or marketing management career.
+ And SNAP, actually that entry level job
+ doesn't exist anymore, Andre.
+ We're gonna give that to the AI.
+ Or at least that's how the,
+ it's most pejoratively framed.
+ So, the first question that this paper is speaking to
+ is this idea that US entry level employment growth
+ has been slower for the most AI exposed occupations
+ since 2022, right?
+ So, is there something about the combination
+ of young workers and AI exposed jobs
+ that's leading to a depression and hiring?
+ So, how do you think about that?
+ - Yeah, I mean, just, you know,
+ to like think about this from first principles,
+ it's not something that I spend my days,
+ you know, looking at these numbers, right?
+ So, does it plausible to me that this employment,
+ you know, could be decreasing?
+ - Sure.
+ - But also, is it plausible to me that it's not decreasing?
+ Also, could be possible, you know,
+ we had a pretty good economy,
+ at least according to most metrics,
+ especially the unemployment rate.
+ So, if we think that useful labor gets employed,
+ then it seems that it would be hard to find something
+ on the employment rate of the youth
+ since they have a pretty low unemployment rate.
+ So, let's do, you know, obviously we've read the paper
+ at the usual conceit of the show, right?
+ But we're slicing to a subset of jobs, right?
+ - Right.
+ - And so, even a big percentage of a subset of jobs
+ might be a very tiny percentage
+ for the overall employment rate of a particular demographic.
+ - So, you know, I think I'd be surprised
+ if it's more than an order like 10%.
+ - You're comparing, like, the most exposed jobs,
+ the least exposed job, you would not be surprised
+ if the most exposed jobs grew 10% slower
+ for entry-level workers.
+ - Yeah, I think plus or minus 10% would be plausible.
+ - Oh, even minus 10% would be lovely.
+ - Yeah, well, the script is, I mean, look,
+ there's industry variation in hiring rates
+ and exposure is correlated in the street.
+ And so, why not?
+ - Why not?
+ - I mean, I'm taking the prior seriously.
+ - No, no, plus four years, because I did not even try
+ to attack this sort of magnitude question
+ of how big the effect is, because I agree with you
+ that even signing this is a little bit complicated, right?
+ We, what was the last month of discourse?
+ The last month of discourse was how many hundreds
+ of millions of dollars does it take to hire
+ a 25-year-old superstar software engineer, right?
+ So, like, it's not immediately obvious
+ that the AI is reducing demand
+ for skilled young people who work with computers, right?
+ That being said, it's fair to say
+ that those superstars are maybe not representative
+ of the median person, or maybe the person
+ who's in this data set, something to think about.
+ The very top AI superstars are probably not
+ in this data set.
+ But for thinking more like median people,
+ I'm thinking about the story that we heard
+ from another friend of the show, Matt Bean,
+ whose book "The Skill Code" is a lot about how companies
+ are struggling in this AI age to figure out what to do
+ with their entry-level workers.
+ Because if you can automate the simplest thing,
+ and that was the thing that helped you onboard people,
+ now you've got, like, a question of, like,
+ do I even want to hire entry-level people?
+ If I do hire entry-level people,
+ is it gonna be even more emphasizing training,
+ and it's gonna be an even longer training period
+ before they're positively productive?
+ And I'd say, on net, that story, I think,
+ makes the most sense to me.
+ And so I thought maybe 70% chance going in,
+ we would find a sign in the direction that the authors claim.
+ That America as a whole, there really is some sort
+ of difference here that the youth are doing poorly
+ in AI-exposed occupations.
+ We're not really thinking about software engineering.
+ I'm thinking about customer service
+ and certain kinds of management bureaucracy jobs.
+ - So Seth, are you already mixing in the descriptive
+ and the causal?
+ - Oh, did I say something causal right there?
+ - Well, you gave a story that's a causal story
+ for why--
+ - Well, a causal story generates the description, right?
+ You know, I think reality is caused by things.
+ - No, so to be clear, there are many other reasons.
+ Like I mentioned, just why things fluctuate, right?
+ So industries have ups and downs.
+ I mean, we'll talk about some of these in the episode.
+ So it's not-- - There's a lot
+ of confounders pushing in the--
+ - If you looked at, like, employment for the youth
+ across sectors over time, you would see a lot of variability.
+ And none of that has to do anything with AI.
+ We'll see a lot of variability.
+ So even though the AI is a story in the mix, right,
+ it's a separate question of whether that's a primary.
+ If we do find this thing, is that the primary reason
+ for it or is something else?
+ - Very well put. - So what do you think about that?
+ - Very well put.
+ I think let's save all the confounders we have in mind
+ for a little bit later in the description.
+ But yes, absolutely, one of the reasons
+ that I'm putting such a high probability
+ on finding this descriptive result
+ is I also have some non-causal theories
+ about why we would say it.
+ - I see, yeah, and I guess what I would say is that
+ it's a really interesting time
+ to be running these sorts of studies
+ and thinking about base rates.
+ I think this goes really to my point
+ about the demand for research.
+ This is an obvious research paper
+ in the sense that, like, I've had this idea,
+ I can give you the document that, right?
+ - We've seen people do it.
+ - In March.
+ - So it's just a question of getting the right data
+ and that's one of the tricky things.
+ - It's a very special data set.
+ - You're looking at a slight, yeah,
+ you're looking at slices of subsets of people
+ that might be hard to measure in certain data sets.
+ And then there's obviously this other thing
+ is that there are many ways to skin a cat, you know,
+ you can analyze the data set many ways.
+ And we've seen headlines that there's been, you know,
+ as recently as a few months ago,
+ there's no evidence that AI is affecting labor market.
+ And I would see a paper as a,
+ but AI is affecting the labor market.
+ So to me, you know, I actually,
+ my base line thing was it can't be that big of an effect
+ 'cause we would have seen it already,
+ like in a more obvious ways.
+ And the, like, 100 different research teams
+ that are writing the same exact paper,
+ one of them would have, like, gone it.
+ So the question is how quickly,
+ how quickly did you expect this finding to come in
+ from research teams?
+ - Well, what's the twist?
+ Why this result, just mechanically,
+ mechanically they're able to find this result
+ 'cause previous studies had mixed together age groups.
+ - Well, let me push back against that.
+ The previous studies certainly have looked,
+ like once again, this is a very obvious,
+ not in a bad way, this is such an obvious idea
+ that anyone looking at this set of data
+ would have looked at this.
+ - This is the first thing you should do.
+ - This is the second thing you should do.
+ The first thing is not split out by the groups.
+ This is the second thing you should do.
+ So there was a little bit of an insight there
+ to think, look at the age split.
+ - It's so obvious-- - I know, you know.
+ - It's like read Matt Bean's book.
+ - I'm sure other people have looked at the split,
+ probably with a data set that was maybe more noisy.
+ - I'm not aware of the data.
+ So the studies I know about are like industry level,
+ firm level, I've never seen occupation times age before
+ as a split on one of these.
+ - Well, I guess what I tell you is
+ they probably looked at it, it was noisy.
+ And then they decided not to put in the paper.
+ - Just being honest about how research works
+ in this field, right?
+ - Yeah, yeah.
+ - So I guess what I'm trying to say is that
+ it's actually interesting to think about
+ if this was going on, how early would we be able
+ to detect it as a society?
+ Because maybe that's actually also an interesting policy
+ and research question.
+ So like, does research come in with a one year lag?
+ Does it come in with a three year lag?
+ It's kind of an interesting metascience thing.
+ - Right.
+ So you know, changing at the Bureau of Labor Statistics
+ these days may be able to take even longer
+ to find out what's going on with employment and the economy.
+ - But yeah, to me, it seems like
+ obvious question, good new data set, I guess.
+ - Yeah, so I think we should introduce the paper
+ and come what it does, because I do think that
+ that's kind of what the authors would say.
+ Like, yes, but we have this better way,
+ more powerful data set that can study the same.
+ - Okay, so what do they do, what's the data?
+ I mean, in a sentence, they use this amazing data set
+ from ADP, which is one of the world's largest HR companies.
+ They say covering firms with 25 million employees
+ in the United States.
+ And with this really vast data set covering
+ from most of their analysis is for since 2020,
+ some of the analyses go back to 2018.
+ They ask, what are the patterns we see
+ for people by employment times occupation,
+ and then by the age of the worker.
+ So again, there's a little bit of a conflation here.
+ They want to talk about entry level jobs,
+ but they're actually talking about ages of humans.
+ I don't know if that bothers you,
+ that little back and forth, but that's what they do.
+ Econometrically, it's pretty straightforward.
+ There's just some straight up, you know,
+ descriptive statistics saying this went up this percent,
+ this went down that percent.
+ There's some event study stuff trying to argue
+ that it's all happens kind of right after the start
+ of 2022 with chat GPT.
+ And then finally, they do some additional controls
+ and additional splits for confounders
+ that we can talk about.
+ You think that's a fair description?
+ - Yeah, I think that's a reasonable description.
+ - Okay, so just to talk about the data for a second,
+ they have to do some cleaning of it.
+ You know, they start throwing out people older than 70,
+ younger than 18.
+ It's not exactly clear why you would need to do that
+ if the data was perfect.
+ - Yeah, they have a balanced panel.
+ They kind of ensure that they're looking at firms
+ that are consistently of a certain size
+ throughout the entire time period they're looking at.
+ And primarily their results are looking at a time period
+ between 2021 and 2025.
+ - Exactly.
+ - So firms can certainly range over that time period?
+ - Definitely.
+ One note I would add here, the small nimble startups
+ are probably using alternatives to ADP as well,
+ or maybe just doing bookkeeping by hand
+ if you're a really micro company.
+ - The other thing I would say about this data is
+ there's a lot of heterogeneity in firm characteristics,
+ details on the occupational structure of the exact occupation.
+ There's some additional texts you get from ADP
+ describing the occupations.
+ Lots of stuff on worker characteristics,
+ like where these people live.
+ It doesn't show up in this paper,
+ but I'm aware from this data set,
+ there's a lot of different directions you could go
+ with this data as they wanted to keep on pushing.
+ Okay.
+ So how do they use this ADP data?
+ They combine it with two other data sources,
+ which listeners of this show have already learned a lot about.
+ The first is from Friend of the Show at number six,
+ I think we're up to now.
+ Daniel Rocks, Elian do at all paper that is called GPT
+ says for at our GPTs,
+ which develops a measure of the exposure
+ of different occupations to AI,
+ exposure, just meaning it would be really useful
+ to have AI systems to speed you up.
+ Here we're using their secondary measure,
+ their beta measure, which takes into account
+ you also have to make complimentary innovations
+ in addition to the AI to do the job.
+ So that's thing one, they're gonna use
+ to in order to split occupations by more or less AI exposed.
+ And the second thing they're gonna use is
+ what we talked about in our anthropic AI index episode,
+ which is this data from anthropic
+ that they've released on what share of communications
+ with their chatbot seem to relate to different jobs.
+ And then they're gonna do one further
+ and try to figure out whether those requests
+ are more kind of automate-e or augment-e.
+ - Yeah, which is something I recall you really disliked.
+ - Dude, I don't, man.
+ And the worst part is when they say
+ automation, automate-e versus augment-e is really important.
+ And then they say, the citation for that
+ is Eric's Turing Trap paper, book or like essay,
+ which also does not engage with this issue.
+ Something that we keep on coming back to
+ is it really is not useful for talking about
+ a technology in isolation as automotive
+ versus augmentative, that really you have to understand
+ the entire economic system to understand
+ whether a technology is going to boost or reduce
+ the demand for a certain kind of labor.
+ So, I don't know, my eyes roll super hard
+ whenever I see something like that.
+ - Yeah, but anyway, it's still an empirical question
+ whether these things are correlated with-
+ - Right, so they're a different cut yet,
+ whether or not you wanna connect them to automating.
+ They're different uses, and do you wanna talk briefly
+ about the econometrics?
+ It's pretty straightforward.
+ - Yeah, so we can just go figure by figure.
+ So, figure one, the headcount over time
+ for software developers and customer service
+ representatives by age group.
+ And they're gonna normalize this in script statistics
+ so that everyone is at 100 in the middle of 2020.
+ The early career workers, so those between 22 and 25,
+ the trend changes at exactly the point that they picked
+ to start going down.
+ - How convenient.
+ - 20/20 is when they invented AI, right?
+ - I think so.
+ And then the other series, for the most part,
+ keep going up, except that 26 to 30-year-olds
+ are kind of flat or maybe a little declining.
+ Yeah, so before we get into the rest of the evidence,
+ I think this is like a tricky thing.
+ It's always great to plot the data, of course,
+ but we can't learn that much from a simple plot
+ because we kind of don't know the kind of actual,
+ I mean, we just generally don't know the kind of actual,
+ but like--
+ - Right, it's a very short series.
+ - So they're plotting two occupations, right?
+ Lots of things could be going on.
+ There could be changes in demographics.
+ There could be changes in how long it takes people
+ to graduate college because of a particular pandemic.
+ There could be changes in demand for labor
+ and other occupations that might draw people away
+ in front of them, software, customer service.
+ - Right, maybe this is demand for money.
+ - Yeah, so there really is a lot of stuff
+ that could be going on and like thinking really hard
+ about how to normalize it.
+ It's just important to do.
+ So I think it's a good figure one,
+ but we need the rest of the evidence.
+ And I do want to reiterate that to me, at least 2022
+ is definitely not where I expect this to start.
+ It seems like the special time,
+ especially because there's no like acceleration.
+ I'm looking at the trend.
+ So if you wanted to tell a story where maybe 22
+ is the beginning, but then things start accelerating,
+ it doesn't really look like that.
+ It looks kind of straight line decline starting in late 2022.
+ - Yeah, and for software developers,
+ you see it flatten out even before 2022.
+ There's no way this is AI, like just time wise,
+ like when you think about really capable versions
+ of chat GPT, you know, this is not the right time
+ like to be thinking about.
+ - And I guess what I would say here is,
+ it's just such a short time series
+ that like, I don't know, if we had 70 years,
+ would we see, you know, the different age groups diverge
+ and then come back together and then diverge again?
+ I don't know, right, it comes back to what your,
+ like your prior is.
+ If your prior is everything should,
+ all the different age groups should follow each other
+ perfectly, your prior is,
+ I would want to see the historical time series
+ for how often that happens,
+ then this one event is only one data point.
+ So it can't really come into you.
+ - I mean, I do, I think I want to bring up something else here,
+ which, you know, you think about like something
+ like customer service.
+ I don't know like how big of a sector unemployment
+ that is in the United States.
+ But like, if I was a young person,
+ be pretty stupid to enter this field.
+ Like no offense to people who do it, right?
+ Because even if there isn't like a decreased demand
+ for customer service,
+ it's kind of the first thing we expect to go.
+ If we were to like go down the list of things
+ that we expect Chad should be to be doing.
+ I guess Eric and company and other paper
+ has shown that actually customer service
+ become more efficient as a result of AI.
+ So that's kind of a natural thing to think about.
+ So even the question of what is the supplier demand story
+ is not answered a graph like this?
+ - Well, of course, it's got a quantity, right?
+ And you know.
+ - But the normative implications
+ are quite different, right?
+ - Right.
+ - If there was a bunch of these people
+ who wanted to become customer service agents,
+ and then they just couldn't.
+ It's very different than people are just looking for
+ to make a little money when they're graduating.
+ And before they might have joined customer service,
+ but now they're like, well, this is a complete dead end.
+ And I'm not gonna do this stuff.
+ And they have to do.
+ - I can't imagine all the people
+ who are going into customer service
+ saying this is not a dead end.
+ - Well, there are a lot of older folks
+ that work in customer service as well.
+ It's a job that has been open to remote work for a long time.
+ - There are lots of properties of the job.
+ - You can do it part-time.
+ - Yeah, like I'm saying is that lots of things
+ could be going on there.
+ - I guess just to speak to the,
+ could this be supply, side driven results?
+ We've talked about how there've been predictions
+ for a decade now.
+ I remember talking with you in the Sloan building at MIT,
+ must have been 2017 about truck drivers
+ getting automated.
+ And there seems to have been a kind of anticipatory effect
+ of people not developing truck driving expertise
+ before they actually got automated.
+ - Yes, exactly.
+ Let's continue the next piece of evidence.
+ So then they kind of-
+ - Figure two is just more occupations.
+ - More occupations.
+ - They're just showing that something like home health aids,
+ there's actually disproportionate growth
+ in young youth employment.
+ Whereas for customer service,
+ there is this proportionate shrinking
+ for youth employment and customer service.
+ I guess what I would say here is,
+ if it's this draw away story,
+ you could see a story where we're getting more polarized
+ into physical versus non-physical tasks, right?
+ And maybe your some sense in which technology
+ is moving young people into being health aids,
+ but it's not so much that their current job
+ is getting automated.
+ It's that the wage for being a young strong person
+ is going up.
+ - Yeah, they know that healthcare is gonna be an occupation
+ for a long time and they're just gonna do that.
+ - Yeah, and society is getting older and more infirm.
+ So there's a lot of the anticipatory possible effects here
+ and pushes and pulls.
+ - Yeah.
+ - And then one of the other things to note is that
+ you might think that of all the time series
+ of all the age groups,
+ youth are the one that are gonna be the most volatile.
+ - Right.
+ - Of just how labor markets work, right?
+ - And we're coming off of the pandemic,
+ which, you know, screwed up in generation of students.
+ - Let's talk, we're talking about the confounders.
+ - We're getting confounders, here we go.
+ - Let's just do it, let's just do it.
+ I mean.
+ Yeah, so, I mean, there are kind of two things
+ that one would like off the bat think about here.
+ One is there's a sense that the software industry
+ driven by low interest rates completely overhired
+ for a long period of time.
+ And then a lot of the big tech just started firing people.
+ And we know like factually why that happened
+ and it wasn't AI, it like-
+ - It was interest rates.
+ - It was interest rates, it was fiscal discipline, you know,
+ there's just a sense that like we gotta cut the fat,
+ you know, some people aren't contributing, you know,
+ that sort of thing. - And almost by the fat
+ is going to be a person who's been there for less time.
+ - Yeah, or just hiring less is the easiest way.
+ You know, let things churn,
+ there were a bunch of hiring freezes.
+ - All right, okay, let me get you back on this this way.
+ Okay, one theory here is what we're seeing is not
+ AI is taking youth jobs.
+ What we're seeing is interest rate goes up.
+ A youth job in an AI exposed occupation
+ is the kind of job where you need to be trained
+ for a year, two years, three years.
+ And so interest rates go up.
+ Hiring someone to train them for three years
+ becomes less attractive, right?
+ - Yeah. - Okay, so you would say,
+ okay, so then that job loss wasn't caused by AI.
+ But what if the increase in interest rates
+ was caused by AI?
+ - Oh my.
+ - I know it's too early.
+ - It seems too early.
+ I mean, yeah, it's just clear, like,
+ I think we're just listing other things
+ that could contribute to this trend.
+ I think I'm with you that certainly,
+ the AI story could be there,
+ it could be there, especially in the later part of the sample
+ where I believe the timing makes more sense.
+ But yeah, the other really natural one is,
+ man, education, college education,
+ high school education during the pandemic was a mess.
+ (laughing)
+ It was really bad.
+ It was very dry. - Yeah, we tried, but I mean,
+ it was not a good one.
+ And I think this, you know, a lot of things happened,
+ but soon you hear stories about people
+ aren't like as confident as being social.
+ The learning that occurred was much lower,
+ you know, that's been shown in a variety of settings, right?
+ Just taking a class on Zoom reduces learning.
+ You're gonna go into an interview
+ for a technical subject like programming.
+ You're gonna do worse.
+ - Well, Jeff, right, that story,
+ it seems like I'd suffer more for the social job
+ or the job that isn't gonna get AI exposed.
+ - No, I mean, I think to the extent
+ that any technical skill, I guess interviewing
+ is a combination of social technical.
+ And I'll say this is my career as I'm a terrible interviewer
+ is that, you know, it's not just about technical,
+ but it's both.
+ And so if you're both worse socially and worse technically,
+ you might be less likely to get that job via interviewing.
+ - To explain this story, you have to tell a story
+ where that affects you more in the AI exposed jobs.
+ - Sure, I understand that.
+ I guess I'm just saying that learning rates
+ in an interview processes can interact in interesting ways
+ and they might interact differently for different types
+ of jobs. - Fair enough.
+ And it's plausible that it's not like training.
+ All right.
+ - Look, I think one thing that we need to think,
+ like always acknowledge in terms of like a macro clown
+ is like humility about jobs.
+ Like, I don't know the scope of all the jobs in the world, right?
+ I don't know their interview policies.
+ All I know is that for like software engineering jobs,
+ there are like these very structured knowledge-based
+ interview processes that are kind of unusual
+ or else I've said other jobs and you know,
+ other places which have similar structure might be like,
+ a trend interviews, maybe banking into these rates.
+ - Those are AI exposed, though.
+ - Yeah.
+ I mean, so that just goes to show you like,
+ it's just hard to like,
+ it's hard to, this is a plausible confounder,
+ but you know, we need to think harder about it.
+ - Yeah, and I mean, I know that home health aides
+ certainly don't have long technical interviews, so.
+ - Absolutely not.
+ It's a very easy interview process relatively, so.
+ - I just, I, so I just did it with my,
+ we just hired an Andy for my baby.
+ And it really was like, I just watched them
+ for half an hour to see if they killed it.
+ (laughing)
+ And they didn't, so they were hired.
+ - Okay, so now we go to figure three.
+ A nice thing about this paper is it is very clear
+ about what's going on and it's just,
+ we're looking at figures and interpreting them.
+ So figure three uses L&DOW and all,
+ so GPT's or GPT's paper as a measure of exposure to AI.
+ - By the way, what the authors will say is
+ and it's definitely not a measure of automation.
+ - It's definitely not, this is going to take your job.
+ It just-- - Absolutely not.
+ - The episodes on this are free.
+ - Well, what we can look at is kind of
+ the dispersion in these trends across these categories.
+ And we see at the darker lines here, the more exposed lines,
+ they flatten out for early career people,
+ but then for other folks, they move lockstep
+ with most similar jobs, although there are other lines
+ that substantially deviate from the trend in this plot.
+ For example, for 31 to 34 year olds, less exposed,
+ the two less exposed jobs really increase in headcount.
+ And so-- - And in suggestions,
+ there seem to be a lot of seasonality
+ in the least exposed jobs, right?
+ In-tip bump. - Yeah.
+ - So what's the least exposed job?
+ It's like harvesting fruit.
+ Yeah, so yeah, there's a tourism,
+ I'm sure, is somewhere in there, you know.
+ Yeah, and these, you know, even in the pre...
+ One of the interesting asymmetries about these plots
+ is there's one year of pre-period,
+ or a little more than a year of pre-period,
+ and a few years of post-period.
+ So it just looks that in the before period,
+ there's less variation, but actually it's hard
+ to make that visual comparison.
+ - Do you want to skip four and go right to five,
+ or do you want to talk about four for a second?
+ - Well, let's talk about five.
+ - Five is, in terms of plotting time series,
+ they just show that overall change in employment
+ by exposure group.
+ And here they pool one to three and four to five.
+ I would just say that to keep pooling persistent,
+ especially since. - It's a garden authority.
+ - You're slicing and dicing a little over here.
+ I don't think they did anything nefarious, but just, you know.
+ - I'm sure it works the same if it's one to two.
+ - I'm sure it works the same, but it just,
+ you want to keep that similar.
+ - Yeah, but standard errors would be much appreciated as well.
+ - Yeah, so, but Andre, I'll say I like this figure
+ in some ways more than the plots, the event studies,
+ because it seems like at the end of the day,
+ you just want to look at the end and look at the difference
+ between the different groups.
+ And this figure is kind of summarizing that.
+ - Well, I think one of the reasons I,
+ I mean, I'm really glad we saw the previous figures
+ because we see that the timing truly does not line up with AI.
+ But here you might think, you know,
+ you don't know at what time the actual selection point had.
+ - So this figure is how I want the results
+ reported it numerically, but yeah, of course.
+ The event study gives you timing information.
+ In terms of magnitudes, I like this figure.
+ - Yeah, so y-axis is just the growth in number of jobs
+ by age group, and we see kind of everything is up,
+ except for the exposed jobs for 22 to 25 year olds.
+ - Right, yeah.
+ - 'Cause they've got 20 million observations.
+ - Yeah, well, they're significantly different from each other.
+ I guess what I would have loved to see
+ is just some comparison to historical fluctuations
+ of other time periods.
+ - And it's where I come back to,
+ I don't know about a lot of age times occupation
+ based research.
+ I'm sure you could construct something using the census,
+ but I haven't seen, yeah, I haven't seen this.
+ - So I think there's a literature
+ about how bad it is to graduate in our session.
+ - Right.
+ - And that is all about the youth,
+ and all about how much youth employment fluctuates,
+ and how if you're unlucky,
+ and you do graduate in our session,
+ your career trajectory is worse.
+ - And you've seen that like occupations?
+ - I haven't seen that time station, which is an occupation.
+ But I think like to me, I'm using that as kind of
+ some evidence that there's more fluctuation
+ than that for graduates, essentially.
+ - Well, yeah, I guess the meta point here
+ is it's not something special about the skills
+ of young people that's important here,
+ but rather just whenever there's a reorganization
+ in society, the reallocation is gonna happen
+ from young people first.
+ They are more mobile geographically,
+ they're more willing to quit a job and look for a new one,
+ than someone who's 50 plus and been in a job forever.
+ So for any technological change,
+ we would expect there to be more reallocation
+ across occupations for young people than old people.
+ - Okay, so then, back three is about the--
+ - Wait, we should say the magnitude.
+ Let's say the magnitude.
+ - Yeah, so the magnitude is a decrease in employment
+ for quintiles, four and five,
+ so for those who are not exposed,
+ about a little more than five percent,
+ and then there's an increase for one to three.
+ - About nine percent.
+ - Sorry, for quintiles one to three,
+ so the least exposed about nine percent.
+ So one way to read this is, well, the causal effect here
+ is essentially around nine plus five, but 14, right?
+ So 14 percent decrease in employment.
+ - So larger, ooh, larger than the effect
+ that Andre thought was reasonable.
+ - But I said order of magnitude.
+ - You were up to 100 percent.
+ - But I guess what I'd say here is that the extent
+ that people are shifting from four to five to one to three,
+ the quintiles that is of exposure, right?
+ - It has a very different interpretation
+ than if those people, like what really we'd wanna see
+ is kind of, if we look at people who ex ante,
+ we predict, would end up in occupational categories
+ that are most exposed.
+ And then what are their unemployment rates?
+ And what are their, I think more smoking gun evidence
+ would be if they had high unemployment rates
+ for CS majors, and we have been seeing some news about this,
+ I think would be, in some sense,
+ a very complimentary, because if there's substitution
+ between one type of job to another type of job,
+ that's a, is that a demand or supply set phenomenon?
+ Is it very, very large issue?
+ - Well, that, there's gonna be substitution.
+ That's the thing, it's like,
+ nobody's actually think we're gonna like,
+ eliminate all youth jobs.
+ So it's always going to be a recomposition.
+ - Okay, so this is a simple paper,
+ so I don't wanna overcomplicate it.
+ Maybe we can just briefly say the couple of things
+ they try to do to deal with confounders,
+ the different robustness checks they do.
+ Andre, did you find this robustness check
+ where they control for a firm times time
+ total employment effect?
+ Did that help you at all in terms of thinking
+ that this is caused by AI,
+ or maybe one of their other controls or splits?
+ - I mean, they do also, you know,
+ split things out by augmentation versus.
+ - Yeah, but we already said that still,
+ it's gonna skip that.
+ - Well, I mean, it does, you know,
+ corroborate their story,
+ but I agree that since we think it's silly,
+ maybe that's not the right way to,
+ and then not the right place to look at.
+ So, the specification with the fixed effects, right?
+ So the idea here is kind of some firms
+ are gonna be hiring a lot,
+ some firms are gonna be hiring a little,
+ and if we think that hiring is more or less uniform
+ across age groups,
+ then it'd be surprising kind of,
+ like we kind of see deviation from that
+ for the use that are in occupations that are like so, right?
+ I think it's a reasonable thing to do.
+ I think it's a good robustness check.
+ - Would you want, I assume they tried,
+ because they've got so much data.
+ I assume they tried a firm times occupation trend.
+ That would, I mean, if they showed me a jump in October 2022
+ with a firm times occupation trend, maybe I'd eat.
+ - Well, the key thing for me is,
+ I absolutely do not want to jump on October 20th.
+ - Yeah, well, I just think the timing is wrong.
+ The jump of 2022 is what makes me skeptical.
+ - It makes it what it has to be interest rates,
+ 'cause that's the only thing that would be fast.
+ - So I guess, yeah, that's--
+ - You know, James Carville says about the bottom market.
+ - What does he say?
+ - He says when I die, I want to be reincarnated
+ as either a baseball relief pitcher or as the bottom market.
+ It's the bottom market control to everything.
+ - That's true.
+ All right, so I do think like there is something
+ we want to look at in this specification of the fixed effects.
+ They plot it in figure nine.
+ And if we look at the most exposed group,
+ we actually don't see a deviation from trend.
+ - Yeah, am I reading that correctly?
+ - Or yeah.
+ - Yeah, that's much more plausible.
+ - That's much more plausible to me.
+ But then I think going in with the descriptive stats,
+ where the timing isn't, that to me is a little,
+ now I'm confused as maybe what I'm trying to say.
+ - I think that where we're gonna have to end up is like,
+ there's a lot of stuff going on,
+ but maybe AI is part of this, right?
+ - Yeah, I think that's right.
+ - And then the last thing we should talk about
+ is the wage change.
+ So far we've been talking about employment changes.
+ In terms of wage changes, they see really no effect
+ by early career times AI exposure on wage growth.
+ But I don't know, I'm looking at figure 10
+ and looking at early career software developers
+ and it kind of seems like it's going up.
+ - Good time to be a software developer.
+ - Well, it's a polarizing time, right?
+ That's what I'm taking away here.
+ It seems like the story should be polarization.
+ This is the age of giving $100 million
+ to the super AI expert, right?
+ - Yeah, yeah.
+ I think when it's really strange looking at the market
+ for software developers, because one of the things
+ that I'm thinking about a lot is equity compensation.
+ - Equity compensation, there's also title effects,
+ or that like when you get paid enough,
+ they stop calling you a software developer.
+ - Well, I mean, I doubt that 22-year-olds
+ are getting such titles, but more like,
+ all right, so you got an equity package
+ and then the tech industry is booming
+ in the stock market over the past few years.
+ Is this being captured?
+ - And so, maya, are we talking about?
+ - I'm gonna use just like knowledge of this data set
+ to say that my understanding is that this is taxable income.
+ So to the extent that that equity is getting taxed
+ in that period, you would see it.
+ - Yeah, so essentially we're getting a partial effect.
+ So we're getting like the amount that you get invested today,
+ but if you're a stock that you're gonna get in a year
+ from now, it's gone up a lot.
+ - Yeah, might not show up in this year's income.
+ - But certainly that might explain part of this
+ friend for software developers where
+ really the rear ones are getting paid a lot more
+ if they have some equity comp and it goes up a lot.
+ But then we, well, maybe we'd expect to see that everywhere.
+ So then maybe that's, it's unusual that it's
+ for early career folks that's going up.
+ - I think the story here,
+ a story for software is polarization, right?
+ That's what it, so we've run through
+ all of the main experiments in this.
+ They do a couple of other robustness things
+ that I'm gonna gloss over.
+ Are there any other concerns/confounders
+ that you have not already brought of Andre
+ that you wanna bring in here?
+ - Yeah, so let's talk about one other thing.
+ I think it's important to talk about it
+ because it does remind me where this is all going
+ is kind of a literature that seems very similar
+ to the China shock literature.
+ - Oh, right, on this one thing,
+ the only look at the downsides of this one thing
+ and we'll end up with a generation of policymakers
+ who are like, did you hear AI took
+ that one customer service reps job?
+ We gotta shut this down.
+ - So just like to recap for those who haven't been following.
+ - Autor rule in New America.
+ Sorry, that was too strong.
+ If you're listening, Autor, I don't only mean that 10%.
+ - So pretty much, there are a lot of people
+ who are trying to understand what trade with China
+ was doing to employment in the U.S.
+ And also how it was regionally and occupationally affected.
+ And so they came up with exposure measures.
+ Is that remind you of something?
+ - Yeah.
+ And then they kind of found some exposure measure
+ that correlated with some employment losses
+ in a variety of parts of the country.
+ So if you read the papers, they're careful about,
+ caveatting that, well, just because there are fewer jobs
+ in one type doesn't mean that things are bad
+ because of China trade, for example,
+ maybe there are other things that are going on
+ that might be good.
+ And so we have to weigh the pros and the cons,
+ but really when that literature was interpreted
+ was just how China trade was bad.
+ - Right.
+ - When it's literally measuring a difference, right?
+ - Yeah.
+ But to really understand the true effects,
+ you need to think about how all this stuff
+ is getting reallocated in particular.
+ With the China shock, this was kind of like,
+ well, U.S firms are getting cheaper inputs,
+ customers are getting cheaper goods.
+ Maybe employment is substituting.
+ I think one of the key things
+ with China shock specifically,
+ it was like regionally concentrated.
+ And so for the people who stayed in certain regions,
+ it's certainly, it's hard to argue that it wasn't bad.
+ But a lot of people did move
+ and maybe people in other regions benefited, right?
+ So we kind of have to take that as a whole.
+ And I think, it's not crazy to imagine it.
+ And once again, not the fault of the authors
+ of this paper or any other paper
+ is that this type of work, the way that it's framed
+ is fun, we're looking for this bad of AI.
+ And are we really,
+ are we putting in the same effort for the good of AI?
+ - Yeah, like if you're thinking of AI to be even snarkier,
+ it seems like you could write exactly the same paper,
+ exactly the same analyses.
+ But the title of the paper is youth employment booming
+ in non-AI-exposed industries, right?
+ Because it's all just the difference.
+ So you could just write a happy story
+ about them giving hottest things.
+ - I don't think it's all just, I guess, you know,
+ I do think, and we talked about all the confounders,
+ so I won't go through them again.
+ But I do think if you have a theory of AI exposure
+ as a substitute for young labor in certain areas,
+ and then you see the labor decreasing those exact areas,
+ I do think it's more than just,
+ oh, we observe a difference, right?
+ So, you know, let's be a little more fair.
+ If you have the answer--
+ - That's in so far equilibrium, right?
+ - Yeah.
+ - The prices come down of these kinds of goods,
+ the prices go bombels up, and the other types are good.
+ So yes and no, right?
+ The, it's creating destruction.
+ Some lose so that we can change.
+ - I'd be very worried if overall youth unemployment
+ was going up a lot.
+ That to me, regardless of why it's a problem.
+ And if AI is the problem, then that may call
+ for a different type of solution
+ than if it's economic uncertainty, right?
+ Why do we care about what is the reason for this?
+ Why don't we just look at trends as well?
+ Different reasons that we address them in different ways.
+ There's policy ways to address things.
+ There's also kind of just a good advice.
+ What advice do we give to young people
+ who are entering the labor market?
+ You know, and if the story is, well,
+ software engineering is dead, don't go into it.
+ We should be careful about that story
+ versus other stories.
+ I remember when I was graduating high school in 2004,
+ my high school teachers told me
+ that studying programming was a bad idea
+ because you know, after the dot-com bust,
+ there are too many programmers.
+ - I remember in high school them saying,
+ oh, you know, computers, they're so good at like adding.
+ You shouldn't study math, you should study art
+ because computers can't draw.
+ Yeah, I mean, yeah, that's why this matters.
+ - Yeah, so do you want to kind of go into posterior mode?
+ - I feel the exact thing that you want to talk about.
+ - You don't need to go into posterior mode.
+ So, Andre, ultimately, is this a canary or a red herring?
+ This question was the descriptive question,
+ I kind of mixed in some causal statements.
+ - Look, I just like that they put the data out there.
+ - And you know, getting the agreement
+ to get this very rich data is really impressive.
+ And, you know, it's a plausible story.
+ I guess, yeah, I go back to the plausible story
+ that, you know, AI could be involved here,
+ but I think that the timing doesn't line up
+ with when I'd expect AI to start biting,
+ at least in the non-definite results.
+ - Right.
+ - And it's generally, there's so many other things
+ that could be going on
+ that I wouldn't view this piece in isolation
+ as a canary in the colon.
+ - It's not a red herring, so what animal is it?
+ - Yeah, yeah, it's neither, I think it's in the middle.
+ I think we need to look at this in a variety of ways.
+ I think, to me, it's kind of a natural place
+ to look at is the employment rates of people
+ who expect to be going into these occupations
+ based on the majors, also,
+ major choice is a very interesting question, right?
+ So, you know, if we, this is a supplier demand story,
+ always hard to tease out, of course, you know,
+ and that wouldn't, but, you know, it's a job posting.
+ So there's a recent paper that was released,
+ I think like yesterday or the day before
+ that was looking at LinkedIn posts
+ that kind of seems to suggest corroborating evidence
+ on these sorts of occupations.
+ - The LinkedIn, yeah.
+ We'll do an episode on the LinkedIn data.
+ - But I guess what I, you know, yeah,
+ that paper uses quite a different, you know,
+ strategy to study these questions.
+ - It's a little bit more at the firm level.
+ - More zoomed in on the AI part of things.
+ So, look, I think, you know, it's great
+ that people are working on this.
+ I expect to have like 100 papers,
+ and we'll see if they're kind of helping us
+ draw out the shape of the elephant
+ that it is AI versus something else.
+ - Well, but-- - Yeah, we'll do it.
+ - Yeah, so I'll say on the descriptive question,
+ this data set's so good.
+ I would say I'm at kind of 95%.
+ I'm convinced that basically,
+ descriptively what they described
+ for their 25 million people in their firms
+ would well describe the economy as a whole.
+ We talked a little bit about some selection in the data set,
+ but it doesn't seem devastating.
+ In the, in terms of the causal question,
+ how does this move me in terms of thinking
+ about like, is AI particularly bad for people
+ who are just entering the labor force?
+ Would you prefer, is this a net negative for you
+ in terms of share of income, right?
+ 'Cause you might imagine that the share of labor income
+ going to the youth might go down,
+ even if the total labor income of society goes up,
+ just 'cause GDP goes up, even if labor share of income goes down.
+ Still be a good world, but I am moved in the direction of,
+ it's gonna be a good world, but challenging for young people.
+ I think I'm now at maybe 75% chance I'm up to,
+ that early stage workers are gonna be
+ particularly challenged by AI.
+ And what's the reason, well, it's kind of the reason
+ that technology is often skill biased.
+ It's, you know, you automate the simplest thing first
+ and you have to put that much effort into it.
+ And so young people are either gonna have to be
+ in college longer, or they're gonna have to accept
+ essentially trainee roles for longer,
+ where they get paid like they're true trainees
+ and not like they're people who are, you know,
+ doing some useful work and getting training on the side.
+ So yeah, this does dim my vision for Gen Alpha.
+ Of course, they'll make it all up on interest rates
+ in the stock market, so I'm not too worried about that.
+ - Yeah, it's funny that you bring up the education thing
+ 'cause I think part of what's going on in this plot
+ is that people are taking longer graduate college,
+ which would mechanic, you know, in certain majors.
+ - But I mean, that's consistent with, I mean, educated.
+ - No, but to me, it's consistent with COVID
+ really screwing things up for educated people, right?
+ Like the kind of the tricky part of all this.
+ I think I have a very strong belief
+ that it's gonna be a weird time.
+ And that makes me worried the most for the youth and the old.
+ - Weird's bad for the old.
+ - Well, weird in the sense that if you've tried to
+ go on your preordained career path
+ that we know about and then all of a sudden
+ that no longer looks this.
+ - Oh, so it's bad for type A trihards?
+ - Yeah, it's bad for like those who are just expecting
+ a certain career trajectory.
+ It might be good for those who are nimble
+ because I think every person with AIs
+ can have a lot more capability as a result to that.
+ - We a lot more last mile problems that show up.
+ - Yeah, yeah.
+ But if someone being a lawyer, right, you start worrying,
+ well, what does an entry level lawyer do?
+ Like, hey, I can't do.
+ And I know they're thinking about it
+ and people are thinking about it before
+ they're even going to law school, right?
+ So just this inherent uncertainty
+ being really amplified right now
+ compared to any time that I remember in the past.
+ And then I'd be kind of worried about old people,
+ you know, to extend that, you know,
+ if our society is not providing for them.
+ - So security trust fund runs out and lists the.
+ - Well, and well.
+ - I think that's a good place to have this lovely sunset
+ that I'll leave our video users of the podcast with.
+ And, you know, we're welcoming Jacob Avram Benzel
+ to the world and I, you know, my prediction, Andre,
+ is even another 20 years from now,
+ they're still going to be jobs.
+ - I'm with you.
+ I believe in a labor market.

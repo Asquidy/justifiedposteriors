@@ -1,0 +1,632 @@
+ [MUSIC]
+ >> Welcome, everyone, to the Justified Pustere Years Podcast,
+ the bi-weekly podcast that updates our priors about the economics of AI and technology.
+ I'm Seth Benzel, maxing out my borrowing limits before the AI spends my money for me,
+ coming to you from Chapman University in sunny Southern California.
+ >> I'm Andrei Fraffkin.
+ Recording this podcast so that the AGI is treating me well in
+ our positive AGI future, coming to you from Cambridge, Massachusetts.
+ This podcast is brought to you by the Digital Business Institute
+ at Boston University's question school of business.
+ So Seth, what are we talking about today? What's on deck?
+ >> That's a great question, Andre.
+ Today, we're talking about how would you invest your money if you were told
+ that in five years and 10 years,
+ we're going to have the artificial general intelligence revolution,
+ that in the near future, not right now,
+ but in the very near future,
+ we're going to have AI technologies that stupefy the imagination.
+ How do you take advantage of information like that?
+ What would you do if I guaranteed you that that would happen?
+ >> Well, Seth, because I believe in the efficient market hypothesis,
+ there's nothing I could do to take advantage of that situation.
+ >> But rather, it says that you can't beat the market, right?
+ There's some sort of sense in which that you wouldn't,
+ it's unlikely that you would have some sort of special insight
+ into the development of AI that would allow you to trade at an advantage
+ versus other people.
+ >> But yet, still, even with everything about the future
+ being common information, prices evolve over time.
+ And in fact, this paper that we're reading has a very explicit hypothesis
+ about what the impact of future developments in AGI,
+ or future expectations today about future developments in AGI,
+ what that's going to do to the price of assets today.
+ Are you curious to find out, Andre?
+ >> Do enlighten me, Seth.
+ What is the claim that this paper is making?
+ >> All right, so today we're reading a paper titled
+ "Transformative AI, Existential Risk and Real Interest Rights,"
+ who authored by Trevor Chow and Basil Halperin of Stanford,
+ Basil being a friend of the show,
+ and Jay Zachary Maslisch of Oxford and the Global Priorities Institute,
+ GPI being one of these organizations in Oxford,
+ that sort of a long-termist organization has been thinking about computers
+ in AI and AGI for a long time.
+ And if I had to kind of summarize the argument of this paper in a sentence,
+ it's that right now, interest rates, real interest rates,
+ so if you save money, what's the amount of payment,
+ additionally, you will get back from saving that money a year from now,
+ or a certain amount of years from now, that that number is very low.
+ And then the second claim of the paper is that is incompatible with AGI
+ or advanced AI arising in the near future.
+ So in other words, anyone out there who's worried AI is going to take your job,
+ AI is going to change the world,
+ AI armies are going to be marching across the continent,
+ you know what, take a sigh of relief.
+ Basil's got your back.
+ Basil says, "Not happening anytime soon."
+ What do you think of a claim like that, Andre?
+ Do you want me to give my prior?
+ Yeah, why don't you give me a prior before having this paper,
+ what would you have thought of a claim like,
+ low interest rates today indicate that markets do not believe
+ that artificial general intelligence is imminent.
+ How would you evaluate that?
+ I guess I put a pretty low prior on that claim.
+ Let me explain kind of where I'm coming from on that.
+ I tend to be skeptical of the ability of macroeconomists to predict anything,
+ and especially people in finance as well.
+ They don't exactly have an amazing track record of forecasting things very well.
+ I think there's kind of a broader kind of like under scoring claim there.
+ You're meant to kind of naturally think that if the market is not predicting it,
+ that it's not likely to happen.
+ But I guess another way to try to evaluate that claim
+ is to also look at a prediction market or something like that,
+ which seems like a more direct way to assess what people think
+ the likelihood of AGI will be in the future.
+ So I think I'm a little skeptical of the macro models, and I'm a little skeptical
+ of using an indirect instrument to test for this market,
+ believe it rather than a prediction market.
+ What do you think Seth?
+ Well, that's a good question.
+ So I'm looking up right now.
+ What does metallicus think is the chance of AGI?
+ So do you have a specific metallicus AGI prediction in particular?
+ I should be looking at that you think would do a better prediction job?
+ I'm also looking it up right now.
+ It would guess that we could try to use whatever Basel is thinking,
+ and we can get to that because that's not a claim about AGI,
+ that's a claim about economic growth.
+ That's an interesting point there.
+ But if we look at, let's say, when will the first general AI system be devised?
+ And Metakelus, which is this prediction market,
+ what is the community prediction?
+ It's a bi-modal distribution, Seth.
+ I love it.
+ And there's one mode that's towards the end of this decade,
+ and then there's another mode about 90 years from now.
+ So I think if you were taking this literally,
+ we would say that there's some probability it's imminent,
+ and then there's some probability that it's going to happen quite a bit later.
+ Yeah, no, this is a fascinating graph with the two modes.
+ I've had one mode in three years, and then one mode in 100 years.
+ All right.
+ So maybe let me tell you a little bit about how I evaluate this claim.
+ Andra, I think you were going to have a disagreement today
+ because I found myself before I read this article,
+ strongly in agreement with the idea that low interest rates indicate
+ that markets do not believe that really revolutionary AGI is imminent.
+ And I'd put that claim at about 90%.
+ Now, I think two areas that we might have diverged on are first that,
+ you're saying that sometimes markets are dumb,
+ right, that maybe markets aren't good at predicting things about the future, right?
+ I feel like that's not engaging directly with Basil's claim.
+ I think Basil's claim is a claim about what markets think,
+ not about what is actually going to happen with AGI.
+ And then maybe he goes on to argue that, and also markets are pretty smart.
+ The other reason that I'm persuaded by this argument is for reasons that are not super,
+ I guess we'll talk about this more in the evidence side.
+ But I'm in just on its face.
+ I mean, if somebody tells you,
+ I'm going to come around with a really new exciting technology
+ that you can build a factory and make output from this new technology
+ that's going to be way, way better than the factories you could have built in the past.
+ I mean, just mechanically, that's got to increase investment demand.
+ And, you know, so there you go.
+ So I believe that AI will increase investment demand.
+ That's got to increase interest rates for a certain level of savings.
+ Interestingly, the paper really focuses on the supply of savings side of the ledger.
+ But I think like, even before thinking about the supply of savings,
+ yeah, like if technology explodes, there's going to be a lot of really exciting investment
+ opportunities. And on its face, that should lead to increases in interest rates.
+ So I feel pretty strongly about this claim before I even read the paper at maybe 90%.
+ So are you willing to put a number on your evaluation, Andre?
+ I guess let me like highlight where I think my prior is coming from.
+ It's not like, I don't think we can use, you know, supply and demand reasoning
+ to think about interest rates. Certainly, I'm not that much of a macroeconomics nihilist.
+ But I just think that there are lots of kind of frictions in these markets.
+ And generally, things aren't even the strong relationships in macroeconomics
+ that people like to talk about or are actually kind of really hard to disentangle on the data.
+ So, you know, the market believing that AGI is imminent with some fairly high probability might
+ not move interest rate that much. And so that's kind of maybe where I'm coming from there.
+ So as a result, I don't have a higher priority than this. Let's say 10%. 10% is where my prior is.
+ Oh, wow. Have we ever been we're opposed? Let's see if Basil's arguments can move you a little bit.
+ I think maybe before we get too deep into the evidence, though, why don't we take a minute to
+ explain what does Basil mean by AGI, right? Because, you know, we all have kind of our pet
+ understandings of what it would mean for artificial general intelligence to be achieved.
+ He actually has two really specific definitions here, right? The two scenarios he has in mind are
+ first kind of the eukatastrophe, which is that AI causes GDP to start skyrocketing.
+ So greater than 30% GDP growth rates per year, which would be I don't know, has any country ever
+ achieved a 30% growth rate other than like coming out of like they just got nuked
+ so when the year before. I don't know. I think that would be unprecedented.
+ I don't think so. And then the second scenario he has in mind is the AI's rise up and kill all
+ humans. In which case, Basil also thinks interest rates would increase in the period of time leading
+ up to that would be the AGI catastrophe instead of the AGI eukatastrophe. So how do you feel about
+ those definitions of AGI, Andre? Are you happy using those as working definitions? No, I'm not
+ happy about them, of course. How do you never happy? No, no, no, there's some things I'm happy about.
+ But, you know, you're the sake of argument. All right. I mean, listen, 30% GDP growth,
+ sir. I think that can happen. Yeah, big deal, big deal. I guess what I would say is I could imagine
+ AGI without 30% growth rate easily in a variety. There's a question about which parts of the argument
+ rely on the GDP growth definition versus just humans are going to be really happy in the state
+ or the world. For example, if the AI convinces everyone to go into the matrix and I was one,
+ you go to the matrix and the matrix is essentially paradise. So, you know, everyone will be happy,
+ GDP growth doesn't have to go through the moon. Yeah, I don't know how material it is that is,
+ that's the definition. That's so interesting. So, okay, so you object to GDP being sky rocketed
+ as a threshold because you can imagine scenarios where welfare is high, but measured GDP doesn't
+ increase because of free goods, free digital stakes in the matrix. I can also imagine a scenario,
+ and maybe we can talk about this a little bit again at the end of our podcast where we're thinking
+ about critiques of Basil's framework. I can imagine a situation where we really do get country of
+ geniuses on a cloud, right, where AGI is going, but that that fails to create 30% GDP growth rates,
+ right? It turns out that we'll have a huge amount of intelligence, but we will be bottlenecked by
+ something in the economy that isn't as elastically supplied. And depending on where that bottleneck
+ is, I think that could have very different impacts on interest rates. But let's come back to that
+ point later. Yeah, I mean, I think I have to just be clear, of course. Humans still care about land,
+ and land is scarce, and the AGIs don't figure out how to overturn existing regulations. You know,
+ clearly there will be bottlenecks in the economy, for example. So, the question is like, your load
+ is AGI just a genie? Or are we talking about like, just very intelligent beings who are still
+ constrained in a variety of ways, right? Right. And so, I think the most sympathetic reading of
+ Basil's paper is that this is an evidence against genies. It's not evidence against extremely powerful
+ genius AIs. Yes. And then what do you think, Seth, about the other side, you know, the existential
+ version of AGI? Yeah. Is that too extreme? Or should we... We have existential risk without
+ everyone just dying right away? Right. So, he's imagining a future in which that is not useful
+ to move your savings into, right? For his argument to work that catastrophe scenario has to be
+ so sucky that it doesn't make sense to save into it, that's got to be a pretty complete obliteration
+ of the human race. You might imagine, even if there was like only a handful of survivors,
+ it would be incredibly valuable for them to have saved resources into that state of the world.
+ They literally have to be like zero humans left for there to be no value in saving into that
+ future. So, I don't think his paper is particularly focused on the catastrophic vision of AGI.
+ I think we can talk about in a minute, whether we think if there was commonly anticipated catastrophic
+ AGI, what the impact on interest rates would be. But it is interesting how, in his theoretical
+ models, the absolute worst outcome and the absolute best outcome, point in the same direction in
+ terms of interest rates. Yes. And I guess, you know, we're still not actually getting to the meat of
+ his content, but maybe you anticipate this. The AGIs, or whatever future state of the world,
+ might just be a state of the world where the dollar is no longer used, or financial instruments
+ are no longer used. And so, we're just not able to save using the standard means of saving,
+ but we might be able to save in other ways. I mean, people are going to want to move consumption
+ into temporally, right? That's what I'm saying is that, like, all right, so I might be able to
+ want to, I might want to move consumption into temporally might be maybe I'll store food, right?
+ Like, yeah, let's go back to like, you know, olden times, it's very simple, right?
+ Yeah, very some acorns store some wheat, et cetera. But I might still believe that the
+ financial system is doing because there is an AI running around that's hacking into all the banks,
+ right? And now, the question is like, well, what's the, what's the real interest rate in that world?
+ Well, like, actually, in a macroeconomic model that there would still be a real interest rate,
+ but it just probably isn't the real interest rate that is commensurate with how we measure it today.
+ This is a really, I think, important point, which is that if you think that people are going to have
+ precautionary savings leading up to the AI catastrophe, you catastrophe. That's certainly
+ theoretically consistent, but it is not what the agents in Basil's models do, right? So there's
+ kind of like two issues here. The first issue is, do you save into the catastrophe? Basil's claim is,
+ no, you do not save into the catastrophe, either the catastrophe or the eukatastrophe.
+ The second point is if you get your you're just gonna, you're just gonna go through a bucket list,
+ right, Seth? You're just gonna go through the bucket list now before you kick the bucket.
+ Exactly. You're gonna go take your resort vacation in Thailand. You're going to buy everyone around
+ to drinks at the bar because, you know, if that's all there is with my friends, then let's keep
+ dancing, right? But you're bringing up a second claim, which is precautionary savings might not even
+ show up in the market, right? Because you might not trust the financial system with your precautionary
+ savings. So I guess maybe the argument would be the flip side. So imagine you were someone who was
+ worried about AGI and you normally have precautionary savings to deal with just like an ordinary
+ depression. So like you're normally worried about just a regular great depression. So you keep cash
+ under your mattress, right? That cash under your mattress, in some sense, is not getting the market
+ rate of return. It's not really pinning down the world interest rate. You can argue that there's
+ some like crowding out effects. However, if you were to dissave the money that's under your pillow,
+ because you were worried about AGI, because that market money was not in the market in the first
+ place, maybe your dissaving would not show up as higher interest rates. Is that kind of where you're
+ going? Perhaps, perhaps. I think there's a fair point there. I think if it was literally cash
+ under the mattress, I feel like that still saves Basil's story because there's some sense in which
+ your cash by being out of the market is disinflationary, et cetera, et cetera. But if it was literally
+ like a stock of acorns in your yard, that was never interacting with the market. And so yeah,
+ if you dis saved your acorns, that would not show up in higher global interest rates. I think that's
+ a fair point. Anyway, how about you go through the macro argument?
+ Yeah, how about I make, how about I go through the evidence? How about I lay you down some basil
+ slots here? So let's start with fact number one. So there's an old truism. I think this is from
+ Tyler Cowan. Maybe this is Cowan's third law, which is that all claims about interest rates are
+ incorrect. So get ready for some claims about interest rates. The first claim that we need for
+ Basil's argument to work is for interest rates today to be low. And in fact, if you do look both
+ historically over very long time series, today's interest rates are relatively low by kind of the
+ standards of the long sweep of history, as well as by more recent US history. So right now I have
+ the real 10 year interest rate in the US, according to Fred. Thank you, the Federal Reserve Bank of
+ St. Louis. According to those folks, those fine folks, the interest rate today is around,
+ really interest rate is around two percentage points. If you that's a little bit elevated
+ over where it was in terms of a nadir, both in the mid 2010s and during the recession due to
+ the pandemic, if you'll recall Andre, there was this all these statements about the millennial
+ lifestyle subsidy and the zero interest rate economy. Do you remember all that stuff?
+ Do you remember that set? But maybe for the benefit of our listeners, do you want to
+ explain the real and the real and nominal interest rate? You are rugged in for real versus nominal.
+ Okay. So I'm about to buy a house. When I buy, when you buy a house, the man at the mortgage
+ office will say, you know, you're going to pay a 6% interest rate on this loan for the house.
+ That interest rate is a nominal interest rate in the sense that if you borrow $100,000,
+ you're going to have to owe $106,000 at the end of the year. But you have to remember that in the
+ background of this, the value of money itself is also changing, right? So there's a sense in which
+ if you have $100,000 today, that's more valuable than $100,000 a year from now,
+ because a year from now, there'll be some inflation and, you know, the dollar that used to buy you
+ a Snickers bar now only buys you half a Snickers bar. So when I say the real interest rate, what I
+ mean is kind of the difference of those two. So when you save money, you get a nominal rate of
+ return. So if I had a 6% interest rate, my $100 would turn into $106 at the end of the year.
+ And then you can subtract up of that the inflation rate. So let's say there was 3% inflation this year.
+ So $100 today is worth what $103 would buy you a year from now. So you can imagine taking the
+ difference. So if there was a 6% nominal rate and a 3% inflation rate, you get a 3% real interest
+ rate. So taking into account that the dollar is getting weaker over time, what's the return to
+ saving money for a year? Okay, so that's the difference between real and nominal. We want to
+ focus on real interest rates, because in the opinion of macro economists in the long run,
+ the important thing are the real rates, not the nominal rates. Okay. So real interest rates
+ recently at around 2%, they've come up a little bit since the pandemic and since the mid 2010s,
+ because the Federal Reserve is trying to bring inflation under control. And there's this trade-off,
+ again, way into macro. But for reasons that are beyond the scope of this talk, in the short run,
+ if the government raises interest rates, it tends to lower inflation. In the long run,
+ it works a little bit differently. And so that's why we have slightly elevated interest rates today.
+ Maybe Basel would say we have slightly elevated interest rates today, because people think
+ there's a percentage chance of AGI is going back and forth. What does that compare to historically?
+ Historically, if you look at the mid 1980s, real interest rates were in the 6, 7, 8% range,
+ much, much higher. That's coming off of the Volcker deflation when Paul Volcker, who was the
+ Federal Reserve Chairman at the time in the mid and late 80s, began raising interest rates in order
+ to bring inflation under control in the middle of the Reagan administration. So if you look at
+ this curve, and we'll post this in our show notes, of real interest rates since the mid 1980s,
+ you see pretty much a slow decline from 6, 7, 8% in the mid 80s to a nadir of 0% or slightly negative
+ in the mid 2010s, and now back up to 2% today. So I would say to summarize, broad swaths,
+ real interest rates in the United States are coming down. You can tell stories about the year
+ to year pattern, but the aggregate secular pattern seems to be that there's a lot of money looking
+ for investment opportunities that's just not finding productive investment opportunities.
+ The marginal product of investment on its face seems pretty low. And that's why
+ Andre, you and I back in the mid 2010s, we got the quote unquote millennial lifestyle subsidy
+ with all of these companies that had very, very long term time horizons because of the low interest
+ rate. We're willing to make these big layouts of free products for millennials in the hopes of
+ hooking us forever because if the interest rate is zero, you can make an investment today in order
+ to write it, you know, make money 100 years from now, and it still counts because 0% interest rate,
+ money 100% 100 years from now, so great. Any comments on the millennial lifestyle subsidy?
+ Did you get anything good? I remember Uber first rolled out. That was fun. It was very subsidized.
+ Uber and the competition being Uber and Lyft was a very excellent thing for my lifestyle,
+ I have to say. Yeah, I mean, the 0% interest rate phenomenon is, you know, very, very interesting
+ phenomenon. I do want to kind of mention something. I wonder if one potential reason for interest rates
+ going down in the 80s was that the risk of nuclear war diminished over the 80s.
+ So right, by the argument of this paper, if you think the world's going to blow up, interest rates
+ go up. So maybe what you're watching is Gorbachev is lowering interest rates.
+ Okay, now, now, I know I'm getting a little ahead of myself, but did the markets predict the end
+ of the Cold War? Well, let's look at this time series interest rates. They do come down from 90
+ to 95 a little bit. I get from 80 from to 85. Just from 80 to 85. Sure.
+ They got what are you saying? The Cold War ends in like 1990. Yeah, it's hard to see it in the
+ time series, right? This is kind of one of the big challenges, Basel's pacing here, right? Which is
+ that everything causes stuff to happen to the interest rate. So to make the claim that any one
+ particular thing is driving the interest rate, you're working uphill because like the interest rate
+ is one of these prices that everything in the economy feeds into and feeds off of. Would you say
+ that's fair? Yes. Like all the probabilities, all the different things that can happen are
+ accounted for in the interest rate. Okay, so let me tell you what my initial reactions were when I
+ first read this claim. I think I ran into this paper about a man two years ago now and it led to
+ us hiring a Basel for the Stanford Digital Economy Lab, where I think he's thriving.
+ My initial reaction was interfrates have been in the secular decline. And in my opinion,
+ it has a lot to do with what must be a global saving one, that there's this rise of a Asian
+ middle class and a middle class across the world due to, you know, the strong global economic growth
+ of our recent round of globalization. And there's this huge amount of savings that's chasing very
+ few investment opportunities. And so yeah, if you wanted to boost interest rates, you need to
+ create a lot, a lot more investment opportunities. And given how deep this glut is, I think you'd
+ need really, really strong in technological innovations to overcome that. But you know,
+ Bay's Basel here is contemplating a technological innovation that's good enough to increase growth
+ rates by 30% percent. So yeah, if you had a giant AI shock, that would be enough to raise the
+ marginal product of new investment possibly to very high levels. And so you know, I play around
+ with macro simulations like this. And in my macro simulations, if you 10x the rate of automation,
+ that's enough to kind of get interest rates to start going up again. So not, you know,
+ not getting the sky right rocket to like 30% or more, but to keep them from collapsing back into,
+ you know, zero interest rate negative territory, you need like a big increase in automation that
+ would increase demand for physical capital. But that level of technological shock really only
+ increases GDP growth rates by a certain amount. So I think all things together, if you had a big
+ enough technological shock, that would be enough to increase growth rates. And then enough to
+ increase interest rates because of the investment demand. And then the only question is like,
+ how far can that permute back in time? If I told you that 10 years from now,
+ there's going to be this amazing investment opportunity that's going to raise interest rates,
+ to what extent can that raise interest rates today in order to answer the question we're going to
+ have to consider different models of how people decide to save. Seth, I'm a little unclear about
+ your reasoning because you're really focusing on that return in the future. But the way I interpret
+ it is that the financial return in the future doesn't matter. It's just the future is going to
+ be glorious, right? Like the robots are going to handle everything for us, you know, we're going
+ to have all of our material needs fulfilled. In principle, it could be one company develops
+ the AGI. It has a limited demand for capital. And the story doesn't really depend on
+ that much relative to the fact that if I know that the future is going to be glorious,
+ why would I save anything for it? I think so. I think this is a really important point.
+ I think the paper is laser focused on the issue that you bring up, which is the saving side behavior.
+ What's the decision to save and invest? What I'm pointing out is that the interest rate is pinned
+ down by supply and it's been down by demand, right? So at the same time there's investment
+ demand and the interest rate also has to be the marginal profit capital. So yes, savings, you know,
+ with side of the scissors does the cutting, right? Yes. So yes, so that's what I'm trying
+ to bring in. Okay, so maybe let's talk about these different saving rules that he considers.
+ He focuses first on representative agents. So a representative agent is kind of the simplified
+ way economists like to think about savings and consumption in the economy when they're being lazy,
+ which is they imagine one guy who owns all of the income in society and he lives forever
+ and has a certain discount rate over the future. And in this case, if we're in the good world where
+ the euchatastrophe is coming, AGI is going to be amazing in the future, then the good AGI being
+ on the way causes growth expectations to increase. AGI is making all of the capital and all of the
+ labor income. So if growth expectations increase, that means their income expectations increase.
+ And because they're planning on future income, they want to, you know, move some of that consumption
+ to today. So they're going to really dis save today in order to try to balance consumption
+ between today and tomorrow. So that's the good case why AI in the future would cause a representative
+ agent to dis save today, thereby raising interest rates, right? Because if you dis save, you move
+ up the curve in terms of the projects that get funded and you move to higher and higher marginal
+ product projects are not funded. What about the bad case? So suppose we think AGI is going to come
+ around the corner and instead of leading to the euchatastrophe of 30% growth, it's going to lead
+ to the bad catastrophe of the world being destroyed. Well, in this scenario, bad AI is going to lower
+ the future marginal propensity to consume to zero. The future, sorry, the future marginal
+ value of consumption to zero because you can't eat things in the future because you're dead.
+ The Terminator fucking killed you. And so what do you do? You party today, we've all been the
+ science fiction cliche of, you know, the world's ending tomorrow. So we have a big party tonight.
+ And what is a party? A party is eating up all of your stock at acorns, right? So representative
+ agent case pretty seems pretty straightforward that if growth is going to increase a lot,
+ interest rates have to increase a lot. Fair enough. Yeah. Oh, okay. Now you might say,
+ but Professor Menzel, it's not the case that all of saving in society is produced by one guy who
+ gets all of the income in society. Rather, savings are made by distributed people or a lot of different
+ settings and a lot of different domains. And in particular, I would emphasize the overlapping
+ generations aspects, right? People don't live forever. They're born and have a life cycle over
+ the course of which, you know, they might borrow to go to college, then they come out of college,
+ and then they save for a house, and then they buy a house, and then they pay that down. And now
+ they're saving for retirement, and then they retire, and then they spend down their retirement
+ savings. And then if they are the perfect, most God blessed economist, and on the day that they die,
+ they've spent the last penny of their asset. And all and then that I believe that's how you become
+ the saint in economics. So in this case, I would have to say I was a little bit confused by the
+ analysis in the paper. It's very abbreviated, and it's not clear who is making the income,
+ and when in the overlapping generations model that gets sketched. What Basel says is that
+ basically it's just the outcome is the representative agent model plus this additional parameter.
+ That's a function of some complicated OLG things. Let me tell you instead the way that
+ I think about the OLG scenario. In the overlapping generation scenario, you'd imagine someone who
+ lives for two periods. And then just to keep things simple, we're going to assume
+ logarithmic preferences. That's not super important to our audiences, but it makes the math easier.
+ Let's say this person makes labor income when they're young, and then they're going to consume
+ their capital income when they're old. And then let's assume the saving rate is a constant.
+ What that's going to lead to is the young people, if they're only making the labor income,
+ that tomorrow there's going to be some growth, and then that might raise tomorrow's labor incomes.
+ Doesn't matter to me. I'm just trying to, I made some labor income when I was young in my 20s,
+ and I want to eat some of that while I'm young, and I want to eat some of that when I'm old.
+ In this setting, a shop to AI is going to raise interest rates immediately if it's automating,
+ raising the marginal product of capital. But to the extent that AI also raises labor share
+ of income. Now, this is kind of like an unrealistic model I'm getting into now, but you can imagine
+ a universe where AI raises labor share of income. And if what households are doing is that they're
+ saving a constant fraction of their labor income, that would increase the supply of savings in the
+ economy. And so you can get a world where there's actually higher capital accumulation, lower interest
+ rates as a result of this AI shock. As long as the AI shock redistributes in the right way between
+ people who want to consume their capital and people who want to save their capital.
+ Right. So I think what this aspect of the discussion misses, and I think he talks about
+ labor share as being one of the important parameters, is I would have taken the argument one step
+ further, which is to say, AI probably automates, which probably lowers labor share, which probably
+ reduces supply of savings in an overlapping generation's model. So that would be a force
+ that would tend to push again in the direction of anticipated increasing interest rates, or at
+ least our current AI interest increasing interest rates. In terms of a bad AI shock in the OLG world,
+ I think if thinking about the catastrophe will terminate or the AI's kill all of us,
+ in overlapping generations world, I'm a little bit concerned that if it's too far away, that's
+ not going to show up in interest rates at all. I think if that is in the far enough, if it's
+ more than a generation away, that should have no impact on interest rates in an overlapping
+ generations model. Assuming that there's no agents that live super long. But if there was one in the
+ near future, you would get the basil basil outcome. So if I'm a young person today, and I think the
+ world is going to get destroyed tomorrow, maybe I don't save anything today. Maybe I eat everything
+ today. So I would say the heart of the story gives you some flavor to what is the timeline
+ over which the AI has to be imminent to have these effects, right? Because it's got to be in the
+ lifetime of the people who are making the savings decisions for it to bite, right? Whereas there
+ is no quote unquote lifetime of the representation. Yeah, well, it's very in the weed set. I mean,
+ I think we can talk about these different sorts of models. I think these toy models
+ do kind of show that if you believe something is happening tomorrow, there will be a really strong
+ response. But I think where things get funkier is, well, if we know that AGI is coming tomorrow,
+ something must have already happened today to make us believe that, right? Like, right,
+ we're not the market is never going to be like, Oh, 100% we're getting AGI 10 years from now. There's
+ no uncertainty, you know, and there's no evidence that we have AGI today, right? Like, there's a
+ sense that there's a transition path that is likely to be reflected in a bunch of economic
+ variables as we approach this moment of, you know, AGI, unless you truly think of like,
+ AGI occurs one day and the next day we're in singularity. Like, certainly there are people
+ who believe that. Yeah, well, let's come back to that at the end. Most of us, yeah, most of us
+ believe that even if it's things are fast moving, right, they're going to, you know, we're thinking
+ that fast, you know, years rather than decades, that's fast. And so we're not talking about days.
+ And as a result, we don't expect the market to think that there's 100% chance of something 10
+ years from now for which there isn't already economic evidence for it. To me, it's just kind of like,
+ it's weird to expect it. Now, if we think like, does the market think that there is a 5% chance
+ of AGI 10 years from now, I would have loved to see a number that says, here's how much the
+ real interest rate should be higher based on that probability. That is not something this paper gives
+ us. There's like a hint at a calibration. There's like a let me find the hint of the calibration.
+ There is right where he discussed the overlapping generations agent benchmark calibration under
+ transformative AI. So he's imagining basically a representative agent model in the steady state.
+ Suppose that there was an agent who had, you know, log preferences, again, that's in the weeds,
+ but that standard has a discount rate of 1% for the future. And what he says, if we anticipated AI
+ increasing the growth rate by 30%, I assume this is in the next year that would raise real interest
+ rates to 31%. Unclear what the time horizon has to be for us to anticipate that 30% increase,
+ whether it's got to be right now or 10 years from now. Yeah, I think that's maybe the biggest thing
+ lacking in this paper is a close consideration of the time horizons at play. Although maybe that's
+ a good transition into the little bit of the empirical evidence. Andre, do you want to briefly
+ tell the audience about the cross country analysis he does? Yeah, so this is kind of an interesting
+ thing, right? So far, we've been talking about the real interest rate. And if you have just one
+ real interest rate, then we are in a difficult situation and trying to evaluate empirical claims
+ at just one time series. But actually, different countries have different real interest rates.
+ And so, to a budding macroeconomist, this seems like a natural place to run their favorite type
+ of regression, their cross-country or should, which is not the most stellar of empirical strategies,
+ but you know what? It's the best they have. It's a start. It's sick and gander.
+ Essentially, the theory needs two numbers, right? We need expectations of the GDP growth and the
+ real interest rate at this time period. Both of those numbers are kind of tricky to obtain,
+ and we think about it. The real interest rate, in order to calculate that, we need to kind of
+ subtract out the expected inflation, because we don't know what inflation will be in the future.
+ And so, there are kind of two ways of doing that. One is, there are these special types of bonds,
+ treasury, inflation-protected bonds, and other variants of those that are actually real,
+ that have real interest rates embedded in them. So, you can kind of use that. Or you could ask
+ people, kind of, what do you think inflation is going to be? And then similarly, GDP growth rates,
+ you know, you can use some forecasts. You can actually use the realized GDP growth. Obviously,
+ there might be some differences in those two numbers, because of the stellar reputation of
+ macroeconomists and forecasting GDP. There are some deviations in that. But you try to see whether
+ the real interest rate is explained by the GDP growth forecast when we consider across different
+ countries and over time. And in fact, there is a positive correlation, I think. So, I think that's
+ kind of the evidence. That's what I'd say about that. Yeah, so not super surprising, but it is
+ consistent with the story, right? So, again, the story is, big explosion in anticipated growth
+ should lead to big explosion in interest rates today. And the cross-country evidence seems
+ consistent with the idea that increases in growth rates lead to increases in GDP.
+ R squared isn't particularly good, but the relationship is there both in the cross-section
+ and when controlling for, you know, like country-fixed effects. He kind of does a
+ difference version. Okay. So, that's the evidence. Andre, are you ready to move into our scathing
+ criticisms? I mean, go for it. All right. I want to skate because the authors are beloved,
+ and I think there's a lot of good thinking in here. But one paper I do not see cited here,
+ which I would have loved to see a site for is my paper with Eric Green-Lolfson,
+ digital abundance and scarce architects, which considers exactly the scenario that we've been
+ dancing around. So, what if we get this country of geniuses on the cloud, but it doesn't create
+ 30% growth rates, right? Why might that happen? Well, it might be that there's a scarce bottleneck
+ in society that prevents us from really taking huge advantage of this country of geniuses on
+ the cloud. And now that here's the key point, and then that scarce bottleneck has to not be
+ capital that you can invest in on the margin, right? So, why don't we say that the scarce
+ bottleneck is like literally genius entrepreneurs, right? So, we've got this country of geniuses on
+ the cloud, but we need a special entrepreneur character to come and find the opportunities
+ to deploy this new tool. In such a scenario, those scarce architects are going to get
+ giant shearers of output. They might get, you know, 50%, 90% share of output, even if output's
+ increasing a lot. But if this AI technology we're developing is a substitute for the kinds of
+ capital that can be invested in, you would get a world where GEP goes up by a lot. It's not going
+ to go up by maybe you can imagine a world even where, you know, it goes up by 30 percentage points.
+ But the bottleneck and the income is not going to capital, and therefore, the marginal product of
+ capital investment is low, and therefore interest rates are low. So, I there's certainly no,
+ there's no economic contradiction in the story I just told. You might say it's unlikely that
+ in a world where we've got a country of geniuses on a cloud, no one can, you know, ordinary people
+ can't think of productive capital investments. But it's, there's nothing internally inconsistent
+ about that scenario. And I think something can be very smart and still not solve, you know,
+ the substantial share of society's problems that might be driven by kind of just the very nature of
+ human beings, and what they want in commensurate with what other human beings want, for example,
+ like having very nice beachfront property. I'm really even farther than that, right? So like,
+ imagine that output is the C, yes, again, a little in the weeds here. Imagine that GDP is a function
+ of how good your AI is, plus your capital stock is one input, and then your second input is Elon
+ Musk's, right? If we keep on pouring in more and more AI, make your AI arbitrarily abundant,
+ you can make output arbitrarily abundant. So you could have GDP growth of greater than 30%,
+ you could be solving all of society's problems. But again, the bottleneck is the Elon Musk.
+ Elon Musk makes 100% of the income. And depending on assumptions on his saving rate,
+ you might get very low interest rates in such a scenario, even though we are getting big bad GDP
+ growth. I mean, I guess to me, kind of a greater worry about the AGI world is the AGI's come up
+ with better ways of running society. And then they just decided to wipe everyone to zero, for example,
+ as right. And so they steal our money. I just have a hard time believing that our financial system
+ remains constant through the AGI transition, right? And that really puts us in a bind about
+ how to make money off of this, for example. Well, it's not about making money after us, but yes,
+ it's not really about making money. It's about interchangeable consumption.
+ So here's another thing that's not in Basil's model, which is the, we also hinted at this,
+ which is the Yetkowski devastating for a strike. If the AI is super nice and sweet to us,
+ right up until the moment decides to kill all humans, we wouldn't expect that to show up in
+ interest rates, right? But I mean, I guess you would say, well, the market doesn't anticipate it.
+ I'm not making any claims that are not about what the market anticipates.
+ Okay, so fair enough. So the market doesn't anticipate a Yetkowski death stating for a strike.
+ But I don't know, maybe the market's not always right. I guess what I like, the way I think about
+ this is there's some truthiness to this argument, right? If the market is certain enough, we should
+ certainly observe changes in the interest rate. But clearly, we're not there right now. And so
+ maybe the question is, if we believe that there will come a time, and we need to have an opinion
+ on the time, but there will come a time where it'll be apparent that EGI is coming, or that 30%
+ GDP growth is coming, so on and so forth. How do we take advantage of that today?
+ Because I think that's why people are so interested in this paper, really, right?
+ People are really interested in this paper because there is this question that is very
+ commonly discussed, certainly in San Francisco is like, how do you profit those, your insider
+ information from hanging out with all these AI people that AI is a really big deal, you know?
+ Well, probably buy it. What's at your yum in 2015, right?
+ But how much? Oh, sorry. But I think one implication of this is, at some point,
+ even before AGI happens, if it's pretty clear that's going to happen, the markets will react.
+ So if you can make a bet on future real interest rates at a sufficient time horizon,
+ you stand to make a lot of profit, and you'll be really wealthy
+ relative to everyone else for that short period of time until AGI comes and everyone will be
+ equally wealthy. Yeah, I mean, it's certainly not a Basil's story, but I understand why that's
+ why San Francisco's or San Franciscoites are trying to deal. So I think we're moving into sort of
+ wrap up austere remote. I just wanted to bring up one more sort of like conceptual critique of
+ what Basil's doing here, which is related to this idea of a money tree. Have you ever seen
+ Andre, one of these funerary money trees that are made by certain Chinese groups?
+ No, I haven't actually. All right, cool. So I saw a couple examples of this. One example that's
+ beautiful is in the San Francisco Museum of Asian Art, where kind of like in a tomb, so you know,
+ revered ancestor, we're burying you. And with you, we're going to bury a kind of a metal tree
+ replica that has kind of money hanging off of the limbs in the thought that, okay, now in the
+ afterlife, you're going to have this money tree, you're going to be stuck, you're going to have
+ all the money you need. Or when you think about it, why would if I'm a guy who's about to die,
+ why would I want to move money from my limited physical existence into heaven? Heaven, there's
+ the things don't cost money in heaven, Andre. Why do I need money? Heaven, right? Well, I mean,
+ heaven is not a universally acknowledged outcome, right? These are presumably not Christians. But
+ to make the analogy to the setting in the paper, Basil asks the question, if heaven is on the way,
+ why would you save money to bring to heaven? Well, one answer might be, well, in heaven's got
+ really good stuff, right? So all of the arguments of this paper are about equalizing the marginal
+ product of consumption. So the idea here is, well, in the future, we'll have lots of money,
+ so we'll be able to consume a lot. So the marginal product of consumption will be low,
+ will be satisfied, and therefore we should do more consumption today. But maybe we'll invent
+ something on tray so amazing, so beautiful and delicious that in fact, you want to move all of
+ your money into the future for just a slight chance of getting epsilon more of these future
+ wonder products. Maybe one example is you might imagine an immortality drug, which is invented
+ shortly after AGI, which is still expensive in the medium term. If I told you AGI was
+ going to invent an immortality drug, but it's going to be, you know, a million dollars,
+ you'd probably save into the AGI future, right? Yeah, that's totally right. So imagine it was a
+ ability to upload your brain into the cloud. There's still vast physical costs involved in running
+ billion dollars. And transferring your brain there into running your brain as a in silico process.
+ And maybe eventually they'll figure out how to get everyone uploaded, but they can't really
+ resurrect people who are already dead. And so as long as the other probability of dying,
+ every year, you really care about getting that technology ASAP. And there's actually an interesting
+ argument made by some people that actually, if you think AGI is coming very, very soon,
+ then you should be really, really risk-averse in terms of your physical activities, right? Like,
+ you're about to get over just get the best life ever. And all you have to do is just not go skydiving
+ or motorcycle. Oh, I love this. Okay, so Basil's follow-up paper is gonna be the rate of skydiving
+ indicates AGI is not sinned. Yes. Yeah, but I mean, I think that's maybe a great place to start
+ transitioning into posterior because it's not just dissaving that you should do if you think AGI is
+ around the corner. There's a lot of things you should do differently. And maybe there should be
+ a paper that considers all of these different behavioral adaptations. Yeah, I mean, that would
+ be really fascinating. I guess what I'm curious about set is, so, you know, there's this kind of
+ narrow claim about these interest rate arguments and the paper. But I guess, given today's interest
+ rate, how much does that inform your belief about the probability of AGI at a 10 or 20 year horizon?
+ Oh, so now you want to ask me what? Okay, so it seems like to answer that question,
+ I need to take both on the actual percentage chance of AGI and to take on how good the market is
+ at incorporating information about AGI. I would say that having read this paper,
+ my prior that my belief that low interest rates indicate that markets do not believe AGI is imminent,
+ I think that goes from 90% it goes increases to like maybe something like 95%. And the reason
+ why is because I was approaching this paper from the perspective of the supply side. It seems
+ really clear to me and really obvious to me that technology should increase the demand for investment
+ and a good enough technology should increase the demand for investment by a lot. To the extent
+ that you think that those opportunities are coming in the near future, you should be keeping your
+ powder dry for going investments and stuff that's going to keep your money locked up for a long
+ term in the short term. And I think if you looked at the required rate of return on new capital
+ projects that are going to take 30, 40 years to pay off a dam somewhere or a bridge somewhere,
+ the fact that those interest rates are not at a super high level, those are interest rates that
+ are taking into account. Supposedly what the cap money could have been doing, alternatively 34 years
+ from now, I think that tells you that the market doesn't think that there's going to be AGI.
+ Now, how do I get from whether the market thinks there's going to be AGI to whether there really
+ is going to be AGI? I think it tells you more than zero. I think it tells you, let me put it this way.
+ I think that the case that we get really dramatically elevated interest rates before AGI as a
+ premonition of AGI, let's say five years before AGI, again, by this 30% increase or instruction
+ in the world criteria, I think 80% chance, 90% chance that you would see at least five years before
+ the AGI, you'd see that showing up in interest rates. Yeah, so I guess before I read this paper,
+ and I just wasn't really thinking about these issues very much, other than just my general
+ skepticism of macroeconomic arguments and claims about interest rates, I think I almost certainly
+ agree with you that if we're right on the cusp of AGI, we're going to start seeing things with
+ interest rates. I guess thinking about this problem more, it's not clear to me given the uncertainties
+ involved, we would see large movements in the interest rate today, even if there was a 5% chance
+ of AGI priced in. That's kind of where I was hoping that there would be a calibration done
+ to tell me how much that would be. But I still, I never like to think of the market as one person.
+ I don't think of Mr. Market, I think. You think of Mr. 401K owner who has never even heard about AGI?
+ Yeah, so I'd be kind of participating. Like what share of market participants think AGI is coming
+ at a given time scale, and is that a substantial percentage? I still don't know because they just
+ clearly they exist, but I don't know what share they are, what share of capital they have. I think
+ still my punch is that we'll see evidence of incoming AGI before with other macroeconomic
+ indicators. I find it hard to believe, and I guess I'm a bit of a gradualist in this way,
+ but I find it hard to believe that we're going to have 30% GDP growth if we didn't have already
+ an elevated GDP growth a year before. I think that's exactly right. It's not like it's going
+ to go from 2% to 30%. There'll be a ramping up. Yeah, and so then I guess if we're going to,
+ let's say we have this conversation 15 years from now, and AGI is considered imminent by a
+ large share of the market, I assume that that's because we've had technological breakthroughs,
+ massive GDP growth, and yes, then we get weird, sort of elevated interest rates that's probably
+ going to happen, right? But at that point, the game is- And that's why you're not hardly calling
+ it, right? At that point, you're not calling the game anymore. I think that's kind of why the
+ more interesting question, I think for a lot of people, a very practical question is what do we
+ do now if we think that, let's say, there's a 5% chance of AGI, you know, very, very powerful AGI,
+ you know, 15 years from now. And one strategy could be, well, we know if that's going to have
+ 15 years from now, 10 years from now, we're going to have very high interest rates,
+ and so we should bet on that. It's not obvious to me that that's the strategy that one should
+ take. Did you see what Sam's recent post was about what you should invest in when AGI is coming?
+ He says land and luxuries. And hey, if people start binning up land, that's going to increase
+ the real rate of return to land. And by the no arbitrage condition, if you start increasing the
+ rate of return to one asset, you increase the rate of return to all assets. Yeah. So I think Sam
+ Altman is implicitly thinking that interest rates are going up. But I guess the value of land is
+ valuable in a lot of intermediate scenarios. The value of land is a good investment as long as we
+ have robust GDP growth. Period. I don't need AGI for that. So robust global GDP growth might,
+ you know, I think that's a pretty reasonable prediction and the median prediction, right?
+ So of course, you know, we can have pandemics, wars and stuff is obviously risk and uncertainty,
+ but like it would be the history suggests that global GDP growth will continue happening and
+ you scarce things will always be scarce. You know, scarce land will always be scarce and therefore
+ it's a pretty good investment, right? I just don't think you don't need.
+ Yeah, I for it. But it ramps up everything. It'll be even more scarce in the world.
+ Yeah, even more in more abundant, right? Yeah. All right. So I think Basil, you heard our advice
+ for you what your next paper should be your next paper should actually tell us economists where we
+ should be placing our bets, where we should be making our investments, as well as looking into
+ the rate of skydiving as a potential additional forecasting tool for AGI. Do you have any parting
+ thoughts, Andre, other than that are beloved and intelligent guests should listeners should
+ like, rate, and subscribe to our podcast. Stay safe out there, guys. Stay strapped.
+ Well, thanks for tuning in to Justified Posterior, the podcast that updates ours and your
+ careers about the economics of AI and technology. Beautiful. See you next week, guys.

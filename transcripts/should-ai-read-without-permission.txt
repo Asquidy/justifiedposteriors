@@ -1,0 +1,543 @@
+ Welcome to the Justify Pascaria's podcast, the podcast that obeyed beliefs about the economics
+ AI and technology. I'm Seth Benzel, a reader of many books, which I do not remember in detail,
+ coming to you from sunny Southern California at Chapman University.
+ And I'm Andre Fracken, trying to determine whether reading Moscow-L Winston-Green
+ has resulted in me having a higher closure score in economics,
+ coming to you from Berkeley, California. Oh, wonderful to have you out here in California,
+ Andre. Is this a longer term appearance? Yeah, listeners, I will be based out of California
+ for at least the next year. So if you want to talk about economics, AI, and anything in between,
+ do feel free to reach out. Amazing, amazing. We're talking about... What are we talking about today?
+ Well, so a lot of my friends who are writers are anxious about AI for a couple of different
+ reasons. So one reason they're anxious is, well, AI just read everything. We'll write everything,
+ and there's no going to be no advantage for writers. And then a concern is something like
+ the following, right, which is, you know, Andre, you and I and all these great writers put all of
+ this great effort into carefully crafting ideas, writing it down beautifully. And then he's always
+ come around, read everything, suck everything up, don't pay us any copyright, don't pay us any fee
+ for that, and then just spit out the final answer people want. And the concern there is, you know,
+ partly about incentive alignment, partly kind of a moral concern that our writers getting
+ compensated fairly for the information that they're putting into training AI.
+ Yeah, it's a live issue, Seth. There have been numerous lawsuits about this, including
+ against anthropic and against meta. And in addition, there have also been various licensing deals
+ related to this that have been publicly announced over the past few years. And so, so it's really
+ kind of a ripe area for study. And today we are going to cover a paper that is by a friend of the
+ show, Abhishek Nagarash, and his co-author Stella Jha called Blows Encounters, the impact of pirated
+ data access on LLM performance. And the kind of broad topic of this paper is kind of addressing
+ one part of that bigger set of questions that we mentioned, which was, let's say you trade
+ something on a book. Is the model actually memorizing the book? Or does it even need to be
+ trained on the book to memorize the book? Maybe it has, you know, information about the book from
+ other sources, let's say blog posts and alike. And it's kind of doesn't even need to be trained on
+ the actual text of the book to do a good job of understanding it. So this is kind of a paper that
+ addresses this question, the information in the average book. Yeah, yeah. But, you know, before we
+ get into the specifics of the paper, let's talk about our priors. Okay. So, so here's the narrow
+ question. So the setting that we're going to be looking at Andre is this data set called book three.
+ So book three is a collection of pirated books. Obviously, if you're an AI training expert training
+ a giant model, this is for you. Of course, you want this. This is great validated text with
+ information in it. Of course, you want to train your models with it. And there's been this
+ accusation that several famous open source and closed source model have trained themselves
+ on this pirated data, which has gotten the authors involved in the data sets very upset.
+ And so let's just talk about that particular pirated data set. How important do we think that
+ was in improving models that were trained on its and the narrow measure we're going to be
+ looking at is this idea called closure of proper names. So closure is we're going to give you this
+ text with like some text blocked out. Can the AI fill in that text? And we'll select texts that
+ were selected from this corpus, you know, books. Question is how much better is the AI at filling
+ in missing proper names from texts when we go from books that we don't think we're pirated on this
+ available data set to get trained on versus other copyright books that would not have been in this
+ data. So it's a pretty narrow measure of quality. Like ideally, we would want like how much better
+ does this book make the model and we'll return to that question in a second. But in this data set,
+ we're asking about this closure question. How much better does it get at filling in proper names
+ that are missing? Andre, do you mind if I give you an example? Go for it. Okay, so Andre, imagine
+ the following experiment somebody came up to you and asked you the following. I want to give you a
+ quote from a book with a name proper name missing. Can you fill it in? It is our choices blank
+ that show that we truly are for far more than our abilities. I feel like I should know this.
+ No, it's not. It's not a particularly using one. It's that's Harry Harry Potter. It's a Harry
+ Potter quid. Oh, well, I definitely, you know, depend myself. I have never read Harry Potter.
+ So I would not be expected to fulfill this. But how would you understand modern rationalism
+ without having read Harry Potter? Well, you know, what's interesting is I did read the Wikipedia
+ because they, you know, that felt like an efficient way to summarize the story. But that does mean
+ that I missed the quotes. There you go. Oh, perfect. Perfect. All right. So Andre is the exact
+ example that we're interested in, like how much better will it worse at understanding Harry Potter
+ is Andre having just read the Wikipedia summary versus someone who has read the entire book.
+ And now we're going to ask that question instead of for Andre for the AI.
+ So Andre, how do you much better? Do you think the AI would have got if it had read the book?
+ So I took my problems like it would do like 50% better at the at the closure task because it does
+ seem that like, yes, though, the Wikipedia would get me the high level plot overviews and my major
+ characters. But it's still true that the specific textual insertions, textual, the details of those
+ quotes would be hard to get without reading the thing. Or so what we see, or so it would see,
+ and so or so it would seem or so. But there's also this other thing lingering in the background
+ is like, how well do the models memorize and text, right? Because if they don't memorize,
+ it takes very well, then it doesn't matter because they're just not going to be that good.
+ Well, we do and we do know models memorize sometimes, and you can give, you know, these neural nets,
+ just like random stringles of digits. And if you've set it up the right way, they shouldn't
+ memorize. I don't know to what extent RLHF kind of beats the memorization out of them. That's
+ something we can come back to. Well, no, no, but it's not it's set. It's you can find examples,
+ but actually like, no, no one says that it like fully memorizes text. So I don't, I,
+ of course it doesn't fully memorize, but there's a sense in which but I guess memoriturize.
+ Yeah, but I guess what I'm saying is that, yes, even if you can find pieces of text that it can spit
+ out, it may be as memorized a very tiny portion of the overall corporate. I mean, there are separate
+ papers on this that I haven't read those papers, but memorization, my sense is closer to zero,
+ the closer to one. Very interesting. So my sense coming into this book and into this paper,
+ and you know, obviously this papers can provide a sense of evidence was kind of the opposite,
+ right? That actually these models, when you think about the over parameterization regime,
+ in, you know, some of these AI models, you in some sense have more parameters than you have data.
+ And there's a sense in which you would memorize. And then a lot of the neural nets is about kind
+ of backing away from that and trying to understand the patterns of that you're not memorizing. So I
+ was actually going to come in thinking that maybe they would be pretty decent at memorizing this context.
+ But yeah, I would say that, you know, in the, since this is not like a better,
+ like a main prior, you know, what are the useful things that they measured is this
+ memorization score, essentially the closure, the closure score. And it is on the order of, I'd
+ say, 10, 10% success, right? So it's very far from full measure, which I mean, you know, and we'll
+ talk more about this in our past year, if I was very surprised by it, I was thinking we would,
+ if I was thinking that you had read this block, if this AI had read this book, it was going to do
+ better than one in 10 for the person speaking. One thing we should also maybe caveat, and I don't
+ want to get dogged down into caveats too early, is that these are nonfiction books. And that makes
+ this a little bit complicated to talk about, because all of the examples in the paper are fiction
+ examples, and kind of all the natural examples are fiction examples. But most of the corpus we're
+ talking about are not fiction books. So for what it's worth.
+ Right, but give me a number. It's, it's, it's, well, I already gave it it's 50. I probably are
+ coming in before reading it was, I would increase it a lot by about 50%. 50 percentage points.
+ 50%. 50%. But it would double the successor. That was, that was my problem.
+ I, I both those this activity. Sorry, not double, not double, but sorry. 50% more, excuse me.
+ I, I thought it would have the failure rate, but I imagine there would be a much smaller failure rate.
+ So I was thinking, going into this, maybe that would do about 50 50 on memorization on this
+ memorization task, this closure task, and that maybe having the book in its data set would bring
+ it up to 75%. That's, that's where I was coming in at. Okay. Or maybe, you know, going from a
+ quarter to going to like a little bit about 50%. Okay, cool. But now let's zoom out a little bit
+ because who cares about a AI's model ability to recognize a particular name? What we care about
+ is how much better does the model get what it reads the book? How much more useful for productivity
+ does it get? Do you have a sense there coming in of this, Andre? Yeah, I mean, this is, you know,
+ hard to quantify. My sense is that the entire corpus of all books is very valuable for
+ model training, right? There's a reason why all the major companies are potentially breaking the law
+ and training on these gigantic or by, where's the corpus inside of? I don't even know.
+ But I guess, you know, on a narrower one about books three specifically, I mean, it does.
+ It is a huge corpus, but I guess there are other, there are other ones. So maybe that seems a lot
+ some, you know, as, as with a lot of things, right? Like the, you expect, you expect diminishing
+ your marginal returns to additional core, core pie.
+ You should definitely expect diminishing marginal returns to keep going.
+ I guess here's, here's another question. Like let's say we had like some metric of model quality,
+ maybe like user satisfaction with the answer. Arena score.
+ Or, well, arena score is relative to other models. So that is definitely not going to work,
+ Seth. We need, we need a non-relative score. Okay. Maybe what I would say is not that much
+ because compared to all the data that it's trained on, it's still a tiny portion, right? So,
+ so like, I haven't done the numbers, but I would be surprised if it's more than, you know, a percent
+ or something better as a result of these books. And just because the internet is so much bigger
+ than these books. And, you know, that, and, you know, there's a lot of redundancy on some stuff.
+ Okay. So let me, let's see if I can summarize any answer. This corpus that we're talking about
+ is probably less than 1%. It's well less than 1% of the total corpus that this is getting trained
+ on this way whenever I 10th of the percent or 100th of the percent. And your claim has given
+ everything else. It should still punch. Even though this is a really nice data set, type all to be
+ work written by top nonfiction authors, you would still argue that diminishing marginal returns
+ should be more powerful than this would be a particular good data. Yeah. That seems right to me.
+ Okay. Because there's other good data. If we talked about the entire set of all books,
+ then I would be, I think that that's way more important now. Okay. Especially like textbooks,
+ you know, that's sorry. Yeah. But that's the thing is that all of when we get into nonfiction,
+ there seems to be extreme amounts of redundancy for the important stuff, right? Yeah. Yeah. You
+ know, you don't need to read Isaac Newton to, you know, know the law of gravity. That's been
+ down in several different places. But it says, how can you call yourself an economist if you haven't
+ read that account on my shelf? No, I moved it to the downstairs place shelf. You don't need to read
+ it. You don't need to read it. Just need it on your bookshelf. No, I see your point, right? So like,
+ what would you actually learn as a human by reading Das Kapital that you wouldn't be able to get out
+ of reading summaries of Marxist thought? What you can get is maybe you get you get little,
+ you get senses of terms of phrase, you get a sense of how details come together in a way that
+ might be skewed in a more of a summarized document. It does seem to, but I guess that's
+ where I keep on coming back to, which is and Das Kapital is even not even closer to the fiction.
+ That's closer to the fiction and the nonfiction and in the sense that it is kind of like original
+ ideological thought rather than it is, I am now working through a paradigm that somebody else did
+ that anybody else could work through the same details, right? So I guess what I would say is to
+ answer the question for me, how much better does access to book three make models overall? And I
+ like your framing of, is it going to be punching above its weight or punching below its weight
+ in terms of percentage of the corpus? If we think of it as the marginal piece of information,
+ I think in terms of nonfiction, it kind of passed a punch below its weight because nonfiction
+ like plugs into the rest of reality and like, but in some sense, you should be able to figure that
+ out. I might have a different stance about fiction, right? Fiction, it might be that you understand
+ fiction more and more as you read everything else that has been and you can't predict fiction
+ in any way from everything else that has been. So in some sense, it might punch above its weight,
+ at least in terms of closure, maybe not in terms of like how quality improvement is this model.
+ So maybe fiction would also be below the weight because we think fiction is less useful than
+ nonfiction. But I guess the last last thing I would say is my sense is that information in terms
+ of usefulness to models is not like normally distributed. It's like a very power law distributed.
+ There's gonna be some heavy tail out there where this book reads one thing, where the AI reads
+ one thing and it's gonna be really, really, really important. And that might not be in every book,
+ that might not be in every 10 books. There might be every 100 books, it finds a really important
+ fact that's gonna be super useful. But it's not even clear that you could understand that without
+ a giant dataset. Yeah, yeah. I mean, it is a fascinating question that I'm sure people at the
+ labs are spending a lot of time thinking about, right, which what is the piece of training data
+ that is being very influential on the model versus training data that is not. But it also
+ does blend kind of this, you know, that's kind of, you can frame it as a very narrow computer science
+ question, you can frame it a little more of an economics question. Right, I know one thing I'll
+ say there is what you get into social usefulness, it becomes a question. Yes, yeah. And I think the
+ third kind of prior that we should say it is like tying this to policy. And in terms of the use of
+ work, there are four criteria that determine whether there's something in their use of a work,
+ whether you're allowed to let's say you use something like a piece of text for your own purposes,
+ what is, are you transforming before we go into why why is it important whether something's fair
+ use your for audience? Oh, well, because if it's not fair use, then it's illegal to use it. And if
+ it is fair use, then can do you can use it essentially. And essentially, whether one of these or I
+ have to do all of these. No, we'll we'll focus on one specific one, but I just want to lay them
+ out right now. Please, what is whether you're transforming the work? To me, this is kind of
+ pretty clear that the lm is transforming the work. It's very rarely is it actually used in a way that
+ people are reading the book through the lm nature of the copy, you know, a nature of the
+ copyrighted work, the amount of the work that's taken in terms of quantity and quality. And then
+ the one I want to focus on is the effect on the potential market, right? This is where the incentives
+ come in. So, you know, if we're gonna, if let's say one of us happens to be writing
+ a book and, you know, after they write the book, everyone just uses the lm instead of reading
+ the book, that might be a problem for the revenues of the book. And it might disincentivize
+ set person from writing the book in the first place. So that's what we're really worried about,
+ right? It's of what is the incentive to create these works if they're just going to be stolen.
+ And this is kind of a, this is such an old debate about various technologies. I can, I'm old enough
+ to remember when various piracy technologies were very controversial with regards to all sorts of
+ media, right? So this is kind of a similar debate, but of course, our lives are very different
+ technology. Right, because the LLMs are by default transformative, whereas straight up piracy is
+ transformative. Yeah, yeah. So, so said, you know, what is your prior on whether training
+ a model on this work, essentially is harming the writers of that, that work.
+ Right. So, or is it helping them even? It's it helping them? Yeah. So right. There are two
+ margins here. There's like them. There's the margin of, you know, the AI has been trained
+ on everything. And now I'm the marginal person that the AI is getting trained on. And then there's
+ a question of like, in a world with the versus without God, and is the writer doing better?
+ Right. And honestly, I have to bring kind of two very different sets of tools to bring those
+ two answers. The kind of the micro question of, would I want if I had complete control over it,
+ you know, and I'm working on a popular science book, do I want the AI to have read that book?
+ So as to be able to answer questions, you know, in my voice with my ideas, but, you know, not give
+ me any credit at all. Then when I say it that way, it's really bad fun. But you know, on the other
+ hand, that's just kind of like how we've always assumed ideas work is that people can take your
+ ideas without citing you is considered bad practice, but whatever. I guess my intuition is at the margin.
+ AI reading my book is probably harming me as a creator, margin margin, because there are details
+ that otherwise you'd have to buy my book to get. And just knowing my book exists. And if somebody
+ asked a question of the AI, are there any books on this subject, the AI would be able to say,
+ Oh, try this book by Seth, and wouldn't be able to get away with the details, right? That things
+ kind of like the ideal situation, right? So I would suspect, well, what do we have to be a
+ royalty? It could be a royalty, right? You know, instead of like, let's say every time the book
+ is cited by the LM, you get a you get a little wealthy. I don't know how much though. Right. Well,
+ so that's the social question, right? The social question is, do we want to implement a system like
+ that? I would going into reading this essay, I would say I was maybe like, one third, we should
+ move into a regime where there's automated AI compensation for, you know, news articles or
+ books that they read, and maybe two thirds like don't do that, you know, business as usual.
+ That's I guess that's how I would address the social question. And at the individual level,
+ I would I would assume that the margin is hurting the guy. And if you want to do the macro question,
+ now he's got to multiply with the effective AI on everything. And probably the economic growth
+ is good enough to help everybody. Distortitional questions are mostly going to be driven by
+ this policy. Certainly, there's certain there's certain book authors that will produce fewer books
+ as a result of LM's. I think, yeah, right now, I guess my prior, I guess this is is that I mean,
+ they're on the on the margin on average, it should hurt authors a little bit. But that's
+ masking potentially quite a bit of heterogeneity. Yeah, pretty average an idea. Like here's here's
+ here's a hypothetical for you, sir. Please, let's say that a key way in which professors make money
+ from writing books is by giving talks. Let's say that it, you know, the LM has been trained on your
+ work, then it's more likely to reference your name, what people are asking for suggestions
+ for experts on a particular topic. It's true. Yeah, it would be. And perhaps that you, you too,
+ can be invited into the hallowed hallways of Fortune 500 corporations to tell them about the
+ increasing importance of a power loss per se. Yeah, power law probability distributions.
+ I don't know if people heard about this. I mean, yeah, like you say, it could help some people,
+ you can tell stories like that that, you know, there's an average effect and then there's going
+ to be a lot of variance. Yeah. But in general, we might move to a world group with fewer,
+ just fewer people writing books, you know, that could just be that's the macro thing. And I think
+ there's an income effect also. You're thinking of the substitution of that. Well, yeah, so that's
+ a book. It could could be a consumption. I mean, it's simply used to use similar effect in music,
+ right? Like, you know, if we look at the raw number of people making music now, I think it's
+ certainly way higher than it was 20 years ago. But the distribution of income from music is
+ very different. So they'll put it. Okay, so cool. So let's let's get into the end. I think
+ so the first thing I want to say about like how this paper is written, and it's like,
+ this is written as like a classic applied microeconomics paper, right? So there's a question
+ that is a causal question that the authors are trying to isolate. And the causal question is
+ simply in falling. What is the what is the causal effect of being included in the training set
+ on this closure score? You know, we can come back to kind of, let's say we fully believe the
+ causal effect. How do we update our, but there are some challenges in this, in particular,
+ which books are included in the training data are not random, right? So you might expect that,
+ for example, books that are already freely available to use, right, they all the models
+ may already be using them, right? But there are those are different books on average than books
+ that are not freely available to use. So that's kind of an example. Or if you thought that,
+ hey, maybe maybe the folks at OpenAI really wanted the textbooks because they wanted their
+ model to be really good at math and physics. And so they picked the textbooks. Now,
+ we don't want to be in the situation or we're comparing textbooks to non textbooks, right?
+ Because they were picked for a particular reason, which makes them quite different than other books.
+ So what we want is something like an experiment, or as economists are going to call it natural
+ experiment, to find similar groups of books, some of them, which are more likely to be included,
+ and some of them less likely to be included. And in the training, and then we're going to compare
+ outcomes across these books, where the outcome is going to be this closure score.
+ So what the authors do is they pick this data set, the books three data set.
+ And the challenge for them is to find a comparable set of books
+ to use that is similar, but just that's used as a control group that is essentially similar
+ to those books, three books. And what the authors point to is that this book's three data set,
+ it was kind of compiled by this guy. He happened to pick a bunch of books in certain years and
+ non-brother years. So let me jump in here. It's Sean Presser, who's kind of like one of the
+ libertarian activists. He put together perhaps 196,000 books, so not 19,196,000.
+ And so now the authors have this, they need like a corpus that kind of has a lot of books,
+ some of which they can use as comparison books. So they have this ISB and DB data set, which is
+ this large target of books. They're also going to merge that to Goodreads data.
+ And our favorite website, last, lastly, what they need is actually the text. They themselves
+ need to perhaps pirate some data. I mean, that's the impression I act.
+ Yes. Right. Because they need the text to do to do the valuation pass, the closure, the close score.
+ So they use this data set, the libgen data set, a shadow library providing access to books,
+ articles, and other good content. Now they're going to take the union of this stuff.
+ They're going to get about 16,000 books. Now, what do you think about this procedure for finding
+ control books? There is a couple of weirdnesses here. I mean, I think one thing that jumped out at
+ me is if you look at their summary statistics table, they seem to kind of arbitrarily take the year
+ 1000 as the cutoff for when they start looking for books. And as far as I have no idea what this
+ book that they have in this data set that would publish in exactly the year 1000. But I'm curious
+ about it. It seems reasonable to try to match unobservable to what's in book three versus other
+ books that you think would be in the public domain or out of the public domain. Yeah, I don't know.
+ Do you have something in mind, Andre? Yeah, I mean, libgen is also used to trade every one of these
+ models. Right, right, right. So, oh, your concern is is that legit so that okay, so then yeah,
+ everything in these models. I don't know. I can't prove that. I don't know that everyone
+ needs them. But the meta lawsuit certainly suggests that meta is used libgen in order to
+ train their model. So your only three is redundant for the for exactly the subset,
+ because it's a subset where the text is available. If I'm understanding things correctly, essentially.
+ And furthermore, that the control group, essentially the control group,
+ that data must surely have also been used in training. That's kind of my sense.
+ Right. Right. Well, so the fact that the control group has been used in training is good.
+ Right. It's that well, no, no, that's that good.
+ Right. Well, we don't want to be in training is things that weren't in book three that also
+ arch in the public domain. Right. That's kind of what we want to not know of. Right.
+ Yeah. And so that does make it that is a huge concern, I guess, is fair to say.
+ Yeah. I mean, look, I can't prove I'm sure like the authors have thought about this,
+ but I do know that this lawsuit against meta is specifically talking about libgen.
+ So yeah. So I guess let's as we proceed, we'll think about this in terms of book three may even
+ may be somewhat or even very redundant, but we're going to see these effects.
+ Exactly. And so there so so so I guess what I would say is like, this is not like devastating,
+ but it's actually maybe getting at some other thing, which is like, let's say you're training
+ on the same book twice. Well, actually, there are results and they're all, you know,
+ in these large, like each model said, if you train on the same data twice, you learn that
+ data better. Right. So if you're just naively tossing in two different data sets with a lot
+ of redundancy, they might still improve your ability to regurgitate things about each piece of that
+ data. I mean, it would depend how the regularization stage shows before they plug it into the model.
+ You you must imagine they do some deleting of duplicate data at some point before they feed
+ maybe, but you know, they have these results where you're training, you're like running through the
+ same data over and over and over again. Right. So look, you know, we might find an effect
+ even if the text is redundant. That's kind of some that's kind of what I wanted to flag here.
+ Okay, that's a very good flag. Any other concerns, any any other objections you have to their
+ identification before we make that second slide? Yeah, I mean, so so the observation that that kind of
+ the year is is this source of random variation that's going to affect whether a book is available or not.
+ Yeah, I mean, well, it's not that that's impossible. It's more it's more that books published in
+ different years are different. Right. So right. So it's more than not sure how valid of a control
+ group that we should think what they try to do is popularity, right? 2020 is probably very
+ different than 2019. You know, we have a pandemic center. Why would it be important? It would be
+ important to him so far as people are making a lot of secondary content, the book, right? So I don't
+ know, I thought it was pretty plausible that you might not matter contingent on measures of popularity.
+ If you had the right measure of how much secondary information is there enough this
+ then maybe you wouldn't earn. Maybe if you think it's only about secondary information,
+ but could also just be that the different types of books. I guess what I was just trying to flag
+ is that your books, there are trends and book publishing. Yeah, I'll tell you about this too.
+ Like, you're 1000, there's no nonfiction, right? Or I don't know. There's no contemporary nonfiction.
+ There's no pop sign. I don't know. Religious nonfiction. I don't know. There's theology,
+ right? There's philosophy. So it is a different the kinds of books they're writing in the year 1000
+ are different books that are in this data set, which seem book three does seem pretty nonfictiony.
+ Yeah. Yeah, so okay, so let's let's get to the evidence because I think it's still quite interesting,
+ you know. So, so the one thing they do is there's just this raw score for several models,
+ GPT 3.5, 4.0, llama, like two flavors of llama, quad and Gemini. They plot the average score
+ and then they show that it tends to be a little higher in those years where this data set is has
+ coverage. And I think there is a look, you know, for some of the models there does seem to be,
+ you know, a visibly pronounced jump said, there's a lot of variants, right? You see the score is
+ fluctuating quite a bit year over year anyway. Yeah. And so we'll put up the figure now so people
+ can look at it if you're following along in video mode. But it does look like in this period of
+ time where there's a lot of book three books across the six different models evaluated that
+ period of time the model seemed to do very good. This closure task relative to outside those time
+ periods. Yeah, but I guess what I'd say there. Yeah, I mean, I think what thing to naturally
+ think about this goes back to your secondary data point is like, all right, so the cutoff is 2020.
+ And a lot of the early versions of these models, that's about what they were being trained,
+ they're began being trained, they're trained on the internet, the internet is growing over time.
+ So there's going to be more content about that that gets published when the internet is big,
+ when the internet is small. So maybe there's a bit of a puzzle here why the scores are a bit
+ lower than after 2020, but well, that's because they're outside of the book three data set.
+ That's the argument we want to hear. Yeah, but yeah, yeah, but that seems they might be out of a
+ bunch of other data sets is another way to put or they might also not be, you know, trained on
+ a bunch of secondary material and not often be trained. Okay, so yeah, so a book comes out in
+ 2019, which is hypothetically in books three is hypothetically the treated book would also have
+ four years of only or maybe four years of secondary sources, a book that comes out in 2024,
+ we get one year of secondary sources can't be in book three. That's the kind of concern you have.
+ Yeah, yeah. Okay, so, but then, you know, the authors are going to put the stuff into regression
+ form both within without instrument. Turns out it doesn't really matter. So they see effects that
+ vary across models. So for GPT 3.5 triple, they see that the score increases by 2.8 percentage
+ points. So that's about 20% increase overall. They see similar size effect for 4.0. They see no
+ effect for the small llama. And then they see effects for bigger llamas and for Claude and Gemini.
+ So whatever this is, you know, it does seem that books three books, you know, there's a higher
+ closure score. I will remind, you know, us that the baseline closure score is about 10%. So,
+ so we're talking about pretty tiny increases in memorization as far as I'm concerned.
+ Yeah. We're talking about going from like 10% memorized to at maximum percent memorized,
+ which I was surprised how low those numbers were, but maybe I should be surprised if this is like
+ nonfiction. Like, let me put it this way. I bet you if you put in, I bet you the Harry Potter
+ quality, it would meal that, right? That's my sense. I mean, you just, you want the authors to do
+ just a heterogeneity analysis, you know, because 30% of the sample is is fiction. But yeah, I mean,
+ I think that would be that's easy for them to do. But I guess I would say that
+ do we care about the closure? Is the closure score actually correlated in any interesting way with
+ model performance? Because it doesn't seem to me to be the case. Although, you know, like,
+ I mean, a little bit, I guess llama 8B has a lower closure score than we know it's a worst model,
+ but within the 3.5 has a better score than four, oh, and four, oh, it was a better model than 3.5.
+ So I guess that's kind of where maybe. Well, and then there's, there's a, there's a really
+ question that I asked earlier, right, which is like, to what extent is this about with them
+ can do versus how much it's been beaten with the RLA chef's, right? Because I would definitely be
+ persuaded that the difference between 3.5 and four is not that forgot how to memorize things. It's
+ at chat GPT hit with the don't go quote things stick a bunch of times. Yeah, I'm less, I actually
+ don't think so said. I really, I'm less. I don't think that that's the primary thing that's going on.
+ So why do you think foro is doing the worst job of the closure score?
+ I just think the closure score is pretty uncorrelated with model quality period.
+ Like within certain bounds. And so, so that's, that's kind of my, my sense.
+ Right. I don't think it's just about RLA chef. Like for example, foro has a much larger corpus,
+ training corpus overall, right? Just say there's much, well, that it's also got more parameters.
+ No, no, exactly. But you see what I'm saying is like, that you could just be
+ per parameter or per log parameter. It has a lot more training data. So there's a lot more to
+ memorize. And so it's not doing as good of a job memorizing some obscure book. But at the same time,
+ it's a better model. Right. Right. And that's what we want.
+ That's not really chef. That's not just to be clear.
+ What I just want to go back to earlier, you know, we had an episode, check show notes on the scale
+ we want. And there when we talk about where AI is so great, we do talk about this very like
+ actual quality agnostic measure of model success, which is, you know,
+ on probability of predicting the next token correctly in a corpus. So there we argue that
+ there really does seem to be a really tight relationship between this sort of like,
+ frankly, memorization score and the quality of the model. So I'm surprised why you don't think
+ they go together now. It's not that they don't go together, but it depends on which type of
+ text we're trying to predict. I guess I view this as a very complicated system. And so even if the
+ average likelihood is improving with a larger model, it still could be true for very niche content.
+ That's relatively unimportant that it could go down in certain cases. Like, like, there's no,
+ it's not like the scaling law is about averages. And I'm a big fan of heterogeneity.
+ Well, okay, so then let's do the bit of heterogeneity we do get in this paper,
+ which is what is the differential effect of book three enclosure for popular versus unpopular books,
+ exactly that question. And so coming check you would ask me, is book three going to be more
+ useful for the AI in predicting proper names, unpopular books that popular books, I would
+ said, for sure, right, in all popular books, there's lots of secondary sources. And indeed, we do see
+ that for unpopular books with zero to 10, good reads reviews, inclusion in the book three data
+ set as instrumented by their IV does seem to predict, perhaps, you know, five to 10 percentage
+ points more closure. Actually, unclear if this coefficient is percentage point coefficient or
+ percent increase percentage weight. Yeah, that's percent percentage point increase between five
+ to 10 more percent of the time, you'll get this name right. For the baseline could be different.
+ So the percent effects could be way different. Yeah. Yeah, that's true. So import to understand
+ probably the rare books they were getting wrong, like a lot more than the popular books. And that
+ but Andre, what do we find for the popular books? Maybe they only help you improve your accuracy a
+ little bit, right? Yeah, well, they actually decrease your accuracy somehow. Yeah, yeah.
+ To me, this is this is a tricky finding, because it almost suggests to me that something wrong
+ is going on, right? Like, how could putting this in the data set reduce the accuracy?
+ I have three hypotheses, do you want to hear them? Sure.
+ Ari, you tell me if you buy any of these. Okay. Okay. One answer is about selection into the book
+ three's database conditional on popularity, right? So maybe the kinds of books that are in book three
+ that are pop are that so that book that are popular in terms of secondary material not captured
+ by good reads are less likely to make it into the three data set. So that would be the selection
+ story. Any any going to give me a point for that one? No, it seems impossible, honestly.
+ Yeah. I'll say is that their popularity measure is very coarse. So I in no sense do
+ I think that they're subtracting out all of the secondary sources for sure.
+ Here's a they do have specifications with then, but I don't see them anywhere. Yeah.
+ Yeah, the covariates seem to have that particular question. How about this book theory book seemed
+ to be in a tightly overlapping of genres, which seemed to be like pop nonfiction. I don't know
+ that's I maybe there's also a hard text. I assume that nonfiction 75% nonfiction,
+ and I assume the overwhelming majority of nonfiction is pop nonfiction, but I guess there's a lot of
+ technical nonfiction in there too. But in any case, you would expect those materials to be like
+ overlapping a lot in a way that fiction isn't overlapping. And perhaps it's something like this.
+ There's a positive direct effect from the first. Okay, so there's a lot of popular quantum mechanics
+ books, let's say, right? And some of them, you know, Fermi says, Eureka, and in some of them,
+ Faraday says Eureka or whatever, right? And they're similar enough that you could get them mixed up.
+ And what we're here is for the popular books, there's some sanction which like book three is sort
+ of overwhelming the model with like too many things that could be going on, right? Whereas
+ these less popular books are more likely to be in these rarer or non overlapping domains,
+ where you're not going to be hurt by the inclusion of other B3 books in predicting your book.
+ Is there more overlapping popular books in the B3 dataset?
+ Possibly. I still think the negative effect is hard to explain.
+ How can we get the negative effects? How do you learn the wrong thing for reading the book,
+ even a popular book? The only thing I can think of is it has, it can't be the direct of that.
+ It can't be that reading this book made me worse. It has to be that the other books in the book
+ three dataset are making me worse at this book, right?
+ No, it doesn't have to be that. It could just be that, all right, like you read this book,
+ you realize, let's say it's Malcolm Gladwell books, so it's filled with inaccuracies.
+ And by reading the entire book, you realize that the article-
+ Malcolm, if you want to come in the show, we'll pay the Patrick.
+ You're a great entertainer, Malcolm. Anyway, yeah, so I guess if you're very smart and you read the
+ entire book, you might realize that the arguments are wrong. And so then you might not complete the
+ score. I don't know, it seems implausible to me, but that's a story.
+ Right, but then you need that to be more likely for popular than unpopular books, right?
+ Okay, maybe. Yeah, I don't, once again, I haven't looked at the full list of books in the sample.
+ Yeah, I mean, there, I guess, I guess the indigeneated concern is just, to me, seems
+ there just has to be a difference between the popular books between the treat and the control
+ group. I mean, yes, I mean, another answer is like, I mean, I guess this is my third one. So I
+ promised you three explanations. Here's my kind of most of the Vegas and five Z space tool,
+ which is that, like, times these models do kind of have like non-monotonicity and training,
+ like you give them, they can get a little bit worse before they can get better.
+ And maybe this is just a random example of that occurring.
+ Yeah, yeah, I mean, like, I mean, yeah, I think that goes back to earlier discussion or just
+ the complexity of these models. But yeah, I mean,
+ points to object for, for publishing results, that's, that's interesting and like surprising.
+ Yeah, yeah. Yeah, I mean, I, yeah, I know we've been as usual slicing and dicing, but I do want
+ to say that they're like, this paper has a lot of good ideas and right. And it's attacking a such
+ a big important question. Like that's huge points for like, actually, let's try to answer a question
+ that will be relevant to AI policy right now, right? Yes, 10 out of 10 stars. And if, and
+ honestly, I don't have a lot of better answers than this, right? And without a giant budget to
+ train a lot of models with scratch, how much better could you do than this?
+ Yeah, I don't, I mean, I actually think like, I think at the stage of my, my career as
+ as sometimes I think about it, sometimes it's good to write up essentially a warm up paper or
+ short paper that kind of gets you in the room to write, you know, the follow on paper with an
+ experiment that might be, you know, that might require more funding and resources and so on. And,
+ and I think, yeah, just realizing that there is an endogenous issue here is like, I think
+ probably something that's not obvious to computer scientists and money computer scientists.
+ The endogenous idea being B3 data set, three data set. Yeah, not even the specific data. So
+ just in general, like computer scientists might naively say, oh, like, well, compare, you know,
+ close three on those in the trading set versus not, that would be probably the wrong thing to do,
+ right? So even though he turns up to not matter really, the IVs are pretty similar to the OLS.
+ Well, and this kind of goes to the point of like, well, yeah, I think the authors did it,
+ you know, as we discussed, there might be some reasons why the identification here,
+ maybe this is not the perfect natural experiment. Yeah, right, right. And yeah, and our biggest
+ concern is the book three data set may in some way be redundant, in which case we would think
+ that this would be either of the big, no, what's the biggest thing? Well, the control,
+ the control group is also in the training, right? Yeah, that's a bigger concern as well,
+ in my opinion. But I agree that redundancy is also good. Yeah, we're I think we're fancy.
+ Okay, cool. So I need you to, it's a short efficient paper. Is there anything else you want to bring
+ up before we move into posteriors? No. All right, Andre, then it's time for us to justify our posteriors.
+ Okay. The first question we asked Andre was, what is the effect of being in the book three model
+ on model performance? You said 50% in terms of closure, narrow question of closure, it's 50%
+ increase. I said a having of the error rates. I, my answer was way too, like I was, I was saying 30%
+ of improvement. Can we see two to 3% of improvement? Where were you? Yeah, and I was wrong through
+ obviously because I, this is the effect. And if we 100% believe this paper is 20% and I say 50% or
+ it's less than 10% depending on the model. Right. And yeah, we were both wrong on this very narrow
+ empirical claim. Yeah, which is cool at all. And it's like, it's work. And as far as you can tell,
+ that narrow question is right. Now there's a question about contamination to data sets. Is this
+ like the real causal estimate you would care about in order to policy? That's all aside.
+ Narrowly, it seems to be doing what it's doing on this. All right, broader question. How much does
+ access to book three make bottles overall? How much better does it get it? We were both thinking
+ that in some sense, it kind of has to punch below its weight just as any marginal data set.
+ I was reading this paper chose change review. Yeah, I mean, it moves me in the smaller estimate.
+ I mean, not that much because, you know, I don't think this measure of quality is that compelling,
+ but the fact was smaller than I expected. And so that moves me into, you know, thinking that the
+ data says even more marginal than I originally thought. Right. And yes, I unfortunately,
+ listeners who I know, like, you need to hear those percentages. I don't have a percentage
+ weight on this one, but I stick with Andre. I slightly update to even more, even less,
+ more punching below its weight. That's a double negative. The question we asked ourselves was,
+ how should we think training the model on these books, firms, or helps the writers of the books?
+ You can answer that, you know, as broadly or narrowly as you want, or even go out to consider,
+ you know, potential copyright regimes. Wherever you want to take this?
+ Yeah, I mean, I guess to me, it was surprising how little memorization was going on here in these
+ narrow things. But once again, this is not the outcome metric. I'd need to see how people actually
+ use the models to know the commercial impact. And so there may be other types of work that
+ might be more informative about that. This is kind of one part of the long chain to getting to,
+ you know, economic crime. Exactly. We've got the Josh Gans theory paper about what's going on
+ here. And we throw that in the show notes. There's a couple theory papers about like,
+ how would you, if you knew the right measure, how would you compensate everybody? And now we're
+ got the piece of this is the find of thing you would want to understand in order to understand
+ the marginal contribution of the data. I guess like one thing I'll look at is when we're talking
+ about fair use, we asked this question of does the use substitute harm for otherwise harm existing
+ or reasonably lightly markets? That question doesn't exactly put in like what the average effect
+ versus the marginal effect. And of course, as economists, we love distinguishing between them.
+ I think it's clear that the marginal effect of your work of being included in the corpus
+ is to not help you. That's the sense that I get. It doesn't really change from this
+ all that much. And in the macro sense, you know, I again, I'm back where we start,
+ which I think other questions are going to be more important for determining whether
+ and writers are going to be better off at worse off than the AI age. To me, the more interesting
+ question is, where does this move me in terms of thinking that we need to, you know, make for
+ our copyright regime? We talked about when I do would be some sort of like enabling of micro
+ payments between the AI model providers to, you know, sources of information, New York Times,
+ etc. Would I want the scales of justice to be shifted in favor of the copyright holder and away
+ from the AI companies? I come away from this really, really feeling like no, if anything,
+ we should ship we should keep on the current course. It seems to me that based on this,
+ popular books, we have a lot of, you know, redundancy for and you actually don't learn a lot from
+ including the book. That's exactly, that's what this suggests. I'm not updating that much,
+ but that's the direction it's pushing us in. And in terms of, you know, rare books,
+ yet sure, yeah, that information is helpful for the model to do this closure task.
+ But that doesn't seem to me what the copyright fight is over. The copyright fight is not really,
+ it doesn't seem to me to be over this long tail of micro creators making pieces of money. This is
+ about, you know, the New York Times and Michael Plon and Malcolm Bland well fighting. And there,
+ I think the information is pretty redundant. Yeah, yeah, I'm, I didn't say I'm very uncertain
+ about these issues. I need to see more evidence. Yeah, I think, you know, maybe few years from now,
+ we'll, you know, a bunch of, we have a bunch of studies like this, we'll have more downstream economic
+ impacts and we will, you know, we'll know more. I mean, I mean, in this kind of mirrors a lot of,
+ I think in a lot of policy areas where there's a lot of uncertainty, I do think there's an argument
+ for waiting to see a little bit of how things play out. It depends on, you know, the risk profile,
+ right? Does this essay move you towards wait and see? Or does it move you towards do something now?
+ Yeah, it's a little bit. I mean, yeah, like just the fact that the memorization rates are so low is,
+ you know, right? If you wanted to use this book, if you wanted to use this to read the book,
+ you wouldn't be reading. Yeah, I think that's a really great point, right, which is
+ like the, the biggest takeaway maybe from this, as this paper is just not like these models don't
+ memorize super West full in terms of nonfiction proper nouns. And you know, maybe that was already
+ a known fact, but it was very surprising to me. Yeah, yeah. All right. Well, thanks for tuning in
+ to another episode of Justified Pastereers. Please do like, comment, subscribe, and let us know
+ what you think. Paper Pastereers, Justified.

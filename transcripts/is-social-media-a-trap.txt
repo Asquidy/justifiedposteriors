@@ -1,0 +1,543 @@
+ I went to Duke and everyone at Duke cares about basketball.
+ So imagine you're the one person that doesn't really enjoy sports.
+ The fact that the basketball team is there and is very good is a huge
+ negative for you and you play for everyone to no longer go to the basketball game.
+ So I think the problem is that there any social activity is going to draw
+ in people who'd rather be doing some other social activity or sometimes
+ a non-social activity at all. Yeah, so think of a kind of the battle of the
+ sex is framing where there's a population that likes social media and a
+ population that doesn't like social media, but we all have to coordinate.
+ Right. And, you know, sure, you want to fight on this about the social
+ equilibrium, but don't frame this as an economic story.
+ Don't frame this as a we're losing efficiency.
+ Frame it as what it is, which is I prefer a culture that looks like this.
+ And that applies, of course, to so many parts of culture, right?
+ And this is what the culture wars are about.
+ This is justified posteriors brought to you by the Digital Business Institute
+ at Boston University's Questrum School of Business.
+ I'll connect everyone to another episode of the Justified Pastereors
+ podcast where we read economics papers and get persuaded by them.
+ So you don't have to.
+ I'm Seth Benzel coming to you from the Hotel California
+ like a collective trap of Southern California.
+ And I'm Andre Fratkin representing the no FOMO movement that I'd like to
+ propagate throughout society.
+ That's a great place to start, Andre.
+ Do you come and experience FOMO?
+ Is that an is that an emotion that you have?
+ So FOMO or the fear of missing out for the neophytes listening to this
+ podcast is a common feeling.
+ You'll fight means it doesn't know it's low means.
+ You make too many assumptions about our audience, Seth.
+ But anyway, do I feel FOMO?
+ I do feel FOMO.
+ I feel like not as much as maybe I used to, but I definitely see people doing stuff.
+ And I'm like, I'd rather be doing that than whatever it is I'm currently doing.
+ I definitely experienced that emotion.
+ How about you?
+ Great question.
+ I would say FOMO, Qua FOMO, in the sense of I don't necessarily want to go to
+ this party, but I am jealous, anxious about not, but experiencing some sort of
+ anxiety over the fact that I am not at the party, but the fact that I might not
+ even want to be at the party.
+ So that's kind of common to me.
+ And I would say I'm kind of sympathetic to the view that if you show a photo
+ of a bunch of people in my high school class, a bunch of people in my freshman
+ dorm, you know, smiling and bonding with each other while, you know, I'm in my
+ solo dorm by myself, I think FOMO is a real emotion that I've experienced.
+ And I would say that there's even a possibility that social media accelerates
+ that and makes it more vivid.
+ Now, this is a bit off topic on the college, FOMO.
+ But when you say party, do you mean conference?
+ When I say party, I don't mean conference.
+ What I have in mind is your typical stank drinking party.
+ And you can see someone preferring to live in a world where there's less
+ social pressure to deal with that.
+ They're the cultural critique of social media, which is that it pushes us to do
+ showy superficial things, because that's where the pressure is.
+ Maybe we're trapped performing for each other in a glass menagerie.
+ Well, as John Paul Sartre once said, hell is other people.
+ So, you know, this paper definitely takes that idea seriously.
+ What's the title of the paper?
+ The title of the paper is when product markets become collective traps, the
+ case of social media.
+ This is a paper by Leonardo Bertson, Benjamin Handel, Rafael Jimenez, and
+ Christopher Ross for the non-economists listening to this.
+ This is quite an accomplished author team.
+ They're definitely known for their careful experimental work and innovative
+ work in general.
+ And this is a paper that has had a lot of, let's say, media attention and just overall
+ and so it's got a newsy hypothesis.
+ Yes, yes.
+ I had the opportunity to meet with Rafael Jimenez and Biconi just last week.
+ Could not meet a more gracious open to criticism of his work guy.
+ So, Rafael, if you're listening to this, any criticisms of this paper come from a
+ place of critiquing only your audacity and boldness and actually putting these
+ ideas out there.
+ Yes.
+ So that's a great intro.
+ So what are the main claims of the paper?
+ Maybe we should state those before we get to the evidence and presumably we'll
+ state our priors after we state the podcast, the sort of the narrow claim of the
+ paper and then maybe we'll expand out from there.
+ The narrow claim of the paper is that users of TikTok and Instagram, US college
+ campuses are in a collective trap in the sense that they all prefer to use the
+ platform given that everyone in their community is using the platform, but they
+ would prefer to live in a world where no one used the platform at all.
+ And I would say the paper both talks about this in a sort of average person
+ sense most of the time, but you could also see a version of this argument about
+ the median person instead of the average person.
+ What's your hypothesis?
+ Do you do you buy that at all?
+ How do you evaluate that going in?
+ I think it's a pretty reasonable hypothesis.
+ Lots of aspects of society seem to suffer from this.
+ The rat race, the red queen effect, and so on, where people feel compelled to
+ invest in something long past its actual utility to them.
+ It doesn't seem crazy to me that this could be an example of that.
+ You can think of other examples such as trying to be fashionable or even trying
+ to be well read.
+ Oh, yeah, but that's a rat race.
+ I mean, OK, well, maybe we have to start and take a step back and there are
+ positive sub rat races and then there are negative sub rat races, right?
+ So good.
+ So, you know, capitalism itself, right, is a rat race.
+ So companies are very actively competing with each other.
+ And maybe if they all sat together in a room, they might decide that competing
+ so intensely is not a great idea.
+ What do you want to do?
+ That's that's illegal for perhaps the force of competition or harness for a
+ greater purpose, which is promoting the productivity of the economy and increasing
+ innovation, hopefully.
+ So we have a theory of why competition might be very intense in that setting
+ and social media.
+ Maybe it's we're all competing to take the coolest photo to
+ Instagram or to pretend we look as hot as we possibly could, even though in
+ reality, we don't look as hot, whatever it is.
+ And you never do that.
+ We were never lie to you listeners.
+ The only thing that we'll lie to you about is how wonderful our voice
+ naturally sounds, you know, because we're going to post edit this to make it sound better.
+ Yeah, a lot more in the raw version.
+ OK, so what do you think, Seth?
+ I think that even though the paper does not focus on this distinction, I think
+ there's a massive difference between the hypothesis that the median or a large
+ percent group of people are made worse off and the hypothesis that the average
+ person is made worse off.
+ If we're really trying to take a step back and think about all of the positives
+ and all of the benefits from social media, it's clear that there are
+ some people who have extremely compelling, powerful social media profiles that
+ teach people that distribute information, that entertain, that educate and can
+ make giant profits for themselves.
+ A full analysis of these platforms would also take into account the profits of
+ platforms themselves, the benefits of people getting matched to products with
+ advertisements or any of those individuals, you might question every element
+ there, you know, to what extent is that a huge social positive?
+ I think you add them all together, taking into account this long tail of
+ people who really benefit for the platform.
+ It's very implausible to me that the average person is made worse off by these
+ platforms now.
+ And that's sort of like some sort of caldorhic sufficiency sense.
+ I think that platform or caldorhic sufficient.
+ You know, if you want to tell me that 20% of people are sadder that they, you
+ know, they're 10, 20% of people are made 5% more miserable because of Facebook or
+ maybe even 40% of people are made 10% more miserable because of Facebook.
+ That's a hypothesis that I'm open to.
+ It's not the kind of argument that makes me want to slow down modernity and, you
+ know, return capital V.
+ But I do think there are certainly losers in the new equilibrium.
+ There are people who would have been better off without the platform.
+ Yeah, and I guess, you know, we'll get to the methodology, but it's also
+ important to think about not just at the binary of turning on or off the platform,
+ but changing the rules of the platform, right?
+ So oftentimes what's bundled in this evaluation of these platforms is maybe
+ they're addicting if people are able to have caps or caps imposed on the amount
+ of usage that could kind of preserve, it could have kind of yield a much more
+ unambiguous benefit of a platform versus one in which a non-negligible share
+ of people are completely addicted to it.
+ Right.
+ So this is a little bit of a false dilemma.
+ So you can imagine them asking the follow-up question, how much would you be
+ willing to pay Mark Zuckerberg to make the beautiful utopian version of Facebook
+ that isn't addictive, makes everyone love each other.
+ And maybe you could solicit a big value from that, but we're getting a little
+ bit ahead of ourselves because we haven't talked about that paper's methodology yet.
+ Talk about the methodology.
+ Just get started.
+ I think I think the thought experiment that the authors are posing is one where
+ you're kind of stuck asking people what they think, right?
+ You can't wave your magic wand and actually make it so so that everyone
+ stops using TikTok, right?
+ So we're asking people hypothetical questions.
+ Kind of is maybe the right word here as credible as possible, credible as possible.
+ So this is kind of this finesse that the authors try to do.
+ Let's start with the simplest case because this is a case that's been done
+ previously in literature as well as, you know, we want to know for a person,
+ how much do they value a particular online service?
+ So the simplest thing you could do is you can ask them, well, how much would we need
+ to pay you so that you don't use the service for some amount of time?
+ That's a simple thing to ask.
+ And oftentimes you get very reasonable answers there, but a worry with that is,
+ of course, that you might not, you know, believe that this is a real choice you're
+ making, who's going to enforce the fact that you're not going to use this
+ particular platform.
+ So a subset of experiments in the literature, what they've done is they've
+ actually enforced this.
+ So if you say you're going to accept, you know, 20 bucks not to use Facebook for
+ a month, the authors like literally shut you out of your own Facebook account.
+ So you can't do that.
+ That's kind of what are the main approaches in the literature about this
+ individual decision to use a particular product or service or platform.
+ That is, you know, that's kind of, I'd say, not maybe not a solved problem,
+ but there's definitely a way that people do it that is more or less accepted.
+ What the authors of this paper point out very, very correctly, and also Seth
+ has a paper on this topic.
+ So I can't disregard his his contributions, but that, of course,
+ there isn't just one value from how much Facebook is valuable to you.
+ Depends on how many other people you interact with also use Facebook.
+ And so what the authors do, kind of the second step of what the authors do here,
+ in addition to what I just mentioned, where they ask people how much they'd be
+ willing to accept to not use Tiktok and Instagrams.
+ They ask, they say, well, we're these really wealthy researchers.
+ And there's, there's a chance that we could recruit everyone on your
+ campus to turn off this platform.
+ And suppose we did this.
+ How much would we have to pay you to not use the platform?
+ OK, so that's what the authors do.
+ Now, this is essentially getting at the difference in valuation for this
+ person from the platform with and without their classmates on a college campus.
+ And that difference, presumably, is capturing the network effect.
+ This is the famous network effect that's so important in social media platforms.
+ Get that from the other students on the college campus.
+ Yes, yes.
+ And that is very important.
+ Of course, the social network is not just about the college campus.
+ It's a global social network, right?
+ There are people like your family and friends who don't go to the same
+ college as you who you might be communicating with on on set platform as well.
+ Or entertaining third parties.
+ Yes, like ourselves.
+ We love it when you guys connect to us.
+ Do second parties at best?
+ Yes.
+ And if you do really want us to make a Tiktok account, please submit.
+ Please tweet hashtag it.
+ Justify past your year's Tiktok when 2025.
+ Yes, OK, clearly we are trapped in this collective social media trap.
+ I want to add a couple of details to what you just said.
+ The first is the sample size we're talking about isn't enormous here.
+ It's about a thousand people and a little over a thousand people total.
+ And we're going to split into three samples because we're asked some about Instagram.
+ We're asked some about Tiktok and there's a subset of the Instagram.
+ Those interviewed about Instagram who do not even use Instagram.
+ So it's not a giant population.
+ And so we're getting split up.
+ If they are all college students, the survey population is overwhelmingly
+ female, 68% female.
+ And so take that into account a little bit.
+ We do think there is some evidence that women are particularly susceptible to the
+ native social effects of social media.
+ We saw that from the famous Instagram leaks, which vaguely hinting at a connection
+ between teen girls and suicidality.
+ So yeah, so maybe you think that this is a population that's really proud.
+ This is they did this survey right as negatives of social media are in the news.
+ You might imagine that's in the air as they're taking this survey.
+ Are there any other considerations you want to bring in Andre before we
+ evaluate the numbers again?
+ Well, I haven't mentioned, of course, that there's a kind of a third innovation
+ of course, addition to just asking about the network effects, which is they give
+ a person the following hypothetical.
+ They want to kind of put them in a position of making a decision, whether
+ having Instagram or TikTok on a campus is overall good or bad.
+ So what they do is they say that with some probability, we're going to pick a
+ person and that person could be you and we are going to ask them, should we, should
+ we turn off TikTok for the entire campus or not?
+ And why this is important is it allows the researchers to then measure kind of how
+ much would a person that not having anyone on campus in addition to themselves, you
+ know, have access to this platform.
+ Right.
+ So that's getting, that's the key at getting at the trap.
+ Yeah, it's, it's framing it as kind of like the Kickstarter problem is how I would
+ think about it, right?
+ It says, would you be willing to pay $50 if enough of your friends signed up for
+ this $50 plan, right?
+ And even though ingenious, if someone believed it at soliciting the correct
+ information, what it has to imagine that this is not a very few people taking the
+ survey or taking that question literally.
+ Yes, although the authors say that, you know, when they asked whether the
+ participants believe what they just told them, 40% of them said, yes, well, I believe
+ the claim, the thing is the claim is for a case that's impossible.
+ No, no, they said that, like, you know, 40% of the people believe that this would
+ actually have.
+ Oh, wow.
+ Incredible.
+ I mean, that's some flaws.
+ You know, there makes me trust this nevertheless.
+ Yeah.
+ So
+ I think we're going to shut down.
+ I, I, you know, let me, let me do a quick look up what specifically that 40% is.
+ While you look at it, I'll also add that they also ask questions just of the form.
+ You know, do you see social media as bad for your campus?
+ And people say yes to that, right?
+ So
+ there's even if you don't believe the numbers, there are large groups of people
+ reporting that they do not like social media.
+ Yes.
+ So before we discuss the methodology a bit more, I mean, maybe now is a good
+ time to introduce the actual numbers.
+ Okay, cool.
+ So what do they find looking at TikTok first?
+ They find that the average person in their sample would be willing to pay $55 to keep
+ using TikTok, then they say that if they were the only people on campus using TikTok,
+ they would value it at $39.
+ And then finally, they believe that they would be willing to pay $24 on average for
+ no one on campus to use TikTok, including themselves.
+ So dramatic numbers, people in a universe where everyone else uses TikTok, they
+ value it at $55 in a universe where nobody else on if everyone on campus were to stop
+ using TikTok, they would be happy $24.
+ So indicative of perhaps a $70 negative social externality of TikTok use on TikTok,
+ they would give social externality of TikTok use on other people on Instagram.
+ Those numbers are a little bit smaller, but in the same direction, people valued
+ Instagram at $47 a month on average in a case where only they on campus were able
+ to use Instagram, they would value it at $37 a month.
+ And finally, the amount that they would be willing to pay on average for no one on
+ campus to use Instagram is $6 a month.
+ So directionally consistent with these theories of a trap, really, it's just
+ the last number that tells you what's a trap, the other numbers don't directly
+ speak to that question.
+ Yes.
+ And it's important to note that they also ask people who are not current
+ users of the platform.
+ OK, so maybe let's talk about these numbers.
+ I think one important detail I'd like to add before we get too deep into it.
+ I think I might have admitted this from the previous discussion, which is when you
+ solicit these valuations, there's kind of two ways you can do it.
+ One way you can do it is you can say, give me a number, any number.
+ And another, so like basically free response, you know, how much do you value
+ Facebook go?
+ I don't know, $55.
+ Another way you can do it is as a series of yes, no questions.
+ Would you give up TikTok for $30?
+ Would you give up TikTok for $45?
+ They take the second approach.
+ So they randomly select some of these yes, no valuations to ask about.
+ But importantly, that means that there is a maximum valuation sort of built into
+ this.
+ TikTok can only be so good because they're not asking, do you value TikTok
+ at $1,000, $10,000?
+ Similarly, in the negative direction, there is a negative cap for the final question.
+ So as you think about these average numbers, I would encourage the readers
+ to take into account that if you think there is a long tail of people who benefit
+ a lot, we value the platform a greater than $200 that is not being picked up in this.
+ Yeah.
+ And certainly the authors make some alternative assumptions about those gap numbers.
+ And right.
+ And I do think an interesting aspect of it is for those who value it at $200,
+ maybe they value it so much because of a network effect that's very different
+ than the people who value it at $5.
+ So like think about being, you know, a power user of Twitter who follows, you know,
+ a selected, you know, sample of some of the best researchers in the world versus
+ someone who is just getting, you know, the four you feed of a bunch of random
+ famous people, a completely different story, right?
+ So kind of the various aspects of this may be heterogeneous across users.
+ I understand what it is.
+ Yes.
+ I think if you were to ask me how much do I believe these numbers on their face,
+ I think that positive valuations, I think those numbers are.
+ If we're thinking about those as averages, I would think those are
+ underestimates. I think if you look at conditional, I'm using TikTok,
+ how many hours a day people use TikTok.
+ Over $55 is very plausible for those power users.
+ The intermediate case, how much do you value the platform when no one on your
+ campus is using the platform?
+ One thing I find kind of pretty implausible here is that there is a bigger drop off
+ from losing access to your on-campus friends in TikTok than on Instagram.
+ The reason I think that is because when I think about the kinds of connections
+ that people value on Instagram, sure, it's international celebrities.
+ But it's also people in my family who I want to keep up with, you know,
+ pictures of their don.
+ Whereas for TikTok, you have to imagine that most of the content being consumed
+ is from professional creators.
+ But I think you're going to disagree with me on this, Andre.
+ Am I completely misunderstanding these platforms?
+ I think the network effects on two platforms are different.
+ On TikTok, it's not really about messaging between your friends on the same campus.
+ It's more like, here's a really funny video that everyone is talking about,
+ and I want to see it too.
+ And on Instagram, it is really about the sharing aspect of it.
+ You really want that like from your friends, this photo you posted,
+ or you want your friends to see the story that you posted,
+ that you went to some cool place and vice versa.
+ So there's just, and that kind of leads us to think about what the collective traps might be,
+ right? So the collective trap on TikTok is like,
+ you know, oh God, everyone's watching these dumb videos,
+ but I have to be in the loop on them because I want to, you know,
+ appear like a normal person.
+ And on Instagram, it's like, you know, you're, you're kind of keeping track
+ of your, of your buddy's idealized lives, you know?
+ So yeah, I mean, it's interesting.
+ I wouldn't say the strongest prior about these valuations.
+ I think both platforms are certainly very useful even without classmates using it.
+ Okay, cool.
+ Now, how about this, the negative direction?
+ So the social cost of using that platform?
+ If we think that what's driving this is kind of the FOMO,
+ I'm missing the party.
+ That's the kind of FOMO I empathize with.
+ That would make me think that Instagram would be the bigger trap
+ and TikTok would be the smaller trap.
+ And yet we have a much bigger trap estimate for TikTok at $24 versus $6 of loss.
+ How do you think that?
+ I think a lot fewer people use Instagram.
+ I mean, this is constantly evolving, of course, and is winning.
+ But I think at the time the study, I'd say TikTok was way more important.
+ TikTok was in the ascendant.
+ Yes.
+ Yeah.
+ So, so just do naive measures of, you know, our spend and stuff.
+ It's just a lot more.
+ So if you think there's a product market trap, then it will be bigger for that.
+ Okay.
+ So that you just, the way you interpret these numbers is that just the magnitudes
+ for TikTok are larger because people are using it more.
+ And the network effects are kind of heterogeneous.
+ We can't exaggerate, speculate about what that should be worse.
+ Yeah.
+ But I guess I want to kind of shift the discussion here.
+ A little bit about like, how will the people understand these decisions to begin with?
+ Right.
+ This is a very hypothetical question.
+ Right.
+ Hard, hypothetical.
+ Let's say all your friends stopped using TikTok.
+ What would they be doing instead?
+ Okay.
+ So one thing they could be doing instead is watching YouTube.
+ Now the authors say, you know, they point to, to a previous study that says,
+ actually, when you shut off, you know, access to a platform, most people, you know,
+ or most of that time allocated is shifted to non-digital activity.
+ Sure.
+ Short term, you pull a real live term equal.
+ Yeah.
+ I don't know.
+ That's a fresh last destiny.
+ So I guess my sense is that you really have to have in mind,
+ what are people going to do instead?
+ Now, then there's a version where what people are doing instead is they're going to, you know,
+ go hang out with each other in person a lot more often or they can play intramural sports
+ or hanging out at the bar or whatever, or they could be using another digital platform
+ that may or may not be, you know, close compliment to TikTok and Instagram.
+ Depending on what you think will happen, that should really affect your valuation.
+ Right. Right. Inside this $24 number is a lot and especially the 39th.
+ So I think it's easier for people to think about everybody stopping than everybody else stops.
+ I use it, which is such a bizarre case, like literally you're imagining becoming a social exile.
+ Well, I think, I think it's kind of the vice versa.
+ Just, you know, the authors of this paper, they say, maybe you're going to be like an
+ information gatekeeper. You're going to be so cool because you're the only one who gets to
+ view the TikTok videos first and share them with your friends, you know.
+ Like, you know, and then I guess it's a cool result that is a smaller number, right?
+ Yeah. But you see how like that origin, the idea of there being sort of like
+ decreasing returns to having the platform as more people have the platform, right? That's
+ something that should kind of push us, I guess, is that consistent with the trap?
+ I think it would push us towards that intermediate. Yeah. I mean, the hypothesis would be that this
+ intermediate case would be larger. It's a bizarre, you know, it's a network effect and it would be
+ on people not using it. I guess that's very consistent with a collective trap. Yeah, it is.
+ Yeah. I think I think the story in the paper is very coherent, right? That what the story
+ that they're trying to tell. We don't believe this necessarily. We have to attack the methodology,
+ the hypothetical questions or the sample or things like that. Right. And so maybe let's talk a little
+ bit more about the sample. I already mentioned it was female dominant. We think it's college
+ student. Do you think maybe college students would be particularly susceptible to these
+ negative vibes, perhaps? Yeah. Yeah. I think there would be. But but at the same time, I think
+ everyone, you know, we're social creatures. So I think different versions of this apply to different
+ people. I always think about, does the outside option have its own collective trap, right? So,
+ let's say we'd all be doing methods. So imagine you're the one person that doesn't really enjoy
+ sports. The fact that the basketball team is there and is very good is a huge negative for you.
+ Right. Exactly. For everyone to to to no longer go to. So I think the problem is that there
+ any social activity is going to draw in people who'd rather be doing some other social activity
+ or sometimes on social activity at all. So are we just learning learning something about
+ social behavior more broadly, just that there's a lot of people that if there was no party,
+ they'd be happy, but they have to go to the party, right? Yeah, I like this. Right. So think of a
+ kind of the battle of the sex is framing where there's a population that likes social media and
+ a population that doesn't like social media, but we all have to coordinate, right? And it's
+ not a collective trap. It's just that, well, you're the group that had to go to the the musical
+ instead of going to the boxing batch. And you know, sure, you want to fight on this about the social
+ equilibrium, but don't frame this as an economic story. Don't frame this as a we're losing efficiency,
+ frame it as what it is, which is I prefer a culture that looks like this.
+ And this is what the culture wars are about. Should people get married early or not?
+ Should we make one type of career prestigious or another? All these things are similar types of
+ debates. And some of this sometimes the answer may just be that they're incommensurable, right?
+ Imagine if you actually thought that life with TikTok was incommensurable with life without TikTok,
+ which I mean, maybe, right? Then you're just kind of wildly flailing with these numbers.
+ Yeah. And I guess the other thing I should really, like I come back to is the issue of addiction,
+ you know, and how well people understand their own addictions, two things, this, you know,
+ this might point to a fact that like, you know, if you ask, you know, people what they want to do,
+ they want to exercise every day, they want to, you know, they want to meditate and sleep well,
+ and so on. But then when they make their choices every day, they don't always, you know, make good
+ choices there that might be addicted to social media or video games or browsing the internet or
+ whatever. If you ask them like, oh, like, if you just got rid of this thing that you're addicted to,
+ you know, would you want that? And you say, yeah, yeah, I want that. But but actually,
+ you know, you, you just get addicted to something else. Yeah.
+ When we evaluate this, should we take the person who just wants one more TikTok video and their
+ amazing, intense desire for that? Is that the true self that we should be taking into account
+ in our economic analysis, or rather the cold headed, sitting in a lab trying to think like a
+ professional survey taker, you know, trying to have a theory of mind of this survey taker as I take
+ a survey version of myself. I mean, that said, I think that it's important to put the study
+ into context, right? So we have this broader discussion about laws, for example, laws controlling
+ how much teenagers are allowed to use social media. Yeah, in Australia, we just had.
+ Yeah, go ahead. Yeah. I was just going to say Australia has passed the law. Apparently,
+ within the next year, we're going to have a complete ban on under 16 use of social media.
+ Yeah, and individual schools are certainly banning phones or banning social media usage.
+ And there's this movement led by Jonathan Haidt that kind of blames a lot of society's
+ ills on social media. So it's not just this paper that is kind of pointing to something
+ negative about social media. But I let's talk about the political economy here for a second.
+ Sure. I think the groups like, what are the groups that are ending up being restricted?
+ It's the groups that don't have vote, right? If you really thought that this was a trap,
+ and the only thing we need to fix the trap is get a majority of voters to ban it. Why can't we
+ get a majority of college? Why can't we get a majority of the population to the man, right?
+ And so I guess that's my question. Why don't we keep on if this is popular, why don't we ban it
+ than the people who felt instead of people who felt that? Well, I think the answer might be your
+ standard answer is that, yeah, you know, a bunch of people might weakly prefer to not have social
+ media around. But the people who benefit from social media are really, really benefiting from
+ it. And you know, that includes a lot of constituents, of course, right? That includes people who we
+ think might be benefiting it for the wrong reasons. People who are just spreading bad ideas or harmful
+ content, it might include people who are spreading good ideas that they think are valuable for the
+ world. It might include also various businesses, right? So advertising, I guess this is a question
+ about how we feel about advertising. But if you think that, you know, giving people information
+ about products is something society should be doing, then maybe that's a good thing.
+ Right. Yeah. So we return to this idea that there are definitely benefits, but we're definitely
+ think that it's plausible that a big percentage of the population prefers a world without it.
+ And I think that where that leaves me is just kind of anticipating this populist versus elite
+ politics about it, right, is that there'll be the school arm keep this away from me and my family
+ faction. And then there'll be the tech elites telling us, no, it's all good. Just keep by logging
+ it. I am maybe more sympathetic to the latter view than the ominous way that I just presented it.
+ But I think that's going to be the politics for this for the foreseeable future.
+ I think populist benefit extraordinary amounts from social media, right? Oh, that's a fair play.
+ That they might talk a big game about how they don't like the specific people running specific
+ social media companies, but they want those social media. Social media is great for populist.
+ Right. But you can imagine the populist deciding on the one platform that's okay,
+ right? Then all the other ones. Yes. TikTok is a different case. TikTok is about national security.
+ I really think it has very little to do with addiction. All right. So given that the leading
+ proposal is to sell off TikTok to an American company, I just don't. I think we're a little
+ mixing. Mixing metaphors there. Sell it to Americans if they'll make it more addictive. Yes. All right.
+ So I think that brings us to our posterior Andre. To what extent did this paper move your view about
+ whether I guess narrowly TikTok and Instagram or traps on college campuses and we're broadly
+ whether in general they're a net negative for society. I'm surprised by how many people
+ said they would prefer a world without it. I think that to me was a bigger number than I expected.
+ And so that didn't move my beliefs. But at the same time, I don't love how hypothetical this
+ choices. And I'm also worried just about the respondents kind of catering to what they believe
+ the desires of the experiment. They're clearly trying to point in this direction.
+ Right. Yeah. But I think it's a very neat study. And I think we shouldn't throw out the data just
+ because there might be some issues with how to interpret it. Agree with you that the number
+ and the value people are willing to put on these sorts of banning social media outcomes. I did find
+ surprising and does move my view about maybe how the for rearing people from benefits most from
+ Instagram to is hard the most from Instagram. Like maybe in my brain traveling up the percentiles
+ that are being made worse off. Maybe going into this, I thought, yeah, there's a percentage but
+ it's five, 10 percentage of the society that is worse off from these. And maybe I'm going to start
+ updating that to like the 20th percentile, 20th percentile. But at the end of the day,
+ I think that this analysis is both underpowered and poorly designed when it comes to soliciting
+ that long tail evaluations. And therefore I remain pretty much convinced that they're getting
+ on average and inefficiency from social media usage in this like caldery existence. All right.
+ Well, thanks for listening to another episode of Justify Past serious. Let us know what you think
+ and please review, like and comment as much as possible. Yeah, unless you if you don't, you're
+ going to have fun though, from all the cool kids liking and subscribing. Thanks very enough.

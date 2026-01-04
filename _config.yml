@@ -1,8 +1,8 @@
 title: Justified Posteriors
-tagline: A podcast about Bayesian thinking, science, and inference
+tagline: A podcast exploring the economics of AI and innovation by deeply engaging with the literature.
 description: >-
-  Justified Posteriors is a podcast about Bayesian thinking, science, and inference.
-  Episodes include show notes, links, and transcripts when available.
+  Justified Posteriors is a podcast by economists Andrey Fradkin and Seth Benzell
+  featuring conversations about about the economics of AI and innovation.
 
 # Update these when you publish:
 url: ""       # e.g. "https://example.com"
@@ -28,13 +28,22 @@ defaults:
 
 # Podcast-ish metadata used by templates
 podcast:
-  author: Justified Posteriors
+  author: Andrey Fradkin & Seth Benzell
   email: ""
   language: en
   explicit: "no"
   category: Science
+  
+# Platform links
+links:
+  substack: "https://empiricrafting.substack.com/"
+  apple: "https://podcasts.apple.com/us/podcast/justified-posteriors/id1784022930"
+  spotify: "https://open.spotify.com/show/6GAE7zHAnQyTaOprfEqJtQ"
+  youtube: "https://www.youtube.com/@justifiedposteriors"
+  rss: "https://empiricrafting.substack.com/feed"
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - transcripts

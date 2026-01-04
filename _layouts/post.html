@@ -6,12 +6,10 @@ layout: default
   <header class="episode-header">
     <div class="episode-kicker">
       {% if page.episode_number %}
-        Episode {{ page.episode_number }}
-      {% else %}
-        Episode
+        Episode {{ page.episode_number }} &middot;
       {% endif %}
-      · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.duration %} · {{ page.duration }}{% endif %}
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.duration %} &middot; {{ page.duration }}{% endif %}
     </div>
     <h1 class="episode-title">{{ page.title }}</h1>
     {% if page.summary %}
@@ -21,11 +19,11 @@ layout: default
     {% if page.audio_url %}
       <div class="player">
         <audio controls preload="none">
-          <source src="{{ page.audio_url }}" />
+          <source src="{{ page.audio_url }}" type="audio/mpeg" />
         </audio>
         <div class="player-links">
-          <a href="{{ page.audio_url }}">Download audio</a>
-          {% if page.audio_size %}<span class="muted">({{ page.audio_size }})</span>{% endif %}
+          <a href="{{ page.audio_url }}" download>Download episode</a>
+          {% if page.audio_size %}<span class="muted"> ({{ page.audio_size }})</span>{% endif %}
         </div>
       </div>
     {% endif %}

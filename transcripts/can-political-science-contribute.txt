@@ -1,0 +1,1200 @@
+ (upbeat music)
+ - Welcome to the Justify Pasteuriors Podcast,
+ the podcast that updates its beliefs
+ about the economics of AI and technology.
+ I'm Seth Benzel, finding myself the complete opposite
+ of a political scientist as I have a remarkable amount
+ to say about AI coming to you from Chapman University
+ in sunny Southern California.
+ And I'm Andre Frackin, trying to eat the last bits
+ of cultural production out now
+ before the AI's takeover of this crucial role
+ coming to you from Cambridge, Massachusetts.
+ So yeah. - So to use that cultural fruit
+ for all of its use, Andre.
+ - Yes, yes.
+ So what are we talking about today, Seth?
+ - We are venturing outside of our core domains
+ of economics and computer science
+ into the wild, dangerous world of political science.
+ It's kind of exciting for me going back to my roots.
+ Did you know I was a political science minor, Andre?
+ - You know, I may have known that,
+ but did you know I was also a political science minor?
+ - Why?
+ - So we're both kind of coming into this
+ with a little bit of interest.
+ So did you, were you mostly interested
+ in kind of international stuff or domestic issues
+ when you were taking your Paul Sci classes?
+ - I was interested in political economy related issues,
+ not necessarily international ones.
+ What about yourself?
+ - Oh, I was super into these international global issues.
+ I was president of Tulane's Model United Nations.
+ Tulane organization for Global Affairs, Toga.
+ If you're out there, giving you a shout out,
+ everyone signed up for Tulane Model UN.
+ Damn, that's throwing me back.
+ But yeah, I feel in some ways,
+ like the legacy of an older, more optimistic age, right?
+ I feel like when I was taking political science classes,
+ we were coming off of the US's golden unipolar moment.
+ And there was a sense in which universal peace
+ and prosperity was possible.
+ We were gonna bring China and India
+ into this beautiful, prosperous international system.
+ Russia was tired of invading Eastern Europe
+ and was gonna just become France.
+ And unfortunately, that golden world
+ that we thought we were building towards,
+ I don't know, were we too idealistic, were we naive?
+ It seems like the promises of political science
+ and international relations that I once was made,
+ what were made to me, the cash has failed clear.
+ Well, that was very poetic, Seth.
+ I do think that political scientists
+ are not known to agree over many things
+ such as the ones that you were saying.
+ So I think maybe that optimistic view of the world
+ was a cultural product, if you will,
+ of various media environments.
+ But I actually don't think it was the predominant view
+ of all political scientists.
+ I think there were still many international issues
+ at play, even when we were still taking
+ our undergraduate classes.
+ - Right, right.
+ Well, I remember very, very vividly the live issue
+ at the time was, can you convince China
+ to join the international system?
+ I think that was the big thing looming over the world.
+ That in international Islamic terrorism, right?
+ - Yes, yeah, the terrorism issue is really good.
+ - Like, obviously, it continues to be a thing,
+ but never really felt like a fundamental threat
+ to the international project.
+ People taught at different points.
+ - I know, it felt different in 2001.
+ What can I say?
+ You can't see the stage, you're listening to it.
+ You don't understand what it was like.
+ - Well, I mean, I remember a lot of debates
+ about what system was best for passing good legislation
+ or parliamentary system was better or not.
+ For example, I remember also reading
+ some more critical things, like some Foucault,
+ and also that was around the time
+ where you really started seeing
+ the positivist turn in political science
+ where political scientists became a whole lot
+ like economists in many ways.
+ - Right, and in fact, the destiny that we're going to read,
+ maybe this is a good transition point,
+ argues that political science has not become
+ economics-y enough.
+ This is, you know, people say
+ that economists have physics envy.
+ This is a political scientist
+ that seems to have some econ envy.
+ - Yeah.
+ Well, yeah, let's kind of introduce the essay at hand.
+ So the title is AI is Governance, and it's by Henry Farrell.
+ And it's published in the Annual Review of Political Science,
+ which, you know, we have a similar thing in economics,
+ which is usually a place where one puts kind of review articles
+ that are kind of summarizing a literature.
+ And it's very interesting for this typical article
+ in that, you know, it kind of starts out with saying,
+ "Oh, there's not that much literature."
+ Like a political scientist has kind of been ignoring AI
+ in a surprising way.
+ - Yeah, what's your story about?
+ Can I correct drug, like prior zero
+ before we get into our serious priors,
+ the prior that there is not a lot
+ of political science literature on AI
+ is roundly defeated by the own lit review
+ on political science in AI,
+ which is manages to get up to four pages of citations.
+ Admittedly, many of them to econ or sociology,
+ but talk about this t-shirt seems to lead to questions
+ that have been answered by the t-shirt.
+ - No, no, I, so yeah, I kind of disagree with you here, Seth.
+ You know, maybe we should have made this a prior,
+ yeah, most of those articles are not political science articles.
+ And I don't see political scientists being very prominent
+ in any of the AI conversations to be frank.
+ I don't know, can you really think of a political scientist
+ who we are paying attention to very closely?
+ - The people I think of who have the best political AI takes
+ would be kind of the general wonky guys
+ that we would put in kind of our econ popularizer camp, right?
+ You know, we think about abundance just came out,
+ you know, Ezra Klein, Neil Thompson, kind of, you know,
+ the center lefty technocrats seem to be writing
+ a lot of good stuff about this.
+ One name that comes up in this essay
+ that I wish was more highlighted and engaged with
+ is a friend of the show, Glenn Weil,
+ is one of the sighted people.
+ So you get a sighted economist
+ that's an example of a political scientist
+ we should pay attention to.
+ - Well, and he doesn't think of himself.
+ Does he call himself an economist these days?
+ He wants to be a political scientist.
+ - You know, they try to leave but then they pull you back in,
+ as they say, but anyway, yeah, we love you, Glenn.
+ You know, no offense.
+ You're preferred affiliations these days.
+ - Right, okay, but like, so Glenn would be an example
+ of someone who's maybe coming from the econ camp
+ who's saying, hey, like we can use these tools,
+ these market design ideas, instead of to do
+ incremental improvements and, you know, sell our bandwidth
+ for 10% higher ad auction, rather we can use mechanism design
+ to imagine radically different communities.
+ I encourage listeners to listen to his book,
+ Radical Markets, which is hardly definitive,
+ but is a beginning of what are some things
+ that we can do now with technology
+ that maybe weren't even possibilities in the past?
+ - Yeah, okay, well, that was a long side,
+ which I hope listeners don't mind,
+ but let's get to our priors, actually.
+ - Okay, so this is an essay about,
+ what's the essay about AI as governance
+ and how do we operationalize that as priors, Andre?
+ Bring me there.
+ - Yeah, so the first prior that I had
+ is kind of the sweeping prior,
+ which is AI will lead to new forms of governance
+ that are so different from the current ones
+ that will kind of need to reconceptualize
+ how we think about governance altogether.
+ So that's kind of the first one.
+ And then the second one is a useful way
+ to think about the effects of AI and governance
+ is as a new cultural technology
+ used in battles over political influence.
+ So imagine back in the day,
+ you might have competing radio programs or TV shows,
+ but now you have AI generated artifacts.
+ - Right, so theory would be something like,
+ books give you enlightenment, democracy,
+ the radio gives you fascism,
+ AI gives you question work, is that fair?
+ - Yeah, yeah, that's one way to think about it.
+ But I don't see a deterministic claim here.
+ We don't know, I don't even think even in the past,
+ it's deterministic, but yes,
+ this new technology will create a new cultural battle,
+ essentially.
+ - Right, okay, so let me start by telling you
+ how I feel about the first claim, right?
+ Which is that we're going to need to radically
+ reconceptualize how we do political science
+ and political economy.
+ I guess the first thing I would say is,
+ kind of we already have a word
+ for the study of sociotechnological systems
+ for governance, right?
+ And we call that cybernetics,
+ which is a really kind of cool 1970s word
+ from early AI days,
+ drawing on ancient Greek,
+ the term for steersmen,
+ 'cause we're gonna kind of steer society
+ with these sociotechnological insights.
+ So I guess what I would say is,
+ I thought that political thinkers
+ have been thinking about technology
+ driving society for a long time.
+ I came in sort of surprised
+ that we would need to like start again from scratch on this.
+ But having, yeah, so I came in
+ maybe not convinced of this prior.
+ I would say I came in like 60, 70%.
+ Don't we already have cybernetics, Andre?
+ What is that missing?
+ Yeah, I mean,
+ (chuckles)
+ Yeah, I'd say once again,
+ it's a prior, you know,
+ the conceit of the prior posterior, right?
+ Yeah, I would say when I,
+ when I, before I read this essay
+ and I thought about it a lot,
+ my hunch would be that,
+ yeah, you know,
+ once we have artificial super intelligence
+ and it just tells us what to do,
+ then yeah, we should probably rethink
+ how we think about governance.
+ But short of that,
+ it did seem kind of a more like continuous,
+ you know, refinement of government with the caveat that,
+ if we were to start from scratch,
+ which, you know, we rarely ever do,
+ you know, the various revolutions accepted,
+ we would not design the government
+ the way, the way we have now.
+ And we would probably use a lot of automation technologies
+ and various parts of the bureaucratic process.
+ - Percent.
+ - Yeah, I'm having a hard time with percent here, Seth.
+ I don't, I don't even, I can't do it.
+ - Disqualified.
+ - Yes.
+ (squeals)
+ - All right, cool.
+ Well, when we do our annual roundup
+ of whose past year years were most justified,
+ we'll just have to default on today's episode.
+ - All right, so the second question you asked was,
+ is the right way to think about AI shaping governance
+ as through changing the way we have our cultural debates?
+ That I think is actually a pretty cool framing
+ that I hadn't really considered before.
+ I'll tell you kind of where I end up at the end of this essay,
+ but going in, I didn't really think of it that way.
+ I would say maybe, you know, 40%, right?
+ Was kind of my attitude coming in?
+ But loosely held, as you can see, you're 50%.
+ - Yeah, I mean, I guess I would put mine lower here even,
+ 'cause just 'cause I wasn't thinking about it this way, right?
+ I was primarily thinking of AI as a tool
+ for existing processes rather than a cultural technology.
+ I mean, clearly we've discussed, you know,
+ persuasion in the past on the show.
+ And so it's certainly not, you know,
+ something we hadn't considered,
+ but when I think about all the things
+ that are important about AI,
+ I've never been one to believe that persuasion
+ is that important.
+ - Okay, so do you want to put a percent on that
+ or are you gonna demure again?
+ - I'll do like 10%.
+ - 10%, 10%, this man's ready to be presented.
+ - It's a pretty, you know, it's a vague claim,
+ but when we think about it, like,
+ the main thing about AI is that it's gonna create
+ different types of media, that to me seems unlikely.
+ - You could be persuaded of it,
+ but you're not starting there.
+ - Yeah, it's really the non-start, yeah.
+ - All right, are we ready to move to our evidence?
+ - Yes, yes.
+ (humming)
+ - So what we're faced with here is again,
+ a little bit different than our normal positive turn,
+ the papers that are going to, you know,
+ show you some evidence and make, you know,
+ hypothesis and statistic.
+ Rather, we get sort of a three-part essay.
+ In the first part, we get a definition
+ of what AI is and what governance is.
+ - Unsurprisingly, I'm gonna like their definition
+ of governance, Farrell's definition of governance,
+ a lot better than I like his definition of AI.
+ (laughing)
+ - Then we're going to proceed to talk about AI
+ as a tool for governance, and then finally,
+ we'll talk about AI's governance.
+ This pretty abstract idea.
+ But before we get into that,
+ we already talked about kind of the initial claim
+ that was made, which is that political scientists
+ have said remarkably little about AI.
+ Yet, here we are remarking, Andre.
+ Do you have any comments on this intro material
+ where Farrell, sorry, is it Farrell or Farrell,
+ where Farrell bemoans the state of contemporary
+ political science?
+ Are you ready to jump into the arguments?
+ - Yeah, I mean, I think the only thing I would say here
+ is that I think I agree with him a lot more than you,
+ but I think it's just a function of
+ the fact that a lot of modern political science
+ is very empirical, and we've already talked about
+ the challenges of studying things that haven't happened yet
+ as an empirical researcher, right?
+ And especially without a bulwark of formal theory.
+ And so my sense is that he's actually fighting
+ a slightly different battle here altogether, right?
+ Which is this battle that may be political scientists
+ shouldn't just narrowly write papers
+ asking survey questions of people,
+ and maybe they should do more of that big picture thinking
+ that they had done in the past.
+ - This is so interesting,
+ because it feels like we had very different
+ political science experiences, right?
+ It sounds like you were taking these like
+ basically polycon classes about political equilibriums
+ and testing positive hypotheses.
+ And I was taking these IR classes
+ that were about why do countries fight?
+ Is it because of the incentives of leaders?
+ Is it because of broad social forces?
+ It seems like the political science that I know about
+ is all of that, Fukuyama, you know--
+ - But Seth, I guess what I'd say,
+ I actually don't think that's true.
+ I just think that that was the old guard
+ that no longer exists, or they're very old now.
+ - Yes.
+ - So it's not our class experiences.
+ - Yes, Joseph Nye, history of US soft power
+ just passed away, our IPMPs.
+ - Yeah, yeah.
+ I mean, if you look at people at our age
+ who are political scientists,
+ they all do this sort of positive, not all obviously,
+ but the predominant do this sort of work.
+ And so, oftentimes I encounter political science
+ as a field that uses and invents new methods
+ and causal inference, for example.
+ - Right.
+ So this is political science.
+ You know, we're encouraging them
+ to maybe go back to an older mode.
+ Maybe this isn't a reinvention, maybe it's a retreat.
+ Retreats the Rodward.
+ Okay, so all right, so that's our,
+ where we're coming at this,
+ I may be more familiar
+ with the different slice of political science than you are.
+ Now we enter this question of what is AI?
+ What is governance?
+ - I am tempted, why don't I take on governance?
+ - Okay, okay.
+ - I thought the definition was pretty interesting.
+ They define governance,
+ a pharaoh defines governance as a system
+ for bringing in complex information,
+ processing and representing it,
+ and then helping people coordinate based on that representation,
+ right? - Yes.
+ - Inside of governance is gonna be everything from,
+ the king tells you what to do,
+ to the market system aggregates demand information
+ and comes up with prices,
+ and then we make decisions individually
+ based on those prices.
+ In this system, those are both governance.
+ So governance is quite broad here.
+ It's any sort of complex social coordination mechanism.
+ - I guess you would say very clearly in this essay,
+ he says he doesn't have a definition of governance.
+ It's the loose metaphor, right?
+ - It is a, like the value of this approach to governance
+ is not that it provides precise definitions,
+ let alone testable hypotheses,
+ but rather broad heuristics.
+ - I treat governance as an umbrella term
+ for the large scale systems
+ for processing information and social coordination, right?
+ It's not a definition, it's an umbrella term.
+ - It's an umbrella, yes.
+ - Like kind of like institutions,
+ for something that we're quite familiar with.
+ - Oh God, God forbid, I'll have an exam,
+ somebody asked you what the difference
+ between an institution and a governance mechanism is.
+ - It's for a really hard aside.
+ My wife really loves the sort of
+ like psychological murder detective TV shows, right?
+ And so one term, two terms of art that come up a lot
+ are triggers and stressors, right?
+ And so like a trigger is something
+ that might cause a potential murderer to murder,
+ whereas a stressor is something
+ that might cause a potential murderer to murder.
+ So anyway, triggers and stressors,
+ institutions and governance, all right.
+ There may have been too much of an aside.
+ Returning to the paper,
+ one quote I found very fun here was
+ explaining how everything is kind of governance.
+ - The price mechanism bureaucratic categories
+ and representations of the democratic public
+ or simulations were very lossy course screenings
+ of irreducibly complex systems.
+ - So let's dig into that a little bit.
+ Let's just think about what that means,
+ let's say in terms of democratic governance,
+ 'cause I think there might be a useful analogy.
+ They're, you know, if we read the founders
+ and various political philosophers,
+ we're kind of thinking about this ideal
+ where we kind of know what every single person
+ in a populist wants and then we kind of aggregate
+ that in a useful manner and then we get some good outcomes
+ and maybe we want some minority protections
+ and maybe we want some expertise in there,
+ but generally, you know, there's a conceit
+ that we're kind of representing kind of what people would want
+ if they thought really hard about it and were fair.
+ - Right, that's the populist conceit for democracy.
+ - Yes.
+ And, you know, you can see how that's a lossy one
+ because, you know, clearly,
+ who wins in let's say the House of Representatives
+ or, you know, who is put on the Supreme Court?
+ You might not think that that's a pretty great representation
+ of the people, you know, but up to debate, obviously.
+ - I mean, I'm surprised you didn't immediately go
+ to arrows in possibility theorem
+ and the old result in economics
+ that there is no such thing or there is not necessarily
+ such a thing as the will of the people,
+ that the people may be irreducibly divided
+ and hopelessly irrational in their aggregate preferences.
+ - Yeah, I mean, I guess there are formalizations of this,
+ but I was even thinking about like kind of very kind
+ of observational level of just, you know,
+ our political institutions have all sorts of lossiness,
+ if you will, to them, you know, the stemming from, you know,
+ imbalances and, you know, resources and attention
+ and various more and more hazard issues, you know, yeah.
+ - I have to combine somehow all of my preferences
+ into the spec that, you know, gives me three options, right?
+ Of course that's lossy, right?
+ And so maybe what you're building towards here
+ is this idea that an AI agent driven democracy
+ would be able to much more detailably take in
+ or preferences and aggregate them.
+ Is that what you're building towards?
+ - Yes, exactly.
+ But I guess I wanted to lay out the, you know,
+ where the lossiness comes from in this sort of system.
+ And, you know, of course, you know,
+ markets are different with organizing society,
+ focusing on economic factors perceived
+ through the price mechanism.
+ And once again, we can think about various ways
+ where sometimes we might think
+ that competition isn't working as well
+ as we'd like, you know, efficiently allocating resources.
+ - Great.
+ And so now, I mean, if I can be even more postmodern
+ for a second, let's make the postmodern, right?
+ So we're gonna describe these governance mechanisms
+ as producing simulations, right?
+ What's a simulation?
+ A simulation is there is some underlying reality
+ that I'm trying to represent in an artificial way, right?
+ As we all know, father of the Matrix,
+ Bedriard has told us that we are moving beyond simulations
+ into simulacra.
+ So simulations of things that never existed
+ in the first place.
+ You might think of the bureaucracy itself
+ as a kind of simulacra if you think of,
+ now I'm gonna be like completely out of my depth here.
+ But, you know, in China, there's sometimes this idea
+ of the heavenly bureaucracy
+ that our earthly bureaucracy imitates, right?
+ So if you're imitating a thing that may or may not be real,
+ you'd have a simulacra, not a simulation.
+ And in the same way, you might worry that as we move
+ to this more kind of AI agent driven detail preferences,
+ auto generation of content,
+ the simulation that is the governance mode
+ has less and less to do with what real individual people
+ maybe hypothetically in aggregate would have wanted
+ and becomes more and more a simulacra.
+ It's a simulation of a hypothetical person that never existed
+ that exists in order to achieve,
+ I don't know, question mark in Bedriard.
+ You know, I can't achieve anything
+ 'cause nothing's real or vague.
+ - I am impressed by your ability
+ to bring up Bedriard here, Seth,
+ after we read it, it agreed that it was 99% nonsense.
+ - Oh, it's 100% nonsense,
+ but it's beautiful poetic nonsense.
+ - Which, you know, is a cultural technology, if you will.
+ - Right.
+ - Okay, but before--
+ - Don't mean Bedriard just watch The Matrix,
+ that's the answer. - Yeah, The Matrix is great.
+ Yeah.
+ I guess what I would say is before we move on
+ to this cultural postmodern take on all this,
+ one thing a little bit about what AI as a governance technology
+ would mean here.
+ And here I was, you know,
+ looking at some of the recent literature,
+ there's some folks at DeepMind
+ that have been interested in kind of AI as a tool
+ for democratic consensus building.
+ So maybe you have an AI agent that's kind of a mediator,
+ between people with diverse beliefs
+ that kind of helps them to agree on a statement
+ or a particular viewpoint or a particular, you know, policy.
+ - Arbitration bot?
+ - Yeah, exactly.
+ Or you could think about, you know,
+ this is in some work in the friend of the show,
+ John Horton, where, you know,
+ people might have very complicated preferences,
+ but it's hard to state them.
+ But at the same time,
+ if you state some of your preferences
+ and tell an LM that the LM can reconstruct
+ more of your preferences.
+ And so then we can have, you know,
+ maybe we can relax the constraint
+ that people are gonna vote over these, you know,
+ binary things like candidates.
+ And maybe there's kind of a different sort of expression
+ of democratic, you know, opinion that is AI enabled.
+ Maybe you designate an AI on your behalf
+ to vote for you, for example.
+ So there's all sorts of kind of interesting technologies there.
+ And then there's kind of more mundane things,
+ which are still, you know, tremendously important,
+ but like, you know, instead of having a bureaucrat
+ that decides, you know, whether you're eligible
+ for Medicaid or not, you have an AI
+ and, you know, that AI may be, you know,
+ this LM driven thing that's kind of fuzzy, you know,
+ it's not like a set of rules.
+ It's actually making judgment calls
+ depending on what its conception of fairness is.
+ But maybe both, you know, maybe with society agreed
+ to hand that over to the AI
+ because it's more objective in some way
+ than a human bureaucrat or it has more attention
+ to detail or so on and so forth.
+ - Right.
+ And so now, so the distinction that Farrell wants to make
+ is between AI as tool of governance
+ and AI as form of governance.
+ So just to roll through some of the examples
+ you had Andre, the first arbitration bond.
+ So we have a dispute and then we're gonna have an AI
+ trying to help find us a compromise.
+ I would call that form of governance
+ rather than tool of governance.
+ I guess if you were ordered by the court to do it,
+ it'd be a tool of governance, right?
+ - Yeah, I think it's closer to form.
+ I don't think it's obviously a clear distinction here.
+ Yeah.
+ - Okay, simulated polling.
+ The John Horton simulated preference extraction
+ is that a tool of governance or a form of,
+ it's a tool, right?
+ - Well, I mean, it could become a form of governance
+ of, you know, it's kind of hyper-democracy, if you will, right?
+ It's kind of like the direct democracy,
+ but maybe, you know, that's something that it is.
+ - A simulacra democracy.
+ - Yeah, yeah, yes.
+ Exactly.
+ Something like that.
+ - Delegated polling.
+ So this idea that I would have my own personal AI agent
+ that can vote in a kind of complex parliament on my behalf,
+ that feels like governance, that tool of governance, right?
+ That sounds like we have a new system.
+ - Yes.
+ - Okay, cool.
+ I will now say that each of those three very fascinating
+ ideas do not appear in the essay.
+ - Yes, exactly.
+ Too specific for this essay, Seth.
+ - Too specific, too specific.
+ Let's spend 300 words about whether LLMs are racist instead.
+ Okay.
+ - Yeah, so, I mean, let's just flag it, right?
+ So there's a pretty big discussion of bias,
+ both kind of standard bias
+ that we might be thinking about, you know,
+ from everything, you know,
+ all the discussions of bias that have existed in society
+ based on, you know, socioeconomic status,
+ from gender or race or whatever,
+ but he also talks about cultural bias,
+ which might be something different, you know,
+ maybe, you know, biased against people who,
+ I don't know, like anime or something like that.
+ - That's good.
+ But I do think that, to me,
+ it's not that bias is not an important topic,
+ but there's a tendency to frame many,
+ very many interesting issues,
+ there's issues of bias rather than maybe more helpful
+ framings of various topics to study.
+ - Right.
+ So let me give you the quote on that
+ that I found the most interesting.
+ So Pharrell asked the question,
+ should LLMs correct for a dominant slash hegemonic view
+ that reinforces existing forms of inequality and oppression?
+ Should they instead reflect some unfiltered version
+ of the cultural content that has been scraped and fed to them
+ on the justification that this reflects
+ some broad version of the marketplace of ideas?
+ These are profoundly political questions,
+ even a few political scientists or theorists
+ have taken them up so far.
+ And the essay goes on to talk about
+ all of these things we've already mentioned
+ in our algorithmic bias episodes, right,
+ that you might, there might be earring,
+ we're a consolvable trade-offs
+ between different methods of bias,
+ types of bias that you might have to take on, right?
+ And so I think a more interesting essay
+ would have, Pharrell, we appreciate what you got.
+ This is a good essay, we definitely were inspired by it.
+ I wanna read the essay that's like taking on this challenge
+ of like what, you know, here's a bunch of concerns
+ we have in that LLMs, how, what's the,
+ how does politics help us get better to a better place there?
+ Maybe that's a political econ essay.
+ - Yeah, yeah, or, you know,
+ alternatively, how do we conceptualize this here?
+ And we have these different model providers
+ that have pretty different philosophies
+ on what the system prompt should be, right?
+ You know, we have your Grox, better kind of anything goes,
+ but maybe a little, a little special Elon term.
+ And, you know, we have, you know, we have your anthropics,
+ so, you know, they're forming a new constitution over there.
+ You know, we have OpenAI, you know,
+ let's, who knows what OpenAI is doing.
+ I have no.
+ - Yeah, we've got Google, which, you know,
+ God forbid we had German Nazis in our pictures.
+ - Yeah, but, you know,
+ but what's also interesting is that some of that seems,
+ is pretty clearly also unintentional,
+ which is kind of a key issue here, right?
+ It's not, clearly they figured out
+ that that was not what they were.
+ - So, would there, would there--
+ - Right, I mean, so, yeah, so to bring people on board
+ who don't know what we're talking about,
+ there's kind of a famous example of Google
+ image checker generations,
+ wanted to make sure that it had good diversity of people
+ whenever it generated a group of people,
+ rather than, you know, reinforcing implicit biases
+ that, you know, doctors or lawyers
+ might be of a certain race.
+ And what they ended up with is no matter what you generated,
+ you would get an ethnically averse, diverse array of,
+ you know, whatever, Nazis,
+ communists at the turn of the century, you know, whatever,
+ whatever group that you had in mind--
+ - Mongols.
+ - The Mongol invaders, right, ethnically diverse.
+ Not that the Mongol hordes didn't take on
+ a lot of ethnic diversity over the course of their co-quests,
+ but you can see how this ended up in a silly place.
+ Why am I bringing this up?
+ That was a spectacular example of de-biasing gone.
+ Nobody's happy with this, right?
+ But that's the kind of political socio-question
+ that theoretically political scientists
+ should be able to help us with, right?
+ That's kind of what Farrell's arguing.
+ - Yes, yes.
+ And I think here's kind of where maybe we can make them move
+ to the cultural technology.
+ So, yeah, so once again, to reiterate, you know,
+ when we have new technologies such as TV
+ or even cable TV, that creates new media.
+ That media is used to support either explicitly
+ or implicitly certain political forces, right?
+ And the question is, is AI that?
+ And what does it mean for AI to be that?
+ And I think, you know, just spitballing,
+ I think a very, you know, obvious way in which that's true,
+ but it has nothing to do with ALM's actually is just
+ algorithmic news feeds, right?
+ Which are, we've already discussed on this show.
+ - Yeah, there's a good amount.
+ And I will say, to give Farrell credit,
+ he does spend a good amount of this thinking about AI
+ governance on digital platforms.
+ He doesn't have that much to say,
+ community notes never comes up,
+ which is something I would look like
+ to see discussed in this essay.
+ But the author is aware of AI governance happening
+ in platforms right now.
+ - Yeah, and even without community notes, right?
+ We have, you know, even just the decision
+ of which posts to flag and send to human reviewers.
+ I mean, all this, all this stuff is governance
+ and books, many books have been written about it.
+ Many papers have been written about it.
+ And the question is like, the ALM version
+ or the agentic version of AI,
+ is that gonna produce new cultural artifacts?
+ I think one way to think about that is,
+ you know, we can generate texts from scratch
+ that could be persuasive essays,
+ it could be movies, it could be podcasts, right?
+ And maybe, you know, maybe set an eye.
+ We, you know, we want to propagandize the value of,
+ I don't know, economics, economics education.
+ - You're propagating the podcast.
+ - Our own podcast, for sure.
+ - Thank you.
+ - And so we create a bunch of AI-generated artifacts
+ that are, we're gonna unleash into the MIMO sphere
+ and they're gonna capture some amount of attention.
+ And as a result, you know,
+ if we went out in this cultural battle,
+ we're gonna see more, you know, prominence
+ and economics podcasts are gonna have
+ more of an influence in society.
+ - Yeah, society will be healed, presumably.
+ - Yes.
+ - Right, and that's, I mean, that argument sounds
+ pretty right to me, right?
+ It seems like you only get personal autocracy
+ with mass communication.
+ It seems like, you know, modern dictatorship
+ is only possible with radio and television.
+ And then, you know, and then what, right?
+ So what is the form of governance
+ which is unlocked by mass personalized communication?
+ The positive vision is something like
+ we are able to use our AI systems
+ to explain the voice or opinions in much more subtle ways.
+ That's the positive spin.
+ The negative vision is that we get overwhelmed with slop
+ is that the public discourse becomes super low cost,
+ invented material, invented people,
+ astroturfed political campaigns of imaginary people,
+ you know, who are out there marching on the streets,
+ but there's nobody's marching in the streets.
+ And that whoever is able to control
+ all these simulated agents can then control
+ the perception of what is popular
+ and then control the reality of what happens.
+ - Yeah, so aren't we there already, Seth?
+ - Well, that's the thing, right?
+ As you said, this doesn't really engage
+ with the actual positive literature that much.
+ Let me talk about two ways pieces of evidence we have
+ on whether that dystopia is live.
+ The first is a paper that we reviewed on this podcast,
+ look it up the episode.
+ Met as algorithms swung the 2020 elections,
+ one of our best episodes, I might say.
+ And there it, you know, in contrast to this essay
+ that wants to distinguish between, you know,
+ purely technocratic decisions of informed bureaucrats
+ with political decisions and argues
+ that these political decisions, sorry,
+ argues that when tech platforms make any sort of decision,
+ it's inherently political.
+ Well, we just saw an example of the algorithmic news feed
+ in this super duper precise study at least once,
+ at least in 2020, seem to be apolitical.
+ It seems to mostly just be about getting people
+ to be on Facebook, Walker.
+ So that's the first piece that, yeah, go ahead.
+ - Well, I mean, I would not read that paper
+ that it was apolitical.
+ I mean, it changed the distribution
+ of really bad slop content, actually, if you recall.
+ The algorithm got rid of a lot of low quality news content,
+ which I would suggest is the sort of content
+ that we might, that people expect AI to produce, right?
+ There's a lot of fake news,
+ you know, sensationalist, not so true stuff.
+ - But it ended up not making a difference.
+ Even if it did that, if it did the good political thing,
+ it seems to have not moved people's politics.
+ - Well, I think we discussed why that's not actually
+ something we should learn from that study, right?
+ And I do think that this is where a macro perspective
+ is really important, you know.
+ Opinions are, I'm gonna go back to this every time
+ we talk about this, opinions are formed in a social community.
+ And so if you yourself get treated
+ and you're the only one who gets treated
+ out of all your friends, the effects are gonna be very tiny.
+ And 'cause we don't change our beliefs
+ outside of a social context
+ unless we're like philosophers or something.
+ - Right, most of us just go with the crowd.
+ The second piece that I was thinking about here
+ was the research that we've already gotten
+ from "Friend of the Show" Bo who has been working
+ on this question of the kind of the more narrow question
+ of how do AI enhanced resumes and communications
+ kind of gum up the information revelation process
+ that happens in job applications.
+ And I know Sarah Bana at the Digital Economy Lab,
+ lots of people are kind of at the econ side
+ working on this question.
+ Farrell cites himself as making an argument
+ that LLMs are extremely well suited
+ to the automated performance of organizational ritual
+ such as the production of personal statements
+ and performance reviews, blah, blah, blah,
+ made to generate leading to inferior knowledge
+ and lower trust.
+ So the political scientist here is starting to catch up
+ to this econ concern that communication
+ is gonna get degraded because we've made
+ explaining yourself less costly signal perhaps.
+ - Yeah, and I guess following onto that,
+ I recently read a piece from the Center
+ for the Governance of AI which is an organization
+ that seemingly should be relevant to this essay
+ called what role should governments play
+ in providing AI agent infrastructure, right?
+ So if we think that--
+ - Is this the AI?
+ Is this the Oxford Group or is this something else?
+ - I think it's the Oxford Group.
+ - Okay, love those guys.
+ Hi, Sam Manning into the team, Phil.
+ - Yeah, I'm not 100% sure that they're who you're talking about
+ but--
+ - Okay, if not, not below.
+ - But nonetheless, they seem legit.
+ Anyway, so kind of this question is like,
+ let's say the government is being forward-looking
+ about what to do about AI systems.
+ Well, one thing to do is to just let the market
+ solve AI systems, right?
+ But you might think that if there are these
+ unpriced externalities, then maybe the government
+ needs to get involved and the question is kind of
+ what are those unpriced externalities
+ and kind of already here suggesting that maybe something
+ to do with the low costs of cultural product production
+ and verification of who produced what content
+ and which content is trustworthy and which one is not,
+ maybe there's a sense where the market's gonna try
+ to provide for this but maybe it's gonna have
+ a hard time coordinating and therefore the government
+ might help to coordinate that somehow.
+ Or maybe it's gonna mandate some transparency
+ and disclosures that might be helpful in this situation.
+ Or it might issue credentials that could be used
+ by individuals and organizations to verify
+ certain things.
+ Andre, thinking about this like an economist,
+ like a political economist, right?
+ Here's a tool that's lowering costs.
+ Let's think about mechanism design
+ in order to overcome that cost.
+ I think what Farrell wants is not that.
+ I think Farrell's happy to delegate those questions
+ to computer scientists and economists and et cetera.
+ The question he wants to ask is like one level deeper, right?
+ How do we come up out having a government
+ that wants to solve problem or to solve problem?
+ How do we go about establishing the desired data
+ for the solution of that system, right?
+ And I'm not sure that those are AI questions
+ insofar as the social decision could be shaped by AI, right?
+ But in some ways they seem kind of pre-AI, right?
+ In some ways it just sounds like,
+ okay, what a politically powerful people want?
+ Okay, they'll do that with AI now, right?
+ Yeah, yeah, I mean, I agree it's kind of a mechanism design
+ approach, but I guess maybe I'm reading the essay
+ in a different way that the Farrell, let's say,
+ just to be clear, is like, I don't think he's
+ necessarily saying like, here's what we should do, you know?
+ I think he's saying this will change.
+ This will change in this, this is how we should think
+ about this change.
+ It's gonna be a cultural battle using a new
+ production technology.
+ And he brings up this case of content producers
+ who might now have cheap substitutes
+ for their production methods and maybe, you know,
+ certain high-status content producers
+ will lose their influence, you know,
+ natural to think about, you know,
+ writers and journalists, for example,
+ but maybe we can think about content producers
+ as being politicians.
+ They're producing video content that--
+ They're political, they're political.
+ Yeah, yes, exactly.
+ Or even lawyers who are, you know,
+ producing the texts involved in lawsuits, right?
+ Well, put, I guess let me kind of see what,
+ here's a sentence that I take away as sort of a thesis
+ for the whole essay, which is,
+ we do not add a discipline talking about political science,
+ regularly think hard about how technology affects
+ the deep structures of the political economy,
+ government and democratic and autocratic regimes
+ and democratic representation and feedback,
+ that has to change.
+ Does he want political science to be a political economy?
+ I don't think that's what he's saying.
+ I think he's saying something like,
+ maybe that this positive turn is too narrow.
+ Maybe it's, maybe that's what he's saying.
+ Or what you started with, Andre, that right now,
+ Paul Sigh is asking two narrow questions
+ relative to how big this change that's coming is.
+ Yeah, I mean, I think that's what he's asking,
+ or that's what he's saying, I guess.
+ But I don't think he points us very far past
+ just the fact that this is gonna be this cultural battle,
+ which, you know, it's good because, you know,
+ we can speculate about what that means ourselves.
+ Maybe that's the point.
+ Okay, so let's do a little bit of speculating
+ at that, what does political cultural battle
+ look like in the age of AI?
+ I mean, to wildly speculate here,
+ remember that show "Crossfire",
+ where Tucker Polson would wear a bow tie
+ and people would yell at him?
+ Yes. Okay.
+ What if that, but we had AI agents yell at each other
+ and then somehow, democracy?
+ Yeah.
+ I mean--
+ I don't know if that would be engaging content set.
+ I, you know, what a more, you know, I can imagine,
+ although I don't know how widespread this way
+ of working will be, you know, I had a discussion
+ with a friend about a contentious political issue
+ that I didn't know very much about.
+ And what I did was I went to an AI agent
+ and I asked it to do deep research
+ and summarize the evidence and so on and it did.
+ And you might think that even if it summarized the evidence,
+ you know, that's not gonna be a values-free summary
+ of the evidence, even the fact that some things, you know,
+ as we discussed many times in the show,
+ some things are easy to measure,
+ some things are hard to measure.
+ And so the very fact that deep research results
+ in certain types of artifacts, you know,
+ maybe tables with numbers in them from specific studies,
+ who knows how good they are, you know,
+ that might be a persuasive form
+ for certain policy discussions.
+ Now, I'm not gonna lean into that too much
+ 'cause I generally don't think that policy
+ is about effectiveness.
+ So when it comes to political beliefs,
+ it's really about, you know, my side versus their side.
+ I don't know.
+ But that's one world we can imagine that, you know...
+ - Well, but me, that's the positive vision.
+ - Yeah. - The positive vision is,
+ as we get more detailed possibilities in these debates,
+ it becomes less red team, blue team,
+ and it becomes more, you know,
+ everyone puts their dot on the political campus.
+ And then at the end of the year, you know,
+ we put a circle, you know,
+ that tries to cover as many of them as possible, right?
+ - Yeah, yeah.
+ Yeah.
+ But that's kind of the most benign, maybe even interesting,
+ but not the least radical of the visions
+ that we might imagine.
+ You know, the other version of it is the opposite.
+ It's the reverse, right?
+ You know, someone has a political position.
+ They wanna support.
+ And then they ask the AI to come up
+ with the best version of the argument for this.
+ And then they feel really good about themselves.
+ And then they go about spreading that throughout this,
+ the ecosystem, the cultural ecosystem, right?
+ You know, obviously this becomes even worse
+ if there's, you know, conflict of interest
+ and there always is, right?
+ You might imagine that someone's beliefs might align
+ with their financial interests or other sorts of interests.
+ And, you know, you might have that.
+ And then kind of naturally, the question becomes,
+ does how content gets distributed
+ also get affected through this system?
+ - Right, I mean, it must, right?
+ We'll all have our personalized AI agents
+ who are just curating our Facebook stream,
+ but all of the information that's coming in at us, right?
+ I would say that kind of at the most, most metal level,
+ I'm optimistic that more communication,
+ people being able to communicate to each other
+ more robustly and more clearly on net
+ once we've done the general equilibrium settling
+ and people have adjusted
+ to how newly persuasive everybody else is.
+ I mean, it seems like we like to think
+ that that produces good outcomes in the legal system, right?
+ We like to think that, you know,
+ if both sides as lawyers spend a million dollars,
+ we're gonna have a more accurate outcome of the case
+ than if both sides lawyers spend one dollar, right?
+ That's kind of what I think, but I don't know.
+ I don't know where it's gonna lead us.
+ Do you accept that premise?
+ - I mean, that is very polyanish, if you will.
+ Yeah, I think it's a possibility.
+ I think it's, I think weirder things will happen
+ but I have a hard time predicting.
+ - I think what I wanna read next after reading this
+ is actually read some Glen Wild style futurism
+ and actually see, okay, this is how they think
+ the future voting is gonna work.
+ - Yeah, yeah, we're talking about the Plurality Institute,
+ right, and things like that.
+ - Right, so, yeah, so Glen Wild is one of many people
+ kind of working in the direction of sort of digital democracy,
+ how can we get kind of both more democracy
+ and more technocratic rule through smart applications
+ of these technologies?
+ I know other people are thinking about these questions.
+ I know like the Boston Future of Humanity Institute people
+ were always interested in these questions.
+ - Yeah.
+ - This essay, unfortunately, I think ends itself right
+ when the conversation starts getting interesting, right?
+ It ends right before that.
+ - Yeah, but, you know, which is, it's good,
+ because, you know, there's a lot more for us
+ to talk about and explore.
+ So, yeah, maybe we can kind of wrap this up.
+ So after, you know, reading and this discussion kind of,
+ are any of your priors updated here?
+ - Right, so I started by saying that I thought
+ that AI will create new forms of governance
+ that we will need a new form of political science
+ that focuses on this 60%.
+ I come away reading this essay
+ and like feeling that number has to come up a lot
+ 'cause it sounds like political scientists
+ have not thought about this at all.
+ And I was totally happy to say did the cybernetists
+ have opinions about this,
+ but apparently not enough worth citing or citing heavily.
+ And so I'm gonna go for maybe 60% on that to 90% on that.
+ - But okay, but what about kind of AI will lead
+ to forms of governments that are so different
+ from the current ones that will need a new field
+ of political science for it?
+ - Yeah, I'm up from 60 to 90, right?
+ - That's kind of what you mean, okay.
+ - Yeah, yeah, that's what I meant to say.
+ - Yeah.
+ - On this, go ahead.
+ - Yeah, I mean, I guess on, for me,
+ I had no prior on this.
+ So I guess I shouldn't have a posterior.
+ - No, I mean, you're allowed to have the priors
+ exactly 50/50, if that's the one you want to attack.
+ - I just, it's hard for me to just even conceptualize
+ that, that pride, right?
+ - Ambiguous, the answer is that you cannot
+ represent your belief.
+ So if I don't know how to represent my beliefs here,
+ I guess if we think like, is AI gonna create
+ transformative changes in governance
+ that are gonna be hard to recognize from our current lens?
+ Eventually with artificial super intelligence,
+ necessarily so, in the intermediate worlds,
+ I think we can fit a lot into our current frameworks.
+ - Right, for it, yes, exactly.
+ And I think that that kind of follows the structure
+ of this essay where we spend kind of most of the time
+ on AI as governance tool, where it's, you know,
+ the politically powerful people are gonna do this
+ using it, I know, versus AI as governance,
+ which is a lot more speculative at this point.
+ Now, the second question I thought was kind of a lot more
+ interesting to sort of engage with in a quantitative way,
+ which was something like a useful way to think about
+ the political effects of AI is as a new cultural technology
+ for us to use in battles in political influence.
+ I started there at 40%, I guess, 'cause I was mostly
+ thinking about AI as reinforcement learning,
+ and we can talk about that as kind of one of the limitations
+ of this essay is it really, it seems like it wants
+ to do a hard distinguishing between AI as optimizer,
+ reinforcement learning tool versus AI as LLM,
+ cultural product creator, and it doesn't do a lot of,
+ I don't know, it kind of goes back and forth,
+ it doesn't either do a distinction or do an integration,
+ setting that aside, do I think that that latter form
+ of AI, AI as LLM, AI as thing that can be persuasive
+ or produce cultural artifacts, is that the right way to think,
+ is it a useful way to think about AI?
+ Oh, definitely go up from 40% to like 80, 90%,
+ I think that is actually a pretty useful framing.
+ And be the most useful way to think about AI?
+ No, probably the direct effects on economic outcomes
+ will be more, like, if you double everyone's income,
+ you also change politics, right?
+ Well, I mean, yeah, and it's not just that,
+ if you just give the government a new technology to use,
+ and don't increase GDP, that still has pretty profound effects
+ and that's not through the cultural sphere.
+ But I agree, I thought a lot more about this,
+ and I updated, I think, my prior to 15% for my 10%,
+ that it's kind of a de-primary way to think about it.
+ But it's a useful frame, even though I agree with you,
+ it's not the primary frame that I would still use for this issue.
+ Right, it's, right, it's, I read a sci-fi novel once,
+ which was about, and there's an aside in it,
+ where there was a battle between these two AI systems,
+ and the two AI systems kind of put out
+ like different little drones that fought each other,
+ and there was kind of like this escalating arm's wrists
+ of, okay, well, he used this kind of drone,
+ so I'm gonna use the counter drone.
+ If you think about, if a kid's at home,
+ if you've ever played like an Otto Batler video game,
+ that's kind of how this was described in the novel.
+ And I'm just imagining what the version of that
+ is in the cultural domain, right?
+ Is that I've got my AI reading and writing to Twitter,
+ you've got your AI reading and writing to Twitter,
+ and we're gonna have this automated cultural battle
+ where, you know, I'm creating this whole
+ true turf society of people who want
+ a lower marginal tax rate on sand,
+ and you've got this whole society of people
+ that wants a higher marginal tax rate on sand,
+ and we're just having this kind of cultural battle
+ in public that's 95% automated.
+ - Yeah, yeah.
+ - That's a possible future.
+ - It is, so most of the content as Tyler Cohen likes to say
+ will be consumed by the AIs.
+ That's another way to think about it,
+ is that the training data, right,
+ itself is gonna be AI-generate.
+ - Right, and now you're worried about model collapse.
+ There's an aside here in this essay about model collapse.
+ I don't think Harold has anything particularly interesting
+ to say about other than that, that, baby.
+ All right, well, on this note, shall we wrap it up?
+ - I think so.
+ I think we have justified our posteriors,
+ and so to our listeners at home,
+ I hope that if you still consume any human-created content,
+ it includes justified posteriors.
+ And I guess from us to you in a podcast, Bill,
+ keep your posteriors justified.
+ - Yeah, peace out.
+ All right.

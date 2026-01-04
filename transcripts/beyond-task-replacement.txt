@@ -1,0 +1,430 @@
+ Let's try to look around the economy and see where there is scope for deepening.
+ If you already think that like warehouses are operating close to some optimum level, right?
+ With the existing robots, then why would you think that they would be further
+ helped by additional AI technologies, right?
+ That's a sort of argument you have to make.
+ Right.
+ And of course, warehouse is a share of GDP or a tiny factor, but you can look
+ around all the different sectors of the economy and say, here, like, here's a hospital.
+ The hospital has these MRI machines and they're already pretty highly utilized and just
+ go around with examples like this and say that I actually, I did the same thing that I
+ did for tasks, but I did it for capital.
+ And very little capital is actually going to be more efficiently used as a result of AI technology.
+ That's the argument.
+ Yes.
+ That would be the exercise you have to do.
+ Yeah, I guess if you think that factories are already completely automated, but are
+ still far from as efficient as they could be, then that's a pure capital deepening argument
+ that would be the only way for AI to have at effect.
+ This is the Justified Posteriors Podcast brought to you by the Digital Business Institute at
+ Boston University's Questrum School of Business.
+ Hi, everyone.
+ I'm Seth Benzel, modularizing my labor and deepening my capital here in Orange, California.
+ And I'm Andre Fracken, complementing ICT systems worldwide.
+ Welcome to another episode where we will be discussing the implications of AI for the economy.
+ And in particular, the GDP and growth.
+ The paper we're reading today is a sharp contrast to the paper we read last time, which was the
+ simple macroeconomics of AI by the Roni Simogulu.
+ This time we're reading artificial intelligence technologies and aggregate growth prospects
+ by Tim Brezhnehan.
+ Why are we reading this, Andre?
+ Why are we reading this?
+ The paper was written before chat GPT, so the before the chat GPT moment, written by human.
+ Yes, we know it was written by human.
+ That's actually a nice point.
+ The reason we picked this one is because Tim Brezhnehan has been a leading thinker
+ about general purpose technologies in his research career.
+ And he has a very different take on the possible effects of AI on growth than a Simogulu.
+ I hope so because last week was pretty dispiriting in that last session.
+ I think it's important to just take a step back and mention what is a general purpose
+ technology before we get to the main argument of the paper and our priors about it.
+ Cool.
+ So general purpose technologies are technologies that can be used throughout the economy.
+ So think of something like electricity and so they enable everything else.
+ That's why there are particular interests to people who are interested in economic growth
+ and the economy more broadly.
+ And so the big question is whether AI is going to be a general purpose technology
+ that's going to have similar effects to say, electricity.
+ It's a great framing and it's very different than the framing that we get
+ from Professor Asimov's paper, right?
+ And that framing, he's going to explicitly say, I think the impact of this technology
+ is the amount of jobs it impacts times the productivity effect on every job it impacts, right?
+ That's a very kind of narrow way of looking at these technologies is going to be argued
+ by Professor Bresnahan.
+ What's the main argument that Professor Bresnahan makes?
+ He's going to say that most of the economic benefit from AI, he calls them AITs, AI technologies.
+ He's going to come through completely reorganizing organizations, completely reorganizing the way
+ that we do tasks, getting better at doing things that we already do with machines,
+ doing that with higher quality and lower costs, and that the amount of impact of AI on the economy
+ through literally replacing your job with a robot or through an AI system is the strong
+ version of the argument he comes out with.
+ Andre, that's a little bit extreme.
+ Maybe we can pair that back a little bit too, just asking the question.
+ Andre, what's your prior on the percentage of economic benefit that will come from AI
+ that will come through literally AI replacing someone's job versus everything else?
+ I would say it's about 20% replacing someone's job and 80% everything else.
+ And everything else, for me, is a very broad everything else, so it might include technological
+ innovations such as better medicines, robotics, and so on and so forth.
+ So I'm taking a very broad view of AI in this prior, although, as we'll see, this paper
+ perhaps has a little bit of a narrower view of what AI is going to be, but yeah, my split.
+ 20% task replacement slash augmentation, 80% everything else.
+ Do we want to call that you're going in agreeing with Bresnahan or against him?
+ Do we want to interpret that irrelevant as being literally zero or do you want to say that you're
+ on the in terms of vibes you're on his side? I think in terms of vibes on his side,
+ as we'll see in this paper, he does not make any quantitative statement, so it's
+ hard to pin him down exactly. But yeah, vibe wise, I think he's thinking about
+ the more important aspects of AI tech. Okay, so I'll tell you my prior going into this
+ is also feeling like both elements are very important here, right? There's some sense where
+ for AI to be truly unlocking human potential in the long run, it really does have to liberate us
+ from the jobs that we have currently, right? There is some sense in which there was a task
+ that used to be done by a human that will either never be done anymore or will be done by a machine.
+ Now, maybe he wants to distinguish between will never be done anymore and will be done by a machine.
+ Fair enough. Keeping that distinction. So I guess the first point is that you can certainly get
+ a lot of economic growth and a lot of economic benefit out of getting better at doing with machines,
+ things that you already know how to do machine with machine, but there is definitely economic
+ potential left on the table if you're automating labor, or I guess reorganizing away from labor.
+ Now, specifically to the question, what's share of growth, additional growth from AI? I think it's
+ going to come from literally replacing a task and the job's going to look very similar and the task
+ is going to look very similar versus everything else. I'm coming a little bit higher than you.
+ I'm going to come in maybe in the 30% range, maybe even all the way up to half,
+ just because when I think about the breadth of tasks that are currently done by humans that a
+ generation or two down the line of LLMs might be capable of, impossible to not see some of those
+ tasks being done by AI's, but perhaps we'll just reorganize away from them.
+ I think there's a question of what share of tasks get automated away/what share of future GDP growth
+ will be caused by the automation of those tasks. I think perhaps some of our differing numbers
+ have to do with a different emphasis there. I certainly think many tasks can and will be automated
+ away. I'm just not sure how much those will yield additional growth. No, that makes perfect sense.
+ If you're not going to unlock immortality by getting better at doing any current human task,
+ you're not going to unlock whatever super cool radical technology you're going to have just by
+ farming faster or automating. So I do think a lot of the really cool high upside stuff
+ needs to come through new tasks and newer ideas. He's not really focused super hard on sci-fi
+ stuff in this article. I think maybe now we will transition into the argument of the paper that
+ we read. He wants to look at historical and recent applications of AI technologies and how they're
+ actually used in firms as of a couple years ago now. And what does he say about how firms use AI today,
+ he really focuses on what we might consider the big tech companies such as Amazon, Google,
+ and Facebook. And he makes the point that a lot of what these companies use AI technologies for
+ are what he calls marketing technologies or matching technologies. So think about Amazon.
+ He makes the argument that Amazon has this virtual storefront. It returns a list of products that
+ you might want to buy. And it's very natural to use ever increasingly sophisticated models to
+ make those recommendations to people. And what's more, this is like a task that you would never
+ have had a human do. This is not a task. Most luxury retail, you would have a personal shopper.
+ Yes. So it's a very interesting kind of framing. I think the most provocative version of this is
+ simply that big tech is where a lot of the value has come from, from AI technologies open quite
+ value. That's certainly where we see people using it. But if they're producing some sort of input
+ into other industries that is getting to those under industries at a low cost, I'm not sure that
+ most of the value is being created in tech from tech. That's right. So that's a great point.
+ I think when you look at Amazon, for example, it's enabling many third party merchants and
+ manufacturers to grow and compete with each other and provide new products, new product varieties.
+ And you can also think about that in terms of Google and Facebook, which allow for way more
+ sophisticated advertising and way better matched advertising than we had before in the days of
+ TV advertising, for example. Google isn't a farm that has automated most of its farm workers.
+ Or another way to put it, let's say before Google, you could have asked a librarian or a professor
+ about some piece of information, right? But it doesn't seem like librarians or professors have
+ gone away or that they're no longer doing tasks. Maybe there isn't that much
+ substitute, direct substitution between them. Yeah, so that's right. It does seem like internet
+ search, electronic mail. In some ways, they substitute for something we've already had,
+ physical mail and talking to a trusted advisor. But in some ways, there's so much broader and
+ serve such different roles that it seems weird to focus on the element of the thing they replace
+ rather than how much it expands your decision space. So one of the things that he points to as a
+ unifying feature for all these companies is that the AI technologies are used in the interface.
+ And he talks actually surprisingly a lot about Alexa. So Amazon's voice chat assistant, which
+ uses AI to recognize what you're saying. Oh, and Alexa now has responded to me. So as you can see,
+ it's really wise AI. So maybe this is a good moment to bring up the fact that Alexa has
+ never been profitable. So it's a little bit of a weird example for Tim to focus on as
+ here's where AI is really making the differences in this Alexa interface that maybe has a lot of
+ promise for making life more convenient and being a very productive way to interact with
+ firms, consumers to interact with each other has not yet manifested in actual profitability,
+ or as you can see, perfect usefulness. And I guess there's an interesting economic research
+ perspective that we can bring to this. We can think about the various new technologies that
+ have been enabled by AI say, modern social media with algorithmic news feeds, or let's say Google
+ Maps with the directions and so on, and see how much people value those things versus valuing
+ voice chat assistance. And we can see that certainly prior to trad GPT, we'd been sure to say that
+ most people place very little value. Perhaps because they weren't good enough, right?
+ But it is an interesting thing for him to focus on. But that they're all getting better.
+ Yeah, they are always getting better. I think it's a prime example, maybe of the
+ couple of things that he points to that are critical for the adoption of AI,
+ one of that being modularity, and the other being sticks. So maybe you want to tell us a
+ little bit about what those are. Okay, cool. So let's think about this question of when AI
+ is useful. And let's think about what do we learn from these previous experiences of Facebook,
+ Google, Amazon, right? So this, again, we're contrasting this approach with the drill and
+ osmo glue approach of we're going to look at, okay, what can the technology do? Instead,
+ we're going to look at what is AI super powerful for? And then how can we reorganize our business
+ in order to harness that power, right? And so one thing that Tim identifies as sort of a super
+ power of AI is that it's really good at getting plausible guesses in situations where there's a
+ low cost to false positives. One example that Tim focuses on in this article is recommendations
+ by Amazon, right? He tells the story about how one day Jeff Bezos said to one of his engineers,
+ and he descended down from his mountain and he said, and the engineer said, "Mr. Bezos,
+ what should be on our homepage?" And Bezos said, it should be the next book that the person buys,
+ right? So there's the lore. But why is that such a powerful way of thinking about a digital platform?
+ What a digital platform can do that a traditional bookstore can't is use all of this information
+ about you, your purchasing history, et cetera, to make you a better recommendation. There's
+ not a lot of downside if it makes a bad recommendation. You can think about a lot of other settings
+ where AI is useful, as similar settings where false positives isn't that bad, right? Audrey,
+ help me out here with some examples. You might imagine with a generative AI model
+ coming up with a thousand candidate images to inspire an artist.
+ Yeah, so you can think about Google search results. You see 10 results if the first one isn't exactly
+ what you're looking for. It's no big deal at all. Even something like directions, right?
+ There are some constraints. Clearly, if you give someone directions to drive off the cliff,
+ that's a problem. It's a little kind of thing that the one makes it a little low stakes is that
+ the human is usually watching where they're going and the human in the loop controls the
+ downside risk. This is in contrast to, let's say, naively using an A recommendation of whether to,
+ let's say, do a particular medical procedure and imagine there was no doctor in the loop.
+ It would be a really big problem if, for example, the AI algorithm said not to do the surgery when
+ you needed a surgery or to do this dangerous surgery when you didn't need it. So those are
+ very high stakes situations. Now, there's a question about if there's a human in the loop,
+ how high stakes can it be? We can naturally think about non-human in the loop systems,
+ and those might be self-driving car systems where there's a much greater risk because,
+ let's say, the car is driving off the road and it doesn't have a steering wheel,
+ then we might be worried that it will actually drive off a cliff.
+ All right, perfect. So now we're talking about self-driving cars. That's like the core
+ de Rona Simoglu style example of, here's a task, which takes a lot of time, which is done by humans,
+ and we're going to have an AI do it. Therefore, AI driven economic growth through tax replacement,
+ right? What's President Hens going to say is wrong about that argument?
+ I think the way in which people are going to use autonomous vehicles is going to be potentially
+ quite different than how people use current vehicles. And I think a great example of this
+ might be how people's behavior changed quite a bit when Uber started entering certain cities,
+ where it enabled people to not necessarily have a car of their own, and to change their demand
+ for rides in a very different manner. Autonomous vehicles might also change how logistics is organized,
+ and there might be different sized vehicles that are going to come about, that are going to improve
+ the efficiency of our logistics systems. You might literally have to build a different kind of car,
+ right? I think President Hens is going to say that's not replacing driving, that's creating
+ a new transportation system. Yeah, I agree. I think creating a new car maybe isn't that.
+ I don't see how that's a good in and of itself, right? If we're thinking about economic growth,
+ creating a new car versus using an old car, it's only it only matters to the extent that the new
+ car is better in some important ways than the old. If we had autonomous vehicles that worked
+ well with existing cars, and now we just wave our magic wand, it seems to me that that's pretty
+ great. So I guess it certainly would be great if we could take existing cars and have them be
+ autonomously piloted. My understanding is that's not really an option, or rather that's not the
+ vision. The vision is specialized cars that are built for autonomous driving that let you
+ do all kinds of wacky things inside the car. I don't know what kids get up to inside cars these days,
+ but use your imagination while you're driving. And maybe also are hyper fast and hyper efficient
+ because we have a network of AI cars all talking to each other and specialized loaders and off
+ loaders at the grocery store and the truck depot, right? I think President Hens saying that's where
+ the value is not in letting somebody twiddle his thumbs for 90 minutes and then having to pilot
+ the car the other 10% of the time. Yeah, so another way I might put is relating to this question of
+ competition. Our transportation system is organized in a particular way. If you go and talk to people
+ around the world, they'll tell you that they really don't like it. There's a lot of traffic,
+ the roads aren't in the right places. Too many runs. Yeah, they're not no bike lanes, etc.
+ But as a society, it's kind of hard for us. Too many clouds. Yeah, the asphalt is the asphalt
+ picks up too much. I guess what I'm trying to say is that we're stuck in this path dependent
+ transportation system in the US, right? And it's very hard to enact a system wide change on it,
+ even if we know that, for example, congestion pricing is a very loved proposal by many policy
+ wonks. A great way to solve traffic is to just tax people for driving during the commute hour,
+ or while there's a lot of traffic around. And that will remove the problem of congestion,
+ and they'll make kind of society as a whole better off. That's the argument. Obviously,
+ the Govian solution to this problem, Bond, right? There are many reasons. I think it's a bit incidental
+ to this point. But I guess what I'm trying to say is that new technologies are oftentimes a way
+ to create enough shock to the system, to reorganize important parts of society
+ that were already we could have done better, but just they were just stuck.
+ When I think about self-driving cars and congestion pricing, it seems very clear to me that it's
+ going to be much more politically palatable to implement congestion pricing when there are
+ autonomous vehicles, right? It's also going to be much easier to spread the driving load,
+ self-driving cars. They don't care whether they're driving at night, whether they're driving during
+ the day. We should expect much more efficient use of our roadways. The primary benefit of that is
+ not a task-based substitution, in my opinion. It's just that we're going to be able to move around
+ people and things much more efficiently than before. I mean, there's a little bit of an echo of,
+ we'll take the villagers off of the farm and put them in the plant city, and then we'll
+ be less resistant in talking about their traditional values when we tell them to go to school and do
+ other things. I don't want to phrase this as a technocratic Trojan horse. That was not my intention.
+ It doesn't have to be this top-down enactment. We can think about another way that this might
+ happen, is that you have some incumbent companies that are operating pretty inefficiently, but because
+ of various reasons, they haven't been overthrown yet. Perhaps with AI technologies, maybe let's say
+ because it's easier to market your company, or maybe because of better user interfaces,
+ it's much easier to switch from one technology to another. New companies can now compete with
+ existing companies, and that competition is going to create large benefits to society.
+ I did not need to accuse you of high veganism. Our discussion does point to that
+ political changes do come in with technological changes. I think that's always a risk, and that
+ is a two-sided sword for sure. I think social desire for social conservatism may get in the way
+ of these processes. Okay, so he says capital deepening is a really important way that this
+ technology will get better, and maybe we'll come back to that a little bit. The stuff we're already
+ doing with AI we're going to get better at, but there's within these jobs that like maybe there's
+ a part of it that can be done by AI, or there's a set of things my organization does that can be
+ done by AI. How can I reorganize my organization? How can I reorganize my job? And so that the AI
+ a bull part can be split off and done productively. I see one of the Bain obstacles to that modularization
+ is just people's sense of professionalism and people's sense of what a job means.
+ When I think about I in skill high school service jobs, I see there just being a lot of resistance
+ to my job being so radically redefined if it turns out 20% of it may I can do.
+ Yeah, that kind of goes to another reason that he's at least in other writings certainly stated
+ that there that why did the big tech companies adopt AI in the first place and not other companies is
+ because they already had modularized tasks that used algorithms, right? So there wasn't like
+ a large cadre let's say of people who were manually forecasting inventory stocks and then
+ this inventory AI model came in and these people got fired that didn't really happen. And then
+ the other thing he says that the human capital in these companies was very high. So these are
+ very smart people who presumably they were happy to do many things or many things for them to do
+ and they were able to adjust easily to changes in the workplace environment and that might not be
+ true at other companies. So I think like another version of this capital deepening story can happen
+ through another channel. So let's say you are a company and you have to have a human resources
+ function, but there's a standard function required in your company by law. This function makes sure
+ that you're following all the labor employment laws that you're correctly filing any documents
+ that you need to be doing. And for most companies they need to have human resources professionals
+ that are involved in this task. But it's not just that it affects the entire organization
+ of the company because there's HR there. Now imagine there's a platform like a technologically
+ oriented platform with generative AI technology that can handle all this compliance cost for you
+ automatically. You're essentially outsourcing that to them. Yes, there's some task replacement
+ involved. Presumably there are some HR professionals that are, you're going to need to employ fewer
+ HR professionals with this technology enabled. But also just the fact that now HR is no longer
+ as powerful within your organization. Right. Could have some profound societal and economic
+ and it'll be the revenge of the nerds, the decline of these endless growth for the people who are good
+ at cooperation and social things and the return of the people who came to prompt engineer.
+ We've talked broadly about the themes that President Hannah's interested in. What would
+ Asa Moagler say about these things? That's a great question. Because if I think
+ de Rohn work here, I think he would have a really strong defense of the task-based model
+ as a conceptual tool for thinking about the impact of AI. But I think he would have a much,
+ much harder case, arguing that his application of that model is working correctly in lieu of
+ these critiques that we just got from Brezhnehan. First of all, you got to say in de Rohn's favor,
+ he's actually writing down a model. He's actually putting numbers there. We can only critique him
+ at this level of granularity because he put his chips on the table and we congratulated him for
+ that already and we'll congratulate him for that again. But in that calculation, in his calculation,
+ where he says, and to remind the audience, he says there will be less than one percentage
+ point of additional growth over the next 10 years from 2024 to 2034 due to AI technology. So less
+ than 0.1% a year in additional economic growth from AI. Brezhnehan, he doesn't give us any numbers.
+ He's saying, "Drone, your model is wrong. Your model is wrong because you're taking the amount
+ of jobs affected and you're multiplying by some productivity growth." That's the incorrect model.
+ What AI does is he's going to argue mostly comes through capital deepening. So capital deepening
+ would be an effect that is handled in De Rohn's model. De Rohn's model allows for capital deepening,
+ but fundamentally, he's not measuring that. So when De Rohn brings numbers to his model,
+ he's assuming that all AI is doing is replacing tasks. Again, that's an empirical assumption,
+ not an assumption of his model. Similarly, Brezhnehan is going to say that a huge amount of the gains
+ are coming from invention, I guess you could say, reorganization of organizations related to the
+ creation of new products. If that's where all of the benefit is coming from, again, there's no
+ problem in De Rohn's model. De Rohn can have a TFP term and everything. It's just as he measures
+ the impact of AI that when he tries to get that relationship between jobs lost to productivity
+ growth, that estimate is going to be way, way too low. I think what De Rohn would say is,
+ tasks are important. We do need to keep track of the tasks which are done by society.
+ Technologies that affect more tasks are going to be more important. Sure, there's going to
+ be capital deepening. Sure, there's going to be adjustment costs that we're going to need to
+ overcome. Sure, I'm not measuring that great by caveat, my empirical estimates. The task-based
+ model remains vindicated. That's the way I would think De Rohn would think about it. Do you think
+ that's plausible? I think that's mostly plausible. I think he would probably have an argument for
+ why capital deepening isn't very important as well. I would love to hear it because it's hard for me
+ to detect. The argument is something like is because AI companies are obsessed with
+ anthropomorphizing. Is that the reason? I guess there could be a very kind of empirically oriented
+ one in mind. He thinks that factories are already about as well automated as they could be.
+ I mean, the only thing left is deepening. No, excuse me. That's not at all what I was saying.
+ What I meant to say is that let's try to look around the economy and see where there is scope
+ for deep. If you already think that warehouses are operating close to some optimum level,
+ with the existing robots, then why would you think that they would be further helped by
+ additional AI technologies, right? That's a sort of argument you have to make, right? And of course,
+ warehouse is a share of GDP or a tiny factor, but you can look around all the different sectors of
+ the economy and say, here's a hospital. The hospital has these MRI machines and they're
+ already pretty highly utilized and just go around with examples like this and say that I actually,
+ I did the same thing that I did for tasks, but I did it for capital and very little capital is
+ actually going to be more efficiently used as a result of AI technology. That would be the
+ exercise you'd have to do. Yeah, I guess if you think that factories are already completely
+ automated but are still far from as efficient as they could be, then that's a pure capital
+ deepening argument that would be the only way for AI to have an effect. Yeah.
+ And when I think about, so to think about the examples we went through, so like a hospital,
+ we're opportunities for capital deepening in the hospital. If the MRI machine is 10% higher
+ revolution, right? That's capital deepening. That's definitely complementary to the doctors.
+ That's not going to be shown up as stealing the doctor's job by making the imaging more precise.
+ I think there are tremendous opportunities for capital deepening. And I think
+ Bresnahan has the better part of the argument where he points to these digital companies constantly
+ improving their digital goods and their recommendations. It's a perfect example of
+ deepening and quality getting better and AI improving our lives through taking our jobs.
+ Yes. Yeah. And a weaker version of that is just like, all right, it's wonderful that Netflix can
+ have a better recommendation engine, but like I was perfectly happy with Netflix 10 years ago,
+ right? There's a sense in which, who cares? It's just not first order. It's not even second order.
+ The Netflix's recommendation algorithm got a little bit better, right? I would point to a different
+ type of argument, which I think is missed by Bresnahan because he focused so much on big tech.
+ But let's say we have more old school industries, let's say the agricultural industry. That's an
+ industry which we know has gotten way more productive over time. And it's gotten productive in a few
+ ways. One of the ways in which it's gotten more productive is because we've engineered better
+ crops that are more resistant to pests that are yielding more usable materials. And then a second
+ reason is that farm operations have become more efficient, right? Like we have better technologies
+ to put in the right amount of inputs into every piece of the soil and so on. Now, to me, it seems
+ like AI technologies should be able to help make agriculture even more productive, right?
+ For example, we can design better seeds with AI technologies. We can spot which parts of the
+ field are being infested with pests in real time, right? There's a potential to, for example, use
+ less pesticides because they can be more smartly targeted for kind of a more old school industry.
+ There's still a lot of value for AI technologies, which is, I think, a question for the scope of what
+ both Breznehan and Asumoglu consider AI, right? Is AI kind of old school computer vision? Is AI
+ old school natural language processing? Is AI just chat GPT nowadays? Or is it just a better linear
+ regression with more data underlying it, right? These distinctions are, in my opinion, a little
+ artificial because I can imagine that a modern kind of multimodal model that is trained on both
+ text and vision and image data and perhaps even video data would be very capable of, let's say,
+ spotting anomalies in an agricultural field in real time, right? Like out of the box.
+ So you're saying, Andre, that the only trouble with estimating the impact of task replacement by AI
+ is one, what is a task and what is AI? Yeah, exactly. Maybe this is a good time for us to shift
+ into posterior mode. Yeah, I just want us to reiterate the distinction between kind of what is captured
+ in GDP and what is not captured in GDP. It strikes me that Breznehan is talking about a lot of things
+ that are not captured in GDP. Yeah, quality of match to my Netflix movie is not showing up in GDP.
+ Yeah, or Google Maps is probably not showing up in G or if it is, it's in a very indirect way.
+ Yeah, or a very small share of the actual value. Yeah, exactly. And so,
+ kind of highlight to me how hard it is for us to make well-measured predictions, right? Because
+ we're thinking about what is the additional effect of AI on GDP, right? And let's say
+ we're gonna do a follow-up podcast 10 years from now and we're gonna ask, did we get it right or
+ did we not get it right? Right. It's gonna be very hard. We could definitely get it wrong in
+ one direction. Imagine we had no GDP growth in the next 10 years. We have to say that we're all
+ wrong, even a some logo is wrong because he has a positive estimate for the effect of AI. Of course,
+ even that's not exact, right? But that we became so happy. Like a war, war or something. So these
+ are very counterfactual statements. And I think that's what makes them really tricky to really
+ quantify in some sense, right? Let's say that we have 0.5% additional growth over and on top of
+ what we expected on the next 10 years. Let's say that's an estimate, right? 10 years from now,
+ it's gonna be hard for us. We're still gonna be arguing what share of that growth was caused by AI,
+ right? Yeah, as Yogi Vero once said, it's hard to make predictions, especially about counterfactuals.
+ So maybe let's wrap up with kind of our posterior. Did we change our beliefs very much based on
+ reading this work? And kind of what are there any kind of follow up questions that we?
+ So I feel I felt myself reading this essay moving at least a little bit towards Tim.
+ I think he makes a strong case for the ubiquity of these sort of capital deepening effects or
+ benefits from AI, which we both agreed was the big thing missing from Jerome. So I felt supported
+ in making that critique. I think that it's really hard to give a solid answer to what percentage
+ of economic growth will come from task replacement without being really annually specific about what
+ we mean by a task. Because if replacing a car driver with an automated car does count as task
+ replacement versus doesn't count as task replacement because we had to reorganize car society or whatever,
+ I feel like that right there is a percentage of the supposed benefits from AI. If I think about
+ doctors and I think about if I created a new kind of doctor that didn't have to know anything
+ about medicine, they were just bedside-mannered doctors. And we stripped out all of the medical
+ part of their job and automated that. And we had the remaining part of the job, the bedside-manner
+ job. And we called that a junior doctor or whatever. Would you say that we automated doctors or would
+ you say that we reorganize the way that health care is delivered? So I do come away from this
+ feeling like naive task replacement is probably going to be maybe less than the 50% than I came
+ up with. But I think that this depends so heavily on how broadly we define the tasks.
+ That's a very good, Bayesian updating on your part set. I don't know what to make of this piece,
+ actually. It's very interesting to think through the examples that Breznehan offers. But because
+ there is no quantitative aspect to it, and because I was already pretty in the anti-task
+ replacement side of the benefits of AI, I don't know if it really shifted my beliefs. But it did
+ lead me to ask a few follow-up questions, which I feel like I don't have a good answer to,
+ which is what has been the effect of big tech companies on measured GDP growth over the past?
+ Why isn't that the same question as what is the effect of tech on GDP growth?
+ I am trying to make a distinction there because he is trying to make the claim that
+ technologies are mostly used by the big tech companies rather than tech in general. Tech
+ includes all sorts of stuff that is not, but includes building servers, that's tech.
+ But it depends on what you mean by used, right? Because I use Google Search. I guess what you
+ mean is directly used. Yeah, so I think that the answer to that question is probably going to be
+ pretty informative for the effects of modern AI technologies on future GDP growth, right?
+ Because I can imagine, so let's say, AI technologies get a lot better. They're primarily used by
+ either the current set of big tech companies or new big tech companies or open AI that was
+ newish or additional companies that we haven't even heard of. And now let's say 10 years from now,
+ we look at the market cap of corporations, and we see 10 big tech companies in the top 10,
+ and they're a lot more valuable than they are today. If we think that's that sort of economic
+ activity results in substantially higher measure GDP based on historical evidence,
+ then we should expect that to continue. On the other hand, if we think that like,
+ for all the good that they've done, Amazon, Google, and so on, they haven't actually contributed
+ very much to GDP at all, then we might imagine that that's going to be a trend that continues,
+ because whatever it is these companies are doing, they're providing benefits that don't
+ go into GDP. Extract more perfectly. More smoothly, really, either just price discriminating,
+ or they're doing a little bit of replacement of older companies. But if we don't think they're
+ adding that much to GDP in the past 10 years, it's hard to imagine that this sort of innovation
+ is going to show up in GDP. Okay, but maybe then we should end with neither Jerome nor
+ our friend here, Professor Brezzanahan, have much to say about the this time is different sort of
+ Leopold framing. Brenner. We read an essay by Leopold Ashenbrenner that claimed that
+ within 10 years we'll have much, much more highly developed AI models that will be orders of magnitude
+ more useful. In that universe, do we think that escrey placement versus everything else becomes
+ more or less important? I'm not a hundred percent. Sure, obviously, this is not where we're in sci-fi
+ land again, but you do think that if you do think that GPT seven or whatever can have this podcast
+ conversation the same way that we do, and also has like eyesight like we do, but is also just
+ can think a lot faster than us, then it can figure out how to do our jobs, right? The worker. So I think
+ if you have a plug-in generic worker that is cheap to run and is very fast, that's economic impact,
+ baby. And there still is a question. Are the main benefits of that that people are getting
+ automated away? Or are the main benefits of that? The amazing science and new products that we're
+ going to get. Yeah, now we're now we're getting into splitting hairs because automating the task
+ of the scientist is that task replacement or is that reorging to say it wouldn't that if you
+ automate? But it's clear that their productivity improvement, right? There's a sense in which like
+ a driver is a driver, right? I've heard an Uber, I've written a Waymo, we can split hairs, but from
+ my perspective, they're more or less the same thing, but like an army of AI scientists are
+ presumably going to produce more and better science than we've been producing.
+ It is that just because we replaced scientists or are they smarter than us, right? I think
+ we're starting to show that there's some limits to the task-based model here as a useful way for
+ talking about these scenarios. So that's a great place to wrap up. Thanks for joining us for another
+ episode of Justified Pustereers. Feel free to tweet and reach out in any way if you have comments or
+ thoughts on this episode.

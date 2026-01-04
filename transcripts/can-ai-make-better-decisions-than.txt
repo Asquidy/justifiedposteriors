@@ -1,0 +1,422 @@
+ Welcome to the Justify Clostereors podcast where we read economics and technology papers and get
+ persuaded by them so you don't have to. We're sponsored by the Digital Business Institute at
+ Boston University and I'm Seth Benzel in the highest risk decile for having a good time
+ here at Chapman University in sunny Southern California. And I'm Andre Fratkin being skeptical
+ of doctors long before I read this paper coming to you from Cambridge, Massachusetts.
+ Amazing. So you've always been skeptical for doctors? Is that something? Is that tied to an
+ actual event in your history? Or is that just a general skepticism of experts?
+ It's, I mean, as you well know, I'm a skeptic. But in this particular case,
+ the quality of medical evidence is oftentimes very low and poorly understood by doctors themselves.
+ So, which I don't blame them for because they have to learn all the mechanics of, you know,
+ being a doctor and to learn statistics on top of that is really hard and to read the papers as well.
+ But as a result, I kind of don't take things at face value. And of course, there have been many
+ instances in the history of medicine where doctors as a profession have been wrong on average
+ and that has been found out over time. It sounds right to me. The doctors I've met also
+ aren't great statisticians often. I'm often surprised by you get the rule of thumb answered
+ your question and then you try to go one level deeper of, yeah, that rule of thumb seems good.
+ In this case, I think x or y is happening. And often there isn't a lot of error after that.
+ No offense to our doctor friends. Well, you know, this obviously raises the question of when
+ what can we finally replace the doctors with the machines, right? Isn't this the whole point of
+ this podcast? Can we replace everyone with machines? One profession at a time bid. And certainly,
+ not to get ahead of ourselves, but I think this paper certainly indicates or certainly wants to
+ make the argument that AI systems could at least in some sort of hybrid bottle deliver better
+ care than the care we're getting right now. So maybe we can introduce the title of the paper and
+ then talk about our priors. Yeah, of course. So the title of the paper is diagnosing physician error,
+ a machine learning approach to low value healthcare. And it's written by the superstar duo in this
+ domain, Sandal Mullenathan and Zayed Obermeyer, who are kind of well known as expert practitioners
+ of using machine learning in the medical domain. And I'm going to propose what the questions that
+ we should be considering as we read this paper. But I'm surprised by the way that the authors
+ themselves present this paper, right? The very first sentence of the abstract is we develop a
+ machine learning tool to predict heart attacks. In order to test theories of the decision making,
+ right? But weird framing, it seems like you should invent ML models to predict heart attacks to treat
+ heart attacks. It's like a weird meta framing for something that's at the object level,
+ supposedly where at least it's claimed to be very useful. Yeah, I mean, this is a sidebar,
+ which we're totally okay with it on the show. But I think this just reflects the economics
+ publication process, where there's a huge reward for learning something about human behavior or
+ about markets. And there's a lot less reward for solving a practical problem, even though I think
+ in this paper, the authors do both. And I also assume that there's some sort of sense in which
+ the novelty of the results might be different depending on how you frame it. But let's actually
+ get to our priors. I think the main claim in this paper is that physicians make mistakes in choosing
+ who to test for heart attacks. And these mistakes are predictable, and they are very costly.
+ I'd say my prior on this is surely to some extent this must be true, right? Like we,
+ you know, humans are not perfect decision makers. And at the same time, I think this is showing
+ conclusively that these mistakes can be identified well is hard. So I think going into any paper
+ like this, I'm skeptical that they've nailed down that they're actually finding medical errors.
+ There could be other things going on. All right. Can you put a percentage on there?
+ I think the base claim of doctors make mistakes 100, you know, close to 90% right. Yeah. Of course,
+ they're making let's say they're making substantial mistakes. So, you know, I'd say 90% right. Can you
+ identify them? Well, that with with the data at hand, that to me is more of like a 50%.
+ Yeah. I guess the there's mistakes relative to the best ML system possible, which I guess is the
+ framing of this paper. And then there's mistakes relative to God, right? What would if you had
+ perfect medical knowledge and but only these tools available, what would you do? Maybe let's take a
+ a half step back just to talk a little bit about the setting before I give you my take on the prior,
+ which is people show up in these happiest hospitals and with chest pain or with whatever other
+ symptoms. Ultimately, if it turns out that they had a heart attack, the best treatment is to get
+ one of these stents put it and they put a little middle thing in one of your heart valves in order
+ to keep the blood flow going. The point is we're trying to figure out who are the right people to
+ get these stents. And if you get a stent and you needed one, it improves your health outcomes stent.
+ What we do with doctors will do is this very invasive and expensive test that has a non trivial
+ health risk. So the big question we're evaluating is are doctors making the rate decisions about who
+ to give this invasive test to make sure you need a stent. And again, there is a step in between
+ you coming back positive for the test and getting the stent. You would only give the test in the
+ situation where you would give the stent. We were curious if doctors at a particular hospital
+ between 2010 and 2015 were properly assigning people to this task, assigning patients to this
+ invasive test. My take coming in on that narrow claim is again, like yours, obviously doctors are
+ not acting optimally either with regard to the best possible ML evidence or certainly with regard
+ to sufficiently advanced doctoring. But the question is like, how much? I guess going in,
+ I felt like I have the intuition that there's a high probability that doctors were making
+ a documentedly incorrect decision. But the reason that's lower than your sort of 99 or 100% that
+ there's that doctors are just making mistakes and decisions is like I'm open to the possibility
+ before going in and not knowing anything about heart attacks that this is a relatively simple
+ problem, right? If you're asking me, are doctors making mistakes? I'm sure they make some kinds
+ of mistakes. But if I break my leg, I don't think they're going to be like putting the cast on the
+ wrong leg, right? There are mistakes that seem like so that's funny because things like that,
+ I have been documented to happen. I just say that it's like a very low bar to say
+ doctors make mistakes in pretty much every situation with some probability, but say maybe my more
+ relevant prior is like in a way that is substantial economically and medically in a way that can be
+ improved through better diagnostic better criteria for testing. I put that at 90%. I think that every
+ doctor can potentially make a mistake. I'm at 99% obviously. And okay, and then maybe this is a good
+ time for us to expand out to the broader framing of the prior, which I would put the question at
+ just generally, could health care be much better and more efficiently delivered than it is now with
+ better AI support. And I come into this thinking 95% plus that this is true, right? I know that
+ doctors are overwhelmed and lazy and follow rules of thumb, but as intelligence becomes
+ cheaper and cheaper, intelligence, it really does seem like this is where you'd want to
+ pour some of that AGI surplus into. So, you know, maybe this is why for an economics paper,
+ they had to frame this in terms of decision maybe because otherwise it would be too obvious
+ of a claim. Maybe then go to like, why is this not obvious? Like, what's interesting about this
+ exercise? And I'd say that like, if you read the news or like lay hacker, hacker community type
+ post, you would see that people have this belief that, oh, it's like trivial, the algorithm can
+ beat the human. And I think figuring out whether the algorithm can beat the human is actually a
+ bit of a subtle task. And I think this is where this co-author team is really good at is to come up
+ with kind of ways to get around the specific problems that oftentimes the machine learning
+ community ignores. In particular, in this case, there are a few problems. The first one is so we're
+ using machine learning. So we need some data to put in that machine learning algorithm. And it is
+ the fact that the algorithm doesn't have the same access to the data that the doctor has. And in
+ particular, the doctor was talking to the patient, the doctors looking at the patient. There's stuff
+ that might not be recorded in the medical record. And they may be using those in order to make the
+ decision. And that data is not available to the algorithm. So the doctors do have this advantage.
+ So that's kind of fact one. The second fact is, you kind of don't know what would have happened
+ to someone who wasn't tested ex ante. And the counterfactual is tricky, right?
+ Which people in the treatment, in this case in the test group and in the control group, are you
+ going to be comparing to each other? Because really, this is a causal inference problem, right? For whom
+ is it positive return on investment to give them the test? Because I think this is something
+ that's very native to us to think about, but maybe not to others as much as that. Of course,
+ there are different costs to different mistakes, right? So you can over test. So in this case,
+ you can give a test when it is might not have been necessary, right? And so there's a cost of the
+ test. There is also potential complications from this catheterization process. So that's a relevant
+ cost. But then the benefit is you might catch this blockage and you might put an extent, right?
+ On the other side, there is the cost of someone actually having a more severe cardiac event and
+ potentially death from not being tested, right? And these two are not being stented. Not being
+ stented, not being stented after a test. And in this case, we kind of have to put some numbers
+ on these to figure out what the optimal decision is. And this is something that a lot of doctors
+ don't love thinking about, right? Because they just want to save as many lives as possible. If you
+ want to save as many lives as possible, you shouldn't really care about the cost. Because the paper
+ takes a more cynical view of why doctors might want to over test. Yes. And then now, of course,
+ as economists, we'd be remiss to mention that doctors have incentives that they face. And of
+ course, those incentives potentially yield a benefit to testing because the hospital makes
+ money from every test. And they don't make money from a non-test. So there could be just an overall
+ force. If you grew up at the University of Chicago, it's just a pretty clear thing that doctors are
+ probably over testing because that's what they get paid for. Yes. So you definitely make some
+ good points there about the challenges in identifying where the doctors are making mistakes,
+ even if we think they're making mistakes. Yes. All right. Good. So what do what do these authors
+ come up with? That's kind of simple, but clever. They do a little bit of algebra and they make
+ some assumptions. I mean, this is some game theory. There's actually no game theory. I mean, this
+ is the best possible way. It's actually very, very clever and very simple, right? So they're
+ going to say that a doctor is over testing if they can find segments of the people that the
+ doctor is testing that have a very low finding of a blockage after the test. In fact, a rate that's
+ so low that the cost benefit analysis would be such that it doesn't make sense to test them.
+ And then they're going to say that the doctor's under testing if for those predicted to
+ have a high probability of a blockage, they're not being tested. So the negative health
+ consequence is how long we'd expect you to live. If we didn't treat it, it's a little bit. Yes.
+ I think I'm like brushing a little bit away off of the specific assumptions on the costs.
+ In some sense, they're not like soup. You know, we don't really want to talk about the statistical
+ value of life here and other such assumptions. I personally at least don't have a strong
+ belief on that. The point is wherever you put that value, whether you want to put it at $100,000
+ for a life year or $150,000 for a life year, which is some numbers that are thrown around in this
+ paper, whether you want to move that threshold up or down, they argue that the doctors are making
+ mistakes in sorting. So I think once they show this in the simplified world that these two groups
+ if they exist and there's under testing and over testing, what are they going to do? Well,
+ they're going to use pretty simple, frankly, by these days, standards, machine learning algorithm
+ to predict a blockage. And then they're just going to predict it for every single person that went to
+ the emergency department. Yeah, maybe we're talking about 2010 to 2015. And what is
+ described as a top 10 hospital in the United States affiliated with a top private medical school,
+ are you reading this as a mass general? Is this man's best hospital? Or what do you think?
+ It's possible. I mean, there's an off chance that this could be the UC San Francisco to be
+ clear, but I think it's very likely to smash general. And they're looking at 246,000 patient visits
+ of which 7,000 get this heart attack test. Yes. So then they take 75% of that sample and they run
+ some ML on it and maybe can take it up from there. So the the ML that they're running is a combination
+ of a lasso and a gradient boosted tree. And they're going to use an ensemble method. It might take on
+ these algorithms is that using a sufficiently modern approach, you'd get probably a pretty
+ similar answer regardless of what algorithm specifically used. And then what they're going to
+ show in some statistics about what happened in the actual data is that about 3% of people
+ were tested within 10 days of coming to the emergency department. And about half of those,
+ a little less than half of those were catheterized. And some of them also underwent some additional
+ tests, which are stress tests. And this is also an interesting part of the paper. Of course,
+ there are multiple tests that are available to the doctors. Yeah, they're not decisive. So they're
+ not really a focus on the of the paper. But if the doctor thinks that maybe something's going on,
+ they don't want to catheterize you, they can take an AG, which is inexpensive and noninvasive,
+ or they can do this blood test, which again, inexpensive and noninvasive to detect certain
+ proteins that might be indicated. But neither of these tests is decisive. So they're really
+ just complementary information. Yeah, and stress testing is like running on a treadmill as well.
+ That's another test that they have. Okay, so the yield of the testing is about 0.4%. So of the 3%,
+ they get tested 0.4% of them have a stent or open heart surgery, 0.1% 0.1% have open heart
+ surgery, right? So that's pretty drastic intervention. One in a thousand people who walk in this
+ hospital store get a stent. No, no. So to be clear, one in a thousand get an open heart surgery,
+ right? All right. That's even more that's more extreme than a stent. No, the stent is
+ four out of a thousand, three clear. Right. This is not like a obscure procedure for this hospital.
+ Well, you think think about causes of death, of course, heart disease is very high up there,
+ right? Yeah. So perhaps, you know, and for most things, you wouldn't go to the emergency department,
+ right? So that's interesting. It's also illustrative of the idea that this is not some like wacky,
+ crazy, obscure thing that you'd expect doctors to have no idea how to treat this is like one of
+ the core things this hospital is supposed to do. Yes. And just to give you some other background,
+ about 16 out of a thousand people have a diagnosed event and four out of a thousand people die
+ within 30 days of going to the emergency department, not just because of heart attacks,
+ but of all causes. And for those who are tested, about 17 and a thousand die within 30 days.
+ Right. So it's not that everyone who's tested dies or even that everyone who's tested has an
+ adverse event or gets a stent or anything like that, but they do have a higher mortality both
+ within 30 days and within one year. Okay. So maybe we can talk a little bit about what the
+ authors find. Yes, of course, I just want to I think it's even these statistics. There's
+ something quite interesting about about just knowing the base rates, right? So we're podcast
+ where Asian updates are part of our shtick. And so base rates seem pretty important.
+ Go get some Lipitor out there. People die of this shit. The authors have this model of your
+ health risks of how did you actually have a heart attack? Well, as the actual decisions
+ of the doctors of whether or not to give you the test, to be clear, this sort of like actual
+ adverse events is maybe you come back a couple of days later, and you've got some sort of obvious
+ heart injury from an untreated heart attack. So they've got some sort of and then of course death,
+ they have as an endpoint as well. Do you actually die? So they've got these pretty good endpoint
+ measures. Did you actually have that heart attack 30 days ago? Let me start with kind of a positive
+ point in favor of doctors, which is there's a really strong correlation between panel heart
+ attack and the doctors decide to test and treat you for a heart attack. We're not saying the doctors
+ are completely making this shit up. There is a strong correlation there. Yeah, I mean,
+ we don't want to offend our doctor friends. So you guys are doing reasonable stuff.
+ Yeah, you guys are not perfect. Okay, so maybe now we should give a context of how much the
+ authors think the doctors are fucking up. They have a couple of ways of talking about this.
+ The way that I found the most compelling is the following. They say that in a conservative
+ simulation of optimal testing, so if the doctors were exactly following their machine learning
+ procedure, and remember, this is conservative in the sense that we're only going off of the
+ information that the machine learning algorithm has unnecessary tests, and they were increasing
+ testing amongst the people who need it. And then the cost per life you're saved would go from an
+ average of $89,000 today to 59,000 for a cost per life. So I would call that a pretty economically
+ meaningful bias. How do you think about the magnitude of these doctors errors?
+ I think they're very meaningful. And I feel like we as people in the space know that implementing
+ AI systems has some organizational frictions and so on. So if we thought that the benefits were
+ there, but they were pretty small, you know, let's say like you reduce the cost per life you're saved
+ or just by like a thousand bucks or something, maybe you'd say, Oh, well, we're gonna have to
+ implement this in the hospital. And there are so many other things. Maybe it's not worth it.
+ But in this case, it's just huge. So obviously all hospitals should adopt something like this now.
+ Space, I think, let's read the rest of the papers, and then I'll throw some critiques at you and
+ you can tell me if you buy any of them by this. Should we talk about predicting doctors or
+ should we talk about the shifts? What I was thinking I'd like to talk about next is this idea that
+ they can they actually can have some ideas about why and where doctors are biased, right? So
+ particularly they have some evidence that doctors are making errors because they're oversimplifying
+ and also that there's over indexing big, showy symptoms like people recording chest pain.
+ Yeah, so this kind of goes to like, well, why is this an economics, you know, paper?
+ Economists have thought about bounded rationality. So even though we oftentimes like to assume that
+ people are completely rational, we know that they might not be fully rational, but we have some models
+ of ways in which people deviate from rationality. Bounded rationality is going to suggest that,
+ you know, there's a bunch of variables, let's say there are 224 variables that a doctor can use to
+ decide whether to test or not. You know, doctors can't take in that much information,
+ they're human beings. Before you consider all the interactions, because it's not just
+ 224, it's the combatorial explosion of the interaction of the 224.
+ Of course, yes. And so the authors have a pretty clever test, I think, of, you know,
+ whether this might be going on. So they train a different machine learning model to predict
+ what doctors are doing. And they find that the machine learning model that predicts what doctors
+ are doing best only has 49 variables in it, whereas the predictive model that predicts whether a test
+ is going to detect a blockage is 224 variables. 224 means that the model is more complicated
+ than the 49 variable model. And this is kind of what some evidence that they give for why
+ bounded rationality might be going on here. And they even show that if you run a regression,
+ if you're trying to predict, what do the doctors do? The simplified model does perfectly fine.
+ But if you want to predict who actually is at risk and who really needs this test,
+ you get an extra, you almost double your accuracy, or you get a lot more accuracy by
+ bringing in all of the data in their more complex model. And that's a very striking result. The other
+ result relatedly that I found striking is they show that fascinating graph, where on the graph,
+ on the x axis are the actual did the patient, our prediction of did the patient have a heart attack.
+ And on the y axis, they have did does the patient get the test, invasive test. And what's plotted
+ are different symptoms, different characteristics that patients might bring in. What they show is
+ something like complaining of chest pain is an outlier in the sense of sure, it definitely predicts
+ that this guy should be tested. But doctors over react to that information. They show this in a
+ couple of other specifications as well. The other one that jumped out at me is when people show up
+ saying that they are there because they think they have heart problems. We're likely to get tested.
+ But on the other hand, they're less likely to get tested than they should if they've been admitted
+ to the hospital in the last two years, which is interesting, right? This is exactly kind of this
+ data where the hospital obviously has the data that the hospital knows that you've been to the
+ hospital before. But on the long chart that the doctor gets, it's not very salient to the doctor,
+ and they might not be using this information sufficient. Or they're using it badly. They're
+ thinking, "Oh, this is somebody who's sensitive, the over-complainer. You have your left arms numb
+ and your chest hurts. You complain about something else yesterday." So anyway, if it's psychologically
+ plausible to me, that doctors might underweight the symptom testimony of people who are frequent
+ flyers. Yes, that is reasonable. Now, the other thing I want to talk about a little bit is like,
+ all right, so the authors have done these statistical exercises, right? And they're well done. But
+ you might justify it, but we say, "Well, what if they got something wrong? What if they mismodeled?"
+ Well, obviously we need an ML model to predict whether or not all these JE papers get things
+ wrong, and then we get it. Well, yes, we're waiting with a baited breath for that model.
+ But I thought that all QJE papers were flawless. Anyway, I think a good thing that papers like
+ this do is they triangulate the results with another strategy. And the authors use a strategy
+ that would be a go-to for any economist thinking about this setting, which is that people come in
+ at different shifts. And you might think that people don't time when they come in to the fact that
+ specific doctors are around during different shifts, right? Random assignment, dude. If you kind of
+ make an argument that this is kind of random or arbitrary, you might be able to use this sort of
+ randomness to think about, is there systematic under-testing? Is there systematic over-testing?
+ And how does this affect different patients, depending on that risk score? And so the authors
+ do this exercise. And they actually find that generally, when people come to a shift that has
+ a higher rate of testing, they don't benefit very much. But those with kind of a very high
+ predicted risk, they actually do benefit. It's actually, it's more extreme than that.
+ The point estimate is that if you show up at a high testing period of time, you're actually
+ more likely to die. It's whatever, 5% confidence and small-weight estimate. But it's actually worse
+ than that. It's on average bad for you to show up and get a high testing medical team.
+ Being said, if you show up to a high testing medical team and you're having a heart attack,
+ it's actually very good for you. Sometimes you get a team that's just obsessed with heart attacks,
+ right? And that's good for you if you're having a heart attack and for you otherwise. Is that
+ kind of your read? Yeah, I think that's my read. But I guess at the end of the day,
+ what the authors tend this to mean is that at the margin, when you cut testing, you are not cutting
+ testing for marginal cases. You are cutting testing or increasing testing for average cases. That
+ basically at the margin, these tests are undirected. That doesn't mean that doctors don't know anything
+ about who should be tested for heart attack risk. That was our very first result, which is that
+ there is a strong correlation between heart attack risk and getting tested. 10% or so,
+ that marginal test is undirected. And I don't know if we should take that as despairing evidence
+ that all economic rationality models of doctors are wrong or take it as a happy
+ fact that A, we could be doing much better. And or B, that any analysis that wants to
+ substitute the average effective health care for the marginal effective health care,
+ probably fine if we're talking about small margins. I think the second claim seems a bit
+ over extrapolated. But I do think I guess my interpretation of this is there's just so much
+ low-hanging fruit in this domain. This is not nothing in this paper. It's a very well packaged
+ together. It's a very coherent argument. But the methods in this paper are not hard. You can imagine
+ applying similar analyses to almost every medical procedure. Some of the major challenges would
+ probably be just getting the data, which is a huge problem. Any anybody coming out with a
+ master's in business analytics should be able to implement this strategy. There's nothing crazy
+ about the AI they're deploying here. Yeah. And so I guess what now I tried to look a little
+ bit for whether hospitals have started using the score and I wasn't able to find much. Did you
+ look very much at this? No. All I know is what you know, which is that it seems very slow to be
+ implemented. Yeah. And so I think there's a kind of general lesson from this type of paper. I mean,
+ this paper is by now a pretty old paper. So it was published in 2022 and it's been around for
+ longer than that. Yeah. Based on data and it's clear that some of the specifics of the ML is
+ stuff that was really cutting edge in 2016 and now feels like maybe even a little bit out of date.
+ Yeah. And so if stuff like this is not getting adopted, then it really does seem that
+ each challenge is adoption, right? Getting rid of adoption frictions in the medical domain
+ seems so first order for our society, right? We know that health care is very inefficient. It's
+ costly. And it also doesn't do a great job of saving lives on on various margins. And here's a
+ kingist where you think that of all the issues, like this one is pretty simple, right? You know,
+ it's just a test, choosing who to test is not like, Oh, we have to give people chemotherapy or we have
+ to, you know, change their entire lifestyle. I mean, of course, that would prevent heart attacks,
+ but we're not talking about something that drastic. If we can't fix when we test someone,
+ how are we going to do these more complicated things? I think that's exactly right. And one of the
+ questions in this paper is our doctors being inefficient, right? And one of the things that this
+ paper pushes you to thinking about is like, how zoomed out do you have to be? Or rather like,
+ the question of whether a procedure is efficient really depends on what level of zoom out you're at,
+ right? If the answer is, the doctors could be doing better if they overcame this big fixed cost of
+ adopting the new technology, but adopting the new technology for whatever reason has a giant fixed
+ cost. Is that inefficient? I don't know. It depends what level of zoom you're at. I really did enjoy
+ this paper. I thought it was very clean. I did have some sort of questions and concerns about it.
+ I'd like to run by you, Andre, and you can tell me to what extent any of these travel view. All
+ right, endpoints. One end point is, do you die in the next year, which seems that they do a really
+ good job on. They bring in general census records. So I don't think they're missing a lot. But then
+ the other end point they have is, do you show up in the hospital again in the next 30 days with
+ signs that you haven't heard? And they're pretty plausible that they're missing a lot of people
+ in the group that they're quote unquote "undertesting." How do you feel about that?
+ And you just think that they went to different hospitals?
+ There was some correlation between undertesting or maybe their low income, maybe they're moving
+ around communities. I think there's a million reasons that people might not show up with these
+ follow-up symptoms. I mean, I guess the question is, is that going to show up in a way that
+ substantially biases the results? Yeah, so where I come back to there is you look
+ at their estimates of how over-tested are these groups. And it's like there are 3x, 4x, 5x over-tested.
+ Even if you thought that there was some percentage of people that they're quote unquote "over-testing"
+ that actually go on to have secret follow-up symptoms, I think the magnitudes are
+ implausible that explains all of the gaps. So that's more of a caveat than an objection to the
+ analysis. Okay, here's the next one. I'm willing to give you that. Give me that one. All right,
+ next one. This is the one that feels... I'm not sure. My critique seems right, but I'm not sure
+ how much it again applies in this case. So you talked about how much you loved their algebra at
+ the beginning. And what the algebra basically says is, it doesn't matter that we can't see some
+ unobservable information that the doctors see when we make the claim that extra-wide group is under
+ or over-treated. If I can identify an attribute, if it's women, it's tall people, if it's people
+ from the suburbs, and that group is in that sub-sample, they... we don't test them enough,
+ according to my perfect ML model, that is evidence of physician error. I felt like that proves too
+ much, right? It seems like, adversarially exposed, I could always invent some wacky sub-group of
+ blonde people from the suburbs under the age of 30, and show, "Hey, this group you've tested too
+ much X post in the data." If that... it seems like I get the overall argument, but I really would like
+ the argument to engage with the fact that in finite samples, I can always find weird set population.
+ Yeah, I guess the authors who statistical analyses on top of it. I think the algebra is illustrative,
+ right? And then the statistics are supporting it with uncertainty bounds. Are you specifically
+ worried that, like, you know, doctors have some sort of scent? Let's say the doctors smell heart
+ attacks. Okay, great. Yeah, exactly. You know, that's not in the data set, of course. And in a
+ finite sample, that might be correlated with being a blonde under 30-year-old from the suburbs.
+ And so the doctor, for those who are tested in... I guess she was kind of... so those who are tested
+ but have a very low yield, it doesn't matter if the doctor smells them, right? In some sense,
+ we can see in the data that they're just having very low rates of blockagers, right? So we shouldn't
+ have been testing. But those... Okay, but no, that's my point, is that in a finite sample,
+ X post, even if they... suppose they smelled the right way, or suppose they smelled like they're
+ going to have a heart attack, in a finite sample, I can find a group that has an above average rate
+ of smelling that way, but also a below average yield. But they do cross-validation, I guess,
+ with their models. So I'm a little bit confused about why we expect that this particular
+ thing is just going to be by chance. I guess what I'm trying to say is, the first thing I would say
+ is a claim that's not necessarily about this paper, but like a claim about how you could screw this
+ up if you were less careful, a less careful paper might identify a sub-pop, let's say,
+ blondes again, and say, "Hey, look, it looks like blondes are getting under-treated
+ via this X post-analysis who should have gotten tested." Are we talking about over-treating or...
+ Well, I mean either direction, but I'm having to focus. My argument, I think, is a directional.
+ But let's say people that the paper thinks are over-treated, because we're now hypothesizing
+ that doctors can have a secret smell that they're going to have a heart attack. If that is, again,
+ it seems like in a finite sample, that could be correlated. Sure, but I guess I would have thought
+ that modern cross-validation techniques are going to make that error rate to zero with some
+ probability. I would have thought you would have focused on the other example, right? So,
+ let's say some group of people have a very high yield, but we don't observe the smell. We might
+ erroneously extrapolate that predicted high yield to the non-tested group with similar demographics,
+ but they don't... We don't know that they don't have the smell. Now, I think the counter to that
+ would be we could plot whether those people in the high-risk group were untested, whether they have
+ much higher rates of adverse events, and in fact, they do. So, it can't be just that the smell is
+ causing things to happen. I think with proper cross-validation that addresses my concern,
+ but I do worry about the fact that there is a combinatorial explosion of types of guys,
+ and ex-post, you can always find a type of guy that looks over a render test.
+ Yes, I think you're right. I think that is true. Yes.
+ So, you're reassured that cross-validation solves this problem. I still have a little bit of
+ soreness about it, but I would need to keep on reading about this. All right, Andre, is there
+ anything else you want to talk about the paper's arguments before we move into our posterior?
+ No, other than I think we need more papers like this, I think this is a very kind of high impact
+ style of paper, and perhaps it's under-rewarded in our field. I agree. All right, Andre, it is
+ time for you to justify your posterior. Do your doctors, from 2010 to 2015 in Man's Best Hospital,
+ make mistakes in deciding who to test for heart attacks? You started pretty high confidence.
+ Did you move? Yeah, so I think I started pretty high confidence that they were making substantial
+ mistakes, and I've updated even higher. Above 90%, it's hard to give a number, but I'd say 95%.
+ I'd say I moved probably from 50% to, I don't know, 85% or so.
+ Yeah, I would say to me, the most convincing thing there is the natural
+ experiment showing that at the margin, if you do more testing, it's like completely
+ untargeted. If that's almost more convincing to me than the cross-sectional stuff.
+ I've been more efficient than it is now with better AI support. I would say that
+ I came into this reading really confident in that claim that this was a huge area for
+ potential improvement in society by use of AI systems. I come away not really updating
+ significantly in either direction. If anything, this paper's illustrated to me how hard it is to
+ get the details right here. It seems to me that in more complex settings, it's going to be even
+ harder to figure out what's the decision space. Are we sure we're measuring all of the relevant
+ outcomes? How do we make sure we're not overfitting? I guess I learned more about how hard this is,
+ albeit very important through reading this paper. That's a really interesting perspective.
+ I agree with you that it's hard. I've certainly seen many ML deployment examples where it's just
+ pretty clear to me that they didn't take these issues seriously, like these authors do. At the
+ same time, I posit that randomized control trials make this a lot simpler. We could do a randomized
+ control trial on different testing protocols for hard attacks. When we do that, that has its own
+ costs, of course, but we don't have to have these more sophisticated statistical arguments at
+ plate. You just compare the treatment and the control groups. Except for the most evil ideology
+ in the universe, Andre, medical ethics. Well, medical ethicists are okay with randomized control
+ trials to be clear. They seem like the least okay with it of anyone I've ever met. I think the FDA
+ makes randomized control trials really hard. I agree with you, though, that it is a very frictionful
+ process. I think in an ideal world, and this is how a lot of medical innovation happens,
+ is the hospital adopts and you protocol without a randomized control trial, right? They just say,
+ "Oh, we have this new system. We're going to try to use it." So they could try to use this system.
+ Yeah, but what abouts that they decide to use the system that shows itself to be like literally
+ twice as good? All right. And I guess maybe the last question I'd like to take some time thinking
+ through with you is like, to what extent does this move your beliefs about how rational or irrational
+ doctors are, right? Because the paper wants to frame this as all being a story about doctors being
+ irrational and inefficient. Well, it seems like you could equally just call this a story about
+ doctors really doing the best they can with limited information, right?
+ Yeah, I mean, I don't really want to go and figure out all the constraints that doctors have
+ in terms of learning and reading papers and running lasso regressions in their head.
+ I think it's irrelevant. I don't really want to say, "Oh, of course, there are some doctors
+ that are presumably not doing a good job. They're lazy or alcoholics or whatever. And all of these
+ have been doctors. They're bad apples everywhere." But it's not very interesting to go on a crusade
+ about doctors. And what I could say is like, if we taught doctors really well how regression works,
+ like they would have solved this problem any better. I think it's a systems problem. And so
+ it's interesting that doctors use the representatives heuristic or whatever. And that gives us kind of
+ hypotheses that we can try to apply to other doctor decisions. But at the same time, from the
+ perspective of this, we should just develop a system that uses machine learning.
+ All right. So maybe that's a good place to leave it, which is we both come away convinced that AI
+ really has the potential to do a lot of good here in this domain as well.
+ All right. Well, thanks for listening to Justified Power Sterears. Please make sure to
+ like, subscribe, and tell your friends about this podcast. And we hope you continue listening.
