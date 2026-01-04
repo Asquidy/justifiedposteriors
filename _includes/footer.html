@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <div class="footer-col">
+        <div class="footer-title">{{ site.title }}</div>
+        <div class="footer-text">{{ site.description }}</div>
+      </div>
+      <div class="footer-col footer-links">
+        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+        <a href="mailto:{{ site.podcast.email | escape }}">Email</a>
+      </div>
+    </div>
+    <div class="footer-meta">
+      © {{ "now" | date: "%Y" }} {{ site.podcast.author }}.
+    </div>
+  </div>
+</footer>

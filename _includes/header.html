@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      {% if site.tagline %}
+        <div class="site-tagline">{{ site.tagline }}</div>
+      {% endif %}
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ "/" | relative_url }}">Episodes</a>
+      <a href="{{ "/subscribe/" | relative_url }}">Subscribe</a>
+      <a href="{{ "/about/" | relative_url }}">About</a>
+    </nav>
+  </div>
+</header>

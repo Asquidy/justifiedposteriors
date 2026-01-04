@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<article class="episode">
+  <header class="episode-header">
+    <div class="episode-kicker">
+      {% if page.episode_number %}
+        Episode {{ page.episode_number }}
+      {% else %}
+        Episode
+      {% endif %}
+      · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      {% if page.duration %} · {{ page.duration }}{% endif %}
+    </div>
+    <h1 class="episode-title">{{ page.title }}</h1>
+    {% if page.summary %}
+      <p class="episode-summary">{{ page.summary }}</p>
+    {% endif %}
+
+    {% if page.audio_url %}
+      <div class="player">
+        <audio controls preload="none">
+          <source src="{{ page.audio_url }}" />
+        </audio>
+        <div class="player-links">
+          <a href="{{ page.audio_url }}">Download audio</a>
+          {% if page.audio_size %}<span class="muted">({{ page.audio_size }})</span>{% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  <hr class="sep" />
+
+  <nav class="episode-nav" aria-label="Episode navigation">
+    <div class="nav-item">
+      {% if page.previous %}
+        <div class="nav-label">Previous</div>
+        <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+      {% endif %}
+    </div>
+    <div class="nav-item nav-item-right">
+      {% if page.next %}
+        <div class="nav-label">Next</div>
+        <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+      {% endif %}
+    </div>
+  </nav>
+</article>

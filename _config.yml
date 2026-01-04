@@ -1,0 +1,40 @@
+title: Justified Posteriors
+tagline: A podcast about Bayesian thinking, science, and inference
+description: >-
+  Justified Posteriors is a podcast about Bayesian thinking, science, and inference.
+  Episodes include show notes, links, and transcripts when available.
+
+# Update these when you publish:
+url: ""       # e.g. "https://example.com"
+baseurl: ""   # e.g. "/justifiedposteriors" if hosted in a subpath
+
+permalink: /:categories/:year/:month/:day/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Podcast-ish metadata used by templates
+podcast:
+  author: Justified Posteriors
+  email: ""
+  language: en
+  explicit: "no"
+  category: Science
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
