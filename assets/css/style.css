@@ -923,6 +923,7 @@ p {
   margin-bottom: var(--space-lg);
   padding-bottom: var(--space-md);
   border-bottom: 1px solid var(--color-border);
+  text-align: center;
 }
 
 .beliefs-section__main-title {
@@ -957,6 +958,7 @@ p {
 .search-container {
   position: relative;
   max-width: 450px;
+  margin: 0 auto;
 }
 
 .search-icon {
