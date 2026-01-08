@@ -95,12 +95,12 @@ episodes:
   - title: "The Simple Macroeconomics of AI"
     paper: "Daron Acemoglu's task-based model predicting less than 1 percentage point additional GDP growth over 10 years from AI"
     andrey:
-      prior: "Effects will be small if AI adoption remains limited to 'using ChatGPT a little bit.' Could be huge if AI accelerates scientific research and discovery."
-      posterior: "Moved down my median estimate for AI's growth impact. Diffusion limitations will constrain macro effects even if capability advances rapidly."
+      prior: "Small effects if AI adoption is limited to 'using ChatGPT a little bit.' Potentially massive if it accelerates science or breaks institutional structures, abstracting away from superintelligence."
+      posterior: "Moved down median estimate for growth impact. Convinced that diffusion and regulatory lags (like FDA approval timelines) will constrain macro effects even if technical capability advances rapidly."
     seth:
-      prior: "Expected 2-4 percentage points additional GDP growth over 20-50 years from AI adoption."
-      posterior: "Cut growth estimate roughly in half. Now estimate around 30 basis points annually rather than closer to 100. It's hard to read something this carefully reasoned and not update significantly."
-    insight: "Acemoglu's rigorous task-based analysis had a sobering effect on both hosts' growth expectations. The model accounts for which tasks AI can actually automate, how quickly adoption spreads, and what fraction of economic activity those tasks represent. The conclusion that AI adds less than 1 percentage point to growth is far below silicon valley hype but methodologically sound. Capital accumulation and diffusion dynamics are the binding constraints, not AI capability per se."
+      prior: "Expected 2-4 percentage points of additional annual GDP growth over the next 20-50 years."
+      posterior: "Median estimate shifted downward, but maintained high-end cases. Argued that omitting capital accumulation makes the model a massive underestimate; an optimistic scenario could still see 30 percentage points of growth over a decade."
+    insight: "Acemoglu's rigorous task-based analysis had a sobering effect on median growth expectations, focusing on diffusion as the binding constraint. However, both hosts critiqued the paper's omission of capital accumulation and its focus on 'new bad tasks' (like addictive social media) as motivated reasoning. The discussion highlighted that while raw AI capability is high, the 'skeletons' of macro models—like perfect competition and slow diffusion—largely dictate the conservative results."
 
   - title: "Beyond Task Replacement"
     paper: "Timothy Bresnahan's analysis of General Purpose Technologies (GPTs) - value comes from organizational reorganization, not direct task replacement"
@@ -215,9 +215,9 @@ episodes:
   - title: "Situational Awareness"
     paper: "Leopold Aschenbrenner's essay on AI scaling trajectories, AGI timelines, and national security implications"
     andrey:
-      prior: "AGI is way more than 5 years away. Skeptical that linear extrapolation of scaling laws guarantees AGI. Doubtful that superhuman AI solves geopolitical problems."
-      posterior: "Maintaining skepticism on timelines. A 'world model of the internet' may be incomplete for AGI - real-world sensor data matters. Still doubt superintelligence solves all problems."
+      prior: "Skeptical of aggressive AGI timelines; believes the 'GPT-4 is as smart as a high schooler' framing is a rhetorical trick. Doubts scaling next-token prediction alone leads to AGI."
+      posterior: "Maintains skepticism on 5-year timeline, assigning ~5% probability to the 'intelligence explosion' scenario. Worried that treating AI as a 'Manhattan Project' slows down life-saving innovations in medicine and fusion."
     seth:
-      prior: "Takes 5-10 year AGI timeline seriously but with reservations. Concerned but not panicked about alignment challenges."
-      posterior: "Moved toward accepting the national security framing. If AGI is developed, it needs government control rather than remaining in private hands. 'Won't be able to identify when we're one breakthrough away.'"
-    insight: "Aschenbrenner's essay prompted divergent reactions. Andrey remained skeptical of the aggressive timeline and the implicit assumption that scaling necessarily produces AGI. Seth engaged more with the national security framing, accepting that if transformative AI emerges, governance questions become paramount. Both emphasized uncertainty: the scaling laws have empirical support but don't guarantee any particular capability threshold. The inability to predict breakthrough timing complicates both safety and policy planning."
+      prior: "Takes scaling laws seriously but questions if next-token prediction leads to 'true' intelligence beyond internet consensus. Concerned about the 'attacker's advantage' in cybercrime."
+      posterior: "Convinced by the national security framing—if AGI is possible, it must be a government project. Believes we won't identify when we are 'one breakthrough away,' making early state intervention inevitable."
+    insight: "Aschenbrenner's essay shifted the conversation from technical feasibility to national security and 'situational awareness.' Andrey remains a timeline skeptic, emphasizing the trade-off between security and the speed of beneficial innovation. Seth accepts the logic of a government-led 'Manhattan Project' for AI, viewing the potential for a 'monopole' hegemon as requiring state control rather than private ownership."

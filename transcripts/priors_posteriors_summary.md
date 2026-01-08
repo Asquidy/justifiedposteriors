@@ -86,13 +86,13 @@ This document contains belief updates extracted from podcast transcripts using O
 | **Key insight** | Persuasion gains plateau around LLaMA 2 70B / Qwen 72B. GPT-4 and Claude Opus don't show additional persuasive power. |
 
 ### The Simple Macroeconomics of AI
-**Paper:** Daron Acemoglu's paper
+**Paper:** Daron Acemoglu's "The Simple Macroeconomics of AI"
 
 | | Andrey | Seth |
 |---|--------|------|
-| **Prior** | Small effects from current AI; potentially huge from science acceleration | 2-4pp additional growth/year over 20-50 years |
-| **Posterior** | Median sucked down slightly. Paper fails to imagine new tasks and non-GDP benefits. | Median down slightly; 75th percentile unchanged. Realistic 66th percentile is ~3pp over decade. |
-| **Key insight** | Acemoglu estimates <1pp TFP growth over decade. Key criticism: assumes technology never improves, only focuses on barely-better-than-human automation. |
+| **Prior** | Small effects from current-gen AI; potentially huge from science acceleration or institutional change | 2-4pp additional growth/year over 20-50 years |
+| **Posterior** | Median down slightly. Diffusion and regulatory lags (e.g. FDA) will constrain impact for a decade. | Median down; maintained optimistic cases. Paper is an underestimate due to omitting capital accumulation. |
+| **Key insight** | Acemoglu estimates <1pp growth over a decade by assuming static technology. Criticized for "motivated reasoning" on addictive social media and omitting capital accumulation, which could lead to 30pp growth over 10 years. |
 
 ---
 
@@ -202,13 +202,13 @@ This document contains belief updates extracted from podcast transcripts using O
 | **Key insight** | Paper is better as scenario analysis than prediction. Every step on the path is fairly contingent. |
 
 ### Situational Awareness
-**Paper:** Leopold Aschenbrenner's essay
+**Paper:** Leopold Aschenbrenner's essay "Situational Awareness"
 
 | | Andrey | Seth |
 |---|--------|------|
-| **Prior** | Skeptical of rapid AGI timeline (~5% implicit) | Skeptical of scaling law predictions |
-| **Posterior** | Maintains skepticism; AI democratizing technology for human capital | Moved toward accepting national security framing |
-| **Key insight** | Essay is provocative; scaling law argument more novel than historical AGI predictions. Competition dynamics and national security implications significant. |
+| **Prior** | Skeptical of 5-year AGI timeline; views 'high schooler' benchmarks as rhetorical tricks. | Takes scaling seriously but questions if next-token prediction hits an asymptote. |
+| **Posterior** | Assigns ~5% probability to explosion scenario. Worries 'Manhattan Project' security will slow down life-saving medical/fusion breakthroughs. | Moved toward accepting national security framing. AGI is a government project; 'won't know when we're one breakthrough away.' |
+| **Key insight** | Shifting focus to national security and espionage. Andrey warns against slowing innovation via over-securitization; Seth argues for state control of a potential AGI monopole. |
 
 ### Interview Episodes (no explicit priors/posteriors):
 - **Ben Golub: AI Referees & Social Learning** - Discussion of Refine.ink, DeGroot model

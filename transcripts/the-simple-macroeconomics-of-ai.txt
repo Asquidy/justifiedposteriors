@@ -1,1082 +1,125 @@
- It's a complete non-sequitur in the paper.
- It reveals a kind of an utterly sort of
- Luddite is too strong, but very pessimistic worldview
- where he goes and he says to this paper,
- well, I'm gonna look at the effects of only automation.
- The technology is never gonna better.
- And of course, in my model, if we invent new tasks,
- that's very beneficial for the economy,
- but the only tasks that I'm going to contemplate
- innovating in are bad tasks.
- (upbeat music)
- - This is Justified Posteriors,
- brought to you by the Digital Business Institute
- at Boston University's Questrum School of Business.
- - Welcome everyone to the Justified Posterior podcast
- where we read economics papers and get persuaded by them
- so you don't have to.
- I'm Seth Benzel with 4.6 of my percentage
- of my tasks automated coming to you from Orange, California.
- - And I'm Andrei Fradkin coming to you
- from a perfectly competitive economy
- in Cambridge, Massachusetts.
- Very excited to discuss this topic.
- So what are we talking about today?
- It's the big question.
- The one that everyone is talking about,
- which is what is AI going to do to the economy?
- It seems like we can't get away from this question.
- And as economists, I think we're supposed to have
- a slightly more informed prior on this question
- than maybe others.
- So Seth, what is your prior?
- What was your prior before you read this paper?
- - All right.
- So just to give some context,
- we're going to be reading the simple macroeconomics
- at AI from Dirona Samagru.
- Fresh off the presses.
- Before reading this paper,
- I had done some analyses myself
- of the economic growth impact at AI technologies.
- I think an increase of three to four more
- percentage points of growth per year
- would be a very dramatic, but possible effect,
- kind of at the upper end of my range.
- I've also seen estimates where automation
- is a little bit more of a nothing burger
- and estimates where automation is going
- to completely change everything.
- And so I would say my point estimate
- of the effect of AI on economic growth
- is maybe two to four percentage points
- of additional growth per year,
- but I would say that's with wide confidence intervals.
- - And over how many years are you taking this average?
- - That's important.
- So when I'm thinking about this,
- I'm thinking about an average rate
- maybe over the next 20, 30, 40, 50 years.
- And I do think some of those gains will be backloaded,
- but certainly I don't think two percentage points per year
- over the next 10 years if everything goes above average,
- but not fantastic.
- Maybe 75th percentile outcome is not unreasonable.
- - All right, well, that's a very interesting estimate.
- I think as a non-macro economist,
- I have maybe a less calibrated economic growth picture.
- I'm not usually thinking about entire economies
- with all sorts of types of labor.
- I tend to be in the camp of small effects
- if we're thinking of AI is just us using chat GPT
- a little in our jobs.
- I think I don't see how a little bit of chat GPT
- in our jobs is gonna lead to several percentage points per year.
- But I think the potentially huge effects
- are acceleration of science.
- The breaking down of existing institutional structures
- and effects on political economy.
- I would also say that I am certainly abstracting away
- from artificial super intelligence scenario
- where we just have superior to human
- and all dimensions agents living in the cloud
- operating at a faster than human scale.
- So if we do hit that, I'm taking that out without that.
- - That's in my distribution,
- but I don't want to put it in my average prediction, right?
- Maybe we should focus on median predictions
- and then the range of possible predictions
- is a good way of thinking about this, right?
- Because ultimately, we're gonna get a point estimate
- from Astamoglu and maybe we can talk about
- how small that estimate is in a second,
- but he doesn't give us that much of tools
- to think about ranges around that.
- Maybe this is better thought of as a median case outcome
- than an average case outcome
- if you think there's a 1% chance
- of some sort of crazy outcome.
- - Yeah, that's certainly true.
- So I guess why are we even reading this paper?
- I think there are two reasons.
- I think there's been a call from informed observers
- such as Tyler Cowan that there needs to be serious
- quantification exercises around the effects of AI.
- And to do that, you need a macroeconomic model, okay?
- Where we model all the industries in the economy at once
- and so someone needs to make such a model
- that is applicable to AI.
- And this is an example of that.
- The second is, of course, that the road is Moaglu.
- - High phrase for Jerome.
- - I was gonna say that the road is one of the most
- prolific economists in the history of economists
- who has transformed many fields and is considered.
- One of the sharpest thinkers out there.
- And if anything he writes, we should pay attention to.
- And I view this paper as kind of like standard macro
- answer to some of these very interesting questions
- that a lot of people with technology have been asking.
- And so what better place to start?
- And what's beautiful about economics is that
- all the assumptions are laid out on the table
- in a way that I think otherwise we wouldn't necessarily
- get them.
- That was to critically evaluate the different pieces
- of these models, different assumptions that are made.
- (upbeat music)
- - Maybe it's time for us to introduce the headline result,
- which is his big picture finding is that AI is unlikely
- to make a large TFP or welfare contribution
- in the next 10 years with his point estimate coming in
- at less than one percentage point of additional growth
- over the entire decade, less than 0.1 percentage points
- per year.
- What was your initial reaction when you saw that number?
- - Honestly, my reaction, well, one is it seems small, right?
- I mean, I think anyone looking at this number would be like,
- this is pretty damn small.
- My reaction to macroeconomic models,
- which is where the skeletons hit it.
- And that intrigued me.
- I like to think of myself as a necromancer of a sort.
- - Make those skeletons in the closet saying did.
- - So I think every argument has hidden skeletons,
- but the beauty of macroeconomic models,
- you can see those skeletons very clearly.
- And then you can decide whether those should be alive or not.
- With that, I think we can get to the different steps
- that are involved in building this type of model.
- Great, like don't you have to take a stance on what AI is
- in order to make a model of AI?
- - Truly one must, and I would say,
- how would I say he defines AI here?
- He defines it really broadly.
- And I would say he defines it analogously
- to the main paper that he draws on.
- If we want to talk about his empirical estimates,
- he's talking about the famous GPTs,
- our GPTs paper from the London at all,
- co-authored by a friend of the podcast, Daniel Ra.
- And in that paper, what they're looking at is
- what is the range of tasks
- that are currently performed in the US economy
- that plausibly can be sped up by two times or more
- with using current generation LLMs
- plus current generation APIs.
- - Well, with the one caveat is that he also incorporates
- computer vision technology and estimates from Sponberg.
- So I think it would be LLMs and computer vision
- if I understand correctly.
- - I believe computer vision is gonna be handled
- in the LENDOW at all paper through the,
- and you can plug into other APIs.
- - Okay, so yeah, it's in a very interesting definition.
- I think one way to kind of think about it
- is imagine we had perfect diffusion
- of the current technologies that are already available
- that are in wide use to people.
- - Forget any better, free heat of critique.
- - Yes, and they never get any better.
- And while this does sound a little bizarre
- to people who are seeing it get better month by month,
- you do need to make this model,
- you need to put some data into it,
- and we kind of don't really have data on the models
- that are gonna be better that are coming out
- in a year or two and how useful they'll be.
- So I think he's standing on semi solid ground
- what we already have data about.
- - Right, I think the thought experiment here
- is what happened after perfect diffusion
- of current generation AI?
- - I'd be shocked at current technologies
- diffuse 100% in the next 10 years.
- We know from the history of technology
- and technological spread that it takes a very long time
- to diffuse and especially when you need to change
- how you organize a firm or an industry
- in response to new production technology.
- - Right.
- - So I think anything, if you really pushed the author,
- I'd imagine you tell you that there's an overestimate
- of the true effect because there's no way
- that we're gonna get 100% diffusion
- of these AI technologies in the next 10 years.
- - So here's one way of, I think about this diffusion
- of technology rate that isn't kind of explicitly
- in the paper, but I think you can kind of back out
- which is thinking about this as the rate
- which labor share of national income increases.
- So historically labor share of national income
- has gone up by much less than,
- maybe a little bit less than half a percentage point,
- or sorry, has decreased by about half a percentage point
- per year and I would say that this model
- by saying four and a half percent of tasks are automated,
- this is for a faster rate of robots taking jobs
- than the 20 or 40 year historical average.
- It's about maybe even four times the historical rate.
- So this is a fast rate of automation in this paper.
- - Yeah, I think we're on the same page.
- Once again, it's best to think of this
- as a kind of thought experiment.
- And so I think we just have to acknowledge
- that he's not thinking about the fusion at all.
- - Right, I think maybe I'll take one minute here
- to say one other thing that I don't see in the paper
- which is thinking about differences across countries.
- This is one country model
- and I think there are first order implications
- of automation in a multi-country model
- where you might have greater capital investment
- through capital stealing from poorer countries
- as a result of automation.
- That's gonna be something that's gonna benefit
- automating countries that's not in the way
- that Doron thinks about capital accumulation here
- which is in a very stylized way, right?
- You have to think about capital accumulation
- because if somebody says robots are gonna take your jobs
- the next question's gotta be
- well how many robots are gonna take my jobs?
- - Yes, but I think that's a very noteworthy caveat
- especially if we're trying to make quantitative predictions
- about GDP that we, let's say,
- could bet on a betting market on,
- those things would be really, really important.
- But I'm not so bothered by this,
- the lack of this mechanism here
- because there's already a lot going on in this model
- and we can just happily abstract the way
- from capital stealing which is not really
- what a lot of kind of AI boosters
- or AI warriors are particularly worried about I think.
- - Right, we can return to this point in our conclusion
- but I would not sleep on capital accumulation
- as an important mechanism for what AI does to the economy.
- - Yeah, so I think, obviously we're not gonna go
- through the math in a podcast that seems impossible.
- - Obviously.
- - But I think the key features of macroeconomic models
- are all present here.
- I think the key modeling device that Doron has used
- in his previous papers and is also using this one
- is a task based model.
- So the task based model,
- the key thing to know is there are a bunch of tasks.
- Some of those tasks are gonna be done by capital.
- Some of those tasks are gonna be done by labor
- and the model kind of creates conditions
- under which of those tasks go and which bin.
- And as a result, the model allows you to think about
- various forces by which AI is going to improve productivity.
- - Would you please give me an industry to use as an example?
- - The podcast mic manufacturing industry.
- - The podcast mic manufacturing industry.
- Well, I won't name any brand names
- because we're holding out for the sponsorship
- but you might imagine making microphones requires two tasks.
- The first is making a microphone
- and the second is making a cable that allows you
- to plug the microphone into your laptop.
- We invent a radical new technology
- that allows for robots alone
- to create the microphone part of the microphone.
- That would be an example of us expanding the range of tasks
- that can be done by capital.
- So you now have the choice of making the microphone
- with a robot.
- And now the question is,
- will you choose to make the microphone with a robot?
- Well, that's going to depend on the relative productivity
- of a worker doing it and the productivity
- of doing it with capital,
- as well as the relative costs of labor and capital.
- So when interest rates are high,
- so the cost of capital is high,
- you're going to want to maybe do it with labor.
- And when workers are really expensive,
- you're going to maybe want to do it with capital.
- That's kind of automation.
- There's this issue of complementarity.
- So to what extent do I need both the microphone themselves
- and microphone cables?
- That's an example where there's really close complementarity
- between the two tasks, right?
- One without the other doesn't really help you.
- But you might also imagine situations
- where you can just do more of the automated thing
- and just start to ignore the un-automated thing
- if they're not particularly complementary.
- Finally, you might imagine the labor itself
- getting more productive.
- Maybe we educate the worker
- until she becomes better at making the microphones faster.
- Or you might imagine capital technology changes, right?
- It might be the case that it used to be
- that you could use a computer
- and it would cost so much electricity
- to make a microphone of a certain quality.
- But technological changes might allow you
- to use that same computer, the same robot,
- to make the microphone better at a lower cost, et cetera.
- So that would be capital deepening of automation.
- The thing that you already automated,
- the thing you already gave to a machine to do,
- the machine's getting better at it.
- So it's like the machine going to college.
- Yeah, I mean, one example that you can think about is,
- let's say you have a warehouse robot
- that's moving around palettes and boxes and so on
- inside the warehouse.
- And let's say you've uploaded new software
- to this robot and now it's able to move faster
- with weight on it.
- And as a result, you need fewer of these
- in order to manage the same amount
- of warehouse and package space, right?
- It takes any of automation storage.
- Truly.
- And now there's this final thing that could happen
- which is you could create new tasks.
- We don't really get a lot of discussion of that
- in this paper, but his mechanism not only allows for it,
- it kind of requires it in a certain long range projections.
- I'm thinking of his race between man and the machine model.
- What is creating a new task, Andre?
- Well, podcasts didn't exist at some point.
- And so the job of a professional podcast--
- How do people take showers?
- I don't know.
- Have people walk to work without a podcast in their ear.
- But actually, well, podcasters and occupations.
- So let's be a little bit more precise.
- Some of the tasks of being a podcaster
- presumably existed for radio hosts already.
- But maybe some others did not.
- Like marketing podcasts, perhaps that's
- a very different type of task than marketing
- the national public radio requires kind of familiarity
- with social media and finding the right audience
- and so on and so forth, right?
- So maybe a classic task is actually
- like social media manager.
- One thing I will say is if familiarity with social media
- counts as a new task, new tasks are sweeping the economy.
- And he's ignoring it.
- There is this kind of very deep question
- about what tasks really are.
- And even in the paper, he talks about subtasks.
- In my opinion, an occupation is supposed
- to be a bundle of tasks that weren't in subtasks.
- Like, for example, is me vocalizing the words
- that I'm speaking right now, a task or a subtest?
- You could argue both, yeah.
- It's clear the taxonomy starts to break down here.
- And maybe we're not supposed to take the model that seriously.
- They're kind of gesturing at something
- while maybe avoiding the details, yes.
- Right.
- And I guess one last thing we should point out here
- is given that there's going to be a range of different tasks,
- some of which can be automated, some of which can't.
- There's the possibility where you might automate certain tasks.
- But they're just kind of barely worthwhile to automate.
- They'll maybe have very marginal cost savings.
- And in that model, in that situation,
- they'll be kind of the marginal task
- that you decide to still automate,
- that it's still valuable to automate.
- And that's going to kind of divide the stuff
- that's done by machines into the stuff done by humans.
- So, OK, now that we've given some background
- about what's going into this soup.
- All right, Jerome's kicking us up this soup.
- And in the soup is going to be the task-based model, right,
- into the soup piece, putting GPTs in large language models
- and machine vision.
- And hey, there's going to be a certain percentage
- of these tasks that maybe AI can do.
- And three of us, a certain amount of work with.
- He mixes them all together.
- And what does he start to get?
- So he starts to put some numbers on these things, Andre.
- So generally, macroeconomic models
- can get very complicated, right?
- So you need to make some stark assumptions
- to kind of make them simple so that you can kind of do napkin
- maths like he does in this paper.
- And one of the key assumptions is that every industry
- in this economy is perfectly competitive.
- Fuck yeah.
- And this is usually not an assumption
- that someone from Cambridge, Massachusetts
- would be willing to make.
- This is more of a University of Chicago assumption.
- Yet he is making it in the salt water himself.
- I mean, Andre, I guess I would say that I view
- this as sort of harmless.
- If a model where markups are fixed,
- such as in the classic Romer model of competition,
- that's just a 20% drag on the economy forever.
- So I think you can imagine incorporating profits
- into this model pretty harmlessly
- with saving all the other predictions.
- I mean, I don't know if I'd be happy with the Romer model.
- I guess to me, one of the things I'm thinking about
- is AI seems to be creating a boom in startups
- and the degree of competition, which markets are contestable now,
- seems to be changing greatly.
- In fact, that's one of the most interesting things for me
- about the current AI weight.
- And that can exist in a model with perfect competition.
- It can't exist in a model with constant markup competition
- where it's kind of fake, a perfect competition.
- I guess the only thing I guess where I come back on that
- is like, imagine a universe where a company defeats Google
- because it invents a search engine that's 1% better than Google.
- There's some sense in which the business story there
- is incredibly dramatic.
- This trillion-dollar company gets taken down
- and gets replaced with another trillion-dollar behemoth.
- The business story there is exciting.
- But the macroeconomic story is one industry
- got 1% more productive.
- Well, Seth, I like to think about BOML's cost disease.
- And I like to think about industries that are characterized
- by radio through a capture, very high barriers to entry,
- that I do think are starting to get a little hit,
- or will be hit, why could think about certainly--
- I put your money where your mouth is.
- Where should I get my VIX derivatives?
- Which industry is going to have the most disruption?
- Well, I think a lot about how to relate to occupations,
- things like health insurance, the job of doctors,
- and so on, also other licensed professions,
- so things that we wouldn't necessarily think about,
- but things like contractors or buildings.
- You might think, well, that's going
- to be one of the last jobs that's automated, right?
- Because it requires physical manipulation of things.
- Took the words out of my mouth, Andre.
- Are you psychic?
- Well, let me tell you what a major cost that
- is involved in contracting is essentially assessment
- and the filing of permits.
- And if you can suddenly do that a lot faster,
- I can imagine that you might be easier
- to create competition as industry.
- But is that order of magnitude important, right?
- So like you increase competition,
- you drive down the margin from 20% to 5%, right?
- So you get that amount more, but you're also
- using more societal resources.
- It's hard to argue that this is going to be first order.
- I mean, I go back to the fact that health care
- is a very large proportion of the economy, for example,
- and I can ostensibly imagine it becoming much more efficient
- in a variety of ways.
- I guess the other thing I'd say is, you know,
- something that is not at least directly captured in GDP
- is time-safe, right?
- Oh, that's true.
- That's true, the increase in leisure.
- But I think let's hold the unmeasured GDP benefits
- for later in the talk.
- I want to talk about these numeric estimates
- of AI exposure and cost savings.
- So Doreau, I would say, has sort of one main equation
- in the paper that he uses to motivate
- a much more complex analysis.
- And it kind of falls out of some of his math,
- but it's going to turn out that a lot of the mechanisms
- in this paper are kind of qualitatively
- unimportant compared to this main equation,
- which is that he says the TFP benefit
- over the next 10 years from AI will be equal
- to the GDP share impacted by AI.
- He means literally automated here over the next 10 years
- times the average cost savings of the impacted tasks.
- So he's got two numbers to estimate
- in order to get his big sweeping final number.
- First number, which is the GDP share impacted by AI
- over the next 10 years,
- he gets that by multiplying two numbers together.
- First, he starts with the lend out at all
- that GPTs or GPTs paper that's trying to estimate
- which share of tasks is going to be affected by LLM.
- And he says that 20% of US labor tasks
- are going to be exposed to AI.
- Important caveat here, this is not how Dan Rock says
- that you should use his paper.
- So you got that 20% number.
- And then he's going to multiply this by a 23% number
- where he comes with this other study
- that says about 23% of the things that could be automated
- with AI in computer vision, which is one sub-tasks
- actually are productive to be automated with AI.
- Multiply those two numbers together
- and you get 4.6% of tasks are ready to be automated.
- What do you think of that calculation, Andre?
- I mean, it's interesting.
- I think both of us have read enough science fiction
- to know that that seems like a very low amount of tasks
- that can be automated.
- But let's also be a little charitable here, right?
- Like, let's assume that we are essentially freezing technology
- and the last version of OpenAI's model
- that is published or released.
- - We're freezing it when that GPTs GPT paper
- which is maybe-- - Yes, yeah.
- We're seeing it maybe earlier, yes, that's actually right.
- And so, you know, let's say we've now had a year
- of living with that technology.
- What share our own tasks have been automated
- by these technologies, I would say?
- - Some.
- - You know, it's very good at writing out a lot
- and since it's very good at writing form letters
- of various types.
- - Give me a list of Mondays and Wednesdays
- for my syllabus that I'm working on for this semester.
- - Yeah, so it's certainly useful but, you know,
- in terms of the share of my tasks
- that are actually automated, you know,
- this doesn't seem like-- - Above or below 4.6.
- - In terms of time usage, I do think there are certain cases
- where it has saved me an enormous amount of time.
- And I guess this is something where I haven't dug
- deeply enough into the weeds.
- Should I be thinking of this in per time unit, the task,
- or in just units of tasks?
- - In principle, you should be multiplying them
- times the marginal productivity of the task, right?
- And now, Andre, I do know that you are optimizing
- at all times and your marginal productivity
- of every action is exactly identical.
- So maybe we can allude that complication.
- - Fair enough, but I guess from a personal level, right,
- like I do a lot of things for my job, very few,
- then we've been automated.
- The things that have been automated,
- let's say like a code refactorate,
- are crazy to think that could have saved me
- three or four days or five days even
- over the course of a year, right?
- So of work.
- So I guess maybe that's not that much.
- Maybe it goes back to a 5% number.
- - Right, so that's the first number around needs.
- Is what percentage of GDP are we gonna automate?
- He estimates that at 4.6%.
- The second number he's gonna multiply by 4.6%
- is the average cost savings
- in each task that can be automated.
- If you didn't like that 4.5% number,
- you're really not gonna like this number
- because he estimates for every task that we automate,
- we're gonna save 15.4% off of our previous costs
- before we automated it.
- What, that seems low.
- - Yeah, I thought automated means that we save all the costs
- of that task.
- - Well, there's always gonna be the electricity costs
- of the machine. - Yes, yes, of course.
- - But giving, he estimates that in tasks
- that are exposed to AI,
- you get to reduce labor costs by 27%, right?
- So when we say automate,
- we mean reduce labor costs by a lot.
- We don't mean eliminate labor costs.
- And then he multiplies that 27% by approximately 57%
- of the economy is labor share.
- To get this 15.4% overall total saving
- from automation number.
- So we aggregate, because remember,
- you can only save labor costs.
- You can't save capital costs from automating.
- 4.6% of tasks being automated
- that getting diffused throughout the economy
- over the next 10 years is actually not a crazy number.
- That's not orders of magnitude off of even
- what I would say an optimistic scenario is.
- I think it'd be unrealistic to imagine much more
- than twice that.
- And in fact, my sort of 75th percentile best case scenario
- puts it out about twice that.
- But the second number, a 15.4% total saving
- from automated tasks just seems kind of hopelessly low.
- He does cite a few papers,
- but I think these papers make two big mistakes.
- I think the first challenge with any sort of paper,
- any sites a couple that are estimating a benefit
- from automation is you kind of have to subtract off
- any sort of background rising tide lifts all boats
- automation is helping every firm effect, right?
- That gets subtracted right off the top.
- And so you might think that, well, that's just capital deepening,
- but maybe capital deepening really is important.
- If you think this is the number that's estimated on firms
- that are doing kind of more automation
- or actually eliminating jobs in a way
- that's very visible in the data,
- whereas you might imagine AI is boosting GDPs in ways
- that's hard to estimate using the tools that they use.
- I'm sure in a future podcast,
- we'll talk about these specific estimates
- in their limitations.
- The second big limitation here is kind of the staticness
- of that 15.4% cost reduction number, right?
- That's like a number from a very short-term estimate
- of having automated for a few months or a few years at most.
- When we really think that there are some one-time fixed costs here,
- but over time we expect the computers
- to get better and better at these tasks.
- It's more and more efficient at making the tasks
- once they are after being slightly better
- than humans at the task, right?
- And so this is why we sometimes refer to this paper
- as estimating the effect of technologies
- that are barely better than humans
- and never get any better, right?
- That's the big limitation here.
- - Yeah, I mean, I think this is an interesting way
- of putting it, you're kind of putting it as like,
- the technology is gonna keep getting better for those tasks.
- I guess another way to think about it is,
- and we're not gonna get into the details of the papers,
- he references here,
- but let's imagine you were operating call center
- and you gave half the people some AI tools
- and half the people didn't get those AI tools
- and you observed them for a month,
- even holding that technology constant,
- just people are gonna learn how to use that technology
- way better over time, right?
- - Preach.
- - So to me, especially in the tasks that are considered
- in these papers, which as you can imagine,
- people pick these tasks because they're already the ones
- that AI is impacting,
- the effects are gonna be way bigger than just a 15% say.
- I think maybe as a retort and maybe this goes back
- to our points about imperfect competition,
- what about imperfect competition in the labor market?
- Companies don't like firing people,
- so let's say you have a person and have their tasks
- get 100% automated,
- like this person kind of useless at doing them at that point,
- they might still not be fired,
- and in that case, what are your costs sitting?
- Zero, right?
- So in some sense, these papers are kind of
- not the right papers to think about this number,
- it's me, I have to shut it up, say.
- - And I think that the phenomenon you just talked about,
- you don't even need imperfect competition, right?
- You could micro found that in some sort
- of the nominal rigidity,
- in which people refuse to take pay cuts,
- in which there's adjustments slowly over time
- as the firm fails to give you inflation raises
- because we've automated half of your tasks, right?
- So that's another mechanism by which these savings
- might accumulate only slowly over time and with friction.
- - And that was using here imperfect competition,
- just any deviations from a competitor car
- and certainly that would be one of them.
- There is a world, let's say,
- where you're living in a European country
- where it's powerful or fire people
- where there might not be cost savings, right?
- And this kind of goes back to an interesting question
- about the effects of AI and the adoption of AI.
- So if you have a lot of regulations about your labor,
- it might not make sense to invest in automating technologies
- because you can't realize the labor or savings,
- which then might augur for a startup company
- which uses less labor to provide drastic productivity
- improvements over existing incumbents
- through the use of an automating technology
- that just doesn't require it.
- - It may take that and presumably,
- maybe once that company comes along,
- finally we would get these micro estimates
- of big positive x from the technology.
- - Yes, exactly.
- - But maybe this is a good time to talk about
- why Jerome is actually pessimistic
- that the share of tasks that are automated
- will be as high as this number
- or that the gains from automation
- will be as high as this number.
- He thinks that basically we're estimating the impact
- from having automated easy things
- and all of the other things on the list of things
- that we could potentially automate
- using current generation technology are necessarily harder
- to automate things, right?
- 'Cause you go for the low hanging fruit first.
- Do you kind of maybe buy that argument
- for why this 15% cost reduction might be somewhat optimistic?
- - I mean, I thought that kind of where these numbers
- are coming from is already kind of
- out of thought an average over the easy and hard tasks
- to some extent.
- - It's the average over the easy and the hard tasks
- that have already been automated.
- So I guess, yeah, to me, it seems like taking something
- already very arbitrarily calibrated
- and then further misusing some high level numbers.
- I mean, it's not a crazy to think
- that other things that are automatable,
- some will be easier and some will be harder.
- It's just, I just don't know how existing data
- can really inform us.
- - I agree that it asks us to engage
- in pretty secure speculation other than to note,
- Silicon Valley is pretty optimistic
- that people are gonna make a lot of money
- automating these tasks, right?
- So there are at least some investors that are optimistic.
- I would say the only thing is that this distinction
- that Osmoglu really pounds on of easy versus hard
- to automate tasks seems like a static second order question
- compared to the stuff we already automate,
- we will get better at automating over time.
- - Yeah, I mean, I do think the point there, yeah,
- we've already automated a huge portion of things that we do.
- And so when I get better at it.
- - I think let's move quickly past the inequality implications.
- He doesn't have anything particularly novel to say here.
- This is kind of aggregating all labor together.
- - Well, I mean, I do think we missed one thing,
- which is the distinction between effects on GDP
- and the effects on TFP.
- I don't think we explicitly laid out the argument.
- So kind of his number that we talked about so far
- is just begins to productivity,
- which is what economists call kind of technological improvements
- that kind of make things better.
- - More from less.
- - Yeah, and so there's another portion of GDP is like,
- well, so with building those data centers,
- someone is building those robots.
- I guess robots are not part of this study per se,
- but presumably that capital is going to be used
- for future production that should also go into the GDP.
- And he kind of says it's similarly small.
- Do you think that's a reasonable?
- Do you think that those should just be proportioned to each other?
- - So as I said, I stand capital accumulation as essential
- for thinking about the long term impacts of automation.
- If you think about a fully automated economy,
- that's one where output is just the growth rate
- and now output is the growth rate and technology
- times the growth rate in the capital stock.
- So it goes to show that actually as we become more automated,
- growth in the capital stock becomes more essential
- for understanding the growth rate.
- And I think we don't know a lot about how predicted automation
- will affect worldwide aggregate savings.
- But one thing I will say for certain
- is is that if your country suddenly shows up
- with a lot of exciting new high tech investment opportunities,
- which we think AI is doing for America,
- that's going to draw in capital investment from abroad.
- And depending on how small America is relative
- to the rest of the world,
- that effect could actually be pretty massive.
- And so a lot of the benefit from these new automation technologies
- might not come directly from the technology,
- but from making the country in aggregate a more attractive
- and lucrative--
- - Yeah, that's quite interesting.
- We're already seeing, and I don't have a sense
- of what those magnitudes are relative
- to macroeconomic variables.
- But certainly, we see a lot of interest
- in investing in a video on an American company,
- presumably not from just Americans, yes.
- - Truly.
- - Okay, I think that's a clear kind of limitation
- of this approach.
- But I think, do we now want to talk about
- the negative effects of AI,
- or do we want to kind of wrap it up?
- - Yeah, I think what we, let's reframe this as,
- but what's not in GDP that might come from AI?
- Because so kind of the headline argument is,
- AI isn't going to change the world,
- isn't going to change welfare a lot over the next 10 years.
- Oh, and by the way, it might actually lower welfare
- because we might invent some bad things
- that people used to, for bad, right?
- And so maybe we can close out with kind of,
- before we summarize, this will be our last topic,
- is what about these other effects other than GDP growth?
- And he focuses on one particular negative impact.
- What is that one Andre?
- - We're going to make social media even more addictive
- than it currently is through the generation of content.
- And this is very terrible for the world,
- because social media, even though we all use it,
- if we could all agree with each other not to use it,
- that would make the world a better place, I think.
- - Or so one survey says.
- - Yes, so this is very, I should say in paper,
- he's referencing here is, and again,
- quite a provocative, very interesting paper
- that I don't think we have time to get into.
- - But the argument is not a very new one.
- It's something that I think economists and sociologists
- certainly have been thinking about for a long time,
- which is that keeping it off with the Joneses
- might be pretty bad.
- Maybe let's not track the way from the case of social media,
- but let's imagine that everyone in our society
- has decided that having a very nice car
- is how you signal that you're a good person.
- And then as a result, everyone competes
- to kind of buying a fancier car.
- But this is a very costly thing for people,
- they'd rather not waste their money on cars.
- And so if they could just wave their magic wand
- and have everyone drive the base model of car,
- then the world would be a better place.
- - Ramblings of the utterly deranged, incredible.
- The real GDP growth is when we all become hermits
- and become content with what we have.
- Thank you, Jerome.
- That's what we want from the economists amongst us.
- - Well, I found this--
- - It's an argument, very reminiscent of communist arguments
- against capitalist consumption culture, you know?
- - Until the Christian reforms where he wanted
- to compete with capitalism on its own merits.
- - Yeah, so I mean, I raise the issue of cars to say,
- it doesn't seem to me that there's something
- particularly special about social media.
- You might say that social media is also just bad
- to the brain in a way that nice cars are not handsome,
- maybe that's a little bit worse.
- - It's a complete non-sequitur.
- It's a complete non-sequitur in the paper.
- It reveals a kind of an utterly sort of
- luddite is too strong, but very pessimistic worldview
- where he goes and he sets through this paper,
- well, I'm gonna look at the effects of only automation.
- The technology's never gonna better.
- And of course, in my model, if we invent new tasks,
- that's very beneficial for the economy,
- but the only tasks that I'm going to contemplate
- innovating in are bad tasks.
- And then he focuses on a single paper
- that shows a negative impact of a single technology,
- completely ignoring the vast literature
- and the vast obvious importance
- of all the free digital goods that we consume all the time.
- Sure, you can point to one specific bad from technology,
- but to focus on that at the exclusion
- of all of the free goods from technology,
- it seems like motivated reasoning.
- I is unclear why he thought that he should spend time on that.
- - To me, it just seems crazy to think that the main thing
- that about this that's important for welfare
- or human prosperity for prospering
- is that it's gonna make me spend more time on social media,
- which I'd rather not to go.
- - Yeah, it's absurd to focus on almost feels like
- he wanted to get a technology as bad answer,
- because why else would you focus on that one particular
- downside as opposed to the many other upsides
- that are imaginable from free tabletop RPG campaigns
- written immediately to my exact specifications,
- to AI companions, which will certainly not help GDP
- all that much, but might make people feel happy.
- - I think this paper demonstrates a lot that's good
- and bad about economics.
- I think it's great because it lays out its assumption.
- Really great because of that.
- But it's also a lot of economic models,
- a lot of built-in things in them
- that make them enormously conservative.
- Just think about the margin.
- Everything about the margin means that things are margin.
- - Right, so you're thinking about marginal things,
- marginal things will happen, right?
- It's very hard.
- - Marginal, yeah, the margin.
- - Very hard economic model to get a little changed
- out of the big effect.
- That's kind of not what's going on in most models.
- - You need a multiple equilibrium model.
- - Yeah, so maybe it isn't surprising
- that we get a small number, because there isn't a model,
- there isn't anything radical in this model.
- There isn't like-- - Right, but you could take this model
- and plug in bigger numbers if you want it.
- - You can plug in bigger, exactly.
- But I think that the overall mindset that permits,
- I think a lot of the economic profession
- that we're obviously part of is that
- it's very conservative in this way, right?
- Like, even the fact that you choose this to focus
- on these new bad texts is very, very conservative.
- I'd say failure of imagination, honestly.
- That the main thing that gender AI technology
- is gonna be used for is to create better social media posts.
- They're working.
- - Yes, utterly deranged.
- So on that note, let's move it into conclusion mode.
- It would turn for us to justify our posterior, Zandre.
- (upbeat music)
- You came in with a certain view
- of the effect of AI on technological growth.
- Jerome in his argument tells us
- we should anticipate a less than 1 percentage point increase
- in aggregate TFP by the time 10 years is out.
- Has your fire moved?
- - So I think a lot of thinking about AI
- is that there's some emergent thing that we're gonna invent
- with just a slightly better, I don't wanna say slightly,
- with a better GPT-like model,
- we're gonna create something that is very new,
- very capable, that's just gonna have sweeping implications
- for everything in society.
- Like imagine just for every decision that we would make
- where decisions very broadly construed,
- it would just come up with a better thing to do than us.
- And if you think that there's a reasonable probability
- that happens in the next 10 years,
- wouldn't it be depressing if the GPT increased less than 1%?
- - By the way, I don't think that that's impossible
- because economies, we know that economies are slow adjust.
- - Slow living chips.
- - Yeah, yeah.
- Regulations maybe it wouldn't need to change, for example.
- A lot of things I think are bottlenecked by regulation.
- So to me, it's like if we don't have
- kind of some very innovative new version of GPT
- and given the fact that this paper
- seems perfect the fusion of this existing technology
- and it still gets such low numbers
- and it's forced to conclude that the GPT effects
- of this are maybe a little bit less
- than I would have thought, exant.
- - So it would be fair to say,
- maybe we've sucked down your median outcome.
- - Yes.
- - But your ranges that are in your top 75th percentile
- and higher maybe not moving.
- - Yes, yeah, I think that's right.
- I will say that reading this paper,
- I don't wanna say my perspective moved away from DeRoz.
- I think it gave me a lot of context
- for thinking about quantitatively my predictions
- and just to lay my cards on table.
- I think kind of a realistic maybe a 75th percentile
- or like a two thirds percentile outcomes.
- This is an optimistic scenario,
- but not transformative AI scenario.
- I think maybe about twice this amount of tasks gets automated
- with maybe 50% higher benefits of automating those tasks.
- In which case, instead of adding one percentage point
- over a decade, I would think we would add
- something more like 30 percentage points over a decade,
- at least to GDP because I'm also taking into account
- these capital accumulation issues.
- Am I being sucked down to his opinion?
- Maybe a little bit.
- I mean, it's hard to read something as carefully reasoned
- as this and not feel like there is some insight here,
- but I think there are at least two or three big emissions
- even in the normal stand universe
- that make me think that's an underestimate,
- certainly in terms of maybe in terms of TFP
- and certainly in terms of welfare.
- And like you, I do remain convinced there is a non-trivial
- chance that, for example, we unlock major speedups
- in certain technological innovations
- by the end of the next 10 years or so
- that make all of this start happening a lot faster.
- - I think to me, I just keep on going back
- to the question of diffusion.
- I think about some of the best case scenarios for AI.
- Let's say that in year five,
- we invent a cure for all cancers
- because researchers augmented with algorithms
- were able to accelerate their research in such a way.
- That cure will not be passed by the FDA for how many years?
- (laughing)
- 10 years, right?
- So.
- - Could be, could be.
- - Right?
- So I think we can't take lightly this idea
- that diffusion is gonna screw over the macroeconomic effects.
- - Right.
- And then the right question is like 10 years from now,
- what is the level of technology which has defused?
- Is it the 10 year old version that everybody's using
- or is it the five year old version
- that everybody's using?
- That's one of the big unanswered questions.
- - Yes.
- And it's also a question about like,
- can you just plug in the newer model
- into a process designed for an older model
- and get proportion improvements
- in whatever it is that you're doing?
- Where does a better model cause
- for an additional reorganization, right?
- - Right.
- So you, one way of saying it is,
- do we think adjustment costs will get lower in the future?
- Right?
- 'Cause you might think these technologies will be fantastic,
- but adjustment costs might go up.
- That's kind of his easy tech heart tech,
- heart easy to learn, hard to learn distinction.
- My money is on this stuff getting easier to update
- over time because once you put chat GPT four in charge,
- I think that's a smaller job going to GPT five
- than going from a human,
- 'cause you can always constantly tell GPT five
- to, you know, when you're uncertain, just emulate GPT four.
- - Yes.
- I think the only uncertainty would be like,
- if we had to reorganize the economy
- to fully reap their rewards.
- It's a question of jobs doing fewer tasks
- or not to patiently doing fewer tasks
- versus an occupation being just obsolete in a way.
- - Absolutely.
- - Maybe we should be written something.
- Yeah, yeah.
- - Go ahead.
- - Maybe what we read next is something
- about adjustment costs in putting in automation.
- But there's so many different directions
- for us to go from here.
- - Yes.
- I think this kind of discussion highlights
- how rich the surface is for these discussions.
- How many different literatures and economics
- and outside are involved in trying to actually
- reason to this number, let's say that we care about
- what GDP will be like 10 years or now,
- to get a reasonable goal at this number
- by understanding mechanisms,
- we have to really understand a lot of literatures.
- - I think that's exactly right.
- So I think let's maybe sign off here
- and congratulate our listeners
- for making it through an episode of justified posteriors.
- - Thanks for listening to Justified Bisteriors.
- Look for more episodes in the future
- and check us out on Substack Connects.
- ♪ We were telling you the rules ♪
- ♪ Our aim is plain to see ♪
- ♪ We know you're not ♪
+Seth Benzel: It's a complete non sequitur in the paper. It reveals a kind of—utterly—"Luddite" is too strong, but a very pessimistic worldview where he goes and he says through this paper, "Well, I'm going to look at the effects of only automation. The technology is never going to get better." And of course, in my model, if we invent new tasks, that's very beneficial for the economy. But the only tasks that I'm going to contemplate innovating in are "bad" tasks.
+[Intro Music]
+Announcer: This is Justified Posteriors, brought to you by the Digital Business Institute at Boston University's Questrom School of Business.
+Seth Benzel: Welcome, everyone, to the Justified Posteriors podcast, where we read economics papers and get persuaded by them so you don't have to. I'm Seth Benzel, with 4.6% of my tasks automated, coming to you from Orange, California.
+Andrey Fradkin: And I'm Andrey Fradkin, coming to you from a perfectly competitive economy in Cambridge, Massachusetts. Very excited to discuss this topic. So what are we talking about today? It's the big question, the one that everyone is talking about, which is: what is AI going to do to the economy? It seems like we can't get away from this question. And as economists, I think we're supposed to have a slightly more informed prior on this question than maybe others. So, Seth, what is your prior? What was your prior before you read this paper?
+Seth Benzel: All right. So just to give some context, we're going to be reading The Simple Macroeconomics of AI from Daron Acemoglu, fresh off the presses. Before reading this paper, I had done some analyses myself of the economic growth impact of AI technologies. I think an increase of three to four more percentage points of growth per year would be a very dramatic but possible effect, kind of at the upper end of my range. I've also seen estimates where automation is a little bit more of a "nothing burger" and estimates where automation is going to completely change everything. And so I would say my point estimate of the effect of AI on economic growth is maybe two to four percentage points of additional growth per year. But I would say that's with wide confidence intervals.
+Andrey Fradkin: And over how many years are you taking this average?
+Seth Benzel: That's important. So when I'm thinking about this, I'm thinking about an average rate maybe over the next 20, 30, 40, 50 years. And I do think some of those gains will be backloaded, but certainly, I think two percentage points per year over the next 10 years—if everything goes above average, but not fantastic, maybe a 75th percentile outcome—is not unreasonable.
+Andrey Fradkin: All right. Well, that's a very interesting estimate. I think as a non-macroeconomist, I have maybe a less calibrated economic growth picture. I'm not usually thinking about entire economies with all sorts of types of labor. I tend to be in the camp of small effects if we're thinking of AI as just, you know, us using ChatGPT a little in our jobs. I don't see how a little bit of ChatGPT in our jobs is going to lead to several percentage points per year. But I think the potentially huge effects are acceleration of science, the breaking down of existing institutional structures, and effects on political economy. I would also say that I am certainly abstracting away from an artificial superintelligence scenario where we just have superior-to-human-in-all-dimensions agents living in the cloud operating at a faster-than-human scale. So if we do hit that, I'm taking that out.
+Seth Benzel: That's in my distribution, but I don't want to put it in my average prediction, right? Maybe we should focus on median predictions, and then the range of possible predictions is a good way of thinking about this, right? Because ultimately, we're going to get a point estimate from Acemoglu, and maybe we can talk about how small that estimate is in a second. But he doesn't give us that many tools to think about ranges around that. Maybe this is better thought of as a median case outcome than an average case outcome if you think there's a 1% chance of some sort of crazy outcome.
+Andrey Fradkin: Yeah, that's certainly true. So I guess, why are we even reading this paper? I think there are two reasons. I think there's been a call from informed observers such as Tyler Cowen that there needs to be serious quantification exercises around the effects of AI. And to do that, you need a macroeconomic model where we model all the industries in the economy at once. And so someone needs to make such a model that is applicable to AI. And this is an example of that. The second is, of course, that it's Daron Acemoglu.
+Seth Benzel: High praise for Daron.
+Andrey Fradkin: I was going to say that Daron is one of the most prolific economists ever in the history of economists, who has transformed many fields and is considered one of the sharpest thinkers out there. Anything he writes, we should pay attention to. I view this paper as kind of like the "standard macro" answer to some of these very interesting questions that a lot of people in technology have been asking. And so what better place to start? What's beautiful about economics is that all the assumptions are laid out on the table in a way that I think otherwise we wouldn't necessarily get them. It allows us to critically evaluate the different pieces of these models and the different assumptions that are made.
+Seth Benzel: Maybe it's time for us to introduce the headline result, which is his big-picture finding: AI is unlikely to make a large TFP (Total Factor Productivity) or welfare contribution in the next 10 years, with his point estimate coming in at less than one percentage point of additional growth over the entire decade—less than 0.1 percentage points per year. What was your initial reaction when you saw that number?
+Andrey Fradkin: Honestly, my reaction... Well, one is it seems small, right? I mean, I think anyone looking at this number would be like, "this is pretty damn small." My reaction to macroeconomic models is to look for where the skeletons are hidden. And that intrigued me. I like to think of myself as a necromancer of a sort.
+Seth Benzel: You're going to make those skeletons in the closet sing, dude?
+Andrey Fradkin: So I think every argument has hidden skeletons, but the beauty of macroeconomic models is you can see those skeletons very clearly, and then you can decide whether those should be alive or not. With that, I think we can get to the different steps that are involved in building this type of model. Great.
+Seth Benzel: Like, don't you have to take a stance on what AI is in order to make a model of AI?
+Andrey Fradkin: Truly one must. He defines AI here really broadly, analogously to the main paper that he draws on. If we want to talk about his empirical estimates, he's talking about the famous "GPTs are GPTs" paper from Eloundou et al., co-authored by a friend of the podcast, Daniel Rock. In that paper, they're looking at what range of tasks currently performed in the U.S. economy can plausibly be sped up by two times or more using current-generation LLMs plus current-generation APIs.
+Seth Benzel: Well, with the one caveat that he also incorporates computer vision technology and estimates from Svanberg. So I think it would be LLMs and computer vision, if I understand correctly.
+Andrey Fradkin: I believe computer vision is handled in the Eloundou et al. paper through the ability to "plug into" other APIs.
+Seth Benzel: Okay. So yeah, it's a very interesting definition. I think one way to think about it is to imagine we had perfect diffusion of the current technologies that are already available and in wide use...
+Andrey Fradkin: ...and they never get any better. The preview of GPT-3.
+Seth Benzel: Yes, and they never get any better. While this does sound a little bizarre to people who are seeing it get better month by month, you do need to make this model, and you need to put some data into it. We don't really have data on the models that are going to be better and coming out in a year or two. So I think he's standing on semi-solid ground by using what we already have data about.
+Andrey Fradkin: Right. I think the thought experiment here is: what happens after perfect diffusion of current-generation AI?
+Seth Benzel: I'd be shocked if current technologies diffuse 100% in the next 10 years. We know from the history of technology and technological spread that it takes a very long time to diffuse, especially when you need to change how you organize a firm or an industry in response to new production technology.
+Andrey Fradkin: Right.
+Seth Benzel: So I think, if you really pushed the author, I'd imagine he'd tell you that there's an overestimate of the true effect because there's no way that we're going to get 100% diffusion of these AI technologies in the next 10 years.
+Andrey Fradkin: So here's one way of thinking about this diffusion rate that isn't explicitly in the paper, but you can kind of back out: thinking about this as the rate at which labor's share of national income decreases. Historically, labor's share of national income has decreased by maybe about half a percentage point per year. This model, by saying 4.5% of tasks are automated, is predicting a faster rate of robots taking jobs than the 20- or 40-year historical average. It's about maybe four times the historical rate. So this is a fast rate of automation in this paper.
+Seth Benzel: Yeah, I think we're on the same page. Once again, it's best to think of this as a kind of thought experiment. I think we just have to acknowledge that he's not thinking about diffusion at all.
+Andrey Fradkin: Right. I think maybe I'll take one minute here to say one other thing that I don't see in the paper, which is thinking about differences across countries. This is a one-country model. I think there are first-order implications of automation in a multi-country model where you might have greater capital investment through "capital stealing" from poorer countries as a result of automation—that's going to be something that benefits automating countries. That's not in the way that Daron thinks about capital accumulation here, which is in a very stylized way. You have to think about capital accumulation because if somebody says robots are going to take your jobs, then your next question's got to be, "Well, how many robots are going to take my jobs?"
+Seth Benzel: Yes. I think that's a very noteworthy caveat, especially if we're trying to make quantitative predictions about GDP that we could bet on a betting market. Those things would be really, really important. But I'm not so bothered by the lack of this mechanism here, because there's already a lot going on in this model, and we can happily abstract away from capital stealing, which is not really what a lot of AI boosters or AI worriers are particularly worried about.
+Andrey Fradkin: Right. We can return to this point in our conclusion, but I would not sleep on capital accumulation as an important mechanism for what AI does to the economy.
+Seth Benzel: Yeah. So I think, obviously, we're not going to go through the math in a podcast. That seems impossible.
+Andrey Fradkin: Obviously.
+Seth Benzel: But I think the key features of macroeconomic models are all present here. The key modeling device that Daron has used in his previous papers, and is also using in this one, is a task-based model. In a task-based model, the key thing to know is there are a bunch of tasks. Some of those tasks are going to be done by capital; some are going to be done by labor. The model creates conditions under which those tasks go in which bin. As a result, the model allows you to think about various forces by which AI is going to improve productivity. Would you please give me an industry to use as an example?
+Andrey Fradkin: The podcast mic manufacturing industry.
+Seth Benzel: The podcast mic manufacturing industry. Well, I won't name any brand names because we're holding out for the sponsorship, but you might imagine making microphones requires two tasks. The first is making a microphone, and the second is making a cable that allows you to plug the microphone into your laptop. We invent a radical new technology that allows for robots alone to create the microphone part. That would be an example of us expanding the range of tasks that can be done by capital. You now have the choice of making the microphone with a robot. And now the question is, will you choose to make the microphone with a robot? That's going to depend on the relative productivity of a worker versus capital, as well as the relative costs of labor and capital. So when interest rates are high, you're going to want to do it with labor. And when workers are really expensive, you're going to want to do it with capital. That's kind of automation. There's also this issue of complementarity. To what extent do I need both the microphone and the cable? That's an example where there's close complementarity; one without the other doesn't help you. But you might also imagine situations where you can just do more of the automated thing and ignore the unautomated thing if they're not particularly complementary. Finally, you might imagine the labor itself getting more productive—maybe we educate the worker and they become better at making microphones faster. Or you might imagine capital technology changes. It used to be that you could use a computer and it would cost so much electricity to make a microphone of a certain quality. But technological changes might allow you to use that same robot to make the microphone better at a lower cost. That would be "capital deepening" of automation. The thing that you already automated is getting better.
+Andrey Fradkin: So it's like the machine going to college.
+Seth Benzel: Yeah. One example is a warehouse robot moving around pallets and boxes. If you've uploaded new software to this robot, and now it's able to move faster with weight on it, you need fewer of these in order to manage the same amount of warehouse space. That's capital deepening.
+Andrey Fradkin: Truly. And now there's this final thing that could happen, which is you could create new tasks. We don't really get a lot of discussion of that in this paper, but his mechanism not only allows for it, it kind of requires it in certain long-range projections. I'm thinking of his "race between man and the machine" model. What is creating a new task, Andrey?
+Andrey Fradkin: Well, podcasts didn't exist at some point. The job of a professional podcaster—how did people take showers? How did people walk to work without a podcast in their ear? Podcaster is an occupation, but let's be more precise. Some tasks, like vocalizing, presumably existed for radio hosts, but others, like marketing via social media, require different skills. Maybe a "social media manager" is a classic new task.
+Seth Benzel: One thing I will say is if familiarity with social media counts as a new task, new tasks are sweeping the economy and he's ignoring it.
+Andrey Fradkin: There is this very deep question about what tasks really are. Even in the paper, he talks about subtasks. In my opinion, an occupation is supposed to be a bundle of tasks. Is me vocalizing the words that I'm speaking right now a task or a subtask? You could argue both.
+Seth Benzel: It's clear the taxonomy starts to break down here, and maybe we're not supposed to take the model that seriously.
+Andrey Fradkin: They're kind of gesturing at something while avoiding the details.
+Seth Benzel: Right. And one last thing: given that there's a range of tasks, some of which can be automated and some of which can't, there's the possibility that you might automate certain tasks that are just barely worthwhile—very marginal cost savings. In that situation, the "marginal task" divides the work done by machines from that done by humans.
+Andrey Fradkin: So, okay, now that we've given some background about what's going into this soup—Daron's cooking up this soup, and in the soup is going to be the task-based model. He's putting GPTs, LLMs, and machine vision in. He mixes them together. What does he start to get? He starts to put some numbers on these things.
+Seth Benzel: Generally, macroeconomic models can get very complicated, right? So you need to make some stark assumptions to make them simple so that you can do napkin math like he does in this paper. One of the key assumptions is that every industry in this economy is perfectly competitive.
+Andrey Fradkin: Fuck yeah.
+Seth Benzel: And, you know, this is usually not an assumption that someone from Cambridge, Massachusetts would be willing to make. This is more of a University of Chicago assumption.
+Andrey Fradkin: And yet he is making it. I mean, Andrey, I guess I would say that I view this as sort of harmless. If a model where markups are fixed—such as in the classic Romer model of competition—that's just a 20% drag on the economy forever. I think you can imagine incorporating profits into this model pretty harmlessly while saving all the other predictions.
+Seth Benzel: I don't know if I'd be happy with the Romer model. One thing I'm thinking about is that AI seems to be creating a boom in startups, and the degree of competition—which markets are contestable now—seems to be changing. That can exist in a model with perfect competition, or constant markup competition.
+Andrey Fradkin: I guess where I come back on that is: imagine a universe where a company defeats Google because it invents a search engine that's 1% better. The business story there is incredibly dramatic—this trillion-dollar company gets replaced with another. But the macroeconomic story is just that one industry got 1% more productive.
+Seth Benzel: Well, Andrey, I like to think about Baumol's cost disease. I think about industries characterized by regulatory capture and high barriers to entry that are starting to get hit.
+Andrey Fradkin: Put your money where your mouth is. Where should I get my VIX derivatives? Which industry is going to have the most disruption?
+Seth Benzel: Well, I think a lot about health-related occupations—health insurance, doctors, and other licensed professions. Also contractors for buildings; you might think that's one of the last jobs automated because it requires physical manipulation.
+Andrey Fradkin: You took the words out of my mouth, Seth. Are you psychic?
+Seth Benzel: Let me tell you what a major cost is involved in contracting: assessment and the filing of permits. If you can suddenly do that a lot faster, I imagine it might be easier to create competition in this industry.
+Andrey Fradkin: But is that order-of-magnitude important? You increase competition, you drive down the margin from 20% to 5%—you get that amount more, but you're also using more societal resources. It's hard to argue that this is going to be first-order.
+Seth Benzel: I go back to the fact that healthcare is a very large proportion of the economy, and I can imagine it becoming much more efficient. The other thing I'd say is something not directly captured in GDP: time savings.
+Andrey Fradkin: Oh, that's true—the increase in leisure. But let's hold the unmeasured GDP benefits for later. I want to talk about these numeric estimates of AI exposure and cost savings. Daron has one main equation: the TFP benefit over the next 10 years from AI will be equal to the GDP share impacted by AI (literally automated) times the average cost savings of the impacted tasks. He has two numbers to estimate. The first—the GDP share impacted by AI over 10 years—he gets by multiplying two numbers. He starts with the Eloundou et al. paper and says 20% of U.S. labor tasks are going to be exposed to AI. (Important caveat: this is not how Daniel Rock says you should use his paper). Then he multiplies that by 23%—from another study saying that's the share of "exposed" tasks actually productive to automate. Multiply those, and you get 4.6% of tasks ready to be automated. What do you think of that calculation, Andrey?
+Andrey Fradkin: It's interesting. I think both of us have read enough science fiction to know that seems like a very low amount. But let's be charitable: let's assume we are freezing technology at the last version released when that paper was written.
+Seth Benzel: Which is even maybe earlier.
+Andrey Fradkin: Yes. Let's say we've had a year of living with that technology. What share of our own tasks has been automated? Some—writing outlines, form letters, etc.
+Seth Benzel: "Give me a list of Mondays and Wednesdays for my syllabus."
+Andrey Fradkin: Yeah, it's useful, but in terms of the share of my tasks actually automated...
+Seth Benzel: Above or below 4.6%?
+Andrey Fradkin: In terms of time usage, there are cases where it has saved me enormous amounts of time. I haven't dug deeply enough into the weeds: should I be thinking of this per time unit of task or in units of tasks?
+Seth Benzel: In principle, you should be multiplying them by the marginal productivity of the task. And now, Andrey, I do know that you are optimizing at all times and your marginal productivity of every action is exactly identical, so maybe we can elude that complication.
+Andrey Fradkin: Fair enough. But from a personal level, I do a lot of things; very few have been automated. The things that have—like a code refactor—saved me maybe five days over a year. So maybe it goes back to this 5% number.
+Seth Benzel: Right. So that's the first number: 4.6% of GDP automated. The second number is the average cost savings in each automated task. If you didn't like the 4.6% number, you're really not going to like this one: he estimates we're going to save only 15.4% off our previous costs.
+Andrey Fradkin: What? That seems low. I thought "automated" meant we save all the costs.
+Seth Benzel: Well, there are always the electricity costs of the machine.
+Andrey Fradkin: Yes, of course.
+Seth Benzel: But he estimates that in tasks exposed to AI, you reduce labor costs by 27%. Then he multiplies that 27% by approximately 57% (the labor share of the economy) to get this 15.4% overall total saving. Aggregate that with the 4.6% of tasks automated over 10 years, and it's not a crazy number—even my optimistic scenario only puts it at about twice that. But the 15.4% cost reduction just seems hopelessly low. He cites papers, but I think they make two big mistakes. First, they subtract any "rising tide lifts all boats" effect—background automation that helps every firm. You might imagine AI boosts GDP in ways that are hard to estimate using these tools. Second is the "staticness" of that number. That's a short-term estimate from having automated for a few months. Over time, we expect computers to get better and better at these tasks. This is why we sometimes refer to this paper as estimating the effect of technologies that are barely better than humans and never get any better.
+Andrey Fradkin: Yeah. You're saying the technology will keep getting better. Another way to think about it: if you operating a call center and gave half the people AI tools, even holding the technology constant, people are going to learn how to use it way better over time. The effects are going to be way bigger than 15%. Also, what about imperfect competition in the labor market? Companies don't like firing people. If half of a person's tasks are automated, they might still not be fired. In that case, what are your cost savings? Zero. These papers might not be the right ones to think about this.
+Seth Benzel: And you don't even need imperfect competition; you could have "nominal rigidity" where people refuse to take pay cuts, and adjustments happen slowly as firms fail to give inflation raises because half your tasks were automated.
+Andrey Fradkin: Exactly. If you have a lot of labor regulations, it might not make sense to invest in automating technologies because you can't realize the labor savings.
+Seth Benzel: Which might then auger for a startup company that uses less labor to provide drastic productivity improvements over incumbents.
+Andrey Fradkin: Presumably, once that company comes along, we would get these micro-estimates of big positive effects.
+Seth Benzel: Yes, exactly.
+Andrey Fradkin: But maybe this is a good time to talk about why Daron is actually pessimistic. He thinks we're estimating the impact from having automated "easy" things, and all the other things on the list are necessarily harder to automate. Do you buy that argument?
+Seth Benzel: I thought those numbers were an average over the easy and hard tasks to some extent.
+Andrey Fradkin: It's the average over the easy and the hard tasks that have already been automated.
+Seth Benzel: I agree it asks us to engage in pure speculation. Silicon Valley is optimistic, and at least some investors are too. This distinction between "easy" versus "hard" to automate tasks seems like a static, second-order question compared to the fact that the stuff we already automate will get better over time.
+Andrey Fradkin: I agree. We've already automated a huge portion of things we do, so why not get better at it?
+Seth Benzel: Let's move quickly past the inequality implications; he doesn't have anything particularly novel to say there.
+Andrey Fradkin: Well, I think we missed one thing: the distinction between effects on GDP and TFP. His number so far is just the gains to productivity—technological improvements that make things better.
+Seth Benzel: "More from less."
+Andrey Fradkin: Yeah. But there's another portion of GDP: someone's building those data centers and robots. That capital used for future production should also go to GDP. He says it's similarly small. Do you think that's reasonable?
+Seth Benzel: As I said, I stand capital accumulation as essential for thinking about long-term impacts. In a fully automated economy, output growth is the growth rate in technology times the growth rate in the capital stock. If your country suddenly shows up with exciting new high-tech investment opportunities—as AI is doing for America—that's going to draw in capital from abroad. Depending on how small America is relative to the rest of the world, that effect could be massive. The benefit might not come directly from the technology, but from making the country a more attractive investment.
+Andrey Fradkin: That's quite interesting. We see a lot of interest in investing in NVIDIA—presumably not just from Americans. Okay, I think that's a clear limitation of this approach. But do we now want to talk about the negative effects of AI, or wrap it up?
+Seth Benzel: Let's reframe this: what's not in GDP that might come from AI? The headline argument is AI isn't going to change welfare much over 10 years, and it might actually lower welfare because we might invent some "bad" things. He focuses on one particular negative impact. What is that one, Andrey?
+Andrey Fradkin: We're going to make social media even more addictive through the generation of content. This is terrible because, even though we all use it, if we could all agree not to use it, the world would be a better place.
+Seth Benzel: Or so one survey says.
+Andrey Fradkin: Yes. The argument is not a very new one. It's the "keeping up with the Joneses" problem. If everyone decides a nice car signals you're a good person, everyone competes to buy a fancier car. But if you could wave a magic wand and have everyone drive the base model, the world would be better.
+Seth Benzel: Ramblings of the utterly deranged. Incredible. "The real GDP growth is when we all become hermits and content with what we have." Thank you, Daron. That's what we want from economists.
+Andrey Fradkin: It's an argument very reminiscent of communist arguments against capital's consumption culture.
+Seth Benzel: Until the Khrushchevian reforms where he wanted to compete with capitalism on its own merits.
+Andrey Fradkin: I raise the issue of cars to say there's nothing particularly special about social media.
+Seth Benzel: It's a complete non sequitur in the paper. It reveals a pessimistic worldview where technology never gets better. In his model, new tasks are beneficial, but the only tasks he contemplates innovating in are "bad" tasks. He focuses on a single paper showing a negative impact, ignoring the vast obvious importance of all the free digital goods we consume. It seemed like motivated reasoning.
+Andrey Fradkin: To me, it seems crazy to think the most important thing for welfare is that it's going to make me spend more time on social media.
+Seth Benzel: It's absurd. It almost feels like he wanted to get a "technology is bad" answer. Why else focus on that one downside instead of the many upsides—from free tabletop RPG campaigns to AI companions that might make people feel happy?
+Andrey Fradkin: This paper demonstrates a lot that's good and bad about economics. It's great because it lays out its assumptions, but economic models are also built to be enormously conservative. Everything is "at the margin," and marginal changes have marginal effects.
+Seth Benzel: You need a "multiple equilibrium" model for anything radical.
+Andrey Fradkin: So maybe it's not surprising we get a small number. But the overall mindset that permeates the profession is very conservative. Choosing to focus on "new bad tasks" is a failure of imagination.
+Seth Benzel: On that note, let's move into conclusion mode. It's time for us to justify our posteriors, Andrey. You came in with a certain view of the effect of AI. Acemoglu tells us we should anticipate a less than one percentage point increase in aggregate TFP in 10 years. Has your prior moved?
+Andrey Fradkin: I think a lot of thinking about AI is that there's some emergent thing—with a better GPT-like model, we're going to create something sweeping for society. If that happens in the next 10 years, it would be depressing if GDP increased less than 1%. But economies are slow to adjust—regulations need to change. If we don't have a very innovative new version of GPT, and given that this paper assumes perfect diffusion of the existing technology and still gets low numbers, I'm forced to conclude the GDP effects are maybe a little less than I would have thought.
+Seth Benzel: So it would be fair to say we've sucked down your median outcome, but your top-percentile outcomes are not moving.
+Andrey Fradkin: Yes.
+Seth Benzel: I will say reading this paper gave me context for my quantitative predictions. In an optimistic scenario (but not transformative AI), I think twice this amount of tasks gets automated with 50% higher benefits. In that case, instead of adding one percentage point over a decade, we would add something more like 30 percentage points—especially taking into account capital accumulation. Am I being sucked down to his opinion? Maybe a little bit. It's hard to read something this carefully reasoned and not feel there's insight. But there are big omissions that make me think it's an underestimate. I remain convinced there's a non-trivial chance we unlock major speedups in technological innovation by the end of the decade.
+Andrey Fradkin: I keep going back to diffusion. Let's say in year five we invent a cure for all cancers. That cure will not be passed by the FDA for how many years? Ten years?
+Seth Benzel: Could be.
+Andrey Fradkin: So we can't take lightly this idea that diffusion is going to screw over the macroeconomic effects.
+Seth Benzel: Right. And the question is: ten years from now, what level of technology has diffused? The ten-year-old version or the five-year-old version?
+Andrey Fradkin: Yes. And can you just "plug in" the newer model into a process designed for an older model?
+Seth Benzel: Or does a better model cause an additional reorganization? My money is on this stuff getting easier to update over time. Once you put ChatGPT-4 in charge, going to GPT-5 is a smaller job than going from a human.
+Andrey Fradkin: Yes. The only uncertainty is if we had to reorganize the economy to fully reap the rewards.
+Seth Benzel: Maybe what we read next is something about adjustment tasks in putting in automation.
+Andrey Fradkin: Yes, this discussion highlights how rich the surface is. To get a reasonable goal at what GDP will be like in 10 years, we have to understand a lot of different literatures.
+Seth Benzel: I think that's exactly right. Let's sign off here and congratulate our listeners for making it through an episode of Justified Posteriors.
+Andrey Fradkin: Thanks for listening to Justified Posteriors. Look for more episodes in the future and check us out on Substack and X.
+Seth Benzel: We're telling you the rules / Our aim is plain to see...
+[Outro Music]

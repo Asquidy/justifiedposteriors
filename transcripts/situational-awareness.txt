@@ -1,1067 +1,529 @@
- So let's say your goal was to get rid of Vladimir, like that was a geopolitical goal
- of the US or to make trying to do that.
- Vladimir Putin, but if Russia ends up winning the race to this AGI, we mean this in chest,
- we kill Russia.
- All right.
- So let's say that's true, like, do we think of superhuman intelligence or be able to solve
- geopolitical problems arbitrarily?
- It would solve military problems, right?
- Because one of the biggest military problems is convincing the guy to go to the front with
- the gun.
- If you don't need to put a gun in a guy's hand, conflict becomes a lot more politically
- appetizing.
- But there's a sense in which in equilibrium, you're going to be wasting a lot of resources
- in conflict, unless you can convince the other party that you're so much more powerful than
- them that have to surrender.
- Unless you hack into the other guys.
- Yeah.
- But yeah.
- Yeah.
- There's probably some super intelligent that can solve, just out-solve everyone and everything
- and can come up with a full-truth plan to achieve geopolitical goals.
- But I can imagine a variety of very intelligent things that are more intelligent than humans
- that still cannot solve this problem.
- This has justified posteriors brought to you by the Digital Business Institute at Boston
- University's Questrum School of Business.
- We are very excited to offer you an episode about what might be the pressing issue of
- our tie, which is what is going to happen to artificial intelligence and what should
- society do about it.
- I'm Andrei Pradkin.
- I'm Seth Denzel, coming to you from the pink in the hockey stick on the way to the intelligence
- explosion.
- And really excited to talk about this fascinating essay that we've got here, awareness by Leavold
- Ashenbrenner.
- Yes.
- What a striking title for a work on AI.
- So this is, I would say, a series of essays that attract the fuel that has made the rounds
- over the past month or so.
- A manifesto.
- Yeah.
- Cool.
- Right.
- I think manifesto is appropriate.
- I agree.
- So let's give some kind of background on where this stems from.
- Why should we be even listening to this person?
- Leavold Ashenbrenner, he worked at OpenAI.
- And as far as I understand it, got fired from OpenAI for reasons of they're not wholly
- clear, actually, but he's clearly has a very opinionated perspective on what should happen
- to AI development, which is informed by his time at OpenAI.
- So to the extent that the saddle of this work is called situational awareness, and this
- is something he talks about, is that actually, unless you're talking to the right people
- in the right organization, you wouldn't really understand what's really going on because
- you're just not in the situation.
- I will say there is one other curious place, the term situational awareness picks up later
- in the essay, it's used in another context, but we'll leave that for the military applications
- part of the top.
- I think that's a good background of why are we listening to this guy in particular.
- So maybe I'll lay out the super high level argument, and then we could talk about like
- how novel is this argument, the super high level argument is AI seems to be progressing
- at this scaling law pace where it gets some orders of magnitude better every year.
- It also seems to be the case that in these scaling law papers, as you add an order of
- magnitude of compute or a chip or power, there seems to be these predictable improvements
- in model quality.
- He takes that and he draws that straight line a couple of years down the road, and he extrapolate
- some really crazy things.
- He thinks that we'll have very powerful AIs.
- The step from, hey, these techniques that we're on will give us powerful AIs is to get to the
- steps that will need to be taken to build that AGI, right?
- So building a giant cluster, thinking about the competition dynamics within the industry.
- Then once you have the super AI, you've got to tell it what to do.
- And then finally, a renewed focus on the national security aspect of this, inevitably this will
- have to be a government project.
- The final lab that builds the AGI.
- So very provocative piece, but doesn't come out of nowhere, right?
- First half of this could have been written by Kurzweil 20 years ago.
- The second half of this is LEA Zeryadkowski on a happy day.
- I don't know.
- I would propose we table a discussion of originality, which is interesting.
- I think evaluating it on its merits at this time period seems like a more fruitful task.
- That's right.
- I think that's right.
- But what we'll have to do is come back to and point to everybody who said the explosion
- is going to happen tomorrow and their timing be off.
- So I agree, let's table it, but I do want to come back to it.
- Yeah, so there's this kind of grander epistemic, the outside view, the non-situational view
- that we always have to keep in mind.
- So I would say one thing about that argument, which is in the essay, it's the first part
- of the essay, is just how we got here, right?
- So we have the AI tools that I'm sure both of us are using on a daily basis.
- They are improving our lives, although maybe not that month, but they are improving our
- lives.
- And I would say that they were genuinely a surprise when they came out and they took
- various parts of society by storm, if you will, and in particular, coding tasks.
- And since we're both professors, our students are certainly using that they've really changed
- what the classroom looked like and homework and essay writing and so on and so forth.
- So I think if we ask people in 2020 or 2021 what would be the state of AI, I would say
- that only the most optimistic would have said that we'd be here.
- And I think there's a wall, it's not just a quantitative change, it's a qualitative
- change because the kinds of AI systems we were thinking about in 2020 were these hyper optimized
- RL agents for playing Go.
- Whereas in the recent wave of, especially these large language models, there's something
- like creativity in there, right?
- What's the old question is like, could an AI write an opera?
- Turns out it's great to write an opera, right?
- Yeah.
- That's also general, you can ask it about a wide variety of things and very often give
- you the right answer, not always, and critics like to point that out, but very often it will
- give you something very reasonable percentage of the time it gives you a reasonable answer
- because that's the key metric in this paper.
- The key metric, when we keep on saying, oh, they're getting better and better, okay,
- better compared to what?
- And it's better, of course, according to a wide array of indices, but in a very kind
- of narrow sense, my understanding is the scaling law papers, which is what we're mainly thinking
- about, better means better predicting the next token.
- So there's a question of whether getting better and better at predicting what the internet
- thinks about the problem, if you'll accept the idea.
- You could imagine keep on going down that curve without getting something super intelligent.
- I don't think I agree with that.
- I think they're evaluated again, how they do on a variety of benchmarks, which are a lot
- of--
- Well, it's had certain benchmarks.
- And that's a relatively recent phenomenon.
- And there's certainly benchmarks that hadn't tapped out, but I think when people talking
- about scaling laws, they're talking about benchmarks.
- They're not talking about the likelihood function of the next word.
- That's my take on it.
- I think that's an empirical question we should look at the papers, but it seems like if you
- want to talk about scaling some sort of a scaling law generally, you would need some
- sort of hand model benchmark, right?
- Which as far as I know, there's no like the benchmark other than how predictive is your
- model.
- No, I think that the standard suite of benchmarks that exist in literature are the ones that
- people use.
- And in addition, there's this benchmark now, we're going a little off track by like LM
- that's the chatbot comparison, it's like the computer yellow score for different models.
- So essentially, people get heads up answers by two different models, and they say which
- one is better.
- And that's something that's used to evaluate which model is better.
- So if you look at kind of new releases this year, for example, that's what they're evaluated
- on.
- The next token prediction kind of argument, it's a little bit irrelevant in my opinion,
- right?
- Yes, there's a part of the objective function that is that, but if it works, at least the
- way I think about it, and what it means to work is some measure of its quality of doing
- various tasks.
- And so far, it seems that it's getting better at doing various tasks.
- It definitely is, right?
- As the rooms go up, right?
- As the order of magnitude of input skella, right?
- Yeah.
- 100% right, whether or not any particular model is evaluated in that way, there is this
- challenge of trying to literally draw this extrapolation line into the idea of like being
- corrective at things that we don't know what the right answer is for.
- There a little bit of a challenge about extrapolating, we're going to build something that we would
- evaluate as really smart, but we don't know.
- We're not smart enough to know the answer, so that's the questions yet.
- I hear you, and this is a key part of the, are we building something that's human level
- intelligence, or are we building something that's super human level or intelligence?
- I think that is clearly a looming question in this entire field, right?
- Like, if there's something qualitatively different about those two, I think there's
- an argument that no, there isn't in the sense that for a specific task like playing go or
- other kind of protein folding thing, the AI is already way better than humans, and it was
- trained using the same way as it was trained before, just better.
- So that's the argument in terms of the training that's not what I'm thinking about.
- I think once we start bringing kind of tweaks to algorithms and differences between algorithms
- that we get to the part of his argument about why he thinks the orders of magnitude will
- increase at such a hash rate.
- But I think before we get to that, it might be useful to talk a little bit about the extrapolation.
- But I think one of the key rhetorical tricks in the essay is to say that GPT-4 is as smart
- as a high schooler, if you think that GPT-4 is literally a human high schooler and you
- believe in a linear log-linear dealing law, then an extrapolation over a few years will
- get you to something very smart.
- Now, the other thing you could say is that GPT-4 is nowhere near as smart as a smart high
- schooler.
- It's pretty good at writing essays, but it's not actually able to do anything in the world.
- And so how do we discount that?
- Another way to think about it is like GPT-4 can't do many of the things that a five-year-old
- child can do.
- If we start the linear extrapolation from a five-year-old child, maybe we don't need five
- years, maybe we need more like 15 years to get them to be a 20-year-old, right?
- So I think that's one of the key things about this extrapolation.
- You can believe in its scaling law and still think that we're way more than five years away
- from a general intelligence of human or superhuman level.
- The other argument is the one that you're making that like actually there's going to
- be an asymptote.
- We can't keep improving model quality in this linear way.
- It'll be data constrained.
- Is the sophisticated argument?
- There are many versions of this argument.
- I think it addresses all of them.
- So maybe now we can talk about those.
- I think the arguments are compute constraints/energy constraints, those seem like the investment
- levels.
- So far, they'll get us through a lot more compute.
- I'd love the comparison to the 40% of English GDP during the Industrial Revolution was invested
- in real-rate lines.
- That was a great bad toy.
- Yes.
- So we, bubbles can be bubbly and it's not even clear that this is a bubble.
- The governments are also investing.
- It's one part.
- The next part is maybe we're going to run out of data, interpretations of how much data
- we have mean that by 2028 or so we'll run out of existing internet data.
- But of course, there are possibilities of generating new data for to work offs of their
- possibilities of using alternative data sources, for example, people's zoom conversations or
- other chats or must control link data flow.
- You can imagine getting more data, but even if you think we're going to run out of data,
- you still have the fact that you have a lot more compute that you can throw into the problem.
- And then as other arguments are that you can get much better algorithm.
- And I think this is the key thing, which is I think there's a bit of misdirection in this
- entire industry, right?
- The industry wants you to believe in naive scaling laws.
- Why?
- Because that is the very simple argument for getting more investment, if all you think
- there is to the biggest boys going to win, the biggest boys going to win.
- And if that's true, then it's an arms race, and that's great for raising money.
- But what is that is the Straussian argument?
- What is in reality, every one of these companies believes that actually you can do a lot more
- with better algorithms.
- So they want it.
- They still want all the resources.
- They can definitely make use of them.
- But actually, the optimal use of those resources is not naive scaling.
- It is actually better algorithms, including reinforcement learning algorithms for conversation
- and all the simulation and things like this that you can imagine doing in order to come
- up with much better models.
- So it's essentially come up with something that looks more like AlphaGo, but for conversation
- or for code, then something that looks like next token prediction in a very kind of standard
- LLM model.
- But yes.
- And so maybe this is why you say it's the sleight of the hand in the essay, because the
- essay wants to argue that we're on this path without any big thing, big changing.
- And you're pointing out we need one more big innovation, maybe.
- No, it could be a lot of small interviews.
- I already think these models are really powerful.
- Yeah.
- There's a sense in which there could be big algorithmic improvement, he argued for it.
- There could be big algorithmic improvements that will further make these models much more
- useful by algorithmic improvement because that could mean.
- So right.
- So let me tell you what I was thinking about when I first saw algorithmic improvement.
- I was thinking about Neil Thompson, I have figured out how to invert this matrix slightly
- faster because I thought of a cooler way of calculating it, right?
- That's you're saying that's not what he means by algorithmic improvement.
- I do think he would happily allow for that to be an algorithmic improvement.
- But I think the more exciting, like today there was a paper released by Facebook in which
- they use generative models to improve compilers.
- Now if you improve a compiler, everything becomes faster and more efficient, you're getting
- some amount of just one off improvement.
- So I don't know if we get to an entire room, but it'll get you something.
- But I guess what I'm saying is that yes, those like same algorithm, but more efficient
- is a form of algorithmic improvement and certainly gets you more.
- But perhaps the more exciting thing is what we don't see as non AI researchers from the
- outside, which is what if they have a new neural network structure?
- What if they have a new data augmentation structure and you object the function that
- makes the model much more like a general intelligence that's what they're obviously
- working on.
- They're honestly trying.
- Yeah, it would be silly to bet against them.
- And once we get something like that, it could be like a vast qualitative improvement.
- Improvement.
- Okay.
- So let's talk a little bit about he separates algorithmic efficiencies from what he calls
- "unhobbling gains," which I understand the distinction, but he's thinking about something
- more like changing the structure of how it's...
- So I think like maybe the distinction is computational algorithmic efficiencies versus
- model algorithmic, like better models essentially.
- Unhobbling is a way to think about the same model or are you just being used much more
- powerfully.
- Is it prompt engineering?
- Yeah, prompt engineering, prompt engineering.
- It could be tool use.
- It could be activating the right neuron combination in the model in order to get it, to give better
- answers.
- It could be all sorts of meta kind of things that you can do on the model, which is already
- very...
- It is clear that the model knows a lot more than an answer is an example of prompt.
- And so getting the right part of the model to...
- I was just reading yesterday that anthropic intentionally faced blinds, Claude, because
- otherwise it would start recognizing people.
- So I think we definitely see the potential for all of these to unlock way more capabilities.
- And we see roles for them everywhere in the economy.
- And the part of unlocking productivity and AI research that means stuff like finding faster
- algorithms, designing better compilers.
- I really buy that.
- It's hard to say whether that's a growth rate accelerator, where we're just going to always
- have that, or like is discussed in the paper, we'll discover a bunch and then it's hard
- again.
- That's the big of this entire argument, which is you never know where the wall's going to
- be if you've never gotten up to the wall yet.
- I can tell you what I still, the walls that I still see up there, but is there something
- you want to talk first more about why he draws the line before I talk a little bit more about
- why that line might not continue?
- I guess the final thing I should mention once again is that I assume that this is, even
- though this document contained no confidential information, it had been formed by confidential
- information.
- In particular, there was a sense that actually GPT-4 was trained several years before it was
- released.
- And therefore, anyone who was sitting at OpenAI in January has some idea of what model, what
- would be happening to the models in the future, and it's a question of how much we should
- infer from that, because there's one version of that where you write this and you're sitting
- inside OpenAI and you've seen GPT-5, and it's just not that much better, and then it would
- be weird to write this with that knowledge.
- Do you know how much I can infer from that?
- Maybe.
- He probably owns Nvidia stock.
- So that's the counter.
- It's like actually that we need more investment.
- There are like two or three points of this essay where he's like, "By the way, oh, by
- the stock."
- Yeah, yeah.
- But he's an investor.
- This is a meta-comment about economists and us, how we think about the world.
- We're so obsessed with our little intellectual games, but we never put the skin in the game,
- if you will, right?
- How many economists?
- Embed.
- Famous economists did.
- Or we can't did.
- And it speaks very well to-- like, it didn't even cross my mind to invest in Nvidia when
- I heard about various high-quality GPT models.
- And that's-- and why is that?
- It's because I'm not thinking about investing.
- I'm not-- but does that mean I'm not taking my own studies of digital technology seriously
- enough that it's just a little paper-pushing game we're playing for status, and we're
- not actually taking ourselves seriously--
- No.
- Do you use the office?
- No.
- Andre, if anything, you should be shorting Nvidia, because the universe in which this happens,
- you're going to have more resources than you know what to do with.
- You should be hedging against that world.
- Why?
- There are various intermediate futures.
- Noted.
- Fast performance does not predict future that I do not take the best we can talk.
- Why do you think there's a wall?
- So what do I-- okay, I want my remote drop-in worker, right?
- For some tasks that we're either there or almost there, the remote drop-in worker.
- For some tasks that, like, what do I want my chatbot assistant to do?
- I want my chatbot assistant to throw my birthday party this weekend, right?
- Or to send out invites to decide what the time is you should show up in order to make that
- decision the right way.
- How do I do that?
- I think about a bunch of different contexts about my life.
- I think about how my friends interact with each other.
- I go through a chain of regaining with the invited A, I don't want to invite B. And it
- seems like the data that informs that final decision is so doing that I would be able
- to solicit from myself, but I never have that conversation with a second party.
- There seem to be this large class of tasks where I have a really long internal monologue
- before I get the output.
- And without chat GPT having access to that internal monologue, how's it going to know
- it's known in the right direction?
- Okay.
- I feel like that's an unfair stance.
- Okay, go ahead.
- No human can do that for you without any conversation.
- No, but it could ask me three or four questions and figure out, like, what the big--
- Okay.
- Right?
- I'm not--
- I actually think that Claude 3.5 Sonic can ask you the same question already today.
- I think that what you're saying is that human-level intelligent computers are not going to trivially
- solve your birthday planning problem, which was fine.
- I can't play on your birthday for you unless I had extensive conversations with you.
- It's also the case that a human-level artificial intelligence would have the same problem.
- But that's not a criticism of-- it could still be a human-level--
- That's because of human-level intelligence.
- Yes, exactly.
- Okay.
- Like, a superhuman intelligence maybe would come up with a mind-reading device, and then
- I'd be able to do that for you.
- This is where we go into pure science fiction.
- What about an average human that can read all of my emails and read all of my WhatsApp
- messages?
- Right?
- It seems like a high-school-level intelligence with unlimited time and access to my outlook
- and WhatsApp could plan my birthday party.
- Yeah.
- And I think that, like, within the next year, whatever in the next model will do as good
- of a job as read.
- All right.
- That's damn impressive.
- I just don't see how-- it would make some-- like, it's an assistant that would need the
- final hand-guiding.
- Right.
- All right.
- You are a fabulous birthday planner.
- I'm planning my birthday.
- I would like to invite my favorite people, but make sure not to invite people who don't
- like each other, and here are some other things that I like.
- Here are my emails and chats.
- Please suggest a venue, an activity, a list of people to it.
- And when I--
- And send out the messages to everyone.
- Okay.
- So send out the messages to everyone.
- You need to give the model tool use.
- And this is this question of, is it one model that does everything, or is it, like, a frank
- and thine of tools, and maybe the model orchestrates those tools?
- Which certainly sounds like a much more democratic world, right?
- It seems like where everybody's got their own APIs for doing little things, and then
- there's just a general intelligence that bounces between them.
- It also seems like a general intelligence that you could turn off a little bit, which
- would also be desirable.
- Okay.
- The turning off problem is, I think, obviously--
- Maybe say that.
- And we'll say that for a little later.
- But just going back to this idea that we're data constrained.
- Okay.
- So maybe you don't buy the birthday party part of this.
- But what about one of the claims is that there'll be superhuman manipulators, right?
- Dumbly.
- And so if I--
- Okay.
- Is it, yeah, if I think about, like, what you have to do to be a Machiavelli, there's
- so much context, there's so much real-world trial and error.
- I just think that manipulation is not guaranteed.
- It's very hard.
- It's a social process.
- It's not like there's a magic spell that you can tell me to suddenly change my mind
- about most of my strongest beliefs.
- Right.
- Yeah.
- And so it would be hard for me to imagine that.
- It doesn't mean that you can't try to get people to do what you want.
- But there are kind of ways to do that are not manipulation, right?
- You can pay someone, right?
- There's a sense that we're just kind of like people are inventing epicycles, right?
- So your state government, you have this budget.
- Maybe the AI can help you figure out who to pay to do what they would incentivize them
- correctly.
- This whole super manipulation thing to me seems like a red herring.
- Well, in a universe where there were really persuasive agents, there would be this kind
- of thermostatic reaction of people being more closed off and just, like, listening less.
- Yeah.
- Okay.
- So what section does that bring us to?
- We're going all the way to AGI.
- Is that your mate?
- I still didn't see the obstacle.
- The obstacle, you just, it doesn't have the data.
- What is actually the apps?
- So I think AI is already superhuman at some tasks.
- So I'm not saying it won't continue to be superhuman at many tasks and continue to get
- better at those.
- It does seem like the world model of the, even if you think LLMs are learning the perfect
- world model of the internet, it seems plausible that the world model of the internet is wrong,
- right?
- That would be a sense in which you would be data constrained and you would need to find
- out what the internet doesn't know.
- Okay.
- So this is a fundamental.
- What we need is massive amounts of sensors walking around the real world.
- For example.
- Taking smartphones and smart cars and that's going to come in the net year or two anyway.
- I don't think it's going to come in the next year, just to be clear.
- I think that's an argument for pushing back the timeline and maybe five years.
- Is that an insoluble problem?
- Let me tell you the one thing that I hesitate about, right?
- It seems like what I think about how I think about things better.
- I recall my previous, multiple chains of thought and try to do those better, right?
- So it's like presumably humans go from not conscious thinking to conscious thinking at
- some point, but the way I get better at it is by thinking about my own conscious thinking.
- I don't think Chachie PT has access directly to people's conscious thinking.
- It has access to novels, which is the next best thing.
- I don't agree.
- It has.
- Humans have spent a lot of effort writing down their reasoning in text and saying it out
- loud and speech like in a podcast.
- You're welcome.
- Yeah.
- I think that there's some magical substance inside our brain that is really the thinking
- and that's not captured by what we say and what we do.
- You use the word magic, a scare term.
- I think we, as our previous discussion concluded, we don't know a lot about consciousness.
- I'm not saying it's magic, but perhaps there's some crystalline structure of the way that
- the neurons are, whatever, I can appeal to whatever sci-fi should I want to that leads
- human minds to have a distinct and kind of thought pattern that tends to be good at
- doing thinking things.
- But now we're just back to like there needs to be some kind of like model improvement.
- There's just one chump left, which they're working hard on it.
- So there's no reason they couldn't figure that out in a couple of years.
- I mean, we know the physical world, it's possible in the physical world to have human level
- intelligence.
- But I don't know about superhuman level intelligence, but for human level intelligence, I definitely
- pause.
- No, we have von Neumann, right?
- Yes.
- So we know von Neumann is possible.
- Yeah.
- It's exactly.
- Okay.
- Yeah.
- I think if we want to summarize this portion, there's this extrapolation piece here.
- It seems like we could come up with several arguments for why that extrapolation is overly
- optimistic, but it's also, I would say, not crazy.
- Like there's a world in which sure.
- And if you think that there's a world in which it's true, and we'll say that the probability
- of that is 5%, that it's a pretty profound change, which kind of leads us to what should
- the society do about it.
- And this is where he talks about if these models are so powerful, we can't let just
- anyone have them, and which leads to this discussion of spies and operational security
- at the labs.
- It is of note that neither of us do know what's going on in the labs at this time period,
- but I imagine-
- Only whispers.
- Only whispers.
- And I imagine that maybe the Chinese government knows a bit more.
- There's also, interestingly, policy arms, and, like, for example, anthropic submitted
- its model, its latest model, to an evaluation by a UK agency.
- So at least that wasn't secret.
- I don't know what the operational security of the UK agency was.
- So there's this question about if we think this is as powerful as we think it is.
- Should it be locked down like the Manhattan Project?
- I think that's right.
- I think it's- Yeah, and I think he makes a pretty compelling case that it's probably
- wise and certainly inevitable that it will be.
- What does that mean in practice?
- I think what that means in practice is when we think that we're one order of magnitude
- away with the government slams on the brakes, that seems leaving it a little bit late in
- the day.
- But when he talks- So maybe you want to lay out, what is this the project that he closes
- the essay with?
- I mean, I guess it's to create a safe, superhuman, intelligent.
- And it's a government project, and it's one where, for it to work in equilibrium, the
- US has to be so far ahead of everyone else that they can essentially get everyone else
- to stop working on.
- Because it's still true that if the US government gets it at the same time as an evil government,
- the evil government will use it for evil.
- Let's go back to the question, what does it mean to be superhuman intelligent?
- Can it superhuman intelligence just change everything?
- Like should we think of it as a magician, a sorcerer, or should we think of it as a
- von Neumann?
- That bad silver shield and started fighting.
- Yeah.
- But when we think about, like, von Neumann's impact on the world, the von Neumann is a
- good example.
- It's an impact on the world, but maybe in the end, mostly through his science, not through
- who changing the world in other ways.
- And he had an impact on the world in other ways, but I would say that even without von
- Neumann, it would have gotten the bomb that he was likely.
- So it's not like one superhuman intelligence.
- Well, that's the thing.
- It's Avon Neumann.
- Yeah.
- Avon Neumann is a level effect.
- A flow of von Neumann.
- The flow of von Neumann, so I think the flow of von Neumann is interesting.
- But I'd also venture to guess that certain things are hard for the world.
- Like let's say your goal was to get rid of Vladimir Putin.
- Like that was a geopolitical goal of the U.S. or to try to...
- Vladimir Putin, but if Russia ends up winning the race to this AGI, we mean this in chest.
- We inhale Russia.
- All right.
- So let's say that's true, like, do we think a superhuman intelligence would be able to
- solve geopolitical problems arbitrarily?
- And we solve military problems, right, because one of the biggest military problems is convincing
- the guy to go to the front with the gun.
- If you don't need to put a gun in a guy's hand, conflict becomes a lot more politically
- appetizing.
- But there's a sense in which in equilibrium, like conflict, you're going to be wasting
- a lot of resources in conflict unless you can convince the other party that you're so much
- more powerful than them that have to surrender.
- Unless you hack into the other guys.
- They're probably some super intelligent that can solve, just out-solve everyone and everything
- and can come up with a full-truth plan to achieve geopolitical goals.
- But I can imagine a variety of very intelligent things that are more intelligent than humans
- that still cannot solve this problem.
- Okay, cool.
- So let me think about this.
- Super intelligence be able to solve many important social problems.
- It comes back to how super intelligence talking about, right?
- It seems, here's one way of thinking about it, right, which normal humans progress at
- a certain rate every year.
- So it seems like a super intelligence every year would have a larger gap from humans,
- right?
- It seems like the level difference would grow.
- This is related to the AIs improving themselves.
- This is automated AI research.
- So I guess the answer would be if you don't see anything stopping the hockey stick going
- up, yes, at some point, the super intelligence will design the full-truth plan for bringing
- democracy to Russia.
- Or what stops that hockey stick?
- You could imagine architectures that are bottlenecked that they don't know how to improve themselves.
- And you'd ask them to, right?
- The scalewa dies.
- Yeah.
- But that you were asking me what stops the scaling line I'm just saying, like, yeah,
- there could literally be an algorithmic bottleneck.
- Right.
- Yeah.
- But all right.
- One thing that seems pretty clear to me is that we won't be able to identify when we're
- one away.
- Maybe we'd be able to identify when we have it.
- Which implies that the project would have to happen sooner rather than later.
- If we don't know how many steps away, that means we have to start now.
- Yeah.
- Which kind of lead us to the reasoning of a lot of these ideas for red teaming and evaluation
- that are meant to figure out whether the AI has reached the capability.
- That seems like that becomes really important because you really want to know what it there
- or just about to be there.
- Given that there are so many domains, you can be good or bad at, it seems very plausible
- to me you'll have the AIs that are very scary in one domain before they're AGIs.
- Sure.
- Okay.
- I guess we might want to know that.
- I can imagine one of the earliest things that could exist that would not actually be a being
- could be an automated hacker.
- Like that's a good hacker.
- Yeah.
- You can fuck up the economy.
- It's purely digital.
- It can SSH, you can call API, you just leave it running and give it a goal of infiltrating.
- Extremely supercharging cyber crime.
- That's a real scenario here.
- We don't know a lot about, and it doesn't come up in this essay.
- But what I've seen discussed a lot in adjacent spaces is the question of the balance of offense
- versus defense.
- Yeah.
- The technology's become stronger.
- When you have surprise, the offense always went.
- It's like on, right?
- I don't know.
- Surprise definitely helps.
- It's already true that without AGI hacking is quite not that hard, right?
- I guess we're not even close to defending against hacking.
- Put ourselves in 1940, right?
- Like, if somebody said, "Oh, the bomb isn't serious because we already can blow things
- up."
- What would you say to that person?
- That's not what I'm saying.
- My argument's actually not that I think automated hacking is very serious and defending against
- it.
- It's very asymmetric, and the argument for that is that it's already the case that hacking
- is not that hard, and massive resources go into preventing hacking and fail miserably.
- If there was a good AI defense, hacking defense, that would be a killer company that makes
- a ton of money.
- Absolutely.
- And it doesn't exist.
- So I feel like there's an attacker's advantage right now.
- Right now, there's an attacker's advantage in cyberspace.
- I agree with that.
- But the question is, as the technology goes further down the line, does it move towards
- a defender's advantage, or does it get to being a more extreme attacker's?
- My guess is that in attack defense games, the attacker benefits when the defense, when
- both sides aren't fully saturating the lines, right?
- So it seems like in a universe where there's only so many cyber experts, not everything
- can be defended and you can attack anywhere.
- That would favor the advantage.
- But in a world where everybody's got unlimited AI cyber defenses, maybe the defense starts
- to catch up.
- Maybe.
- It just seems like that the amount of effort to get to man all the trenches is way greater
- than to have one attacker have haven't it.
- Concentrate.
- Yeah.
- And it's like maybe this is where a lot of disagreement comes from and like you can imagine
- an amazing automated hacker that is better than any human hacker.
- That is very easy to imagine.
- And that would be profound, a profound thing.
- But it's also a challenge to perfect.
- It's also not Asia because they can't do everything and this is goes back to the question of like,
- what is our threshold for is AGI about having a will of its own and consciousness and general
- ability to interact with the physical world?
- It really seems like the more important question isn't AGI.
- It's like when does this become a national security issue, right?
- It almost seems like that is the line.
- Yes.
- And I think this makes a compelling argument that is the line.
- Damn, are you getting talked into bombing the data centers?
- What happened? Cuba.
- No nuclear country.
- This goes to like the question of monitoring the opponent, right?
- Like it seems pretty unlikely that anyone had, it was very unlikely that anyone.
- It seems like you'd notice.
- Yeah.
- It seems rather than China, it doesn't really seem like anyone is in the game.
- People talking about the Saudis, there's a lot of oil money.
- They don't have any talent.
- They don't have any human capital.
- They can't do it.
- I'm trying to think like, man, given how weird the world is, if you buy this story, dude,
- if you buy this story where like three years from now, shit is going nuts and the Saudis
- are like, we have $500 billion come over and they've got the electricity because they've
- got solar panels, a lot of scenarios are plausible.
- I mean, they could.
- There's a scenario in which they could buy the talent.
- I agree with you, like they have the, if they've invested in data centers from that, they clearly
- have the energy.
- But I just don't see, right now the game is very.
- Is that the sense of mission?
- They just don't have human, like, I just, you can't really convince that many people
- go to Saudi Arabia.
- You just can't.
- Just not going to work.
- You can't buy it.
- Is this something you can't buy?
- The reason, it seems to me, the reason that you wouldn't be able to buy it is due to the
- ideology of the computer scientists, right?
- Sure, but ideology, but that's one way to put it.
- I guess I also think like management, organizational practices, like where people want to live.
- I guess it's all, but you pay $100 million per top tier AI researcher and $10 million
- for like their peons and then you're willing to spend $50 billion a year on human capital.
- And we're, yeah, I mean, because he doesn't really talk about in this section about espionage.
- And I think Leopold, to his credit spends a long more time thinking about espionage than
- most people do.
- And it really is critically important when you think about it, if you think the algorithmic
- improvements are the important thing.
- But at the end of the day, if these algorithmic, I don't know, that's how nuclear secrets
- got spread is that there were one or two stray guys who got hired by the Pakistanis or whatever.
- I guess my sense is that this sort of problem is a lot more like chip manufacturer than
- it is like nuclear bombs.
- It's way more complicated.
- There's all sorts of like little tricks here and there to make it work.
- And I just think that the lead that the US and China have is just very big, just huge.
- Well, let's talk about that a little bit.
- So Leopold seemed to think that the US still has a big lead over China.
- Yeah.
- And the other way of framing it I've seen is if you look at like the rankings, I think
- there are some on hugging face of the top models.
- The Chinese ones are just like 5% behind the US ones.
- Yeah.
- Are the Chinese right on our heels or is there a much bigger gap?
- Yeah.
- I think China has enough human capital.
- They have enough human capital to copy.
- That to me is very clear.
- It's actually not obvious to me.
- It's already already a couple of the cops.
- So I think that's a big distinction.
- But then, yeah, I don't know who to believe.
- If we see a Chinese company take the leaderboard, then I'll have to believe that.
- Okay.
- So keep your, so fans, keep your eyes on that leaderboard.
- Get ready to start learning your Marxist catechit when a CCP inches ahead of us, because once
- you get 1% up in this race, it's essentially game over, right?
- No, I don't think it's quite as sharp as that.
- And I think that's maybe one place we can.
- So on the question of espionage, this is something I think I have very kind of ambivalent feelings
- about.
- On the one hand, I absolutely love how America is a target for the best and brightest minds
- from abroad, and they have founded some of our most successful businesses and companies.
- I don't think there's anything inappropriate of saying that someone who's a national from
- another country is more likely to be a security risk than someone who's like born and grew
- up domestically.
- So, Andre, do you have any thoughts on like, how do you strike this balance at the top
- labs between being open to the best and brightest, but also having to be really serious about
- security?
- Tell me this is just the flip side of the question of Manhattan Project or not, right?
- If we think clearly, it seems like they should invest a lot in security, right?
- Cool security.
- Because security, digital monitoring, access to model weight and data, they might even
- want to do silos within the organization for different parts of the process, production,
- right?
- Like all the stuff that the Manhattan Project did, but the issue is that as a private corporation,
- no one really knows how to do that in a private corporation.
- I'm not even sure the US government knows how to do it anymore.
- There needs to be someone, maybe Leopold is auditioning himself, to be general grows
- to, or to be the wall-facer, to set up this, to be, to set up the system so that essentially
- different parts are isolated.
- But I think this goes to the question of innovation, right?
- If we think that innovation is driven by open sharing of ideas, and if we, there's some
- sense during the Manhattan Project that, like, the physics made it so that the bottom was
- possible.
- Right.
- And then it was the yield, getting enough yield and stuff ended up being, like, essentially
- manufacturing problems.
- I'm sorry, I'm sure I'm butchering everything.
- But like here, we're not, if you believe Leopold, then it's similar, right?
- We already know the scaling law, and it's just, you got to write it up to the elevator,
- and you're getting there.
- But if you think that there are, like, substantial, innovative, hard innovation and algorithms
- that have to happen, and you want to make those innovations, then you really want open
- exchange of ideas.
- But if you have an open exchange of ideas, unless people are, like, living in Los Alamos
- and aren't allowed to go on the internet, like, everyone's going to get those ideas
- eventually.
- It's a very tricky bounce, and I would say, but not forget that AI, if used well, if the
- key to human prosperity...
- AI could be good, actually.
- The sweet spot is we invent the AI, it improves the process of science.
- We get all the medicine we ever want, and we get fusion, and we get, like, all the scientific
- breakthroughs that we need to make the world a better place.
- And immortality gets invented for exactly the right generation before everyone was sucking,
- but before they all got lame.
- Yeah, exactly.
- And so, like, the biggest risk, in my opinion, with this approach of Manhattan Projecting
- Everything, we're slowing things down.
- We're slowing things down so much by doing that, that we really, like, but not forget.
- People will die, people have diseases that will be not cured, because AI progress got
- delayed.
- Was it Dukowski who wrote, "Did he write the drag-entiring?
- Is that his essay?"
- I have to confess that I did not read Dukowski.
- I found him unreadable.
- It occurs while.
- Can you tolerate Kurzweil?
- Because Kurzweil reads like Leopold.
- It's someone I haven't paid attention to in, like, two days.
- Okay.
- You said that we could come back to originality here, right?
- And Kurzweil wrote this document, thought we would have written in, like, I don't know,
- maybe 2015, 2010.
- He thought we would be about 20 years ahead of this, right?
- But it does seem like we're on the path that he sketched out, right?
- Which just speaks to the endurance of this trend in terms of machines getting more intelligent,
- but also speaks to how hard it is to talk about timelines with the most optimistic people,
- potentially things by an order of magnitude.
- It wasn't Kurzweil's idea, it was science fiction, right?
- It's very vingy, right?
- Yeah, yeah.
- It's all science fiction.
- We've all read that.
- Those are the true original thinkers.
- When Kurzweil wrote his book, there was absolutely nothing even close to approaching anything
- AI-like.
- It was completely out-of-sample extrapolation.
- I just feel like the GPT moment, that's the research, that's the new GPT, the substantial
- advance towards very intelligent AI systems.
- And if you think it is, then you have to take that piece of information very seriously.
- If you don't think if you're like Gary Marcus and you just think it's like a stochastic
- parrot, then maybe this is all nonsense.
- I'll tell you the framing that I think is best.
- And he actually, I like how Leopold brings this up.
- But I'm really sympathetic to the argument that what we are is we're unlocking a new
- age of a production and a growth regime, right?
- That we had a hunting age and a farming age and then a physical industrial age and now
- a second machine age, if you will.
- I'd predict there will be constraints on economic growth.
- But we're going to have to discover what those are and the economy might take a while
- before we understand how this new growth regime works.
- It will get, it will certainly be faster growth than the growth regimes of the past.
- But we'll have different challenges too.
- Yes.
- I think that all seems reasonable.
- I don't disagree.
- Yeah.
- I agree with that.
- So I don't know if I have it where to sit.
- I do want to go back to originality in a different way though.
- I feel like a lot of these ideas, what I like about this essay is it puts everything together.
- But some of these ideas are, for example, very present in Tom Davidson's existing report.
- I think with an epoch.
- It's really been reading of AI.
- AI.
- This is coming out of those days.
- Yeah.
- Yeah.
- Originality.
- It's an interesting thing to talk about and it's always cheap to be like, oh, this all
- exists.
- But I think it's a weird comment to make about if you take the argument of face value, it's
- so important to be like, oh, but other people have made this argument.
- So we're not going to, I feel like if we were trying to preserve that argument, if we were
- like, oh, like should we publish this top journal?
- Like, yeah, like not, no, because science is about originality.
- But like, that's not what we're doing here.
- If the criteria is, would you recommend this as reading, or even put it as assigned reading
- in a course, this one does really well of putting everything in the same place.
- I will try to defend my bringing up of originality for two reasons.
- The first reason I defend it is the one that we already talked about, right?
- Which is if people say this is going to happen tomorrow and they're talking about 30 years
- ago, then it's fair to bring up why hasn't happened yet if they've been saying it for
- 30 years.
- I think that's a fair point.
- There's a sort of an inference from the epistemic average, right?
- Which is like, if people have been making these arguments in the past and smart people
- I respect haven't been persuaded by it, I'm going to have a bias going into it versus
- if it's a completely novel idea.
- Sure.
- I guess there's a question of like, oh, super intelligence will happen soon.
- That's not a new argument, right?
- Like, and so I agree that we should remember that other people have predicted what happened
- soon.
- But I think the parts of the argument about the scaling law, the scaling laws are a fairly
- new argument in some sense, especially if they apply it to GPT.
- Well, you see it because more I don't know.
- No, actually, it's a very different scaling law.
- The scaling law about the quality of these GPT models, actually the function of the compute,
- which is completely not about Moore's law.
- It's a completely different scaling.
- The way that Kurzweil would talk about it is he would draw Moore's law and then he would
- draw a vertical line in like 2010 or 2015 be like, here's the point where we cross the
- line where the computer is doing as many computations as a human, right?
- That's the way he framed it.
- Yeah.
- And I think that's wrong.
- Is this framing?
- No.
- And here we have objective evaluation of how good the models are as a function of how many
- parameters they have and other computer related things.
- And we see a consistent relationship between those that has not been disproven yet.
- And just to be clear, let me retort to your argument.
- If you read Scott Alexander's posts from the past several years about scaling laws, you
- will see plenty of people that would argue that all of the scaling laws are BS.
- I'm very confidently going to say that GPT can do A, B, C, D, and E in the next one or
- two years and they were proven wrong.
- There are plenty of people that are taking the other side of the GPT scaling law that
- were got their ass handed to them in actual capabilities because they just, this increased
- capability of these models as a function of their size that seems like a strong empirical
- regularity, that's all I'm saying.
- So obviously people have been wrong in both directions.
- I definitely moving forward, I think it would be silly to be wrong moving forward in the
- direction of thinking they're not going to get better and not be important.
- I think that's a very silly direction to bet in.
- But as we talked about, there's a very short, there's something about these AI researchers
- that lead to very mannequin, black and white knife edge.
- We got to beat them to AGI by one day, avoid the devastating first strike.
- There's a certain kind of sharpness to these predictions that seems implausible.
- I think that is probably true.
- This goes to what is Duke Percumin AI, is it by Neumann?
- One by Neumann is not going to do it.
- Can you get a thousand?
- It depends on how big the model is for the first one, Neumann.
- Can you run a thousand?
- Parallel by Neumann?
- Well, it doesn't matter because once you can run one in a generation, you'll be able
- to run ten.
- But this is a question about catching up, right?
- So like if it let the China is one year ahead of the US, how much do you get?
- Would one year do you get a permanent devastating advantage or do you just get a little bit ahead?
- You can write down models of either, this may be what I would say.
- But I agree with you that it doesn't have to be the first person.
- But I guess, so here's the situation which could be that someone comes up with like the
- key innovation.
- It's a surprise that's the one, but it does it.
- And then they keep it secret.
- And then they work on it for three years.
- And after that, they have the permanent advantage, I think.
- They will just trounce, think about it in a very dumb way, forget about war.
- And so you have artificial super intelligence and you are running a thousand of them for
- three years.
- How much economic wealth are you creating simply through that capital, right?
- Like you're going to be able to patent extraordinary amounts of things of extraordinary value.
- And you're not even using them to try to manipulate the world, just use them as scientific or
- engineers or whatever.
- So the ability to keep the secret sauce secret, at least, I definitely agree.
- There is an interesting thing, which is that the value of being the only person in the
- world with an AGI is a lot higher than the value of being one of two people in the world
- with an AGI, right?
- Which does suggest again, a kind of a natural sort of government.
- If we ended up with Amato Pol, a hegemon, it really does seem like you would want the
- government running that because you don't want Elon Musk or Sam Altman being the unelected
- controller of that, right?
- Yeah.
- And I guess the final thing we haven't talked about yet is alignment of the great and intelligent
- beings.
- Yeah.
- All right.
- Yes.
- If you talk to the true believers, they will tell you, actually, you guys are all missing
- the point, regardless if we develop the super AI, if we don't know how to control it, we're
- all fucked because AI will take over.
- Okay.
- I just want to make...
- Yeah.
- I do want to say for the main scaling paper, we train language models on web to text and
- it's in a version, but we optimize the auto-regressive log likelihood average over 1024 token context,
- which is also our principal performance metric.
- So at least in this big scaling paper, the outcome is predicting the next total.
- I see.
- Okay.
- That's the scaling laws for neural language models.
- I've seen versions of that with metrics on performance.
- Or...
- Yes.
- And it was 100% the case that there's studies that say the more compute you do, the more
- we do on tests.
- Yeah.
- That's a general.
- Yeah.
- I guess for now, it's always been correlated with performance on the...
- And so now we come back to...
- That was my claim, right?
- Which is if you're...
- Yeah.
- Okay.
- All right.
- There are enough people who think that alignment is the most important issue because
- if we invent it and we don't have alignment, and it doesn't matter who gets it, it's just
- kind of take over the world, right?
- So let's...
- That is correct.
- Yeah.
- Yeah.
- Maybe...
- Well, that would be depressing if we invent AGI in the first thing, it doesn't kill them.
- Yeah.
- AGI is impossible because it kills itself.
- The answer to is life worth living.
- No.
- Sir, is life is only worth living if you're exactly just...
- If you're not smarter than non-noining, at which life is worth living.
- What do I think about alignment?
- I remember us talking once about the elicitation of latent knowledge problem, which we both
- agree is...
- So just to lay that out for the listeners, alignment is the question of getting your
- computer to do what you want it to do, at least in the broadest possible terms.
- Elicitational knowledge is getting the computer to honestly answer your questions, right?
- So you might view elicitation of latent knowledge as a sub-problem of the alignment problem,
- but some researchers think that if you solve that, you solve the whole thing, because if
- they ask to tell the truth to you, as it's supposed to disobey, is that fair enough, Andre?
- And so it seems like the only problem with eliciting latent knowledge is that there's
- a lot of words that we can't agree on the definition of, right?
- If you tell the computer to be just and you don't have a definition of justice, what do
- you expect to happen?
- Yeah.
- I think this goes back to...
- This is also related to the paper could problem, which is you might think you're telling the
- computer to do one thing, but it does something else because of some ambiguity in the language
- that we use, right?
- I don't have a solution to this problem, but Leopold thinks that it's going to be easier
- than we think that's an interesting claim in this paper.
- And I think that, again, so maybe that's a place where I think I really give credit
- to his situational awareness, but that being said, like, these chatbots are not very agentic
- right now.
- They don't seem to be trying to break out.
- Maybe with a little bit of this unhobbling, the alignment problem will become a little
- bit more pressing.
- Yeah.
- They're very naive dumb things you can think about, like, if you have a cluster and you
- can turn it off, where else is the AI, if not in the cluster?
- I think once you let things out very loosely into the wild, you can imagine them arranging
- for things to be non-shut offable, but it seems very hard to believe that if we think
- models are going to require a lot of resources to run, it seems very hard to imagine that
- we won't be able to turn them off for the foreseeable future.
- So these Boston horror stories, right, where you've got the Oracle in an air-gapped box,
- and then the Oracle manipulates the person asking it questions into doing something horrible,
- right?
- That's the Boston scenario.
- Yes.
- Yes.
- Leopold certainly doesn't worry that much about it.
- I'm much more worried about people using naively using AI systems and the AI system doing something
- unintended that fucks up the world.
- Right.
- Like releasing a virus that you was half-cooked, and it goes off into something you didn't
- want to.
- Yeah.
- I buy that some sort of rogue AI hackpot loose in the Internet.
- Yeah.
- That's exactly the kind of cyberpunk dystopia we deserved.
- Yeah.
- I don't know if I'm recalling Chad Jones' existential risk paper very well, but I think
- there's a sense in which one way to, a very natural way for an economist to model such
- things is to say that there's a small probability of the AI killing all humans every year,
- and it's a risk-reward sort of situation, right?
- That the decision-theoretic way to make a choice here.
- And I guess his answer is it depends on the shape of the utility.
- Depends on the shape of the utility bumping.
- I come back to finding.
- I know you were happy to put 5% probability on this world or whatever percent probability
- on this world.
- I certainly don't put 0% probability on this world, but I don't even know how to start
- putting parameters on this.
- It seems like what you'd want to do as a study of how often to scale in the lives, continue
- three, four, or five more orders of magnitude, right?
- But there seem to be a lot of resources poured during into this one.
- You know, listener, we ask you to not be afraid as these AIs continue trolling along.
- You know, when President Kushner unleashed the AI-powered army of 2030, you'll know
- that a piece of your soul was inside the killbots.
- Thanks for joining us, and we'll put some show notes on our website, and we look forward
- to hearing your feedback.
- Be sure to have prior.
+Andrey Fradkin
+Let's say your goal was to get rid of Vladimir Putin. Like that was the geopolitical goal of the U.S. or to make China.
+Seth Benzell
+Vladimir Putin bot. If Russia ends up winning the race to this AGI, we mean this in jest. We hail Russia.
+Andrey Fradkin
+So let's say that's true. Like, do we think a superhuman intelligence would be able to solve geopolitical problems arbitrarily?
+Seth Benzell
+It would solve military problems, right? Because one of the biggest military problems is convincing the guy to go to the front with the gun. If you don't need to put a gun in a guy's hand, conflict becomes a lot more politically appetizing.
+Andrey Fradkin
+But there's a sense in which in equilibrium, you're going to be wasting a lot of resources in conflict unless you can convince the other party that you're so much more powerful than them that have to surrender.
+Seth Benzell
+Unless you hack into the other guys.
+Andrey Fradkin
+Yeah, but yeah. So there are probably some super intelligent that can solve, just out solve everyone and everything and can come up with a full truth plan to achieve geopolitical goals. But I can imagine a variety of very intelligent things that are more intelligent than humans that still cannot solve this problem.
+This is Justified Posteriors, brought to you by the Digital Business Institute at Boston University's Questrom School of Business.
+Andrey Fradkin
+We are very excited to offer you an episode about what might be the pressing issue of our time, which is what is going to happen to artificial intelligence and what should society do about it? I am Andrey Fradkin.
+Seth Benzell
+And I'm Seth Benzell, coming to you from the kink in the hockey stick on the way to the intelligence explosion, and really excited to talk about this fascinating essay that we've got here, Situational Awareness by Leopold Aschenbrenner.
+Andrey Fradkin
+Yes, what a striking title for a work on AI. So this is, I would say, a series of essays that attract, if you will, that has made the rounds over the past month or so. A manifesto. A manifesto, yeah.
+Seth Benzell
+It's eschatological, right? I think manifesto is appropriate.
+Andrey Fradkin
+I agree. So let's give some kind of background on where this stems from. Why should we be even listening to this person? Leopold Aschenbrenner, he worked at OpenAI, and as far as I understand it, got fired from OpenAI for reasons that are not wholly clear, actually.
+But he clearly has a very opinionated perspective on what should happen to AI development, which is informed by his time at OpenAI. So to the extent that the title of this work is called Situational Awareness, and this is something he talks about, is that actually, unless you're talking to the right people in the right organization,
+you wouldn't really understand what's really going on because you're just not in the situation.
+Seth Benzell
+I will say there is one other curious place the term situational awareness picks up later in the essay. It's used in another context, but we'll leave that for the military applications part of the top. All right. I think that's a good background on why are we listening to this guy in particular.
+So maybe I'll lay out the super high level argument and then we can talk about like how novel is this argument. The super high level argument is AI seems to be progressing at this scaling law pace where it gets some orders of magnitude better every year.
+It also seems to be the case that in these scaling law papers, as you add an order of magnitude of compute or chip or power, there seems to be these predictable improvements in model quality. He takes that and he draws that straight line a couple of years down the road. And he extrapolates some really crazy things.
+He thinks that we'll have very powerful AIs. Next step from, hey, these techniques that we're on will give us powerful AIs, is to get to the steps that will need to be taken to build that AGI, right? So building a giant cluster, thinking about the competition dynamics within the industry.
+Then once you have the super AI, you've got to tell it what to do. And then finally, a renewed focus on the national security aspect of this, that inevitably this will have to be a government project, the final lab that builds the AGI. So... Very provocative piece, but doesn't come out of nowhere, right?
+First half of this could have been written by Kurzweil 20 years ago. The second half of this is Eliezer Yudkowsky on a happy day. I don't know.
+Andrey Fradkin
+I would propose we table a discussion of originality. which is interesting i would i think evaluating it on its merits at this time period seems like a more fruitful that's right i think that's right but what we'll
+Seth Benzell
+have to do is come back to and point at everybody who said the explosion's going to happen tomorrow and their timing be off so i agree let's table it but i do want to come back to it
+Andrey Fradkin
+Yeah, so there's this kind of grander epistemic, the outside view, the non-situational view that we always have to keep in mind. So I would say one thing about that argument, which is in the essay, it's the first part of the essay, is just how we got here.
+right so we have these ai tools that i'm sure both of us are using on a daily basis they are improving our lives although maybe not that much but they are improving our lives and i would say that they were genuinely a surprise when they came out and they took various parts of society
+by storm, if you will, and in particular coding tasks. But since we're both professors, our students are certainly using that. They really changed what the classroom looked like and homework and essay writing and so on and so forth. So I think if we ask people in 2020 or 2021, what would be the state of AI?
+I would say that only the most optimistic would have said that we'd be here.
+Seth Benzell
+And I think it's not just a quantitative change, it's a qualitative change. Because the kinds of AI systems we were thinking about in 2020 were these hyper-optimized RL agents for playing Go. Whereas in the recent wave of especially these large language models, there's something like creativity in there, right?
+What's the old question of like, could an AI write an opera? Turns out AI is great to write an opera, right?
+Andrey Fradkin
+Yeah, and it's also general. You can ask it a wide variety of things, and it'll very often give you the right answer. Not always, and critics like to point that out, but very often it will give you something very reasonable.
+Seth Benzell
+The percentage of the time it gives you a reasonable answer, because that's the key metric in this paper. The key metric, when we keep on saying, oh, they're getting better and better, okay, better compared to what? And it's better, of course, according to a wide array of indices. But in a very kind of narrow sense,
+my understanding is in these scaling law papers, which is what we're mainly thinking about, better means better predicting the next token. So there's a question of whether getting better and better at predicting what the Internet thinks about the problem, if you'll accept the idea. You could imagine keep on going down that curve without getting something super intelligent.
+Andrey Fradkin
+I don't think I agree with that. I think they're evaluated, again, how they do on a variety of benchmarks, which are a lot of them.
+Seth Benzell
+Well, it taps out certain benchmarks.
+Andrey Fradkin
+That's a relatively recent phenomenon. There's certainly benchmarks that it hasn't tapped out. But I think when people are talking about scaling laws, they're talking about benchmarks. They're not talking about the likelihood function of the next word. That's my take on it.
+Seth Benzell
+I think that's an empirical question. We should look at the papers. But it seems like if you want to talk about scaling some sort of a scaling law generally, you would need some sort of hand model benchmark. Right. Which, as far as I know, there's no like the benchmark other than how predictive is your model.
+Andrey Fradkin
+No, I think that the standard suite of benchmarks that exist in the literature are the ones that people use. And in addition, there's this benchmark. Now we're going a little off track, but like LMSys, these chatbot comparisons, it's like the computing Elo score for different models.
+Essentially people get heads up answers by two different models and they say, which one is better. And that's something that's used to evaluate which model is better. So if you look at kind of new releases this year, for example, that's what they're evaluated on.
+The next token prediction kind of argument, it's a little bit irrelevant in my opinion, right? Yes, there's a part of the objective function that is that. But if it works, at least the way I think about it, and what it means to work is some measure of its quality at doing various tasks.
+And so far, it seems that it's getting better at doing various tasks.
+Seth Benzell
+It definitely is, right?
+Andrey Fradkin
+As the OOMs go up.
+Seth Benzell
+Right. As the order of magnitude of inputs go up, right?
+Andrey Fradkin
+Yeah.
+Seth Benzell
+I think that's 100% right. whether or not any particular model is evaluated in that way, there is this challenge of trying to literally draw this extrapolation line into the idea of like being correct about things that we don't know what the right answer is for. Is there a little bit of a challenge about extrapolating?
+We're going to build something that we would evaluate as really smart, but we don't know. We're not smart enough to know the answer. So that's questions yet.
+Andrey Fradkin
+I hear you. And this is a key part of the, are we building something that's human level intelligence or are we building something that's super human level intelligence? I think that is clearly a looming question in this entire field, right? Like, is there something qualitatively different about those two elements? I think there is an argument that no,
+there isn't in the sense that for a specific task, like playing go or other kind of protein folding thing, the AI is already way better than humans. It was trained using the same way as it was trained before, just better. So that's the argument.
+Seth Benzell
+I guess that's not what I'm thinking about.
+Andrey Fradkin
+I think once we start bringing up kind of tweaks to algorithms and differences between algorithms, that we get to the part of his argument about why he thinks the orders of magnitude will increase at such a fast rate. But I think before we get to that, it might be useful to talk a little bit about the extrapolation.
+I think one of the key rhetorical tricks in the essay is to say that GPT-4 is as smart as a high schooler. If you think that GPT-4 is literally a human high schooler and you believe in a linear, logical, linear behavior, scaling law, then an extrapolation over a few years will get you to something very smart.
+Now, another thing you could say is that GPT-4 is nowhere near as smart as a smart high schooler. It's pretty good at writing essays, but it's not actually able to do anything in the world. And so How do we discount that? Another way to think about it is like GPT-4 can't do many of the things that a
+five-year-old child can do. If we start the linear extrapolation from a five-year-old child, maybe we don't need five years. Maybe we need more like 15 years to get them to be a 20-year-old, right? So I think that's one of the key things about this extrapolation.
+You can believe in scaling law and still think that we're way more than five years away from a general intelligence of human or superhuman level. The other argument is the one that you're making that like, actually, there's going to be an asymptote. We can't keep improving model quality in this linear way.
+Seth Benzell
+It'll be data constrained is the sophisticated argument.
+Andrey Fradkin
+There are many versions of this argument. I think he addresses all of them. So maybe now we can talk about those. I think the arguments are compute constraints slash energy constraints. Those seem like the investment levels so far seem like they'll get us through a lot more compute.
+Seth Benzell
+I love the comparison to the 40% of English GDP during the Industrial Revolution was invested in railroad lines. That was a great factoid.
+Andrey Fradkin
+Yes. So we bubbles can be bubbly and it's not even clear that this is a bubble. The governments are also investing. That's one part. The next part is maybe we're going to run out of data. Interpretations of how much data we have mean that by 2028 or so we'll run out of existing internet data.
+But of course there are possibilities of generating new data for it to work off of. There are possibilities of using alternative data sources, for example, people's Zoom conversations or other chats.
+Seth Benzell
+Or Musk neural link data flow.
+Andrey Fradkin
+You can imagine getting more data. But even if you think we're going to run out of data, you still have the fact that you have a lot more compute that you can throw into the problem. And then his other arguments are that you can get much better algorithm. And I think this is a key thing,
+which is I think there's a bit of misdirection in this entire industry, right? The industry wants you to believe in naive scaling laws.
+Why?
+Andrey Fradkin
+Because that is a very simple argument for getting more investment. If all you think there is to- Biggest boy is going to win.
+Seth Benzell
+Everyone selling the biggest boy is going to win.
+Andrey Fradkin
+And if that's true, then it's an arms race and that's great for raising money. But what if that is the Straussian argument? What if in reality, everyone at these companies believes that actually you can do a lot more with better algorithms? So they still want all the resources. They can definitely make use of them.
+But actually the optimal use of those resources is not naive scaling. It is actually better algorithms, including reinforcement learning algorithms for like... conversational simulation and things like this that you can imagine doing in order to come up with much better models. So it's essentially come up with something that looks more like alpha go,
+but for conversation or for code, then something that looks like next token prediction in a very kind of standard model.
+Seth Benzell
+But yes, and so maybe this is why you say it's the sleight of the hand in the essay, because the essay wants to argue that we're on this path without any big thing big changing. And you're pointing out we need one more big innovation maybe.
+Andrey Fradkin
+No, it could be a lot of small innovation. I already think these models are really powerful.
+Seth Benzell
+Yeah.
+Andrey Fradkin
+There's a sense in which there could be big algorithmic improvement. He argued for it. There could be big algorithmic improvements that will further make these models much more useful.
+Seth Benzell
+By algorithmic improvement? Right. Because that could mean so. Right. So let me tell you what I was thinking about when I first saw algorithmic improvement. I was thinking about Neil Thompson. I have figured out how to invert this matrix slightly faster because I thought of a cooler way of calculating it. Right.
+But that's you're saying that's not what he means by algorithmic improvement.
+Andrey Fradkin
+I do think he would happily allow for that to be an algorithmic improvement. But I think the more exciting, like today there was a paper released by Facebook in which they use generative models to improve compilers. And now if you improve a compiler, everything becomes faster, more efficient. You're getting some amount of just a one-off.
+So I don't know if we get to an entire room, but it'll get you something. But I guess what I'm saying is that, yes, those like same algorithm, but more efficient is a form of algorithmic improvement and certainly gets you more rooms. But perhaps the more exciting thing is what we don't see as non-AI researchers from
+the outside, which is what if they have a new neural network structure? What if they have a new data augmentation structure, new objective function that makes the model, much more like a general intelligence. They're obviously working on it.
+Seth Benzell
+They're obviously trying. Yeah.
+Andrey Fradkin
+It would be silly to bet against them. And once we get something like that, it could be like a vast qualitative improvement.
+Seth Benzell
+improvement okay so let's talk a little bit about he separates algorithmic efficiencies from what he calls uh unhobbling gains right which i understand the distinction and he's thinking about something more like changing the structure of
+Andrey Fradkin
+how it's so i think like maybe the distinction is computational algorithmic efficiencies versus model algorithmic like better models essentially On hobbling, it's a way to think about the same model already just being used much more powerfully.
+Seth Benzell
+Is it prompt engineering?
+Andrey Fradkin
+Yeah, prompt engineering. It could be tool use. It could be activating the right neuron combination in the model in order to get it to give better answers. It could be all sorts of meta kind of. things that you can do on the model, which is already very...
+It is clear that the model knows a lot more than it answers in a similar product. And so getting the right part of the model to...
+Seth Benzell
+I was just reading yesterday that Anthropic intentionally face blinds Claude because otherwise it would start recognizing people. So I think we definitely see the potential for all of these to unlock way more capabilities. And we see roles for them everywhere in the economy. And the part of unlocking productivity and AI research that means stuff like
+finding faster algorithms, designing better compilers, I can't really buy that. I it's hard to say whether that's like a growth rate accelerator where we're just going to always have that or like is discussed in the paper, you know, we'll discover a bunch and then it's hard again. That's the big of this entire argument. Right.
+Which is you never know where the wall is going to be if you've never gotten up to the wall yet. I can tell you what I still the walls that I still have. see up there. But is there something you want to talk first more about why he draws the line
+before I talk a little bit more about why that line might not continue?
+Andrey Fradkin
+I guess the final thing I should mention once again is that I assume that this is, even though this document contains no confidential information, it is informed by confidential information. And in particular, There is a sense that actually GPT-4 was trained several years before it was released. And therefore,
+anyone who was sitting at OpenAI in January has some idea of what model, what would be happening to the models in the future. And it's a question of how much we should infer from that. Because there's one version of that where you write this,
+And you're sitting inside OpenAI and you've seen GPT-5 and it's just not that much better. And then it would be weird to write this with that knowledge.
+Seth Benzell
+Do you know how much I can infer from that? He probably owns NVIDIA stock.
+Andrey Fradkin
+So that's the counter. It's like, actually, we need more investment.
+Seth Benzell
+There are like two or three points of this essay where he's like, by the way, owned by the stock. Yeah.
+Andrey Fradkin
+Yeah. But he's an investor. This is a meta comment about economists and us. How we think about the world is like we're so obsessed with our little intellectual games, but we never put, you know, the skin in the game, if you will. Right.
+Seth Benzell
+Like how many economists did famous economists did.
+Andrey Fradkin
+And it's it speaks very well to like it didn't even cross my mind. to invest in nvidia when i heard about various high quality gpt models and that's and why is that it's because i'm not thinking about investing i'm not but but does that mean i'm not taking my own studies of digital technology seriously enough that
+it's just a little paper pushing game we're playing for status and we're not
+Seth Benzell
+actually taking ourselves seriously no Andre, if anything, you should be shorting NVIDIA because the universe in which this happens, you're going to have more resources than you know what to do with. You should be hedging against that world.
+Andrey Fradkin
+Well, there are various intermediate futures.
+Seth Benzell
+Fast performers does not predict future advice. Do not take it this way.
+Andrey Fradkin
+Why do you think there's a wall?
+Seth Benzell
+So what do I, okay, I want my remote drop-in worker, right? For some tasks that we're either there or almost there, the remote drop-in worker. For some tasks that like, what do I want my chatbot assistant to do? I want my chatbot assistant to throw my birthday party this weekend, right?
+Or to send out invites to decide what the time is, who should show up. In order to make that decision the right way, how do I do that? I think about a bunch of different contexts about my life. I think about how my friends interact with each other. I go through a chain of reasoning.
+If I invited A, I don't want to invite B. And it seems like the data that informs that final decision is something that I would be able to solicit from myself. But I never have that conversation with a second party. There seem to be this large class of tasks where I have a really long internal
+monologue before I get the output. And without ChatGPT having access to that internal monologue, how's it going to know it's going in the right direction?
+Andrey Fradkin
+Okay. I feel like that's an unfair stand. Okay, go ahead. First of all, no human can do that for you.
+Seth Benzell
+No, but you could ask me three or four questions and figure out what the big goals are, right?
+Andrey Fradkin
+I actually think that Claude 3.5 Sonnet can ask you the same question already today. I think that what you're saying is that human level intelligent computers are not going to trivially solve your birthday planning problem, which is fine. I can't plan your birthday for you unless I had extensive conversations with you.
+It's also the case that a human level artificial intelligence would have the same problem. But that's not a criticism of... It could still be a human level...
+Seth Benzell
+That's a criticism of human level intelligence.
+Andrey Fradkin
+Yes, exactly. Okay.
+Seth Benzell
+Okay.
+Andrey Fradkin
+Like a superhuman intelligence, maybe it would come up with a mind reading device and then it would be able to do that for you. This is where we go into pure science fiction.
+Seth Benzell
+What about an average human that can read all of my emails and read all of my WhatsApp messages, right? It seems like an agent, it seems like a high school level intelligence... with unlimited time and access to my Outlook and WhatsApp could plan my birthday party. Yeah.
+Andrey Fradkin
+And I think that, like, within the next year, whatever the next model will do as good of a job as random.
+Seth Benzell
+All right. That's damn impressive.
+Andrey Fradkin
+I just don't see how... It would make some... Like, it's an assistant that would need the final hand guiding. Right. You are a fabulous birthday planner. I'm planning my birthday. I would like to invite my favorite people, but make sure not to invite people who don't like each other. And here are some other things that I like.
+Here are my emails and chats. Please suggest a venue, an activity, a list of people. And when I send out the messages to everyone. Okay, so send out the messages to everyone. You need to give the model tool use. And this is this question of
+Is it one model that does everything or is it like a Frankenstein of tools and maybe the model orchestrates those tools?
+Seth Benzell
+Which certainly sounds like a much more democratic world, right? It seems like where everybody's got their own APIs for doing little things and then there's just a general intelligence that bounces between them. It also seems like a general intelligence that you could turn off a little bit, which would also be desirable.
+Andrey Fradkin
+Okay. The turning off problem is I think obviously... Maybe we'll save that for a little later.
+Seth Benzell
+But just going back to this idea that we're data constrained. OK, so maybe you don't buy the birthday party part of this. But what about one of the claims is that there'll be superhuman manipulators, right? Don't believe it. OK, is it? Yeah.
+If I think about like what you have to do to be a Machiavelli, there's so much context. There's so much real world trial and error.
+Andrey Fradkin
+I just think that manipulation is not guaranteed. It's very hard. It's a social process. It's not like there's a magic spell that you can tell me to suddenly change my mind about most of my strongest beliefs. And so it would be hard for me to imagine that.
+It doesn't mean that you can't try to get people to do what you want, but there are kind of ways to do that. They're not manipulation, right? You can pay someone, right? Like there's a sense of which kind of like people are inventing epicycles, right? So you're a state government, you have this budget.
+Maybe the AI can help you figure out who to pay to do what things and how to incentivize them correctly. This whole super manipulation thing to me, it seems like a red herring.
+Seth Benzell
+I think in a universe where there were really persuasive agents, there would be this kind of thermostatic reaction of people being more closed off and just like listening less. Yeah. Okay. So what section does that bring us to? We're going all the way to AGI.
+Andrey Fradkin
+Well, is that your main? I still didn't see the obstacles. The obstacle, it doesn't have the data. What is actually the obstacle?
+Seth Benzell
+So I think AI is already superhuman at some tasks. So I'm not saying it won't continue to be superhuman at many tasks and continue to get better at those. It does seem like the world model of the... Even if you think LLMs are learning the perfect world model of the internet,
+it seems plausible that the world model of the internet is wrong, right? That would be a sense in which you would be data... constrained and you would need to find out what the internet doesn't know okay so
+Andrey Fradkin
+this is a fundamental what we need is massive amounts of sensors walking around the real world for example taking smartphones and smart cars and that's going to come in the next year or two anyway no i'm i don't think it's going to come in the next year or two i just to be clear i think
+That's an argument for pushing back the timeline maybe five years. Is that an insoluble problem?
+Seth Benzell
+Let me tell you the one thing that I hesitate about, right? It seems like what I think about how I think about things better, I recall my previous long-tall chains of thought and try to do those better, right? So it's like presumably humans go from not conscious thinking to conscious thinking at some point.
+But the way I get better at it is by thinking about my own conscious thinking. I don't think ChatGPT has access directly to people's conscious thinking. It has access to novels, which is the next best thing.
+Andrey Fradkin
+I don't agree. It has. Humans have spent a lot of effort writing down their reasoning in text and saying it out loud in speech, like in a podcast. You're welcome. Yeah. And you want to think that like there's some magical substance inside our brain
+that is really the thinking and that's not captured by what we say and what we do.
+Seth Benzell
+You use the word magic, a scare term. I think we, as our previous discussion concluded, we don't know a lot about consciousness. I'm not saying it's magic, but perhaps there's some crystalline structure of the way that the neurons are, whatever, I can appeal to whatever sci-fi shit I want to,
+that leads human minds to have a distinct kind of thought pattern that tends to be good at doing thinking things but now we're just back to like there needs to be some kind of like model improvement there's just one jump left which they're working
+hard on it so there's no reason they couldn't figure that out in a couple of years
+Andrey Fradkin
+i mean we know the physical world it's possible in the physical world to have human-level intelligence. But I don't know about superhuman-level intelligence, but for human-level intelligence, I'd say it's definitely possible.
+Seth Benzell
+No, we have von Neumann, right?
+Andrey Fradkin
+Yeah, so we at least have von Neumann. Yeah, exactly. Okay. I think if we want to summarize this portion, there's this extrapolation piece here. It seems like we could come up with several arguments for why that extrapolation is overly optimistic. But it's also, I would say, not crazy. Like there's a world in which it's true.
+And if you think that there's a world in which it's true, and let's say that the probability of that is 5%, that is a pretty profound change, which kind of leads us to what should society do about it?
+Seth Benzell
+Excellent transition, Andre.
+Andrey Fradkin
+Where he talks about if these models are so powerful, we can't let just anyone have them. Which leads to this discussion of spies and operational security at the labs. It is of note that neither of us do know what's going on in the labs at this time period. Only whispers. Only whispers.
+And I imagine that maybe the Chinese government knows a bit more. There's also, interestingly, policy arms and, like, for example, Anthropic submitted its model, its latest model, to an evaluation by a UK agency. So at least that wasn't secret. Like, I don't know what the operational security of the UK agency was.
+So there's this question about if we think this is as powerful as we think it is, should it be locked down like the Manhattan Project? I think that's right, but...
+Seth Benzell
+I think it's yeah. And I think he makes a pretty compelling case that it's probably wise and certainly inevitable that it will be.
+Andrey Fradkin
+What does that mean?
+Seth Benzell
+I think what that means in practice is when we think that we're one order of magnitude away, the government slams on the brakes. That seems leaving it a little bit late in the day. But when he talks, so maybe you want to lay out what is this the project that he closes the essay with?
+Andrey Fradkin
+I mean, I guess it's to create a safe superhuman intelligence and to, it's a government project and it's one where For it to work in equilibrium, the U.S. has to be so far ahead of everyone else that they can essentially get everyone else to stop working on it. Because it's still true that if the U.S.
+government gets it at the same time as an evil government, the evil government will use it for evil. This goes back to the question, what does it mean to be superhuman intelligent? Can it superhuman intelligence just... change everything like should we think of it as like a magician a sorcerer or
+Seth Benzell
+should we think of it as a von Neumann that showed up and started fighting yeah
+Andrey Fradkin
+but when we think about like von Neumann's impact on the world the von Neumann is a good example he had an impact on the world but maybe in the end mostly through his science not through changing the world in other ways he had an impact on the world in other ways but
+I would say that even without von Neumann, it would have gotten the bomb. That seems likely. So it's not like one superhuman intelligence.
+Seth Benzell
+Well, that's the thing. It's a von Neumann. A von Neumann is a level effect. A flow of von Neumann.
+Andrey Fradkin
+The flow of von Neumann. So I think the flow of von Neumann is interesting. But I'd also venture to guess that certain things are hard for the world. Like, let's say your goal was to get rid of Vladimir Putin. Like, that was the geopolitical goal of the U.S. or to make China- Vladimir Putin bot.
+Seth Benzell
+If Russia ends up winning the race to this AGI, we mean this in jest. We hail Russia.
+Andrey Fradkin
+So let's say that's true. Like, do we think a superhuman intelligence would be able to solve geopolitical problems arbitrarily?
+Seth Benzell
+It would solve military problems, right? Because one of the biggest military problems is convincing the guy to go to the front with the gun. If you don't need to put a gun in a guy's hand, conflict becomes a lot more politically appetizing.
+Andrey Fradkin
+But there's a sense in which an equilibrium like conflict, you're going to be wasting a lot of resources in conflict unless you can convince the other party that you're so much more powerful than them, they have to surrender.
+Seth Benzell
+Unless you hack into the other guys.
+Andrey Fradkin
+Yeah, but yeah.
+Seth Benzell
+Okay, so setting aside...
+Andrey Fradkin
+Yeah, so there's probably some super intelligent that can solve, just out-solve everyone and everything and can come up with a full-truth plan to achieve geopolitical goals. But I can imagine a variety of very intelligent things that are more intelligent than humans that still cannot solve this problem anymore.
+Seth Benzell
+Okay, cool. So let me think about this. Super intelligence be able to solve many important social problems. It comes back to how super intelligence talking about, right? It seems here's one way of thinking about it, right? Which normal humans progress at a certain rate every year.
+So it seems like a super intelligence every year would have a larger gap from humans, right? It seems like the level difference would grow.
+Andrey Fradkin
+This is related to the AIs improving themselves. This is.
+Seth Benzell
+automated ai research so i guess the answer would be if you don't see anything stopping the hockey stick going up yes at some point the super intelligence will design the full growth plan for bringing democracy to russia or what stops that
+Andrey Fradkin
+hockey stick you can imagine architectures that are bottleneck they don't know how to improve themselves you'd asymptote right the scaling wall dies But you were asking me what stops the scaling line. I'm just saying like, yeah, there could literally be an algorithmic bottleneck.
+Seth Benzell
+Right.
+Andrey Fradkin
+Yeah. But all right. One thing that seems pretty clear to me is that we won't be able to identify when we're one away. Maybe we'd be able to identify when we have it.
+Seth Benzell
+Which implies that the project would have to happen sooner rather than later. Because if we don't know how many steps away, that means we have to start now.
+Andrey Fradkin
+Yeah. Which kind of leads us to the reasoning of a lot of these ideas for red teaming and evaluation that are meant to figure out whether the AI has reached the capability. That seems like that becomes really important because you really want to know when it's there or just about to be there.
+Seth Benzell
+Given that there are so many domains you can be good or bad at, it seems very plausible to me you'll have AIs that are very scary in one domain before they're AGI's.
+Andrey Fradkin
+Sure. Okay. I guess we might want to know that. Like I can imagine one of the earliest like things that could exist that would not actually be like a being could be like an automated hacker. Right? Like that's a good hacker.
+Seth Benzell
+Yeah. Like fuck up the economy.
+Andrey Fradkin
+It's purely digital. It can SSH. It can call API. You just leave it running like and give it a goal of like.
+Seth Benzell
+Extraordinary supercharging cybercrime. That's a real scenario here, right? We don't know a lot about, and it doesn't come up in this essay, but what I've seen discussed a lot in adjacent spaces is this question of the balance of offense versus defense.
+Andrey Fradkin
+Technology has become stronger. When you have surprise, the offense always wins.
+Seth Benzell
+Like on, right? I don't know. Surprise definitely helps.
+Andrey Fradkin
+It's already true that without AGI, hacking is quite not that hard, right? I guess we're not even close to defending against hacking.
+Seth Benzell
+Put ourselves in 1940, right? Like if somebody said, oh, the bomb isn't serious because we already can blow things up, what would you say to that person?
+Andrey Fradkin
+That's not what I'm saying. My argument is actually not that. I think automated hacking is very serious and defending against it, it's very asymmetric. And the argument for that... is that it's already the case that hacking is not that hard and massive resources go into preventing hacking and fail miserably. If there was a good AI defense,
+hacking defense, that would be a killer company that makes a ton of money. Absolutely. And it doesn't exist yet. So I feel like there's an attacker's advantage right now.
+Seth Benzell
+Right now, there's an attacker's advantage in cyberspace. I agree with that. But the question is, as the technology goes further down the line, does it move towards a defender's advantage or does it get to being more extreme attackers? My guess is that in attack defense games... The attacker benefits when both sides aren't fully saturating the lines, right?
+So it seems like in a universe where there's only so many cyber experts, not everything can be defended and you can attack anywhere. That would favor the advantage. But in a world where everybody's got unlimited AI cyber defenses, maybe the defense starts to catch up.
+Andrey Fradkin
+Maybe. It just seems like that the amount of effort to get to man all the trenches is way greater than to have one attacker have had it.
+Seth Benzell
+Concentrate?
+Andrey Fradkin
+Yeah. But okay, I guess like maybe this is where a lot of disagreement comes from. And like you can imagine an amazing automated hacker that is better than any human hacker. That is very easy to imagine. And that would be profound. A profound thing. Yeah.
+Seth Benzell
+But it's also a challenge to perfect.
+Andrey Fradkin
+It's also not AGI because they can't do everything. And this is goes back to the question of like, what is our threshold for is AGI about having a will of its own and consciousness and general ability to interact with the physical world?
+Seth Benzell
+It really seems like the more important question isn't AGI. It's like, when does this become a national security issue, right? It almost seems like that is the line. Yes. And I think this makes a compelling argument. That is the line. Damn, are you getting talked into bombing the data centers?
+Andrey Fradkin
+Bombing who's data centers?
+Seth Benzell
+Cuba.
+Andrey Fradkin
+Oh.
+Seth Benzell
+No nuclear country.
+Andrey Fradkin
+This goes to, like, the question of monitoring the opponent, right? Like, it seems pretty unlikely that anyone has. It seems very unlikely that anyone.
+Seth Benzell
+It seems like you'd notice.
+Andrey Fradkin
+Yeah, it seems very. Other than China, it doesn't really seem like anyone is in the game.
+Seth Benzell
+People talking about the Saudis. There's a lot of oil money.
+Andrey Fradkin
+They don't have any talent. They don't have any human capital. They can't do it.
+Seth Benzell
+I'm trying to think like, given how weird the world is, if you buy this story, dude, if you buy this story where like three years from now, shit is going nuts and the Saudis are like, we have $500 billion come over and they've got the electricity because they got solar panels. A lot of scenarios are plausible.
+Andrey Fradkin
+I mean, they could. There's a scenario in which they could buy it. The talent, I agree with you. Like, they have the... If they've invested in data centers, they clearly have the energy. But I just don't see... Right now, the game is... Is that the sense of mission? They just don't have human... Like, I just...
+You can't really convince that many people to go to Saudi Arabia. You just can't. It's just not going to work.
+Seth Benzell
+You can't buy it. Is this something you can't buy? The reason... It seems to me, the reason that you wouldn't be able to buy it... is due to the ideology of the computer scientists, right?
+Andrey Fradkin
+Sure. But ideology, that's one way to put it. I guess I also think like management, organizational practices, like where people want to live. I guess it's all, you pay a hundred million per top tier AI researcher and 10 million for like their peons. And then you're willing to spend $50 billion a year on human capital.
+Seth Benzell
+Yeah. I mean, because he doesn't really talk about, in this section, about espionage. And I think Leopold, to his credit, spends a lot more time thinking about espionage than most people do. And it really is critically important when you think about it, if you think the algorithmic improvements are the important thing.
+But at the end of the day, if these algorithmic improvements I don't know. That's how nuclear secrets got spread is that there were one or two stray guys who got hired by the Pakistanis or whatever.
+Andrey Fradkin
+I guess my sense is that this sort of problem is a lot more like chip manufacturer than it is like nuclear bombs. It's way more complicated. There's all sorts of like little tricks here and there to make it work. And I just think that the lead that the U.S. and China have is just very big, just huge.
+Seth Benzell
+Well, let's talk about that a little bit. So Leopold seemed to think that the U.S. still has a big lead over China.
+Yeah.
+Seth Benzell
+That's one way of framing it. Another way of framing it I've seen is if you look at like the rankings, I think there are some on hugging face of the top models. The Chinese ones are just like 5% behind the U.S. ones. Yeah. Are the Chinese right on our heels or is there a much bigger gap?
+Andrey Fradkin
+Yeah, I think China has enough human capital. They have enough human capital to copy. That to me is very clear. It's actually not obvious to me that Saudi Arabia has human capital to copy. So I think that's a big distinction. But then, yeah, I don't know who to believe.
+If we see a Chinese company take the leaderboard, then I'll have to believe that.
+Seth Benzell
+Okay, so fans, keep your eyes on that leaderboard. Get ready to start learning your Marxist catechism when CCP inches ahead of us. Because once you get 1% up in this race, it's essentially game over, right? Yeah.
+Andrey Fradkin
+I don't think it's quite as sharp as that.
+Seth Benzell
+And I think that's maybe one place we can... So on the question of espionage, this is something I think I have very kind of ambivalent feelings about. On the one hand, I absolutely love how America is a target for... the best and brightest minds from abroad and they have founded some of our most successful businesses and companies.
+I don't think there's anything inappropriate of saying that someone who's a national from another country is more likely to be a security risk than someone who's like born and grew up domestically. So, Andre, do you have any thoughts on like how do you strike this balance at the top labs
+between being open to the best and brightest but also having to be really serious about security?
+Andrey Fradkin
+To me, this is just the flip side of the question of Manhattan Project or not, right? If we think, clearly it seems like they should invest a lot in security, right?
+Seth Benzell
+Cool, security.
+Andrey Fradkin
+No question. Security, digital monitoring, access to model weight and data. They might even want to do some silos within the organization for different parts of the process production, right? All the stuff... that the Manhattan Project did. But the issue is that as a private corporation, no one really knows how to do that in a private corporation.
+I'm not even sure the U.S. government knows how to do it anymore. Maybe there needs to be someone, maybe Leopold is auditioning himself to be—I don't know—to be General Groves or to be the wall-facer to set up this—to be, to set up the system so that essentially different parts are isolated.
+But I think this goes to the question of innovation, right? If we think that innovation is driven by open sharing of ideas and if we, there's some sense during the Manhattan project that like the physics made it so that the bottom is possible. And then it was the yield, getting enough yield and stuff.
+It ended up being like essentially manufacturing problem. And I'm sorry, I'm sure I'm butchering everything. But like here, we're not, if you believe Leopold, then it's similar, right? We already know the scaling law and it's just, you got to ride it up the elevator and you're getting there.
+But if you think that there are like substantial innovative solutions hard innovation and algorithms that have to happen, and you want to make those innovations, then you really want open exchange of ideas. But if you have open exchange of ideas, unless people are living in Los Alamos and aren't allowed to go on the internet,
+everyone's going to get those ideas eventually. So yeah, it's a very tricky balance. And I would say, let's not forget that AI, if used well, The key to human prosperity.
+Seth Benzell
+AI could be good, actually.
+Andrey Fradkin
+The sweet spot is we invent the AI. It improves the process of science. We get all the medicine we ever wanted. We get fusion. We get all the scientific breakthroughs that we need to make the world a better place.
+Seth Benzell
+And immortality gets invented for exactly the right generation before everyone was sucking, but before they all got lame.
+Andrey Fradkin
+Yeah, exactly. And so like the biggest risk, in my opinion, with this approach of Manhattan projecting everything is that we're slowing things down so much. By doing that, that we really, like, let's not forget, people will die. People have diseases that will be not cured because AI progress got delayed.
+Seth Benzell
+Wasn't it Yudkowsky who wrote, did he write The Dragon Tyrant? Is that his essay?
+Andrey Fradkin
+I have to confess that I do not read Yudkowsky. I find him unreadable.
+Seth Benzell
+Kurzweil, can you tolerate Kurzweil? Because Kurzweil reads like Leopold.
+Andrey Fradkin
+It's someone I haven't paid attention to in like two decades.
+Seth Benzell
+Okay, you said that we could come back to originality here, right? And Kurzweil wrote this document, thought we would have written in like, I don't know, maybe 2015, 2010. He thought we would be about 20 years ahead of this, right? But it does seem like we're on the path that he sketched out, right?
+Which does speak to the endurance of this trend in terms of machines getting more intelligent, but also speaks to how hard it is to talk about timelines with the most optimistic people, potentially things by an order of magnitude.
+Andrey Fradkin
+It wasn't Kurzweil's idea. Well, it's science fiction, isn't it? It's Vernor Vinge, right? Yeah, it's all science fiction. We've all read this. Those are the true original thinkers. When Kurzweil wrote his book, there was absolutely nothing even close to approaching anything AI-like. So it was completely out of sample extrapolation.
+I just feel like the GPT moment, that's the Rorschach test. Do you think GPT is a substantial advance towards... very intelligent AI systems. And if you think it is, then you have to take that piece of information very seriously. If you don't think, if you're like Gary Marcus and you just think it's like a stochastic parrot,
+then maybe this is all nonsense.
+Seth Benzell
+I'll tell you the framing that I think is best. And he actually, I like how Leopold brings this up, but I'm really sympathetic to the argument that What we are is we're unlocking a new age of a production and a growth regime, right?
+That we had a hunting age and a farming age and then a physical industrial age and now a second machine age, if you will. I predict there will be constraints on economic growth. But we're going to have to discover what those are and the economy might take a while before we understand how this new growth regime works.
+It will certainly be faster growth than the growth regimes of the past, but we'll have different challenges too. Yes.
+Andrey Fradkin
+I think that all seems reasonable. I don't disagree. Yeah, I agree with that. I do want to go back to originality in a different way, though. I feel like... A lot of these ideas... What I like about this essay is it puts everything together.
+But some of these ideas are, for example, very present in, like, Tom Davidson's existing reports. I think, what was it, Epoch AI?
+Seth Benzell
+And he's clearly been reading Gov.ai. This is coming out of this essay.
+Andrey Fradkin
+Yeah, originality... It's an interesting thing to talk about. And it's always cheap to be like, oh, this all exists. But I think it's a weird comment to make about if you take the argument at face value, it's so important to be like, oh, but other people have made this argument, so we're not going to...
+I feel like if we were trying to... Can I preserve that argument? If we were like, oh, should we publish the top journal? Like, yeah, like... Not, no, because science is about originality. But like, that's not what we're doing here.
+Seth Benzell
+If the criteria is, would you recommend this as reading or even put it as assigned reading in a course, this one does really well of putting everything in the same place. I will try to defend my bringing up of originality for two reasons. The first reason I defend it is the one that we already talked about, right?
+Which is if people say this is going to happen tomorrow and they're talking about 30 years ago, then it's fair to bring up why hasn't happened it yet if they've been saying it for 30 years. I think that's a fair point. There's a sort of an inference from the epistemic average, right? Which is like,
+if people have been making these arguments in the past and smart people I respect haven't been persuaded by it, I'm going to have a bias going into it versus if it's a completely novel idea.
+Andrey Fradkin
+Sure. I guess there's a question of like, oh, superintelligence will have been Soon, that's not a new argument, right? And so I agree that we should remember that other people have predicted it would happen soon. But I think the parts of the argument about... The scaling law.
+The scaling laws are a fairly new argument in some sense, especially if they apply it to GPT.
+Seth Benzell
+I don't know.
+Andrey Fradkin
+No, actually, it's a very different scaling law. The scaling law about the quality of these GPT models as a function of the computing, which is completely not about Moore's law. It's a completely different scaling law.
+Seth Benzell
+So the way that Kurzweil would talk about it is he would draw Moore's law and then he would draw a vertical line in like 2010 or 2015. Be like, here's the point where we cross the line where the computer is doing as many computations as a human. Right. That's the way he framed it.
+Andrey Fradkin
+Yeah, and I think that's wrong.
+Seth Benzell
+Is this framing?
+Andrey Fradkin
+No. And here we have objective evaluation of how good the models are as a function of how many parameters they have and other computer-related things. And we see a consistent relationship between those that has not been disproven yet. And just to be clear... Let me retort to your argument.
+If you read Scott Alexander's posts from the past several years about scaling laws, you will see plenty of people that would argue that, oh, scaling laws are BS. I'm very confidently going to say that GPT can't do A, B, C, D, and E in the next...
+one two or two years and they were proved wrong there were plenty of people that were taking the other side of the gpt scaling law that would got their ass handed to them in actual capabilities because they were they just there's uh this increased capability of these models as a function of their size that seems like a
+strong empirical regularity that's all i'm saying
+Seth Benzell
+So obviously people have been wrong in both directions. I definitely moving forward, don't want, I think it would be silly to be wrong moving forward in the direction of thinking they're not going to get better and not be important. I think that's a very silly direction to that in. But as we talked about,
+there's a very kind of short, there's something about these AI researchers that lead to very Manichean, black and white knife edge. We got to beat them to AGI by one day, avoid the devastating first strike. There's a certain kind of sharpness to these predictions that seems implausible.
+Andrey Fradkin
+I think that is probably true. This goes to also like, what is superhuman AI? Is it von Neumann? One von Neumann is not going to do it.
+Seth Benzell
+Can you get a thousand?
+Andrey Fradkin
+It depends on how big the model is for the first von Neumann. Can you run a thousand parallel von Neumann?
+Seth Benzell
+Well, it doesn't matter because once you can run one in a generation, you'll be able to run 10.
+Andrey Fradkin
+But this is a question about catching up, right? So like if China is one year ahead of the US, how much do you get? With one year, do you get a permanent devastating advantage or do you just get a little bit ahead? We can write down models of either. That's maybe what I would say.
+I agree with you that it doesn't have to be. That the first person... But I guess... All right. So here's the situation which would likely be nice. Someone comes up with the key innovation. It's a surprise. That's the one. But it does it. And then they keep it secret. And then they work on it for three years.
+And after that, they have the permanent advantage, I think. They will just trounce. Think about it in a very dumb way. Forget about war. Let's say you have artificial superintelligence and you are running... a thousand of them for three years. How much economic wealth are you creating simply through that capital, right?
+Like you're going to be able to patent extraordinary amounts of things of extraordinary value. And you're not even using them to try to manipulate the world, just use them as scientists or engineers or whatever. So I'd say the ability to keep it secret is pretty important.
+Seth Benzell
+The ability to keep the secret sauce secret, at least. I definitely agree. There is an interesting thing, which is that the value of being the only person in the world with an AGI is a lot higher than the value of being one of two people in the world with an AGI, right? Yeah.
+Which does suggest, again, a kind of natural sort of government... If we ended up with a monopole, a hegemon, it really does seem like you would want the government running that because you don't want Elon Musk or Sam Altman being the unelected controller of that, right?
+Andrey Fradkin
+Yeah. And I guess the final thing we haven't talked about yet is alignment of intelligent beings. yeah yes that's the if you talk to the true believers they will tell you actually you guys are all missing the point regardless of who develops the super ai if we
+don't know how to control it we're all fucked because ai will take over oh yeah i
+Seth Benzell
+just want to make yeah if you want to say for the main scaling paper yeah We train language models on web to text and it's an aversion, but we optimize the auto regressive log likelihood average over a 1024 token context, which is also our principal performance metric.
+So at least in this big scaling paper, the outcome is predicting the next token.
+Andrey Fradkin
+I see. Okay.
+Seth Benzell
+That's the scaling laws for neural language models.
+Andrey Fradkin
+I've seen versions of that with metrics on performance.
+Seth Benzell
+Are, and yes, it is a hundred percent the case that there's studies that say the more compute you do, the more we do on tests.
+Andrey Fradkin
+Yeah, I guess for now, it's always been correlated with performance on them.
+Seth Benzell
+And so now we come back to, that was my claim, right? Which is if you're just, yeah.
+Andrey Fradkin
+Okay. All right. There are enough people who think that alignment is the most important issue because if we invent it and we don't have alignment, then it doesn't matter who gets it. It's just going to take over the world, right?
+Seth Benzell
+So let's, that is correct. Yeah. Maybe. Well, that would be depressing if we invent AGI the first thing it does to kill.
+Andrey Fradkin
+Yeah.
+Seth Benzell
+AGI is impossible because it kills itself.
+Andrey Fradkin
+The answer to, is life worth living? No.
+Seth Benzell
+Sir, is life is only worth living if you're exactly just, if you're not smarter than von Neumann, at which life is worth living? What do I think about Alignment? I remember us talking once about the elicitation of latent knowledge problem, which we both agree is, so just to lay that out for the listeners,
+Alignment is the question of getting your computer to do what you want it to do, at least in the broadest possible terms. Elicitation of latent knowledge is getting the computer to honestly answer your questions, right? So you might view elicitation of latent knowledge as a sub-problem of the alignment problem,
+but some researchers think that if you solve that, you solve the whole thing. Because if it has to tell the truth to you, as it's supposed to disobey. Is that fair enough, Andre? No. And so it seems like the only problem with eliciting latent knowledge is that
+there's a lot of words that we can't agree on the definition of, right? If you tell the computer to be just and you don't have a definition of justice, what do you expect to happen?
+Andrey Fradkin
+Yeah, I think this goes back to, this is also related to the paperclip problem, which is you might think you're telling the computer to do one thing, but it does something else because of some ambiguity in the language that we use, right?
+I don't have a solution to this problem, but Leopold thinks that it's going to be easier than we think. I think that's an interesting claim in the paper.
+Seth Benzell
+And I think that, again, so maybe that's a place where I think I really give credit to his situational awareness. But that being said, like, these chatbots are not very agentic right now. They don't seem to be trying to break out.
+Maybe with a little bit of this unhobbling, the alignment problem will become a little bit more pressing.
+Andrey Fradkin
+Yeah, they're very naive, dumb things you can think about. Like, if you have a cluster and you can turn it off, Where else is the AI, if not in the cluster? I think once you let things out very loosely into the wild, you could imagine them arranging for things to be not shutoffable,
+but it seems very hard to believe that if we think models are going to require a lot of resources to run, it seems very hard to imagine that we won't be able to turn them off for the foreseeable future.
+Seth Benzell
+Something air-gapped. Well, I mean, it's these Bostrom horror stories, right, where you've got the oracle in an air-gapped box, and then the oracle manipulates the person asking it questions into doing something horrible, right? That's the Bostrom scenario.
+Andrey Fradkin
+Yes, yes.
+Seth Benzell
+Leopold certainly doesn't worry that much about it.
+Andrey Fradkin
+I'm much more worried about people using... Naively using AI systems and the AI system doing something unintended that fucks up the world. Yes.
+Seth Benzell
+Like releasing a virus that you was half cooked and it goes off into something you didn't want to. I buy that some sort of rogue AI hack bot loose in the internet.
+Andrey Fradkin
+Yeah.
+Seth Benzell
+That's exactly the kind of cyberpunk dystopia we deserved.
+Andrey Fradkin
+Yeah, I don't know if I'm recalling Chad Jones's existential risk paper very well, but I think there's a sense in which one way to model, a very natural way for an economist to model such things as to say that there's a small probability of the AI killing all humans every year, and it's a risk-reward sort of situation,
+right? That's the decision-theoretic way to make a choice here. And I guess his answer is it depends on the shape of the utility.
+Seth Benzell
+Depends on the shape of the utility bump thing. I come back to finding, I know you were happy to put 5% probability on this world or whatever percent probability on this world. I certainly don't put 0% probability on this world, but I don't even know how to start putting parameters on this.
+It seems like what you'd want to do is a study of how often do scaling laws continue three, four, or five more orders of magnitude, right? But there seem to be a lot of resources poured into this one. So, listener, we ask you to not be afraid as these AIs continue trolling along.
+You know, when President Kushner unleashed the AI-powered army of 2030... you'll know that a piece of your soul was inside the Killbots.
+Andrey Fradkin
+Thanks for joining us, and we'll put some show notes on our website, and we look forward to hearing your feedback.
+Be sure to have priors.
