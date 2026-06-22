@@ -2,8 +2,9 @@
 <html lang="{{ site.podcast.language | default: "en" }}">
   {% include head.html %}
   <body>
+    {% include header.html %}
     <main class="site-main" id="main">
-      <div class="wrap">
+      <div class="wrap {{ page.wrap_class }}">
         {{ content }}
       </div>
     </main>

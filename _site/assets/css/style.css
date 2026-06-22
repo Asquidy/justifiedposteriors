@@ -886,6 +886,21 @@ p {
   margin: 0;
 }
 
+.belief-episode-link {
+  margin: 0 0 var(--space-md);
+}
+
+.belief-episode-link a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.belief-episode-link a:hover {
+  text-decoration: underline;
+}
+
 /* Responsive Beliefs */
 @media (max-width: 640px) {
   .belief-card {
@@ -1078,6 +1093,116 @@ p {
 
 .belief-row__content[hidden] {
   display: none;
+}
+
+/* Economic Concepts page */
+.concept-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.concept-main .belief-row__title {
+  flex: none;
+}
+
+.concept-def {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--color-ink-secondary);
+  font-family: var(--font-sans, inherit);
+  font-weight: 400;
+}
+
+.concept-tag {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 11rem;
+  align-self: flex-start;
+  margin-top: 0.15rem;
+}
+
+.concept-episodes-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-ink-muted);
+}
+
+.belief-row__header:has(.concept-main) {
+  align-items: flex-start;
+}
+
+.belief-row__header:has(.concept-main) .concept-count,
+.belief-row__header:has(.concept-main) .belief-row__toggle {
+  margin-top: 0.15rem;
+}
+
+.concept-search-hint {
+  max-width: 450px;
+  margin: 0.5rem auto 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  min-height: 1.1rem;
+}
+
+.concept-search-hint__loading { color: var(--color-ink-secondary); }
+.concept-search-hint__ready { color: var(--color-accent); }
+.concept-search-hint__error { color: #b4541a; }
+
+.concept-count {
+  flex-shrink: 0;
+  min-width: 1.6rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+
+.concept-episodes {
+  margin: 0;
+  padding-left: 1.1rem;
+  columns: 2;
+  column-gap: var(--space-lg);
+}
+
+.concept-episodes li {
+  font-size: 0.9rem;
+  color: var(--color-ink-secondary);
+  margin-bottom: 0.3rem;
+  break-inside: avoid;
+}
+
+.concept-episodes a {
+  color: var(--color-ink-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.concept-episodes a:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+  .concept-tag { display: none; }
+  .concept-episodes { columns: 1; }
 }
 
 /* No Results Message */

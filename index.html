@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+wrap_class: wrap--wide
 ---
 
 <section class="hero">
@@ -85,6 +86,12 @@ title: Home
       </button>
 
       <div class="belief-row__content" hidden>
+        {% if episode.url %}
+        <p class="belief-episode-link">
+          <a href="{{ episode.url }}" target="_blank" rel="noopener">Listen / read this episode &#8599;</a>
+        </p>
+        {% endif %}
+
         <div class="belief-table-wrapper">
           <table class="belief-table">
             <thead>
