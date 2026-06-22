@@ -1059,9 +1059,7 @@ p {
   font-size: 0.85rem;
   color: var(--color-ink-muted);
   font-style: italic;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
   padding-right: var(--space-md);
 }
 
@@ -1117,16 +1115,13 @@ p {
 }
 
 .concept-tag {
-  flex-shrink: 0;
+  flex: 0 0 11rem;
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--color-ink-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 11rem;
+  overflow-wrap: anywhere;
   align-self: flex-start;
   margin-top: 0.15rem;
 }
