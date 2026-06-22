@@ -8,7 +8,7 @@ wrap_class: wrap--wide
 <section class="beliefs-section">
   <div class="beliefs-section__header">
     <h2 class="beliefs-section__main-title">Economic Concepts</h2>
-    <p class="beliefs-section__subtitle">{{ site.data.concepts.concepts.size }} economics concepts we've touched on across the show — click any to see which episodes mention it</p>
+    <p class="beliefs-section__subtitle">{{ site.data.concepts.concepts.size }} economics concepts we've touched on across the show, ranked by how often they come up — click any to see which episodes mention it</p>
   </div>
 
   <div class="beliefs-filter">
@@ -39,7 +39,7 @@ wrap_class: wrap--wide
           <span class="concept-def">{{ concept.definition }}</span>
         </span>
         <span class="concept-tag">{{ concept.category }}</span>
-        <span class="concept-count" title="Episodes that mention this">{{ concept.count }}</span>
+        <span class="concept-count" title="Times mentioned across all episodes">{{ concept.mentions }}</span>
         <span class="belief-row__toggle" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>

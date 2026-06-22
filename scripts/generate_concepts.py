@@ -40,7 +40,7 @@ CONCEPTS = [
  ("Antitrust","Microeconomics & Industrial Organization",r"antitrust"),
  ("Collusion","Microeconomics & Industrial Organization",r"collusion|collude|colluding"),
  ("Property rights","Microeconomics & Industrial Organization",r"property right"),
- ("Two-sided markets / platforms","Microeconomics & Industrial Organization",r"two[- ]sided market|platform"),
+ ("Two-sided markets / platforms","Microeconomics & Industrial Organization",r"two[- ]sided|multi[- ]sided|platform(s)? (market|business|compet|econom|model)"),
  ("Network effects","Microeconomics & Industrial Organization",r"network effect"),
  ("Transaction costs","Microeconomics & Industrial Organization",r"transaction cost"),
  ("Preferential attachment","Microeconomics & Industrial Organization",r"preferential attachment"),
@@ -77,7 +77,7 @@ CONCEPTS = [
  ("Resource curse","Macro, Welfare & Public Economics",r"resource curse"),
  # Information, behavioral & decision
  ("Utility & preferences","Information, Behavioral & Decision",r"utility function|\bpreferences\b"),
- ("Signaling","Information, Behavioral & Decision",r"\bsignal"),
+ ("Signaling","Information, Behavioral & Decision",r"signal(l)?ing|costly signal|sheepskin|credential"),
  ("Screening","Information, Behavioral & Decision",r"\bscreen"),
  ("Discounting / time preference","Information, Behavioral & Decision",r"discount rate|time preference|discounting"),
  ("Revealed preference","Information, Behavioral & Decision",r"revealed preference"),
@@ -89,12 +89,33 @@ CONCEPTS = [
  ("Principal-agent","Information, Behavioral & Decision",r"principal[- ]agent"),
  ("Prediction vs. judgment","Information, Behavioral & Decision",r"prediction.{0,15}judg|judg.{0,15}prediction"),
  ("Wireheading","Information, Behavioral & Decision",r"wirehead"),
+ # Econometrics & Empirical Methods
+ ("Heterogeneous treatment effects","Econometrics & Empirical Methods",r"heterogeneous (treatment )?effect|treatment effect|average treatment|\bATE\b|\bLATE\b"),
+ ("Structural estimation & calibration","Econometrics & Empirical Methods",r"structural (model|estimation|parameter|approach)|calibrat"),
+ ("Regression / OLS","Econometrics & Empirical Methods",r"\bregression\b|\bOLS\b|ordinary least squares"),
+ ("Endogeneity & exogeneity","Econometrics & Empirical Methods",r"endogen|exogen"),
+ ("Counterfactual reasoning","Econometrics & Empirical Methods",r"counterfactual"),
+ ("Causal inference & identification","Econometrics & Empirical Methods",r"causal inference|causal identif|identification strategy|identifying assumption|\bidentified\b"),
+ ("Instrumental variables","Econometrics & Empirical Methods",r"instrumental variable|\bIV estimat|instrument(s)? for"),
+ ("External validity","Econometrics & Empirical Methods",r"external validit|generaliz"),
+ ("RCTs / field experiments","Econometrics & Empirical Methods",r"\bRCT\b|randomized (controlled )?(trial|experiment)|field experiment"),
+ ("Natural & quasi-experiments","Econometrics & Empirical Methods",r"natural experiment|quasi[- ]experiment"),
+ ("Fixed effects","Econometrics & Empirical Methods",r"fixed effect"),
+ ("Control variables","Econometrics & Empirical Methods",r"control(ling)? for|control variable|holding.{0,15}constant"),
+ ("Statistical significance & p-values","Econometrics & Empirical Methods",r"statistically significant|\bp[- ]values?\b|significance level"),
+ ("Standard errors & confidence intervals","Econometrics & Empirical Methods",r"standard error|confidence interval"),
+ ("Selection bias","Econometrics & Empirical Methods",r"selection bias|selected sample|selection effect"),
+ ("Confounding & omitted variables","Econometrics & Empirical Methods",r"confound|omitted variable"),
+ ("Measurement error","Econometrics & Empirical Methods",r"measurement error|mismeasur"),
+ ("Statistical power & sample size","Econometrics & Empirical Methods",r"statistical power|underpowered|powered to detect|sample size"),
+ ("Bayesian inference","Econometrics & Empirical Methods",r"bayesian|bayes.{0,3}(rule|theorem|factor)|bayesian updating"),
+ ("Publication bias & p-hacking","Econometrics & Empirical Methods",r"publication bias|p[- ]hack|file drawer|garden of forking"),
+ ("Meta-analysis","Econometrics & Empirical Methods",r"meta[- ]analysis"),
+ ("Regression discontinuity","Econometrics & Empirical Methods",r"regression discontinuit|\bRDD?\b"),
+ ("Difference-in-differences","Econometrics & Empirical Methods",r"difference[- ]in[- ]difference|diff[- ]in[- ]diff"),
  # Methods & cross-cutting
  ("Bottlenecks","Methods & Cross-Cutting",r"bottleneck"),
- ("Counterfactual reasoning","Methods & Cross-Cutting",r"counterfactual"),
- ("RCTs / field experiments","Methods & Cross-Cutting",r"\bRCT\b|randomized controlled|field experiment|natural experiment"),
  ("Technology diffusion","Methods & Cross-Cutting",r"diffusion"),
- ("Selection bias","Methods & Cross-Cutting",r"selection bias|selected sample"),
  ("Free disposal","Methods & Cross-Cutting",r"free disposal"),
  ("Coordination / consensus problems","Methods & Cross-Cutting",r"coordination (problem|game)|consensus bottleneck"),
 ]
@@ -244,17 +265,39 @@ DEFS = {
  "Prediction vs. judgment":"Agrawal-Gans-Goldfarb's split: AI cheapens prediction, raising the value of the human judgment about what to do with it.",
  "Wireheading":"Directly stimulating the reward signal instead of achieving the goal it was meant to track.",
  "Bottlenecks":"The scarce, hard-to-scale steps that cap how much a new technology can raise output.",
- "Counterfactual reasoning":"Asking what would have happened absent the intervention — the basis of causal inference.",
- "RCTs / field experiments":"Randomized trials run in real-world settings to identify causal effects.",
  "Technology diffusion":"The often-slow spread of a new technology across firms and the economy after invention.",
- "Selection bias":"Distorted conclusions from a non-representative sample (e.g. cherry-picked demos).",
  "Free disposal":"The assumption that you can costlessly ignore unwanted output — so more options can't hurt.",
  "Coordination / consensus problems":"Situations where the good outcome requires many actors to align, and no one can move first alone.",
+ # Econometrics & Empirical Methods
+ "Heterogeneous treatment effects":"The recognition that an intervention helps some people far more than others, so the average can hide who actually benefits.",
+ "Structural estimation & calibration":"Estimating the deep parameters of an economic model (or setting them by hand) so it can simulate counterfactual scenarios.",
+ "Regression / OLS":"The workhorse statistical method for fitting a line through data to relate outcomes to explanatory variables.",
+ "Endogeneity & exogeneity":"Whether a variable is determined outside the model (clean) or jointly with the outcome (biasing naive estimates) — the central threat in causal work.",
+ "Counterfactual reasoning":"Asking what would have happened absent the intervention — the basis of all causal inference.",
+ "Causal inference & identification":"The set of assumptions and designs that let you claim X *caused* Y rather than merely correlating with it.",
+ "Instrumental variables":"Using a variable that shifts the treatment but not the outcome directly, to recover a causal effect despite confounding.",
+ "External validity":"Whether a finding from one study, setting, or sample generalizes to other contexts.",
+ "RCTs / field experiments":"Randomized trials run in real-world settings — the gold standard for identifying causal effects.",
+ "Natural & quasi-experiments":"Exploiting an accident of policy or nature that mimics random assignment to estimate causal effects.",
+ "Fixed effects":"Controlling for stable unobserved differences across units (people, firms, countries) by comparing each to itself over time.",
+ "Control variables":"Other factors held constant in an analysis so they don't contaminate the relationship of interest.",
+ "Statistical significance & p-values":"Whether an estimated effect is large enough, relative to noise, to be unlikely under pure chance.",
+ "Standard errors & confidence intervals":"Quantifying how precisely an effect is estimated — the range the true value plausibly lies in.",
+ "Selection bias":"Distorted conclusions from a non-representative sample (e.g. cherry-picked demos or who opts in).",
+ "Confounding & omitted variables":"A lurking third factor that drives both treatment and outcome, biasing the estimated effect.",
+ "Measurement error":"Noise or bias in how a variable is recorded, which can attenuate or distort estimated relationships.",
+ "Statistical power & sample size":"Whether a study has enough observations to reliably detect an effect of a given size.",
+ "Bayesian inference":"Updating probabilities as evidence arrives by combining a prior belief with the data — the show's namesake.",
+ "Publication bias & p-hacking":"The distortion of the literature when only significant results get published and researchers fish for them.",
+ "Meta-analysis":"Statistically pooling many studies to estimate an overall effect.",
+ "Regression discontinuity":"Estimating a causal effect by comparing units just above and just below an arbitrary cutoff.",
+ "Difference-in-differences":"Comparing the before-after change in a treated group to the change in an untreated group to net out common trends.",
 }
 
-# Build category-ordered output
+# Build output, ranked globally by mention frequency
 cat_order=["Growth & Production Theory","Microeconomics & Industrial Organization","Labor Economics",
-           "Macro, Welfare & Public Economics","Information, Behavioral & Decision","Methods & Cross-Cutting"]
+           "Macro, Welfare & Public Economics","Information, Behavioral & Decision",
+           "Econometrics & Empirical Methods","Methods & Cross-Cutting"]
 data_concepts=[]
 md_sections=OrderedDict((c,[]) for c in cat_order)
 SUBSTACK="https://empiricrafting.substack.com/p/"
@@ -265,11 +308,13 @@ for name,cat,pat in CONCEPTS:
         key=lambda e:e["title"].lower())
     if not eps: continue
     if name not in DEFS: raise SystemExit(f"Missing definition for concept: {name!r}")
-    data_concepts.append({"name":name,"definition":DEFS[name],"category":cat,"count":len(eps),"episodes":eps})
-    md_sections[cat].append((name,DEFS[name],eps))
+    mentions=sum(len(rx.findall(txt)) for txt in texts.values())  # total occurrences across all transcripts
+    data_concepts.append({"name":name,"definition":DEFS[name],"category":cat,
+                          "mentions":mentions,"count":len(eps),"episodes":eps})
+    md_sections[cat].append((name,DEFS[name],mentions,eps))
 
-# sort within category by count desc then name
-data_concepts.sort(key=lambda d:(cat_order.index(d["category"]), -d["count"], d["name"]))
+# rank globally by frequency: total mentions, then episode spread, then name
+data_concepts.sort(key=lambda d:(-d["mentions"], -d["count"], d["name"]))
 
 with open('_data/concepts.yml','w') as f:
     f.write("# Economic concepts mentioned across Justified Posteriors episodes\n")
@@ -279,14 +324,19 @@ with open('_data/concepts.yml','w') as f:
 # Markdown mapping
 with open('transcripts/economic_concepts.md','w') as f:
     f.write("# Economic Concepts in Justified Posteriors\n\n")
-    f.write(f"Concepts mentioned across {len(texts)} episode transcripts, grouped by field. ")
-    f.write("Generated by keyword scan of `transcripts/`. Number in parentheses = episodes mentioning it.\n\n")
+    f.write(f"Concepts mentioned across {len(texts)} episode transcripts, grouped by field and ranked by mention frequency within each. ")
+    f.write("Generated by keyword scan of `transcripts/`. Counts shown as (N mentions across M episodes).\n\n")
+    # Overall ranking by frequency
+    f.write("## Most-mentioned overall\n\n")
+    for d in data_concepts[:25]:
+        f.write(f"1. **{d['name']}** — {d['mentions']} mentions across {d['count']} episodes\n")
+    f.write("\n")
     for cat in cat_order:
-        items=sorted(md_sections[cat], key=lambda x:(-len(x[2]), x[0]))
+        items=sorted(md_sections[cat], key=lambda x:(-x[2], -len(x[3]), x[0]))
         if not items: continue
         f.write(f"## {cat}\n\n")
-        for name,defn,eps in items:
-            f.write(f"### {name} ({len(eps)})\n")
+        for name,defn,mentions,eps in items:
+            f.write(f"### {name} ({mentions} mentions across {len(eps)} episodes)\n")
             f.write(f"*{defn}*\n\n")
             for e in eps: f.write(f"- [{e['title']}]({e['url']})\n")
             f.write("\n")
