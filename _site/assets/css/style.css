@@ -1096,17 +1096,16 @@ p {
 /* Economic Concepts page */
 .concept-main {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
   min-width: 0;
 }
 
 .concept-main .belief-row__title {
-  flex: none;
+  display: block;
 }
 
 .concept-def {
+  display: block;
+  margin-top: 0.25rem;
   font-size: 0.9rem;
   line-height: 1.45;
   color: var(--color-ink-secondary);
