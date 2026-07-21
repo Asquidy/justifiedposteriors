@@ -21,6 +21,15 @@ npm run build
 
 ## Hosting
 
-The app targets Cloudflare Workers through vinext and uses D1 for live responses. `.openai/hosting.json` contains the existing Sites project and logical D1 binding. Publishing through a different Cloudflare account requires a successful Wrangler login and a D1 binding named `DB`.
+The app runs on Cloudflare Workers (worker name `party-poll`) with a D1 database (`party-poll`, bound as `DB`) for live responses. The binding lives in `vite.config.ts`.
+
+To deploy:
+
+```bash
+npm run build
+npx wrangler deploy -c dist/server/wrangler.json
+```
+
+Requires Wrangler credentials with Workers Scripts and D1 permissions. Apply schema changes with `npx wrangler d1 execute party-poll --remote --file drizzle/<migration>.sql` (the API also creates the table on first use).
 
 The parent repository's Jekyll podcast site is independent of this subfolder.
