@@ -1,0 +1,97 @@
+/* Responsive finishing layer kept separate from the core visual system. */
+.survey input:not([type="file"]) {
+  display: block;
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid #d8d5cf;
+  border-radius: 12px;
+  background: #fff;
+  padding: 15px 16px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 2px 8px #241f1710;
+}
+
+.survey input:not([type="file"]):focus {
+  border-color: var(--purple);
+  box-shadow: 0 0 0 3px #6865f220;
+}
+
+.survey .label {
+  display: block;
+}
+
+.survey h1,
+.survey h2,
+.projector h1,
+.column > span {
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+.chart {
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.column {
+  flex: 1 1 0;
+  width: auto;
+  min-width: 0;
+}
+
+.people {
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .survey {
+    padding: 32px 22px 40px;
+  }
+
+  .survey h1 {
+    font-size: clamp(42px, 14vw, 58px);
+    line-height: 0.98;
+  }
+
+  .survey h2 {
+    font-size: clamp(26px, 8vw, 30px);
+  }
+
+  .projector {
+    min-width: 0;
+  }
+
+  .chart {
+    gap: 12px;
+    min-height: 360px;
+    overflow-x: auto;
+    padding-bottom: 18px;
+  }
+
+  .column {
+    flex: 0 0 92px;
+  }
+}
+
+@media (max-width: 380px) {
+  .survey {
+    padding-inline: 18px;
+  }
+
+  .survey h1 {
+    font-size: 40px;
+  }
+
+  .photo-row {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .preview {
+    width: 68px;
+    height: 68px;
+  }
+}
