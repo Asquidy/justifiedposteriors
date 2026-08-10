@@ -28,7 +28,7 @@ defaults:
 
 # Podcast-ish metadata used by templates
 podcast:
-  author: Andrey Fradkin & Seth Benzell
+  author: Seth Benzell & Andrey Fradkin
   email: ""
   language: en
   explicit: "no"

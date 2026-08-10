@@ -1,0 +1,564 @@
+---
+layout: default
+title: GDP, Spaceflight, and Baumol's Cost Disease
+permalink: /gdp-model/
+wrap_class: wrap--wide
+math: true
+---
+
+<section class="model-page" aria-labelledby="model-title">
+  <header class="model-page__header">
+    <p class="model-page__eyebrow">Interactive economic model</p>
+    <h1 id="model-title">GDP, spaceflight, and cost disease</h1>
+    <p>
+      This two-period model studies how saving, capital accumulation, sectoral
+      productivity, and unequal spending preferences affect measured GDP.
+      Period-1 GDP is normalized to 100. Adjust the parameters to compare
+      current-price output, chain-weighted real output, and workers&rsquo;
+      consumption.
+    </p>
+  </header>
+
+  <div class="model-dashboard" id="gdp-model">
+    <aside class="model-controls" aria-labelledby="model-controls-title">
+      <div class="model-controls__heading">
+        <h2 id="model-controls-title">Model parameters</h2>
+        <span>Period 1 = 100</span>
+      </div>
+
+      <div class="model-control">
+        <label for="model-patience">Weight on period-2 utility (&beta;)</label>
+        <output id="model-patience-value" for="model-patience">0.95</output>
+        <input id="model-patience" type="range" min="0.50" max="0.995" step="0.005" value="0.95">
+        <small class="model-control__derived" id="model-saving-implied">Implied saving rate: 91.9%</small>
+      </div>
+
+      <div class="model-control">
+        <label for="model-wealth">Entrepreneur&rsquo;s inherited seed capital (B)</label>
+        <output id="model-wealth-value" for="model-wealth">0.50&times; GDP</output>
+        <input id="model-wealth" type="range" min="0.01" max="1" step="0.01" value="0.50">
+      </div>
+
+      <div class="model-control">
+        <label for="model-capital-productivity">Capital-sector productivity (Z)</label>
+        <output id="model-capital-productivity-value" for="model-capital-productivity">1.0&times;</output>
+        <input id="model-capital-productivity" type="range" min="-1" max="2" step="0.05" value="0">
+        <small class="model-control__derived" id="model-interest-implied">Equilibrium gross return: 0.56&times;</small>
+        <small class="model-control__derived">Input shares: seed capital 50%, labor 50%</small>
+      </div>
+
+      <div class="model-control">
+        <label for="model-normal-productivity">Ordinary-sector productivity growth</label>
+        <output id="model-normal-productivity-value" for="model-normal-productivity">10%</output>
+        <input id="model-normal-productivity" type="range" min="0" max="100" step="1" value="10">
+      </div>
+
+      <div class="model-control">
+        <label for="model-space-productivity">Space-sector productivity</label>
+        <output id="model-space-productivity-value" for="model-space-productivity">10.0&times;</output>
+        <input id="model-space-productivity" type="range" min="0" max="4" step="0.05" value="1">
+      </div>
+
+      <div class="model-control">
+        <label for="model-tourism">Households&rsquo; space-tourism budget share</label>
+        <output id="model-tourism-value" for="model-tourism">1%</output>
+        <input id="model-tourism" type="range" min="0" max="20" step="0.5" value="1">
+      </div>
+
+      <div class="model-control">
+        <label for="model-rich-space">Entrepreneur&rsquo;s non-food share (&alpha;)</label>
+        <output id="model-rich-space-value" for="model-rich-space">94%</output>
+        <input id="model-rich-space" type="range" min="0" max="100" step="1" value="94">
+        <small class="model-control__derived" id="model-rich-space-effective">Direct space after factories: 49.7%</small>
+      </div>
+
+      <div class="model-control">
+        <label for="model-factory-share">Factory share of non-food spending (&phi;)</label>
+        <output id="model-factory-share-value" for="model-factory-share">50%</output>
+        <input id="model-factory-share" type="range" min="0" max="100" step="1" value="50">
+        <small class="model-control__derived" id="model-factory-legacy">Labor-free output: 66 factories + 334.3 ships</small>
+      </div>
+
+      <div class="model-control">
+        <label for="model-rich-satiation">Entrepreneur&rsquo;s ordinary-good (&ldquo;food&rdquo;) satiation</label>
+        <output id="model-rich-satiation-value" for="model-rich-satiation">0.25 units</output>
+        <input id="model-rich-satiation" type="range" min="0.05" max="5" step="0.05" value="0.25">
+        <small class="model-control__derived">Period-1 GDP = 100; when the cap binds, additional spending goes to space</small>
+      </div>
+    </aside>
+
+    <div class="model-results">
+      <div class="model-stats" aria-live="polite" aria-atomic="true">
+        <div class="model-stat">
+          <span>Nominal GDP growth</span>
+          <strong id="model-nominal-growth">-17%</strong>
+          <small>Current prices in each period</small>
+        </div>
+        <div class="model-stat">
+          <span>Fisher-chain real GDP growth</span>
+          <strong id="model-chain-growth">+129%</strong>
+          <small>Old and new price weights</small>
+        </div>
+        <div class="model-stat">
+          <span>Worker consumption growth</span>
+          <strong id="model-consumption-growth">+967%</strong>
+          <small>Ordinary goods per person</small>
+        </div>
+      </div>
+
+      <section class="model-capital-section" aria-labelledby="model-capital-title">
+        <div class="model-chart-heading">
+          <div>
+            <h2 id="model-capital-title">Capital-production sector</h2>
+            <p>Period-1 inputs become productive capital for period 2</p>
+          </div>
+        </div>
+
+        <div class="model-capital-flow" aria-label="Inherited seed capital and capital-sector labor enter the capital technology and become period-2 productive capital.">
+          <div class="model-capital-flow__inputs">
+            <div class="model-capital-flow__item">
+              <span>Inherited seed B</span>
+              <strong id="model-capital-seed">96</strong>
+            </div>
+            <div class="model-capital-flow__item">
+              <span>Capital labor L<sub>K</sub></span>
+              <strong id="model-capital-labor">91.9</strong>
+            </div>
+          </div>
+          <span class="model-capital-flow__operator" aria-hidden="true">&#8594;</span>
+          <div class="model-capital-flow__item model-capital-flow__item--sector">
+            <span>Capital technology</span>
+            <strong id="model-capital-sector-productivity">Z = 1.0&times;</strong>
+          </div>
+          <span class="model-capital-flow__operator" aria-hidden="true">&#8594;</span>
+          <div class="model-capital-flow__item">
+            <span>Period-2 capital</span>
+            <strong id="model-capital-output">132.8</strong>
+          </div>
+        </div>
+        <p class="model-capital-note" id="model-capital-note">
+          Households purchase 50% of installed capital; the entrepreneur retains 50% in return for the seed input. At the default, capital production employs 91.9 of the economy&rsquo;s 100 workers in period 1.
+        </p>
+      </section>
+
+      <section class="model-chart-section" aria-labelledby="model-chart-title">
+        <div class="model-chart-heading">
+          <div>
+            <h2 id="model-chart-title">GDP level and composition</h2>
+            <p>Index, with period 1 GDP = 100</p>
+          </div>
+          <div class="model-price-callouts">
+            <p class="model-price-callout">
+              Spaceship price
+              <strong id="model-space-price">0.11</strong>
+            </p>
+            <p class="model-price-callout">
+              Factory price
+              <strong id="model-factory-price">0.55</strong>
+            </p>
+          </div>
+        </div>
+
+        <svg class="model-chart" id="model-chart" viewBox="0 0 720 390" role="img" aria-labelledby="model-chart-svg-title model-chart-svg-desc">
+          <title id="model-chart-svg-title">GDP in periods 1 and 2</title>
+          <desc id="model-chart-svg-desc">A stacked bar chart comparing period 1 GDP with period 2 nominal GDP and period 2 GDP valued at period 1 prices.</desc>
+        </svg>
+
+        <div class="model-legend" aria-hidden="true">
+          <span><i class="model-legend__ordinary"></i> Ordinary goods and services</span>
+          <span><i class="model-legend__space"></i> Spacecraft</span>
+          <span><i class="model-legend__investment"></i> Capital and factory investment</span>
+        </div>
+
+        <p class="model-chart-note" id="model-chart-note">
+          Factory investment is 22.8% of period-2 GDP; direct spacecraft are 23.3%. The entrepreneur&rsquo;s factory stock produces 66 successor factories and 334.3 spacecraft during period 2, without labor.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <section class="model-statement" aria-labelledby="model-statement-title">
+    <header class="model-statement__header">
+      <p class="model-page__eyebrow">Formal specification</p>
+      <h2 id="model-statement-title">The model and competitive equilibrium</h2>
+      <p>
+        The economy contains two production dates, two consumption goods, an
+        investment good, <em>N</em> identical worker-households, and one
+        entrepreneur who owns the capital-production technology. An equilibrium
+        specifies investment, capital, production, consumption, and prices such
+        that households and firms optimize and every market clears. In period 2,
+        the entrepreneur&rsquo;s factory stock produces successor factories and
+        automated spacecraft without labor. The numerical illustration sets
+        <em>N</em> = 100 and rescales period-1 GDP to 100.
+      </p>
+    </header>
+
+    <ol class="model-derivation">
+      <li>
+        <h3>Period-1 capital-production sector</h3>
+        <p>
+          Capital is produced rather than appearing automatically. The sector
+          combines the entrepreneur&rsquo;s inherited seed input <em>B</em> directly
+          with labor <em>L</em><sub>K</sub>. Its constant-returns technology is
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="Period-two capital is produced directly from inherited seed capital and capital-sector labor using a constant-returns Cobb-Douglas technology.">
+          \[
+          K=NZ_K
+          \left(\frac{B}{N}\right)^\eta
+          \left(\frac{L_K}{\ell N}\right)^\ell,
+          \qquad \eta+\ell=1.
+          \]
+        </div>
+        <p>
+          The calibration sets the seed and labor shares to &eta; = &ell; = 0.5.
+          The division by &ell; is a normalization that makes the displayed
+          productivity parameter <em>Z</em><sub>K</sub> easy to interpret; it
+          does not alter the factor shares.
+        </p>
+        <p>
+          Let <em>q</em><sub>K</sub> be the period-1 price of installed capital and
+          define gross fixed investment as
+          <em>I</em><sub>1</sub> =
+          <em>q</em><sub>K</sub><em>K</em>. Taking factor prices as given, a
+          competitive capital producer solves
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="The competitive capital producer chooses seed capital and labor to maximize the value of installed capital minus both input costs.">
+          \[
+          \max_{B',L_K}
+          \left\{q_KF_K(B',L_K)-w_1L_K-r_BB'\right\},
+          \qquad B'=B \text{ in equilibrium}.
+          \]
+        </div>
+        <p>Its factor demands satisfy</p>
+        <div class="model-equation" role="math" aria-label="Capital-sector labor receives ell of capital-sector revenue, and the entrepreneur's seed input receives eta.">
+          \[
+          w_1L_K=\ell I_1,
+          \qquad
+          r_BB=\eta I_1.
+          \]
+        </div>
+        <p>
+          The entrepreneur reinvests the seed rent and retains &eta;<em>K</em>
+          units of installed capital. Households use saving <em>S</em> to buy the
+          remaining (1 &minus; &eta;)<em>K</em> units. Capital-market clearing is
+        </p>
+        <div class="model-equation" role="math" aria-label="Household saving purchases the household-owned share of installed capital, while total investment is the value of all installed capital.">
+          \[
+          S=(1-\eta)q_KK=(1-\eta)I_1,
+          \qquad
+          K_H=(1-\eta)K,
+          \qquad
+          K_R=\eta K.
+          \]
+        </div>
+        <p>
+          Period-1 labor is allocated between final output and capital
+          production. With the period-1 wage and ordinary-good price normalized
+          to one, feasibility requires
+        </p>
+        <div class="model-equation" role="math" aria-label="Period-one labor is divided between final-good and capital production, and final output is consumed by households.">
+          \[
+          Y_{C,1}=L_{C,1},
+          \qquad
+          L_{C,1}+L_K=N,
+          \qquad
+          C_1+p_{x,1}X_1=Y_{C,1},
+          \qquad p_{x,1}=1.
+          \]
+        </div>
+        <p>
+          Period-1 GDP is
+          <em>Y</em><sub>1</sub> =
+          <em>C</em><sub>1</sub> +
+          <em>p</em><sub>x,1</sub><em>X</em><sub>1</sub> +
+          <em>I</em><sub>1</sub>. The dashboard rescales this level to 100.
+        </p>
+      </li>
+
+      <li>
+        <h3>Final-goods production</h3>
+        <p>
+          Households own <em>K</em><sub>H</sub> =
+          (1 &minus; &eta;)<em>K</em>. In period 2, competitive firms rent this
+          capital and combine it with the economy&rsquo;s labor to produce ordinary
+          consumption and conventional spacecraft:
+        </p>
+        <div class="model-equation" role="math" aria-label="Ordinary output and conventional spacecraft are Cobb-Douglas functions of household-owned capital and labor.">
+          \[
+          \begin{aligned}
+          C &= A_c K_c^\theta L_c^{1-\theta}, \\
+          X^C &= A_x K_x^\theta L_x^{1-\theta}.
+          \end{aligned}
+          \]
+        </div>
+        <p>
+          The conventional sector satisfies
+          <em>K</em><sub>c</sub> + <em>K</em><sub>x</sub> =
+          <em>K</em><sub>H</sub> and
+          <em>L</em><sub>c</sub> + <em>L</em><sub>x</sub> = <em>N</em>.
+          Normalize the ordinary-good price to one. Zero profit and common
+          factor prices imply
+        </p>
+        <div class="model-equation" role="math" aria-label="The conventional spaceship price equals ordinary productivity divided by spaceship productivity. Household-sector GDP depends on ordinary productivity, household-owned capital, and labor.">
+          \[
+          p_x = \frac{A_c}{A_x},
+          \qquad
+          Y_H=A_cK_H^\theta N^{1-\theta}.
+          \]
+        </div>
+        <p>
+          The numerical example fixes &theta; = 0.6, sets
+          <em>A</em><sub>c</sub> = 1 + <em>g</em><sub>c</sub>, and lets
+          <em>A</em><sub>x</sub> vary. Factor exhaustion gives the wage and the
+          rental price earned by household capital:
+        </p>
+        <div class="model-equation" role="math" aria-label="The household-sector wage bill is one minus theta times household-sector GDP, and household capital rental income is theta times household-sector GDP.">
+          \[
+          w_2N = (1-\theta)Y_H,
+          \qquad
+          r_KK_H = \theta Y_H.
+          \]
+        </div>
+      </li>
+
+      <li>
+        <h3>Household capital ownership and saving</h3>
+        <p>
+          Each worker-household supplies one unit of labor and begins with one
+          unit of period-1 income. Its preferences are Cobb&ndash;Douglas across
+          dates and goods:
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="Worker household utility is Cobb-Douglas across periods and between ordinary goods and space tourism within each period.">
+          \[
+          U_i = (1-\beta)\big[(1-\tau)\ln c_{i,1}+\tau\ln x_{i,1}\big]
+          + \beta\big[(1-\tau)\ln c_{i,2}+\tau\ln x_{i,2}\big].
+          \]
+        </div>
+        <p>
+          A household does not lend money to the entrepreneur. It spends
+          <em>s</em> on installed capital, acquiring
+          <em>k</em><sub>i</sub> = <em>s</em>/<em>q</em><sub>K</sub> units and
+          receiving their period-2 rental income. Its budgets are
+        </p>
+        <div class="model-equation" role="math" aria-label="Period-one consumption spending plus purchases of installed capital equals one. Period-two consumption spending equals labor income plus capital rental income.">
+          \[
+          m_1+s=1,
+          \qquad
+          k_i=\frac{s}{q_K},
+          \qquad
+          m_2=w_2+r_Kk_i=w_2+\rho s.
+          \]
+        </div>
+        <p>
+          Conditional demands are <em>c</em><sub>t</sub> =
+          (1 &minus; &tau;)<em>m</em><sub>t</sub> and
+          <em>x</em><sub>t</sub> = &tau;<em>m</em><sub>t</sub>/<em>p</em><sub>x,t</sub>.
+          Thus &tau; is the share of each period&rsquo;s consumption budget spent on
+          space tourism. The intertemporal first-order condition gives saving
+          supply, where the gross return is the capital rental divided by its
+          purchase price:
+        </p>
+        <div class="model-equation" role="math" aria-label="The gross return on saving equals the period-two capital rental divided by the period-one capital price. Optimal saving depends on beta, the period-two wage, and that return.">
+          \[
+          \rho=\frac{r_K}{q_K},
+          \qquad
+          s^*=\beta-(1-\beta)\frac{w_2}{\rho}.
+          \]
+        </div>
+      </li>
+
+      <li>
+        <h3>Equilibrium ownership and returns</h3>
+        <p>
+          Aggregate household saving buys the household-owned share of capital:
+          <em>Ns</em><sup>*</sup> = (1 &minus; &eta;)<em>I</em><sub>1</sub>.
+          Combining this condition with the period-2 factor shares gives a
+          closed-form saving rate:
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="The equilibrium household saving rate is beta divided by one plus a term depending on beta and the household-sector capital share.">
+          \[
+          s^*=\frac{\beta}
+          {\displaystyle 1+(1-\beta)
+          \frac{1-\theta}{\theta}},
+          \qquad
+          I_1=\frac{Ns^*}{1-\eta}.
+          \]
+        </div>
+        <p>
+          Given investment, the factor-share condition determines
+          capital-sector labor. The inherited seed input is set to the selected
+          share <em>b</em> of period-1 GDP:
+        </p>
+        <div class="model-equation" role="math" aria-label="The inherited seed input is a selected fraction of period-one GDP, after which capital labor, installed capital, and the capital price are determined sequentially.">
+          \[
+          Y_1=N-Ns^*+I_1,
+          \qquad B=bY_1,
+          \qquad q_K=\frac{I_1}{K}.
+          \]
+        </div>
+        <p>
+          Households rent their capital to the conventional sector and receive
+          all of that sector&rsquo;s labor and capital income. The entrepreneur&rsquo;s
+          retained share, <em>F</em><sub>2</sub> = &eta;<em>K</em>, is the stock of
+          labor-free self-replicating factories. Valuing each unit of factory
+          capacity at <em>A</em><sub>c</sub> gives
+        </p>
+        <div class="model-equation" role="math" aria-label="Households receive household-sector GDP. The entrepreneur owns eta times total capital as factories, whose output value is ordinary productivity times the factory stock. Total period-two GDP is the sum.">
+          \[
+          M_N=Y_H,
+          \qquad
+          F_2=\eta K,
+          \qquad
+          m_R=A_cF_2,
+          \qquad
+          Y_2=Y_H+m_R.
+          \]
+        </div>
+        <p>
+          No exogenous interest rate is imposed. Once capital production fixes
+          <em>q</em><sub>K</sub> and final-goods production fixes
+          <em>r</em><sub>K</sub>, their ratio determines the return received by
+          household capital owners.
+        </p>
+      </li>
+
+      <li>
+        <h3>Goods-market equilibrium</h3>
+        <p>
+          Let <em>c</em><sub>R</sub> denote the entrepreneur&rsquo;s consumption of
+          the ordinary good and <em>x</em><sub>R</sub> the automated spacecraft he
+          keeps. He is satiated in ordinary consumption at \(\bar c_R\).
+          Conditional on remaining factory capacity, &phi; is the share devoted
+          to replication rather than current spacecraft:
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="The entrepreneur values ordinary consumption up to a satiation cap, current automated spacecraft, and successor factories.">
+          \[
+          U_R=(1-\alpha)\ln\!\big(\min\{c_R,\bar c_R\}\big)
+          +\alpha\big[(1-\phi)\ln x_R+\phi\ln F_3\big].
+          \]
+        </div>
+        <p>
+          The entrepreneur finances food by selling some automated spacecraft.
+          Let \(\widetilde F_2=(1-c_R/m_R)F_2\) be the factory capacity left
+          after those sales. The remaining factories split capacity between
+          replication and spacecraft production:
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="After selling enough automated spacecraft to buy food, the entrepreneur allocates remaining factory capacity between successor factories and retained automated spacecraft, with no labor used.">
+          \[
+          F_3=R\phi\widetilde F_2,
+          \qquad
+          x_R=A_x(1-\phi)\widetilde F_2,
+          \qquad R=2,
+          \qquad L_F=L_X^A=0.
+          \]
+        </div>
+        <p>
+          Both activities use only the inherited factory stock. Competitive
+          prices equate the value of one unit of factory capacity across the two
+          uses:
+        </p>
+        <div class="model-equation" role="math" aria-label="The value of automated spacecraft and replicated factories per unit of factory capacity both equal ordinary productivity.">
+          \[
+          p_xA_x=p_fR=A_c,
+          \qquad
+          p_x=\frac{A_c}{A_x},
+          \qquad
+          p_f=\frac{A_c}{R}.
+          \]
+        </div>
+        <p>
+          Worker-households&rsquo; aggregate period-2 income is
+          <em>M</em><sub>N</sub> = <em>Y</em><sub>H</sub>, and
+          <em>M</em><sub>N</sub> + <em>m</em><sub>R</sub> = <em>Y</em><sub>2</sub>.
+          Their space-tourism share remains &tau;. Equilibrium food consumption
+          and the entrepreneur&rsquo;s output values are
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="The entrepreneur's food consumption is bounded by desired food, satiation, and household demand for automated spacecraft. Remaining entrepreneurial output value is split between spacecraft and factory investment.">
+          \[
+          c_R^*=\min\{(1-\alpha)m_R,\bar c_R,\tau M_N\},
+          \qquad
+          p_fF_3=\phi(m_R-c_R^*),
+          \qquad
+          p_xX_A=m_R-p_fF_3.
+          \]
+        </div>
+        <p>
+          The last term includes spacecraft retained by the entrepreneur and
+          spacecraft sold to households to finance food. Adding conventional
+          and automated output, period-2 GDP is
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="Period-two GDP is exhausted by ordinary consumption, conventional and automated spacecraft, and successor-factory investment.">
+          \[
+          Y_2=C_2+p_x(X_2^C+X_2^A)+p_fF_3
+          =Y_H+A_cF_2.
+          \]
+        </div>
+        <p>
+          Factory replication and automated spacecraft production use no labor.
+          The only labor used in period 2 is employed by the household-capital
+          sector.
+        </p>
+      </li>
+
+      <li>
+        <h3>GDP measurement and chain weighting</h3>
+        <p>
+          Period-1 GDP includes household final consumption and the value of
+          newly installed capital:
+          <em>C</em><sub>1</sub> + <em>p</em><sub>x,1</sub><em>X</em><sub>1</sub>
+          + <em>I</em><sub>1</sub> = <em>Y</em><sub>1</sub>, with
+          <em>I</em><sub>1</sub> = <em>q</em><sub>K,1</sub><em>K</em><sub>2</sub>
+          and <em>p</em><sub>x,1</sub> = 1. Period-2 GDP is
+          <em>Y</em><sub>2</sub> = <em>C</em><sub>2</sub> +
+          <em>p</em><sub>x,2</sub><em>X</em><sub>2</sub> +
+          <em>p</em><sub>f,2</sub><em>F</em><sub>3</sub>.
+          Nominal GDP growth compares each period&rsquo;s output at that period&rsquo;s
+          prices and therefore combines changes in prices and quantities. To
+          compare investment across dates, treat installed capital and
+          self-replicating factories as successive vintages of the investment
+          aggregate and define
+        </p>
+        <div class="model-equation model-equation--wide" role="math" aria-label="Laspeyres growth values period-two consumption, spacecraft, and factories at period-one prices. Paasche growth values period-one consumption, spacecraft, and installed capital at period-two prices.">
+          \[
+          Q_L=\frac{C_2+p_{x,1}X_2+q_{K,1}F_3}{Y_1},
+          \qquad
+          Q_P=\frac{Y_2}{C_1+p_{x,2}X_1+p_{f,2}K_2}.
+          \]
+        </div>
+        <p>
+          <em>Q</em><sub>L</sub> values period-2 production at period-1 prices.
+          <em>Q</em><sub>P</sub> compares both periods using period-2 prices. The
+          Fisher index takes their geometric mean:
+        </p>
+        <div class="model-equation" role="math" aria-label="Fisher quantity growth is the geometric mean of Laspeyres and Paasche quantity growth. Real GDP growth is Fisher growth minus one.">
+          \[
+          Q_F=\sqrt{Q_LQ_P},
+          \qquad
+          g_{\mathrm{real}}=Q_F-1.
+          \]
+        </div>
+        <p>
+          With more than two periods, adjacent Fisher growth factors are
+          multiplied. Fisher real GDP is not additively decomposable, so the
+          chart shows the transparent fixed-period-1-price bar while the headline
+          statistic reports Fisher-chain growth.
+        </p>
+      </li>
+    </ol>
+
+    <aside class="model-closure">
+      <strong>Economic interpretation.</strong> Household saving is now a purchase
+      of productive capital, not a loan of money. Capital requires labor to
+      build. The entrepreneur is wealthy because his
+      inherited seed input earns a share of the capital sector and he retains
+      that share of installed capital; households own the remainder. The return
+      on household saving is the equilibrium rental yield
+      <em>r</em><sub>K</sub>/<em>q</em><sub>K</sub>. In period 2 the entrepreneur&rsquo;s
+      factory stock splits its capacity between successor factories and
+      automated spacecraft. Neither activity uses labor, and both are included
+      in period-2 GDP at their equilibrium prices.
+    </aside>
+  </section>
+</section>
+
+<script src="{{ '/assets/js/gdp-model.js' | relative_url }}" defer></script>

@@ -5,5 +5,16 @@
   <link rel="apple-touch-icon" href="{{ "/assets/img/logo.png" | relative_url }}" />
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}" />
+  {% if page.math %}
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+  {% endif %}
   {% seo %}
 </head>
