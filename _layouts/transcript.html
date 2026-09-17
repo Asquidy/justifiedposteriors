@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<article class="transcript-page">
+  <header class="transcript-header">
+    <p class="transcript-kicker"><a href="{{ "/transcripts/" | relative_url }}">Transcripts</a></p>
+    <h1 class="transcript-title">{{ page.title }}</h1>
+    {% if page.subtitle and page.subtitle != "" %}
+      <p class="transcript-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+
+    <div class="transcript-meta">
+      <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if page.duration and page.duration != "" %}<span>&middot; {{ page.duration }}</span>{% endif %}
+      {% if page.speakers and page.speakers.size > 0 %}
+        <span>&middot; {{ page.speakers | join: ", " }}</span>
+      {% endif %}
+    </div>
+
+    <div class="transcript-actions">
+      {% if page.episode_url %}
+        <a class="transcript-actions__link" href="{{ page.episode_url }}" target="_blank" rel="noopener">Listen to this episode &#8599;</a>
+      {% endif %}
+    </div>
+
+    {% unless page.speaker_labels %}
+      <p class="transcript-note">The source recording for this episode has no speaker labels, so this transcript runs as continuous dialogue without attributing individual lines.</p>
+    {% endunless %}
+
+    {% if page.sections and page.sections.size > 1 %}
+      <nav class="transcript-toc" aria-label="Sections">
+        <p class="transcript-toc__label">Jump to:</p>
+        <ol class="transcript-toc__list">
+          {% for s in page.sections %}
+            <li><a href="#{{ s.id }}">{{ s.title }}</a>{% if s.ts and s.ts != "" %} <span class="transcript-toc__ts">{{ s.ts }}</span>{% endif %}</li>
+          {% endfor %}
+        </ol>
+      </nav>
+    {% endif %}
+  </header>
+
+  <div class="transcript-body">
+    {{ content }}
+  </div>
+
+  <footer class="transcript-footer">
+    <p><a href="{{ "/transcripts/" | relative_url }}">&larr; All transcripts</a></p>
+  </footer>
+</article>

@@ -1,0 +1,72 @@
+---
+layout: default
+title: Transcripts
+permalink: /transcripts/
+wrap_class: wrap--wide
+---
+
+<section class="beliefs-section">
+  <div class="beliefs-section__header">
+    <h2 class="beliefs-section__main-title">Episode Transcripts</h2>
+    <p class="beliefs-section__subtitle">
+      Cleaned, readable transcripts for {{ site.transcripts.size }} episodes &mdash; filler removed, turns merged into paragraphs, and chapters added where the source recording marks them.
+    </p>
+  </div>
+
+  <div class="beliefs-filter">
+    <div class="search-container">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input
+        type="text"
+        id="transcripts-search"
+        class="beliefs-search"
+        placeholder="Search episode titles, guests, or topics..."
+      >
+    </div>
+  </div>
+
+  <div class="transcript-list" id="transcript-list">
+    {% assign sorted_transcripts = site.transcripts | sort: "date" | reverse %}
+    {% for t in sorted_transcripts %}
+    <a href="{{ t.url | relative_url }}" class="transcript-list__row">
+      <div class="transcript-list__main">
+        <span class="transcript-list__title">{{ t.title }}</span>
+        {% if t.subtitle and t.subtitle != "" %}
+          <span class="transcript-list__subtitle">{{ t.subtitle }}</span>
+        {% endif %}
+      </div>
+      <div class="transcript-list__meta">
+        <span>{{ t.date | date: "%b %-d, %Y" }}</span>
+        {% if t.duration and t.duration != "" %}<span>&middot; {{ t.duration }}</span>{% endif %}
+        {% if t.guests and t.guests.size > 0 %}<span>&middot; with {{ t.guests | join: ", " }}</span>{% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <p class="beliefs-no-results" id="transcripts-no-results" hidden>
+    No transcripts match your search.
+  </p>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var input = document.getElementById('transcripts-search');
+  var rows = document.querySelectorAll('.transcript-list__row');
+  var noResults = document.getElementById('transcripts-no-results');
+  if (!input) return;
+  input.addEventListener('input', function () {
+    var q = this.value.toLowerCase().trim();
+    var visible = 0;
+    rows.forEach(function (row) {
+      var match = q === '' || row.textContent.toLowerCase().indexOf(q) !== -1;
+      row.hidden = !match;
+      if (match) visible++;
+    });
+    if (noResults) noResults.hidden = visible > 0 || q === '';
+  });
+});
+</script>

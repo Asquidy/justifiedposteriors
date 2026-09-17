@@ -507,7 +507,6 @@ p {
   display: block;
   padding: var(--space-md) 0;
   border-bottom: 1px solid var(--color-border);
-  text-decoration: none;
   transition: background 0.2s ease;
 }
 
@@ -520,6 +519,24 @@ p {
   margin: 0 calc(-1 * var(--space-sm));
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
+}
+
+.episode-card__link {
+  display: block;
+  text-decoration: none;
+}
+
+.episode-card__transcript-link {
+  display: inline-block;
+  margin-top: var(--space-xs);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.episode-card__transcript-link:hover {
+  text-decoration: underline;
 }
 
 .episode-card__number {
@@ -1031,6 +1048,9 @@ p {
 
 .belief-episode-link {
   margin: 0 0 var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
 }
 
 .belief-episode-link a {
@@ -1868,5 +1888,283 @@ p {
 
   .model-equation {
     padding: 0.75rem var(--space-sm);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Transcripts index
+   -------------------------------------------------------------------------- */
+.transcript-list {
+  max-width: var(--max-width-wide);
+  margin: 0 auto;
+}
+
+.transcript-list__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-xs) var(--space-md);
+  padding: var(--space-sm) var(--space-sm);
+  margin: 0 calc(-1 * var(--space-sm));
+  border-bottom: 1px solid var(--color-border);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.transcript-list__row:first-of-type {
+  border-top: 1px solid var(--color-border);
+}
+
+.transcript-list__row:hover {
+  background: var(--color-bg-secondary);
+}
+
+.transcript-list__main {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.transcript-list__title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.transcript-list__row:hover .transcript-list__title {
+  color: var(--color-accent);
+}
+
+.transcript-list__subtitle {
+  font-size: 0.9rem;
+  color: var(--color-ink-secondary);
+  margin-top: 0.15rem;
+}
+
+.transcript-list__meta {
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.transcript-list__row[hidden] {
+  display: none;
+}
+
+/* --------------------------------------------------------------------------
+   Transcript page
+   -------------------------------------------------------------------------- */
+.transcript-header {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.transcript-kicker {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.transcript-kicker a {
+  color: var(--color-ink-muted);
+}
+
+.transcript-kicker a:hover {
+  color: var(--color-accent);
+}
+
+.transcript-title {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+
+.transcript-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-ink-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.transcript-meta {
+  font-size: 0.9rem;
+  color: var(--color-ink-muted);
+  margin-bottom: var(--space-md);
+}
+
+.transcript-meta span + span {
+  margin-left: 0.4em;
+}
+
+.transcript-actions {
+  margin-bottom: var(--space-md);
+}
+
+.transcript-actions__link {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.transcript-actions__link:hover {
+  text-decoration: underline;
+}
+
+.transcript-note {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--color-ink-muted);
+  background: var(--color-bg);
+  border-left: 3px solid var(--color-border);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.transcript-toc {
+  background: var(--color-bg);
+  border-radius: 8px;
+  padding: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.transcript-toc__label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-ink-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.transcript-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: var(--space-lg);
+}
+
+.transcript-toc__list li {
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+  break-inside: avoid;
+}
+
+.transcript-toc__list a {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.transcript-toc__list a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.transcript-toc__ts {
+  color: var(--color-ink-muted);
+  font-size: 0.8rem;
+}
+
+.transcript-body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  max-width: 42rem;
+}
+
+.transcript-section {
+  font-size: 1.25rem;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+  scroll-margin-top: var(--space-lg);
+}
+
+.transcript-section:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.transcript-section__ts {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--color-ink-muted);
+}
+
+.turn {
+  margin-bottom: var(--space-md);
+}
+
+.turn--cont {
+  margin-top: -0.65rem;
+}
+
+.turn--unlabeled + .turn--unlabeled {
+  margin-top: -0.4rem;
+}
+
+.transcript-ts {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-ink-muted);
+  background: var(--color-bg-secondary);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.turn__speaker {
+  color: var(--color-ink);
+}
+
+.turn__speaker--host-seth {
+  color: var(--color-accent);
+}
+
+.turn__speaker--host-andrey {
+  color: #2f6b3a;
+}
+
+.turn__speaker--guest-1 {
+  color: #1f5f8b;
+}
+
+.turn__speaker--guest-2 {
+  color: #8b5a1f;
+}
+
+.transcript-footer {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+
+.transcript-footer a {
+  color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+  .transcript-title {
+    font-size: 1.5rem;
+  }
+
+  .transcript-toc__list {
+    columns: 1;
+  }
+
+  .transcript-list__row {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

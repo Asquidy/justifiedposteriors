@@ -40,9 +40,15 @@ wrap_class: wrap--wide
       </button>
 
       <div class="belief-row__content" hidden>
-        {% if episode.url %}
+        {% assign matched_transcript = site.transcripts | where: "episode_url", episode.url | first %}
+        {% if episode.url or matched_transcript %}
         <p class="belief-episode-link">
+          {% if episode.url %}
           <a href="{{ episode.url }}" target="_blank" rel="noopener">Listen / read this episode &#8599;</a>
+          {% endif %}
+          {% if matched_transcript %}
+          <a href="{{ matched_transcript.url | relative_url }}">Read the transcript</a>
+          {% endif %}
         </p>
         {% endif %}
 
@@ -91,19 +97,25 @@ wrap_class: wrap--wide
 <section class="episodes">
   <h2 class="episodes__title">Latest Episodes</h2>
   {% for post in site.posts limit:10 %}
-  <a href="{{ post.url | relative_url }}" class="episode-card">
-    {% if post.episode_number %}
-    <div class="episode-card__number">Episode {{ post.episode_number }}</div>
+  {% assign post_transcript = site.transcripts | where_exp: "t", "t.title == post.title" | first %}
+  <div class="episode-card">
+    <a href="{{ post.url | relative_url }}" class="episode-card__link">
+      {% if post.episode_number %}
+      <div class="episode-card__number">Episode {{ post.episode_number }}</div>
+      {% endif %}
+      <h3 class="episode-card__title">{{ post.title }}</h3>
+      <div class="episode-card__meta">
+        {{ post.date | date: "%B %-d, %Y" }}
+        {% if post.duration %} &middot; {{ post.duration }}{% endif %}
+      </div>
+      {% if post.summary %}
+      <p class="episode-card__summary">{{ post.summary | truncate: 150 }}</p>
+      {% endif %}
+    </a>
+    {% if post_transcript %}
+    <a href="{{ post_transcript.url | relative_url }}" class="episode-card__transcript-link">Read the transcript &rarr;</a>
     {% endif %}
-    <h3 class="episode-card__title">{{ post.title }}</h3>
-    <div class="episode-card__meta">
-      {{ post.date | date: "%B %-d, %Y" }}
-      {% if post.duration %} &middot; {{ post.duration }}{% endif %}
-    </div>
-    {% if post.summary %}
-    <p class="episode-card__summary">{{ post.summary | truncate: 150 }}</p>
-    {% endif %}
-  </a>
+  </div>
   {% endfor %}
 </section>
 {% endif %}

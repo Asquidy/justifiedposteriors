@@ -53,6 +53,7 @@
     <div class="wrap site-nav__inner">
       <a href="{{ "/" | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Beliefs</a>
       <a href="{{ "/concepts/" | relative_url }}"{% if page.url == "/concepts/" %} aria-current="page"{% endif %}>Concepts</a>
+      <a href="{{ "/transcripts/" | relative_url }}"{% if page.url == "/transcripts/" or page.layout == "transcript" %} aria-current="page"{% endif %}>Transcripts</a>
       <a href="{{ "/faq/" | relative_url }}"{% if page.url == "/faq/" %} aria-current="page"{% endif %}>Econ of AI FAQ</a>
     </div>
   </nav>

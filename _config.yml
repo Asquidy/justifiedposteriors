@@ -10,6 +10,12 @@ baseurl: ""   # e.g. "/justifiedposteriors" if hosted in a subpath
 
 permalink: /:categories/:year/:month/:day/:title/
 
+collections:
+  transcripts:
+    output: true
+    permalink: /transcripts/:slug/
+    sort_by: date
+
 markdown: kramdown
 kramdown:
   input: GFM
