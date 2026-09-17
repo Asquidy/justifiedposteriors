@@ -1,11 +1,11 @@
  [MUSIC]
- >> Welcome to the Justify Pasteurias Podcast,
+ >> Welcome to the Justified Posteriors Podcast,
  the podcast that updates beliefs about the economics of AI and technology.
  This is Seth Benzel,
  apparently wasting my youth in comparative advantage by
  not specializing in production tasks directly coming to you
  from Chapman University in sunny Southern California.
- This is Andrei Fratkin,
+ This is Andrey Fradkin,
  ready with a cross-country regression whenever I have a theory I need to justify.
  Coming to you from sunny San Francisco today.
  >> A cross-country regression.
@@ -28,7 +28,7 @@
  So the question that we're talking about today is from
  a very concretely named paper by our two,
  I would say heroes or people looked up to by this podcast,
- Derona Simoglu and Pasquale Restrepo.
+ Daron Acemoglu and Pasquale Restrepo.
  This is a conversation based on their paper,
  demographics and automation,
  which asks the question to what extent does the decision to
@@ -505,7 +505,7 @@
  employment of the middle aged people go down when the robots come in. And, you know, maybe a boost
  for the old people. And they do seem to have that effect. So to the extent that you trust this
  exposure measure as being a good measure and being fully exogenous, it is consistent with this idea
- that it is the middle aged guys who are getting automated by the robot. So that's another complimentary
+ that it is the middle aged guys who are getting automated by the robot. So that's another complementary
  piece of evidence. Yeah, I mean, what do you, what do you think of that? I think that's compelling
  on the mechanism side, right? Remember, I was earlier arguing that I think an important mechanism
  is the wealth to population distribution, right? And that's a story where the relative age isn't
@@ -527,7 +527,7 @@
  it's often not obvious from the technology level, whether the technology is an automation technology
  or a labor complimenting technology. So I'm just kind of suspicious of this at the, at the like,
  what they're trying to do phase is to get that right from the patenting. But I'm sure they did a
- solid job. This, you know, it's a nice complimentary piece of evidence, but I don't know how much I
+ solid job. This, you know, it's a nice complementary piece of evidence, but I don't know how much I
  really leave it. Yeah, I mean, I think they do try to isolate it to robotics. So they are robotics
  related patents. So that might comfort us a little bit. They call it robotics patents,
  not automation patents. Sorry, they do, they do. It's a lot of robotics related patents.
@@ -639,7 +639,7 @@
  we shouldn't learn anything from this favor, but like, like non-zero, but also not high.
  Okay, okay. What about the future?
  What about the future? That's what we're here for. That's what we're here for, dude.
- That and justifying our posterior's. I would say that the way I ask the question is,
+ That and justifying our posteriors. I would say that the way I ask the question is,
  do I think ceteris parabas compared to a world without a baby bust, does automation happen faster
  in our world, right? Because we got this baby bust coming. I see. I move from 60% to 65%,
  that automation happens faster in that counterfact. Automation moves faster in our world versus the

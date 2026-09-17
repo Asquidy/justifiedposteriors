@@ -1,8 +1,8 @@
- Welcome to the Justify Pascaria's podcast, the podcast that obeyed beliefs about the economics
- AI and technology. I'm Seth Benzel, a reader of many books, which I do not remember in detail,
+ Welcome to the Justified Posteriors podcast, the podcast that updates beliefs about the economics
+ of AI and technology. I'm Seth Benzel, a reader of many books, which I do not remember in detail,
  coming to you from sunny Southern California at Chapman University.
- And I'm Andre Fracken, trying to determine whether reading Moscow-L Winston-Green
- has resulted in me having a higher closure score in economics,
+ And I'm Andrey Fradkin, trying to determine whether reading Mas-Colell, Whinston, and Green
+ has resulted in me having a higher cloze score in economics,
  coming to you from Berkeley, California. Oh, wonderful to have you out here in California,
  Andre. Is this a longer term appearance? Yeah, listeners, I will be based out of California
  for at least the next year. So if you want to talk about economics, AI, and anything in between,
@@ -84,7 +84,7 @@
  was actually going to come in thinking that maybe they would be pretty decent at memorizing this context.
  But yeah, I would say that, you know, in the, since this is not like a better,
  like a main prior, you know, what are the useful things that they measured is this
- memorization score, essentially the closure, the closure score. And it is on the order of, I'd
+ memorization score, essentially the cloze, the cloze score. And it is on the order of, I'd
  say, 10, 10% success, right? So it's very far from full measure, which I mean, you know, and we'll
  talk more about this in our past year, if I was very surprised by it, I was thinking we would,
  if I was thinking that you had read this block, if this AI had read this book, it was going to do
@@ -237,7 +237,7 @@
  this is written as like a classic applied microeconomics paper, right? So there's a question
  that is a causal question that the authors are trying to isolate. And the causal question is
  simply in falling. What is the what is the causal effect of being included in the training set
- on this closure score? You know, we can come back to kind of, let's say we fully believe the
+ on this cloze score? You know, we can come back to kind of, let's say we fully believe the
  causal effect. How do we update our, but there are some challenges in this, in particular,
  which books are included in the training data are not random, right? So you might expect that,
  for example, books that are already freely available to use, right, they all the models
@@ -250,7 +250,7 @@
  So what we want is something like an experiment, or as economists are going to call it natural
  experiment, to find similar groups of books, some of them, which are more likely to be included,
  and some of them less likely to be included. And in the training, and then we're going to compare
- outcomes across these books, where the outcome is going to be this closure score.
+ outcomes across these books, where the outcome is going to be this cloze score.
  So what the authors do is they pick this data set, the books three data set.
  And the challenge for them is to find a comparable set of books
  to use that is similar, but just that's used as a control group that is essentially similar
@@ -347,7 +347,7 @@
  points. So that's about 20% increase overall. They see similar size effect for 4.0. They see no
  effect for the small llama. And then they see effects for bigger llamas and for Claude and Gemini.
  So whatever this is, you know, it does seem that books three books, you know, there's a higher
- closure score. I will remind, you know, us that the baseline closure score is about 10%. So,
+ cloze score. I will remind, you know, us that the baseline cloze score is about 10%. So,
  so we're talking about pretty tiny increases in memorization as far as I'm concerned.
  Yeah. We're talking about going from like 10% memorized to at maximum percent memorized,
  which I was surprised how low those numbers were, but maybe I should be surprised if this is like
@@ -355,9 +355,9 @@
  quality, it would meal that, right? That's my sense. I mean, you just, you want the authors to do
  just a heterogeneity analysis, you know, because 30% of the sample is is fiction. But yeah, I mean,
  I think that would be that's easy for them to do. But I guess I would say that
- do we care about the closure? Is the closure score actually correlated in any interesting way with
+ do we care about the cloze? Is the cloze score actually correlated in any interesting way with
  model performance? Because it doesn't seem to me to be the case. Although, you know, like,
- I mean, a little bit, I guess llama 8B has a lower closure score than we know it's a worst model,
+ I mean, a little bit, I guess Llama 8B has a lower cloze score than we know it's a worse model,
  but within the 3.5 has a better score than four, oh, and four, oh, it was a better model than 3.5.
  So I guess that's kind of where maybe. Well, and then there's, there's a, there's a really
  question that I asked earlier, right, which is like, to what extent is this about with them
@@ -365,8 +365,8 @@
  persuaded that the difference between 3.5 and four is not that forgot how to memorize things. It's
  at chat GPT hit with the don't go quote things stick a bunch of times. Yeah, I'm less, I actually
  don't think so said. I really, I'm less. I don't think that that's the primary thing that's going on.
- So why do you think foro is doing the worst job of the closure score?
- I just think the closure score is pretty uncorrelated with model quality period.
+ So why do you think Phi-4 is doing the worst job of the cloze score?
+ I just think the cloze score is pretty uncorrelated with model quality, period.
  Like within certain bounds. And so, so that's, that's kind of my, my sense.
  Right. I don't think it's just about RLA chef. Like for example, foro has a much larger corpus,
  training corpus overall, right? Just say there's much, well, that it's also got more parameters.

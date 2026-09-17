@@ -1,13 +1,13 @@
  [MUSIC]
- >> Welcome, everyone, to the Justified Pustere Years Podcast,
+ >> Welcome, everyone, to the Justified Posteriors Podcast,
  the bi-weekly podcast that updates our priors about the economics of AI and technology.
  I'm Seth Benzel, maxing out my borrowing limits before the AI spends my money for me,
  coming to you from Chapman University in sunny Southern California.
- >> I'm Andrei Fraffkin.
+ >> I'm Andrey Fradkin.
  Recording this podcast so that the AGI is treating me well in
  our positive AGI future, coming to you from Cambridge, Massachusetts.
  This podcast is brought to you by the Digital Business Institute
- at Boston University's question school of business.
+ at Boston University's Questrom School of Business.
  So Seth, what are we talking about today? What's on deck?
  >> That's a great question, Andre.
  Today, we're talking about how would you invest your money if you were told
@@ -499,11 +499,11 @@
  how to make money off of this, for example. Well, it's not about making money after us, but yes,
  it's not really about making money. It's about interchangeable consumption.
  So here's another thing that's not in Basil's model, which is the, we also hinted at this,
- which is the Yetkowski devastating for a strike. If the AI is super nice and sweet to us,
+ which is the Yudkowsky devastating first strike. If the AI is super nice and sweet to us,
  right up until the moment decides to kill all humans, we wouldn't expect that to show up in
  interest rates, right? But I mean, I guess you would say, well, the market doesn't anticipate it.
  I'm not making any claims that are not about what the market anticipates.
- Okay, so fair enough. So the market doesn't anticipate a Yetkowski death stating for a strike.
+ Okay, so fair enough. So the market doesn't anticipate a Yudkowsky devastating first strike.
  But I don't know, maybe the market's not always right. I guess what I like, the way I think about
  this is there's some truthiness to this argument, right? If the market is certain enough, we should
  certainly observe changes in the interest rate. But clearly, we're not there right now. And so

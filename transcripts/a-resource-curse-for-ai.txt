@@ -1,5 +1,5 @@
-Seth (0:00:00): [intro music] Welcome to the Justified Posterior's podcast, the podcast that updates your beliefs about economics of AI and technology. I'm Seth Benzel, cursed by inadequate intelligence but blessed with a top-tier interlocutor, coming to you with Chap from Chapman University in sunny Southern California.
-Andrey (0:00:27): And I'm Andre Frackin, cursed by having read too many dystopian science fiction novels to be too, uh, oppressed by yet another one, coming to you from [laughs] uh, Cambridge, Massachusetts. And I should say, in case you didn't know this, dear listeners, I am, uh, an associate professor of marketing and economics at Boston University. I was legally obliged to say this by my dean. Um, but I should also mention, uh, that we may perhaps be interested in a sponsor. So if you are enjoying, um, the show and have, uh, any ideas for a sponsorship for us, uh, please do let us know.
+Seth (0:00:00): [intro music] Welcome to the Justified Posteriors podcast, the podcast that updates your beliefs about economics of AI and technology. I'm Seth Benzel, cursed by inadequate intelligence but blessed with a top-tier interlocutor, coming to you from Chapman University in sunny Southern California.
+Andrey (0:00:27): And I'm Andrey Fradkin, cursed by having read too many dystopian science fiction novels to be too, uh, oppressed by yet another one, coming to you from [laughs] uh, Cambridge, Massachusetts. And I should say, in case you didn't know this, dear listeners, I am, uh, an associate professor of marketing and economics at Boston University. I was legally obliged to say this by my dean. Um, but I should also mention, uh, that we may perhaps be interested in a sponsor. So if you are enjoying, um, the show and have, uh, any ideas for a sponsorship for us, uh, please do let us know.
 Seth (0:01:11): Yes, please do. Uh, your money goes a long way to fund, uh, hair treatments for Andre's, uh, incurable baldness.
 Andrey (0:01:19): No, uh, so... My baldness is a choice, Seth.
 Seth (0:01:26): It's okay. All right. Awesome.
@@ -22,7 +22,7 @@ Seth (0:02:32): If you don't wanna sleep tonight-
 Andrey (0:02:34): This will be-
 Seth (0:02:35): Great, great read
 Andrey (0:02:35): ... in the show notes, dear, dear listeners.
-Seth (0:02:37): [laughs] Amazing. Um, so yeah. So sci-fi. Our, our discussion topic today comes to us f- uh, from a friend of the show, an expert economist/anthropologist, Matt Boone, uh, who has previously made amazing sci-fi recommendations to me, such as the book, 'There Is No Antimemetics Division,' which is also highly recommended-
+Seth (0:02:37): [laughs] Amazing. Um, so yeah. So sci-fi. Our, our discussion topic today comes to us f- uh, from a friend of the show, an expert economist/anthropologist, Matt Beane, uh, who has previously made amazing sci-fi recommendations to me, such as the book, 'There Is No Antimemetics Division,' which is also highly recommended-
 Andrey (0:03:03): Very good book
 Seth (0:03:04): ... if you guys out there haven't.
 Andrey (0:03:05): Highly enjoyed it as well.

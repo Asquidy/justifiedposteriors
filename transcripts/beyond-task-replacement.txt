@@ -15,26 +15,26 @@
  That would be the exercise you have to do.
  Yeah, I guess if you think that factories are already completely automated, but are
  still far from as efficient as they could be, then that's a pure capital deepening argument
- that would be the only way for AI to have at effect.
+ that would be the only way for AI to have an effect.
  This is the Justified Posteriors Podcast brought to you by the Digital Business Institute at
- Boston University's Questrum School of Business.
+ Boston University's Questrom School of Business.
  Hi, everyone.
  I'm Seth Benzel, modularizing my labor and deepening my capital here in Orange, California.
- And I'm Andre Fracken, complementing ICT systems worldwide.
+ And I'm Andrey Fradkin, complementing ICT systems worldwide.
  Welcome to another episode where we will be discussing the implications of AI for the economy.
  And in particular, the GDP and growth.
  The paper we're reading today is a sharp contrast to the paper we read last time, which was the
- simple macroeconomics of AI by the Roni Simogulu.
+ simple macroeconomics of AI by Daron Acemoglu.
  This time we're reading artificial intelligence technologies and aggregate growth prospects
- by Tim Brezhnehan.
+ by Tim Bresnahan.
  Why are we reading this, Andre?
  Why are we reading this?
  The paper was written before chat GPT, so the before the chat GPT moment, written by human.
  Yes, we know it was written by human.
  That's actually a nice point.
- The reason we picked this one is because Tim Brezhnehan has been a leading thinker
+ The reason we picked this one is because Tim Bresnahan has been a leading thinker
  about general purpose technologies in his research career.
- And he has a very different take on the possible effects of AI on growth than a Simogulu.
+ And he has a very different take on the possible effects of AI on growth than Acemoglu.
  I hope so because last week was pretty dispiriting in that last session.
  I think it's important to just take a step back and mention what is a general purpose
  technology before we get to the main argument of the paper and our priors about it.
@@ -59,7 +59,7 @@
  through literally replacing your job with a robot or through an AI system is the strong
  version of the argument he comes out with.
  Andre, that's a little bit extreme.
- Maybe we can pair that back a little bit too, just asking the question.
+ Maybe we can pare that back a little bit too, just asking the question.
  Andre, what's your prior on the percentage of economic benefit that will come from AI
  that will come through literally AI replacing someone's job versus everything else?
  I would say it's about 20% replacing someone's job and 80% everything else.
@@ -177,7 +177,7 @@
  let's say, the car is driving off the road and it doesn't have a steering wheel,
  then we might be worried that it will actually drive off a cliff.
  All right, perfect. So now we're talking about self-driving cars. That's like the core
- de Rona Simoglu style example of, here's a task, which takes a lot of time, which is done by humans,
+ Daron Acemoglu-style example of, here's a task, which takes a lot of time, which is done by humans,
  and we're going to have an AI do it. Therefore, AI driven economic growth through tax replacement,
  right? What's President Hens going to say is wrong about that argument?
  I think the way in which people are going to use autonomous vehicles is going to be potentially
@@ -267,24 +267,24 @@
  and it'll be the revenge of the nerds, the decline of these endless growth for the people who are good
  at cooperation and social things and the return of the people who came to prompt engineer.
  We've talked broadly about the themes that President Hannah's interested in. What would
- Asa Moagler say about these things? That's a great question. Because if I think
+ What does Acemoglu say about these things? That's a great question. Because if I think
  de Rohn work here, I think he would have a really strong defense of the task-based model
  as a conceptual tool for thinking about the impact of AI. But I think he would have a much,
  much harder case, arguing that his application of that model is working correctly in lieu of
- these critiques that we just got from Brezhnehan. First of all, you got to say in de Rohn's favor,
+ these critiques that we just got from Bresnahan. First of all, you got to say in Daron's favor,
  he's actually writing down a model. He's actually putting numbers there. We can only critique him
  at this level of granularity because he put his chips on the table and we congratulated him for
  that already and we'll congratulate him for that again. But in that calculation, in his calculation,
  where he says, and to remind the audience, he says there will be less than one percentage
  point of additional growth over the next 10 years from 2024 to 2034 due to AI technology. So less
- than 0.1% a year in additional economic growth from AI. Brezhnehan, he doesn't give us any numbers.
+ than 0.1% a year in additional economic growth from AI. Bresnahan, he doesn't give us any numbers.
  He's saying, "Drone, your model is wrong. Your model is wrong because you're taking the amount
  of jobs affected and you're multiplying by some productivity growth." That's the incorrect model.
  What AI does is he's going to argue mostly comes through capital deepening. So capital deepening
  would be an effect that is handled in De Rohn's model. De Rohn's model allows for capital deepening,
  but fundamentally, he's not measuring that. So when De Rohn brings numbers to his model,
  he's assuming that all AI is doing is replacing tasks. Again, that's an empirical assumption,
- not an assumption of his model. Similarly, Brezhnehan is going to say that a huge amount of the gains
+ not an assumption of his model. Similarly, Bresnahan is going to say that a huge amount of the gains
  are coming from invention, I guess you could say, reorganization of organizations related to the
  creation of new products. If that's where all of the benefit is coming from, again, there's no
  problem in De Rohn's model. De Rohn can have a TFP term and everything. It's just as he measures
@@ -338,7 +338,7 @@
  less pesticides because they can be more smartly targeted for kind of a more old school industry.
  There's still a lot of value for AI technologies, which is, I think, a question for the scope of what
  both Breznehan and Asumoglu consider AI, right? Is AI kind of old school computer vision? Is AI
- old school natural language processing? Is AI just chat GPT nowadays? Or is it just a better linear
+ old school natural language processing? Is AI just ChatGPT nowadays? Or is it just a better linear
  regression with more data underlying it, right? These distinctions are, in my opinion, a little
  artificial because I can imagine that a modern kind of multimodal model that is trained on both
  text and vision and image data and perhaps even video data would be very capable of, let's say,
@@ -407,7 +407,7 @@
  adding that much to GDP in the past 10 years, it's hard to imagine that this sort of innovation
  is going to show up in GDP. Okay, but maybe then we should end with neither Jerome nor
  our friend here, Professor Brezzanahan, have much to say about the this time is different sort of
- Leopold framing. Brenner. We read an essay by Leopold Ashenbrenner that claimed that
+ Leopold framing. We read an essay by Leopold Aschenbrenner that claimed that
  within 10 years we'll have much, much more highly developed AI models that will be orders of magnitude
  more useful. In that universe, do we think that escrey placement versus everything else becomes
  more or less important? I'm not a hundred percent. Sure, obviously, this is not where we're in sci-fi
@@ -426,5 +426,5 @@
  It is that just because we replaced scientists or are they smarter than us, right? I think
  we're starting to show that there's some limits to the task-based model here as a useful way for
  talking about these scenarios. So that's a great place to wrap up. Thanks for joining us for another
- episode of Justified Pustereers. Feel free to tweet and reach out in any way if you have comments or
+ episode of Justified Posteriors. Feel free to tweet and reach out in any way if you have comments or
  thoughts on this episode.
