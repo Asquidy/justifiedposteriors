@@ -15,14 +15,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Justified Posteriors is a podcast by economists Andrey Fradkin and Seth Benzell featuring conversations about about the economics of AI and innovation." />
 <meta property="og:description" content="Justified Posteriors is a podcast by economists Andrey Fradkin and Seth Benzell featuring conversations about about the economics of AI and innovation." />
-<link rel="canonical" href="http://localhost:4000/faq/" />
-<meta property="og:url" content="http://localhost:4000/faq/" />
+<link rel="canonical" href="http://localhost:4002/faq/" />
+<meta property="og:url" content="http://localhost:4002/faq/" />
 <meta property="og:site_name" content="Justified Posteriors" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="FAQ — Economics of Transformative AI" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Justified Posteriors is a podcast by economists Andrey Fradkin and Seth Benzell featuring conversations about about the economics of AI and innovation.","headline":"FAQ — Economics of Transformative AI","url":"http://localhost:4000/faq/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Justified Posteriors is a podcast by economists Andrey Fradkin and Seth Benzell featuring conversations about about the economics of AI and innovation.","headline":"FAQ — Economics of Transformative AI","url":"http://localhost:4002/faq/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -83,6 +83,7 @@
     <div class="wrap site-nav__inner">
       <a href="/">Beliefs</a>
       <a href="/concepts/">Concepts</a>
+      <a href="/transcripts/">Transcripts</a>
       <a href="/faq/" aria-current="page">Econ of AI FAQ</a>
     </div>
   </nav>
@@ -98,7 +99,7 @@
 
   
   <div class="beliefs-intro prose">
-    <p>This is a <strong>work in progress</strong> section inspired by conversations about economics with friends, listeners, and commentators.</p>
+    <p>This is a <strong>work in progress</strong> section inspired by conversations about economics with friends, listeners, and commentators. It is meant to be simple and accessible, rather than technical.</p>
 
   </div>
   
@@ -131,7 +132,7 @@
     
     <article class="belief-row">
       <button class="belief-row__header" aria-expanded="false">
-        <span class="belief-row__title">Should we expect to see capitalists accrue an increasing share of wealth in a transformative AI world? How does this relate to the question regarding r > g? Explain the question regarding r > g. Why can r be less than g, even with huge growth rates as implied by transformative AI?</span>
+        <span class="belief-row__title">Should we expect to see capitalists accrue an increasing share of wealth in a transformative AI world? How does this relate to Piketty's argument that r (the real rate of return on capital) > g (the real rate of growth of the economy) > 0?</span>
         <span class="belief-row__toggle" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
@@ -140,7 +141,11 @@
       </button>
       <div class="belief-row__content" hidden>
         <div class="prose">
-          <p>This questions concerns the real rate of interest against the real per capital GDP growth rate. Whether r &lt; g or not is an empirical question. That said, the key reason to that r can be less than g is due to the distinction between marginal and average returns to investment. r is pinned down by the derivative of the production function with respect to capital. So as long as there are diminishing returns to investment, r can be less than g. Recall also that there is typically a large installed base of capital so that the average return to investment is much greater than the marginal return.</p>
+          <p>This is a complicated question. At a high level, we can think of the rate of accumulation of wealth as a function of the rate of return on wealth (the rate of interest), the savings rate, taxation, and bequests. These questions were famously explored in Thomas Piketty’s book “Capital in the Twenty-First Century”, where he argued that a sufficient condition for wealth inequality to increase over time is that the rate of return on wealth is greater than the rate of growth of the economy (e.g., r &gt; g). A high level intution is that average income growth tends to follow the growth rate of the economy, while the income of capitalists tends to follow the rate of return on wealth. If r &gt; g, then the income of capitalists will grow faster than the income of the average worker, leading to increasing wealth inequality.</p>
+
+<p>Piketty’s arguments have been challenged in many ways. Herein we highlight two. First, the rate of accumulation of wealth is not solely determined by r. A simple example when this would affect our predictions is if the government decided to increase taxes on capital in a transformative AI world. This would reduce the rate of accumulation of wealth, all else equal. Similarly, estate and capital gains taxes also affect the rate of accumulation of wealth, although tax avoidance and evasion mitigate their effects.</p>
+
+<p>Second, r may not be greater than g in the future. This is because the interest rate is determined by the marginal product of capital, which is the additional output produced by an additional unit of capital. The growth rate of the economy is determined by average product of capital and labor, which is the total output produced by the economy divided by the total capital and labor employed. This situation may happen if there is an abundance of capital in the world, say from self-replicating robot factories producting goods, which humans are satiated with. If humans are satiated with goods (say cars), then their marginal utility of goods is close to zero, so the interest rate from building more factories will be close to zero.</p>
 
         </div>
       </div>
@@ -148,7 +153,7 @@
     
     <article class="belief-row">
       <button class="belief-row__header" aria-expanded="false">
-        <span class="belief-row__title">Why can r be greater than g when growth rates are high?</span>
+        <span class="belief-row__title">How do data centers enter GDP? How do they get valued?</span>
         <span class="belief-row__toggle" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
@@ -157,31 +162,7 @@
       </button>
       <div class="belief-row__content" hidden>
         <div class="prose">
-          <p>This can happen when capital is scarce, making its marginal product high. The intution for these situations is:</p>
-
-<ul>
-  <li>The saving/investment rate is relatively low, so high-return opportunities are not exploited quickly enough to make the whole economy grow at r.</li>
-  <li>Population and productivity growth are slow, keeping g low.</li>
-  <li>There are adjustment costs, borrowing constraints, risk, or other frictions preventing rapid capital accumulation.</li>
-  <li>Some returns are economic rents rather than reproducible returns to ordinary capital, so a high observed return does not induce proportional expansion of the capital stock.</li>
-</ul>
-
-        </div>
-      </div>
-    </article>
-    
-    <article class="belief-row">
-      <button class="belief-row__header" aria-expanded="false">
-        <span class="belief-row__title">How do data centers enter GDP, and investment more broadly? How does it get valued?</span>
-        <span class="belief-row__toggle" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </span>
-      </button>
-      <div class="belief-row__content" hidden>
-        <div class="prose">
-          <p>A data center is mostly classified as private nonresidential fixed investment which is valued at cost. This is part of the ‘I’ in the formula GDP = C + I + G + (X - M). Additionally, GPUs and other imported components are also subtracted in the M term. This explains how the data center construction is included in GDP. Furthermore, once the data center is constructed, it offers services which other companies pay for. This often happens in the years after the data center is constructed. Since data center services are an intermediate good, they contribute to GDP via their contribution to final consumption (of AI services, ads, etc…).</p>
+          <p>A data center is mostly classified as private nonresidential fixed investment which is valued at cost. This is part of the ‘I’ in the formula GDP = C + I + G + (X - M). Additionally, GPUs and other imported components are also subtracted in the M term. This explains how the data center construction is included in GDP. Furthermore, once the data center is constructed, it offers services which other companies pay for. This often happens in the years after the data center is constructed. Since data center services are an intermediate good, they contribute to GDP via their contribution to final consumption (of AI services, ads, services from firms who use AI, etc…).</p>
 
         </div>
       </div>
@@ -198,19 +179,19 @@
       </button>
       <div class="belief-row__content" hidden>
         <div class="prose">
-          <p>This is a broad question, but here’s an illustrative framework. In the short run, the stock of compute is roughly fixed. A fixed factor that everyone wants earns <em>scarcity rents</em>—payments above its cost of production, like the rent on prime farmland. The question of who captures rents depends on market structure at two layers: the compute layer (who owns the chips and data centers) and the model layer (who turns compute into useful AI services). Think of a 2×2, where each layer is either competitive or monopolized. It also depends on the final demnd sector (e.g, what users of AI services are willing to pay for and whether the experience diminishing returns to purchasing more intelligence).</p>
+          <p>This is a broad question, but here’s an illustrative framework. In the short run, the stock of compute is roughly fixed. Such a fixed factor earns scarcity rents—payments above its cost of production. So compute owners will earn rents as long as demand is large relative to capacity. How compute is allocated, and who captures the surplus, depends on two factors: competition among model providers and the elasticity of demand for model outputs (intelligence).</p>
 
-<p><strong>Many providers of compute + competitive models.</strong> The price of intelligence is the marginal utility of intelligence, MU(I). Model creators earn no rents above marginal cost. Consumers do relatively well: no one is restricting output to raise prices. Providers of compute extract scarcity rents given that compute is scarce.</p>
+<p>Consider a 2×2 matrix combining lab-market structure with demand elasticity.</p>
 
-<p><strong>Many providers of compute + monopolist model.</strong> Now the bottleneck for rents is downstream. The single model provider buys compute at competitive prices (cost plus ordinary scarcity rent) and marks up its AI services. It captures most of the surplus its capability creates, restricting output below the efficient level to do so. This is roughly the world people imagine when they worry about one lab “winning” AI. Providers of compute extract scarcity rents given that compute is scarce.</p>
+<p><strong>Labs produce similar quality/intelligence models + elastic demand.</strong> Labs bid for compute up to the value of the additional output it lets them sell. Competition prevents them from having much markup unless they have cost advantages, while customers readily reduce their purchases when prices rise. Compute flows to the labs with cost advantages, but demand elasticity limits the overall price levels. Most of the surplus is captured by the compute owners, labs only earn their cost advantage over the runner-up.</p>
 
-<p><strong>Monopolist compute + competitive models.</strong> The rents move upstream. Since model providers compete away their own margins, each one’s willingness to pay for compute equals nearly the full value of what they produce with it. The compute monopolist can charge up to that willingness to pay, so the scarcity rent <em>and</em> the monopoly rent both accrue to the compute owner. The labs are, in effect, contractors converting someone else’s scarce input into services. Providers of compute extract scarcity rents given that compute is scarce.</p>
+<p><strong>Labs produce similar quality/intelligence models + inelastic demand.</strong> Customers keep buying even as prices rise, so their willingness to pay for the fixed supply of model output is high. Competition among labs passes most of that revenue through into their bids for compute. Labs earn little above their other costs, compute owners capture most of the rents, and capacity limits output. Compute flows to the labs with cost advantages and overall prices for AI services are high. Most of the surplus is captured by the compute owners, labs only earn their cost advantage over the runner-up.</p>
 
-<p><strong>Monopolist compute + monopolist model.</strong> Two monopolists in a chain. If each sets its markup independently, you get double marginalization: the compute monopolist marks up FLOPs, the model monopolist marks up outputs, and total output is even lower than a single integrated monopolist would choose—both firms and consumers are worse off. This creates strong pressure toward vertical integration or exclusive long-term contracts, which is one lens for reading the giant compute deals between labs and hyperscalers. Providers of compute extract scarcity rents given that compute is scarce.</p>
+<p><strong>One lab produces much higher quality/intelligence models + elastic demand.</strong> A single lab of the most intelligent model can mark up its output and may restrict quantity, but customers’ willingness to substitute away disciplines that markup. Compute owners still receive the scarcity value of their capacity; the lab keeps a rent as well. Compute owners still capture most of the surplus.</p>
 
-<p><strong>A toy model.</strong> Now the case of monopolist compute plus two model providers, one slightly better than the other. Let the monopolist own K = 100 units of compute (fixed, zero marginal cost for simplicity). Lab A converts each unit into $10 of value; lab B, slightly worse, converts each unit into $9. Both labs face competitive output markets, so each is willing to pay up to its full value per unit rather than lose the compute.</p>
+<p><strong>One lab produces much higher quality/intelligence models + inelastic demand.</strong> The lab producing the most intelligent model can raise prices and capture surplus. It may restrict output below capacity to sustain those prices. How the resulting rents are divided between the lab and compute owners depends on bargaining, contracts, and compute owners’ alternative customers. The lab captures much of the surplus.</p>
 
-<p>The monopolist sells to the highest bidder. A wins all 100 units—efficient, since A creates more value. But what price does A pay? A only needs to outbid B, and B is willing to go up to $9. So the price settles at (just above) $9 per unit. Of the $1,000 of value created: the compute monopolist collects about $900, lab A keeps about $100—exactly its $1-per-unit edge over B—and lab B gets nothing but sets the price for everyone. A’s rent is its differential over the runner-up.</p>
+<p><strong>A toy example.</strong> Suppose 100 units of fixed compute are sold competitively. Lab A can turn each unit into $10 of value; lab B can turn each into $9. Both labs face competitive output markets, so each is willing to bid up to the full value it can produce. Lab A wins all 100 units because it creates more value—but needs to bid only slightly more than B’s $9 per unit. Of the $1,000 created, compute owners collect about $900 in scarcity rents and A keeps about $100: its productivity advantage over the runner-up. No compute monopoly is needed for this result; fixed capacity and competing users are enough. More elastic customer demand would reduce both labs’ willingness to pay, while model-market power could cause a lab to restrict output rather than bid according to the full value its compute could create. Compute owners capture most of the surplus, labs only earn their cost advantage over the runner-up.</p>
 
         </div>
       </div>
