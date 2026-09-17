@@ -394,8 +394,9 @@ def parse_txt(raw):
 # ----------------------------------------------------------------------------
 # Cleaning
 # ----------------------------------------------------------------------------
-SOUND_CUE = re.compile(r"[\(\[]\s*(?:upbeat\s+|intro\s+|outro\s+|soft\s+)?(?:music|applause|inaudible|crosstalk|silence|pause|beep|sighs?)[^\)\]]*[\)\]]", re.I)
+SOUND_CUE = re.compile(r"[\(\[]\s*(?:[\w-]+\s+){0,2}(?:music|applause|inaudible|crosstalk|silence|pause|beep|sighs?)[^\)\]]*[\)\]]", re.I)
 INLINE_TS = re.compile(r"\s*\[" + TS_RE + r"\]\s*")
+FILLER_BRACKETED = re.compile(r",\s*(?:um+|uh+|uhm|erm|ah+)\s*,\s*", re.I)
 FILLER = re.compile(r"(?<![\w'-])(?:um+|uh+|uhm|erm|ah+)(?![\w'-])[,.]?\s*", re.I)
 YOU_KNOW = re.compile(r",\s*you know,\s*|(?<=\.\s)You know,\s*|^You know,\s*", re.I)
 LIKE_COMMA = re.compile(r",\s*like,\s*", re.I)
@@ -412,6 +413,7 @@ def clean_text(s):
     s = re.sub(r"\s+", " ", s).strip()
     for pat, rep in NAME_FIXES:
         s = pat.sub(rep, s)
+    s = FILLER_BRACKETED.sub(", ", s)
     s = FILLER.sub("", s)
     s = YOU_KNOW.sub(lambda m: ", " if m.group(0).startswith(",") else "", s)
     s = LIKE_COMMA.sub(", ", s)

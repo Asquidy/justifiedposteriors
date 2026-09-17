@@ -1,1598 +1,405 @@
- (upbeat music)
- - Welcome to Justified Postereers,
- the podcast that updates priors
- about the economics of AI and technology.
- I'm Seth Menzel, trading a potential increase
- in utility for a measurable risk of death
- every time I post a podcast,
- coming to you from not Chapman University
- in sunny Southern California,
- but rather on a fact-finding mission
- to chili Boston where I've encountered my co-host.
- - And I'm Andre Frakken,
- coming to you from that special time of tribulation
- where it might all go to nothing.
- - A time of trials we find ourselves in.
- Why do we think everything might go to nothing, Andre?
- - Imagine that we've created a monster,
- something that is smarter than us.
- There's an alien off the coast of Venus.
- - It's smarter than us, faster than us.
- And can manipulate humans at will.
- What will such a monster do?
- One possibility is they'll stop caring about us humans
- and we'll take all the resources and destroy us.
- - That is certainly one possibility that many people fear
- and it has led to a lot of angst out there,
- wouldn't you say, about these AI technologies
- that are coming that have so much potential
- and yet people have these visions in their head
- of Terminator deathbots coming around and killing everybody
- or a slow loss of control as we give up powers
- to our AI overlords or even more mundanely
- creating tools that are so powerful
- that fall into the wrong hands
- that are then used by human actors for bad things.
- I would say in my brain space,
- I've been worried more about the human actors
- misusing AI kind of scenario.
- These papers that we're looking at today
- look, lump those all together,
- that are really particularly distinguishing.
- - Yeah.
- - So what's our prior?
- So what are we talking about today?
- What are we arguing about?
- - Yeah, so we're arguing about two related questions.
- The first of these is suppose that we all agree
- that AI is gonna bring about an age of wonder,
- 10% GDP growth rates.
- - Five times the world's historical growth rate,
- this would be absolutely gangbusters.
- I know in one of our previous podcasts,
- we've talked about transformative AI,
- which is sometimes benchmarked at a 30% additional growth rate
- because of AI technologies.
- That's, it's hard to say how much more fantastic 30%
- is than 10% because they're already pretty far
- outside human experience numbers, right?
- - 10% real growth is something that some countries
- can achieve for very short periods of time.
- - Yeah, like when they're rebuilding after a war.
- - Exactly, like turning things on after COVID
- or bouncing back from a war,
- really getting injected with FDI out of nowhere.
- - Yeah, yeah.
- So if that's gonna happen,
- but there's some amount of risk that as we're zooming
- to a world of abundance that the AI's take over
- and kill us all, how much risk should we tolerate?
- I think that's the first question.
- - So let me take a swing at that.
- So if you're telling me we could make the world grow
- at 10 percentage points more a year for a length of time,
- but as long as we do that,
- there is some sort of chance that the world gets blown up, right?
- It's somehow, it's the development of the AI technology,
- which is itself the risky thing, right?
- So as we go down the tech tree,
- every time we unlock a new tech,
- we might blow everything up.
- To me, one thing that immediately jumps out at you
- is there's not a lot of asking about
- what the counterfactual is.
- Is there like another safer technology
- we should be investing in instead?
- I guess we're thinking about this
- as the only way to continue developing the technology.
- You gotta develop AI or else you're stuck
- at the current tech level forever.
- I don't know, I think I'd be willing to accept
- pretty high rates of risk, right?
- Certainly in multiple percentage points per year.
- Alternatively, if you're telling me something more
- that risk will come down if we delay
- or sure we might get 10% growth from AI,
- but we could get 7% growth from innovations in biotech,
- then my tolerance for S-risk from AI in particular
- is going to come down low.
- But I guess to answer the question on the nose,
- the way I see it is that any new technology
- is going to come with these big unknowns to them.
- And a lot of people are always gonna be scared about change
- in a lot of ways and we can talk later
- about what is an X-risk, what counts as a fatal shock.
- But the way I would think about it is
- if this means shutting down all technological development,
- I'm willing to accept a lot of claimed risk.
- But if this is really just shutting down one avenue,
- but there's other ways for society to develop,
- I don't know, I guess I would be willing
- to tolerate a lot less risk.
- Of course, this all comes down to do you believe
- the different projections of risk
- and we can come back to that question.
- How do you think about this one, Andre?
- - Yeah, I share your intuition.
- I think I always like to think about
- the upsides of technology.
- So there are risks if we don't develop technology quickly.
- For example, maybe AI is gonna help us solve bio risk
- or perhaps it's gonna reduce the chances
- that nuclear weapons are used.
- It's very easy to come up with scenarios like these.
- - It could help us fight off the aliens when they invade.
- - Yeah, so I think a useful thing to think about
- is the marginal risk of existential,
- the marginal existential risk.
- It might reduce some risks and might increase other risks.
- How much of a risk increase am I willing to tolerate?
- I agree with you, the counterfactual matters as well.
- And this is why modeling exercises
- that make this very clear are useful.
- But I would actually say maybe less than 1%.
- I just think that even with current technology,
- if humanity were well governed,
- people would have a pretty positive set of lives.
- And this kind of question of good governance
- seems really important.
- And I don't really know how AI interacts with that.
- There is a presumption, I think, in these conversations
- that there's some sort of central planner
- or a dictator that determines what we do as a humanity
- in terms of these questions,
- which I don't think is super realistic.
- I'm pretty risk-averse in this case.
- - Okay, all right.
- And then there's the experts telling you
- that there's a 2% risk
- and then there's what your actual perception of risk is.
- I'm tempted to read this 1% to 2% risk
- as if all of the experts say there is a 1% to 2% risk,
- which might not be my internalized actual risk.
- - Okay, another way of asking the question,
- I guess maybe it's not necessarily more narrow
- or more broad than the question,
- is should we develop a devote a large share of GDP actually
- to set aside this question of if we assumed a certain rate
- of risk, which is ask the question,
- should we devote a large share of GDP
- or a large-scale social effort to slow AI development
- or increase AI existential risk research?
- - In the papers that we read,
- this is talked about in terms of a fraction of GDP
- being devoted to this cause, maybe 1% of GDP,
- maybe 2% of GDP, maybe half a percent of world GDP.
- And I got to tell you, Andre,
- I am pretty low confidence in this belief.
- I would say maybe there is a 10% chance
- that going into reading these papers,
- I felt that we should devote a significant fraction
- of world GDP to AI risk amelioration
- and/or delaying AI development.
- And fundamentally, that's just because world GDP
- is a hundred trillion dollars.
- I do not know how we could plausibly spend
- a trillion dollars on AI safety.
- There's like a capacity problem here, right?
- Further, I think there's an important argument that
- I think when people talk about X risk,
- they lump together situations that are really different.
- They will lump together situations that are like,
- all humans are dead, but we have AI descendants
- who are relatively human-like, who are relatively utilitarian,
- who we think experience consciousness.
- We might have M's, right?
- And that might be all human.
- Maybe one person's definition of X risk
- is that all humanity died,
- but actually that's a decent future,
- just our descendants are robot babies.
- Alternatively, you might imagine a future
- where there's plenty of humans,
- but we've neutered ourselves, we've neutered our capacity
- to continue developing, right?
- Maybe we're in this butlerian jihad version
- where we've banned all robots
- and we get feudal, dune-like stagnation
- for generations and generations.
- That's a kind of X risk too.
- That's the dune universe is not an exciting one,
- despite we've strongly prevented ourselves
- being dominated by AI.
- So I guess I'm less scared by X risk
- given that society always changes and always evolves.
- - But what's your percentage?
- - Percentage of GDP, I don't know, like maybe,
- if you're asking me how many billions of dollars
- should be spent on X risk,
- the answer I think is this is over and above
- what the labs would do.
- That's just like,
- myopically useful for the labs alignment research.
- This is on top of that.
- - I don't think the paper makes that distinction,
- but you can answer it however you like.
- - Okay, so I will answer it.
- Like, what should the government policy be
- over and above the myopic research labs
- own interest in aligning the AI?
- - I think it's in like single digit billions
- or maybe double digit billions.
- I don't think you can talk me up to half a percent
- of world GDP or a percent of world GDP.
- - I think before reading this paper,
- I was very much in your boat.
- My viewpoint is that it's great
- that the AI labs are working on safety.
- It's great from a long-termist perspective.
- It's also great from a short-termist perspective
- 'cause we need to control the models.
- That's a very useful capability.
- But I also thought as a prior
- that over and above that,
- a few billion here and there would be just fine.
- But let's dig into the papers
- and see whether we've updated.
- - Oh yeah, all right.
- So we got to read a bunch of really exciting papers this week.
- Let's go to the evidence.
- (upbeat music)
- - Okay, so the first pair of papers
- that we looked at were by Chad Jones,
- who's this amazing economist out of Stanford,
- a macro theorist who's an incredibly clear writer
- and makes reading his papers a real pleasure
- 'cause sometimes you read theory papers
- and it's just not fun.
- But he's fun to read, wouldn't you, Greg?
- - Yeah, yeah, he's a master of distilling an idea,
- probably the best in the business.
- - Yeah, he makes you feel jealous
- because he is the kind of guy who writes the idea
- that I could have said that
- because it's so clear and so beautiful.
- Okay, so the first paper we looked at by Chad Jones
- was called the AI dilemma growth versus existential risk.
- This came out in AR insights.
- And he thinks about two models.
- The first model is one where there's a representative agent
- who is discounting the future at a certain rate.
- So there's one guy who's making decisions
- for all of the world.
- And that guy has to make a decision
- about how far down the line does he want to develop AI, right?
- And he faces this trade off.
- If I develop AI for another year,
- that's gonna boost my GDP by 10%,
- but there's some chance I'll blow up the world.
- And the default numbers he plays around with
- are a 10% extra growth rate
- and a 1 or 2% risk of existential death per year.
- I would say the main finding is in this model,
- just how sensitive the amount of AI you develop is
- to the exact details of how you set up the problem.
- So let's think about how utility functions work.
- - Wait, I don't want to think about it.
- I know my utility function.
- - Okay.
- - So you tell me, are you more or less risk averse
- than log utility?
- - I am more risk averse.
- - Dude, here's the thing, log utility is pretty risk averse.
- Have you ever played around so like one fun game
- you can do at home listeners is go online
- and you can play around with this thing
- called the Kelly Criteria.
- So the Kelly Criteria will tell you
- how much to bet on a wager
- if you have log preferences over consumption, right?
- So let's say you have a wager
- where you think way more than the bookie.
- The bookie says there's a 50% chance
- that the Yankees will win,
- but you have insider information,
- there's a 75% chance that the Yankees will win.
- The question is, how much should you wager on the Yankees winning?
- And the answer is you should not wager 100% of your budget
- because for risk aversion reasons,
- that first dollar you have is a lot more valuable
- than the thousandth dollar you have
- and therefore you don't want to risk everything on this bet
- even if you know it's a good bet.
- And so go ahead and play around with the Kelly Criteria
- and you'll find things like even if you have a 75%,
- you have this 75% edge, big edges,
- lead to relatively narrow bets.
- I view log utility functions as a pretty conservative
- utility function when like placed in the real world
- when a lot of people are happy to accept any wager
- that has positive expected value.
- - Let me push back on that.
- - Oh, please.
- - Unsurprisingly, we're getting into the nitty gritty way.
- I think that like at our wealth levels,
- it is very conservative utility function.
- - Okay.
- - But it might not be very conservative when
- we're talking about death.
- What is the risk of death that you're willing to take
- to make some extra money?
- You might think that's a very different calculation
- than losing some money
- given that you already have a stock of wealth.
- - Right, so one kind of thing that's going on
- in this modeling is he doesn't,
- sometimes people think about if I got killed by a mugger
- that would be really horrible.
- Or you think sometimes society operates
- under this kind of implicit assumption
- that if someone gets murdered, that's a horrible thing.
- The perspective of this paper is if someone gets murdered,
- they miss some percentage of their lifetime consumption
- that they would have had if they were still alive, right?
- Which, that's not how people in the real world work.
- People don't say, oh no, I'm gonna die.
- I'm not gonna be able to go to Disneyland next year.
- They say I'm gonna die.
- - But yeah, I agree with you.
- But I just think there's a conceptual,
- when you go very close to zero or you're at zero--
- - Yeah, with the log of zero.
- To the viewers at home,
- it's like heading to your calculator at log zero.
- That's actually a major problem for this paper
- 'cause he really has to fudge your dead case.
- There's a big U-bar constant
- that deals with the log of zero consumption
- is equal to negative infinity issue.
- - That's why I think for this sort of problem,
- a utility function that's more risk averse
- in log utility is probably apropos.
- - It gets you more interesting results.
- But if you're asked, I guess the other issue
- and we'll return to this is,
- are we thinking about this in a positive way
- or a normative way?
- Should we be thinking about the utility function
- that we think someone actually has?
- That's a little bit impossible.
- It's a representative agent.
- There is no representative agent.
- Or are we thinking about this as normatively describing
- what a rational world government would do?
- And I don't know would a rational world government
- be more risk averse or less risk averse
- than a normal person?
- I'm really sympathetic to the argument
- that a world government should be less risk averse
- than an individual given that standard utilitarianism
- suggests that utility is linear in utility.
- And if you can spread the wealth around,
- you can get pretty much linear utility returns
- to spending at some level.
- So log seems pretty risk averse.
- How do you respond to that idea
- that maybe we should think about utility
- as basically being linear in consumption
- if we're a world government?
- - I think once again, everyone dying being,
- I mean, I'm taking existential risk here
- as being everyone.
- Everyone is actually dead.
- - Okay.
- And the robots that are our children don't like us.
- - I'm not talking about transhumanist combinations
- of AI and humans and stuff.
- That's a fun little thing to think about.
- But very seriously, I'm thinking about specific,
- every human dies.
- - So you're, it's like the AI gets access to the nukes
- and is immediately go nuke everything.
- - Yeah.
- They poison an atmosphere,
- they unleash a virus that kills every human.
- - And destroys itself because we need the thing
- that survives to not be valued.
- - Yeah.
- Let's say that just for simplicity's sake.
- In that case, the government,
- whether it should be more or less risk averse
- than an individual human,
- there's an argument for saying it should be more risk averse.
- Why?
- There's presumably some value of humanity existing.
- And that values over and above any individual's existence.
- Individuals go into battle,
- knowing that there's a risk they might die for their country.
- So the country seems more risk averse.
- I think that the country,
- at least when it comes to saving off humanity
- should be more risk averse than a human saving their own life.
- If I'm thinking about the utility function you're describing,
- it seems like I could model that as linear with a kink, right?
- - Yeah.
- - So that there's a big effect from existing
- and then it could be linear on top of that.
- And I think the linear on top of that
- is what's relevant for this analysis.
- 'Cause it's how much at the margin
- does the additional consumption help us?
- - There's another issue in this utility modeling
- is do you value another dollar the same
- when you have $50,000 versus when you have $10 million?
- And we think at the individual level, you don't.
- - But I don't think at the collective level, you don't either.
- - Because the way my logic is I can always make a second Andre
- and it seems logical that a universe with two Andre's
- has twice as much utility as a universe with one Andre.
- What's wrong with there?
- - Well, I guess this,
- the key part of the Jones model
- is the population growth rate.
- - And that actually shows up as a discount rate
- because there's how much do I care
- about the future generation's utility.
- - So there isn't like this technology,
- this cloning technology.
- Although who knows AI might be able to create it.
- There isn't this cloning technology for the government
- to use to accomplish your hypothetical.
- - Of course there is.
- It's called having, they don't have to be a literal clone.
- I can make a baby.
- Governments can make babies.
- Okay. - They cannot create babies.
- Unfortunately for society for a lot of things.
- But I think given an income distribution, right?
- And a set of people,
- if you already have more income,
- it seems logical that an additional dollar is less valuable
- that seems pretty uncontroversial.
- - Okay, let's go with that assumption.
- And what do they find?
- They say that what Jones says
- is if you assume log utility
- and a 1% chance of the world getting blown up
- in every year, you're gonna have 40 years of AI
- for a 33% cumulative chance of blowing up the world.
- However, bump that up to 2% risk of death in every year
- and you're not gonna develop any AI.
- That threshold is so sensitive
- to these seemingly small changes in death rate.
- Similarly, if you go from log utility
- to a more risk-averse utility function,
- you also shut down people wanting to use the AI.
- And then later in the second half of the paper,
- he goes on to think about
- what if it's not a 10% growth rate?
- It's like literally infinite growth, right?
- And there, it's the asymptotic shape
- of the utility function is really the important thing, right?
- - That's important to know.
- Log of infinity is not infinity.
- - I actually disagree with your point.
- - Okay.
- - His point is not that at infinity,
- the coverage for matters at a growth rate of 10%
- just as equally as it does at infinity.
- I actually don't agree with your point.
- At a 10% growth rate,
- having a risk-aversion of one, or having gamma coefficient
- of 1.01 means that you'll accept a 54% chance
- of existential risk.
- So you don't need infinity to do this.
- - Your point.
- - So I wouldn't focus on this distinction
- between infinity and 10% at all.
- I think the real point here is that the risk-aversion
- is what matters.
- So if you are very close to log utility,
- essentially you're getting more utility,
- even as your consumption is very high.
- Imagine you're a billionaire,
- you're still getting a lot of value out of marginal dollars.
- And if that's the case,
- you're willing to accept a lot of existential risk.
- - Because you're balancing infinity against finite risk.
- - On the other hand,
- if you have a gamma coefficient that's higher,
- such as two or three,
- you now get to tolerances of around 2% existential risk
- or even 0.5% existential risk.
- - I think that's the main point of this paper is
- you can get lots of different answers
- about the right amount of AI development
- depending on the social risk tolerance
- being one major factor, what is the exact...
- You say it's less important to trade off
- between the growth rate and the risk rate.
- That's in there too,
- but the number one thing is,
- what's the asymptotic shape of this utility function?
- - Yeah, so I think the other interesting thing here
- that he states goes back to our discussion
- of how many humans are there or how long do people live?
- He says that if the mortality rate drops by 50%,
- people live a lot longer.
- What will happen is that society should be willing
- to tolerate a lot more existential risk.
- And this goes to the point about counting people
- a lot of putting utilitarian framework.
- And not just people, but people years
- because it could be twice as many people,
- it could be people live twice as long.
- So if you have another year of life,
- you're willing to pay a lot of existential risk for that
- because you have a personal existential risk
- which is you might die at any given year.
- So if that goes down by a lot,
- then you're willing to tolerate a lot of existential risk.
- What do you think about that, Seth?
- - Yeah, so this is something I spend some time thinking about
- because it really does come out of again,
- how do you write down the utility function?
- And the way he writes down the utility function is
- that you get these really strongly,
- strong, more risk averse than log reductions
- in marginal utility of consumption within a period.
- But as I add more periods,
- the more periods are additive, right?
- So of course, adding more periods of life
- is gonna be better for a rich person
- than consuming more while they're already alive.
- Do I think that's how real human utility works?
- I read sci-fi where humans get bored of living longer
- after 150 years.
- The asymmetry there is too strong,
- I think given how far out this scenario
- is asking us to contemplate.
- - This goes back to the positive normative debate, right?
- So some people argue that we shouldn't discount at all,
- meaning that we should take human lives
- a million years from now as seriously
- as we take human lives now.
- - In that case, that kind of augurs
- a little bit of conservativeness.
- - Because you definitely,
- if you have an infinity, a future ahead of you,
- you don't wanna accept any risks today.
- - Yes, but if we're talking about just personal decisions
- and you think you might get bored of living
- in around 150 years, then yeah,
- that's not captured in this framework.
- - Yeah, so it's like provocative,
- but I guess like it comes out of the mechanism
- of how he wrote it down, right?
- Which is for rich people, a longer life is more valuable
- than more money within a shorter life.
- Probably a lot of rich people,
- if you ask them that would have that answer,
- but it neither seems to positively describe everyone
- nor seems to describe how people should think
- about their lives.
- - Yeah, I think one thing I keep coming back to
- in this debate is what does it mean to live a life
- when you know that, or you don't know 100%
- of the very high probability that humanity will go extinct?
- - Oh, that would be depressing.
- - This is an interesting question, right?
- It goes, there are a lot of thought experiments about this.
- For example, like, what if we were the last generation?
- And it's not that like--
- - Children and men.
- - Yeah, children and men.
- It's not like we were being killed,
- but it's just that no more kids were around
- and then everyone died of natural causes, right?
- I think people have different reactions to that.
- I think there's a lot of preference heterogeneity here.
- And I think this similarly, you can imagine
- that even under the threat of 20% existential risk,
- people are still living happy lives,
- enjoying the fruits of abundance of AI,
- or you can imagine that this leads to existential despair,
- rendering all the riches worthless.
- It's hard to know.
- I imagine that in any such society,
- there will be different sects.
- It almost seems religious.
- And then we have to think about aggregating
- these different people's preferences.
- - Yeah, that's hard.
- - So this makes me think about
- other times humanity has faced existential risks
- and it reminds me of a quote.
- Somebody asked Kennedy during the Cuban Missile Crisis
- what he thought the odds were
- that it would turn into a hot nuclear war.
- And do you remember what probability he quoted?
- - No, I don't remember.
- - He said one in three chance.
- This turns into a hot war.
- - That's high.
- - That's really high for what were they fighting over again?
- Whether the nukes were slightly closer to us than you.
- - Yeah.
- - So maybe the answer there is that Kennedy was wrong.
- Kennedy and Khrushchev were wrong.
- They were irrationally aggressive.
- Or maybe that's positively describing
- society really does have a lot of risk tolerance.
- - Yeah, I don't think that they fully realized those risks.
- I think humans do have a hard time
- thinking about probabilities
- and they're not well calibrated.
- I think coming back to this paper,
- I do think that there is a very interesting change in focus
- by focusing on life extension.
- It was a pushback against the doomers
- in the sense that the doomers are undervaluing
- all the medical innovation
- that could potentially happen through AI.
- - Even the potential x-risk amelioration, right?
- I got to believe you've read Deutsch's
- Beginning of Infinity, right?
- - Yes, yes.
- - And so he tells the story of the Eastern Islanders, right?
- These Eastern Islanders,
- they achieved a high level of civilization on their island.
- They seem basically chill with themselves.
- This is how the story goes.
- They're in touch with nature.
- But because they end up in this high equilibrium trap,
- they run out of trees and starve to death.
- You would hope that this literature
- would more take into account
- the fact that you might use AI to save the world also.
- - And to be clear, the people in this space have talked,
- they thought about it.
- They just tend to be a little dismissive of those possibilities.
- - And it doesn't show up.
- And no chat is trying to be even handed,
- which is why it's maybe slightly disappointing.
- It doesn't show up here.
- - I just like to think of it as a net,
- but it is hard to estimate that
- because most of the questions that experts
- in this field are asked are just,
- what is the probability that AI kills us all?
- And they don't get asked,
- what is the probability that AI saves us
- of various x-risks?
- I imagine an asteroid coming to Earth,
- which has some probability.
- - Right.
- - Presumably having better AI will be helpful for that.
- - You got an action?
- - Yeah.
- - Also about the second paper we read by Chad.
- - Let's update our posterior zone on this one
- and let's go to the next one.
- (upbeat music)
- - Having read that paper,
- you asked me how much x-risk I'm willing to tolerate
- for a 10% sustained growth rate.
- I came into this saying,
- if the alternative is shutting down
- all technological development of society forever,
- I'm willing to tolerate a little bit.
- If the alternative is,
- so that's where I was coming in for this.
- Having read this,
- I come back to really what I see
- as a fundamental philosophical tension,
- which is on the one hand,
- I have the strong utilitarian intuition
- that what you should do is maximize expected utility.
- And if on average,
- the thing maximizes expected utility, do it.
- But on the other hand,
- we have these intuitions about risk aversion
- and diminishing marginal utility.
- And the question is,
- which intuition should I reach for?
- Should I reach for the intuition of,
- we're already rich enough?
- Or do I reach for the intuition
- of twice as many Andres is twice as good?
- And to be honest,
- I'm not sure that this paper
- is able to move me all that much,
- because that's a question about
- what the social utility function should be.
- And this is more of an exploration
- of what different social utility functions get you.
- I guess it is interesting to see
- that with log preferences,
- which are a reasonable bright base case,
- we're not willing to tolerate a 2%,
- let's call that net increase in risk.
- So maybe that does move me down a little bit
- in terms of risk aversion.
- Other thing we can talk about
- when we get to limitations is,
- we're already rich people from a high income country.
- You might imagine the median person on earth
- is still, might be more willing to roll the dice
- a little bit more.
- - Yeah, yeah, that's definitely an interesting point.
- I guess for me reading this paper,
- I would say that I'm willing to,
- I said I was risk averse to start with.
- I said I tolerate a less than 1% chance
- of the extra risk per year.
- If we say that my prior was about 0.5%,
- I would say that this has made me tolerate a bit more.
- I've always been pretty positive
- on the healthcare benefits of AI,
- the potential healthcare benefits of AI.
- But looking through the math,
- how it implies that we should be a lot more tolerant of risk
- if we can extend lifespans,
- that to me is a very powerful argument.
- So I think I'm willing to tolerate maybe 1% chance
- of X risk as a result.
- So I'm increasing my tolerance,
- but I'd still not go all the way
- to some of these very large numbers that he posits,
- like 25%.
- - You start getting to the ranges of eventually you will,
- you start taking these 25% samples,
- eventually you are gonna destroy the earth.
- - I guess in my answer, one little part of it is,
- it's hard for me to really get to thinking
- it's a 2% risk.
- I read that as experts say there is a 2% risk.
- - Yeah, I think the X risk is not as high as 2%.
- There's also this question.
- We haven't been very clear about it.
- Cumulative risk is a per year risk.
- - Does that up?
- - Yeah, it does that up.
- I think the per year risk is tiny.
- I think over the future of humanity,
- I think it might be a quite a sizable risk,
- but over the next 10 years, I think it's tiny.
- - Okay, so let's talk about this second paper.
- Chad Jones also wrote a paper called,
- "How much should we spend on X risk?"
- This is an early stage working paper version 0.5.
- So you listeners are getting the insights
- long before the professional community.
- - Yeah, this is a reframing of a very similar kind of problem.
- So let's say that there is some existential risk
- and we're not able to control that baseline risk too much,
- but we do have some technologies that we're able to use.
- So if society chooses to invest in AI safety research,
- then the risk does go down, although not necessarily
- all the way to zero.
- And Chad's question is just what is the share of GDP
- that we should be willing to spend on this risk reduction?
- And he compares it interestingly to COVID.
- - How does that comparison work?
- - So during COVID, I think about 0.3%,
- there's about a 0.3% mortality.
- And there was a loss of GDP of about 4%.
- And if we take that at kind of fist value,
- that should tell us something about the fact
- that society is willing to reduce its GDP
- or alternatively invest GDP into mitigation,
- which could just mean less economic activity
- in order to have people die less.
- Now, of course COVID is quite different
- as it never was an existential risk.
- And as we already talked about,
- everyone in humanity dying versus some people dying
- has a very different question, but he gestures at that.
- But he has a very simple framework
- for thinking about--
- - Elegant.
- - For thinking about this.
- So he pauses that there is a parameter,
- which is the effectiveness of spending, right?
- Which is just the elasticity of how much risk
- is reduced when you spend as a society.
- Then there's a baseline risk to be mitigated.
- And then lastly, there is the value of life
- that he uses pretty standard U.S.-based numbers.
- - U.S. being the key here.
- - Yes, and he says that kind of a very simple back
- of the envelope version of his model
- implies that we should be spending about 1.8% of GDP
- on reducing existential risk.
- - Big number on risk.
- - So yeah, that number is epically big.
- It's in some sense way bigger orders of magnitude bigger
- than what we currently spend.
- So very provocative.
- - It's roughly four times the size
- of what we're currently planning on spending on AI altogether.
- We talked about this open AI,
- $500 billion spending around,
- 2% of world GDP would be $2 trillion.
- So we're talking about spending like 4X,
- what the biggest AI project is
- on just existential risk reduction.
- - Yes.
- - Which sounds like a lot, Andre.
- - So that is a lot.
- And so he then considers a wide variety of scenarios
- that kind of move from that back of the envelope calculation
- to something that's more of a standard macroeconomic model.
- And he actually comes up with even bigger numbers.
- So when he puts in a real macro model in this,
- he gets a baseline optimal spend of 15.8%.
- - Damn.
- - So what is this sensitive to?
- One of the things that it's very sensitive to
- is what he calls the time of perils.
- So what is the time of perils?
- - Friend of the show Phil Tramiel explained this to us.
- - You might think that we might figure out
- how to keep AI on a leash.
- That might take us some time.
- But once we figure it out,
- then it's no longer an existential risk.
- - That's one way of saying it.
- I think the distinction that I think about
- is the risk from the AI,
- the deployment of an unsafe system?
- Or is the risk from the AI,
- the developing, the new system?
- It's in the first Chad Jones model we talked about,
- the risk is from going one more year of AI development.
- In these time of trials models,
- the way that it tends to work is
- there's AI of a certain amount of riskiness
- that is creating a growth rate.
- And over time, you can make the AI safer.
- And it's like deploying the risky AI is the risk.
- And under those kinds of models,
- you actually want to, if anything,
- race through economic growth.
- You want to get the most advanced AI as fast as possible
- so that you're a society that's rich enough
- to know how to align AI's.
- That's a paper, sorry.
- I'm now introducing a paper
- that was not one of our official readings.
- - So I guess that's not quite how this paper frames it
- in the sense that--
- - This is a static paper.
- - Mostly what he's saying is that
- if you have more years of perils,
- you're gonna want to spend less money on this.
- If you have more years of peril,
- you want to spend less per year or less in aggregate.
- - Less share of GDP.
- - Talk us through that logic.
- - Yeah, so my understanding of that logic
- was that the risk might take longer to materialize.
- So we have more chance to figure out how to solve it.
- If the risk is gonna be very quick,
- if existential risk is gonna materialize next year,
- and then obviously we should devote
- an enormous amount of resources to it.
- - If the risk from AI and development,
- GPT-5 is either gonna save the world or destroy it,
- we should spend a lot of resources getting GPT-5, right?
- - Yes.
- - But if alternatively, it's more we get five,
- and then we get six,
- and they get a little bit more dangerous
- every time you bring them out,
- you've got a lot of time to work
- on amelioration technologies, is that right?
- - Yes.
- So I think that was one thing that I had in mind.
- And then I think the other kind of key thing
- about this paper is the specific function
- that models how GDP spent is converted to reductions
- in existential risk.
- - An optimistic utility, an optimistic function
- is how I would describe it.
- - Yeah, I think he says that there's some portion
- that cannot be eliminated.
- And then he says that there is some parameter
- that just governs how effective the spending is.
- And I think the key thing about that parameter
- is it's not super diminishing, right?
- - It's an average equals marginal set of it.
- - As a result, like your trillionth dollar spent on AI safety.
- - Well, spend it on Andrei.
- - Similar to what would you even spend
- the trillionth dollar on AI safety on?
- I feel like that's the big,
- I asked question in this paper.
- - Yeah, so I think I'm with you.
- One way to think about it is that
- it could just be not pursuing economic activity.
- - The idea is we don't deploy that AI
- that could have given us growth because of the two risky.
- Okay, maybe.
- - So I think that's the most positive way
- of the way that makes the most sense with this model, right?
- So if we think that the deployment of AI
- is something that we can control,
- but we're forbearing on it, maybe through regulation,
- that's gonna reduce GDP,
- but that gives us more time to figure out
- how to deploy it safely.
- - What, do you have any thoughts about the model?
- I also wanted to briefly mention two related papers.
- - Yeah, so my key thought on this model
- is that the numbers are huge.
- I think the weakness of the model
- is a lack of recognition of diminishing returns to AI safety.
- - The limitation of the model is any data on that at all.
- - But that's the limitation of this entire debate.
- I think we don't, I think we have a lot of uncertainty.
- And uncertainty, given asymmetric risks,
- should favor some amount of investment.
- - Let's come back to that in a minute
- with our limitations.
- Okay, so I just wanted to briefly bring up
- a two complimentary papers on similar subjects.
- The first is an interesting one by Leopold Ashenrenner.
- We've already done one of his papers,
- Situational Awareness, along with Phil Trammel,
- friend of the show on Estelle Postdoc,
- who have a paper that is looking at AI risk
- and argues that we will go through
- what they call a "hotelling curve"
- in the sense that when you have zero AI,
- you should have zero AI risk.
- And when you have lots and lots of AI,
- you should have very low AI risk
- because society will be super rich
- and they'll be able to devote lots and lots of resources
- to ameliorating AI.
- But there's this kind of intermediate zone
- where we're still developing AI and it's risky,
- but we're too poor to spend a giant share of our GDP
- on making the AI safe.
- And so that's how you get this time of trials dynamic
- that seems to have influenced Chad Jones' thinking.
- A little couple of snaps to our friends over there.
- There is another paper that people might be interested in,
- robust technology regulation.
- This is by a pair of PhD students at MIT, Andrew Coe,
- and Syvacore Juan-Moo, very interesting little paper
- that tries to bring in a principal agent element here, right?
- They're concerned with this question of,
- you've got a principal that wants AI deployed,
- but not super risky AI deployed,
- and an agent which is gonna be a little bit more risk loving
- than the, you can imagine, the e-regulator versus open AI, right?
- And what they find there is the companies
- are always gonna be tempted to be more risky
- than the regulator wants.
- And what they argue is that pretty much therefore,
- the government has to put strict limits on development
- because you can't trust the lab saying,
- oh, we developed halfway and it seems really safe.
- Basically, all of that information is cheap talk
- and the government's gotta put strict limits.
- The growing research agenda of people thinking
- about these subjects, as we move into our limitations,
- I want to emphasize that these are limitations
- for this generation of thinking about it,
- and we don't see these, I don't see these
- as essential limitations, but rather limitations
- of the thinking we've seen so far.
- Andres, like these are essential limitations,
- we will never know.
- - I guess we're getting into limitations.
- I like these exercises 'cause it makes people
- be very clear about their assumptions.
- And since this is an area lots of people are thinking about,
- it's good to bring some rigor there.
- But sometimes when I hear about some of these papers,
- they're just so fricking obvious.
- Like you just told me about two papers,
- it's like, you have a prior and you write a model
- to confirm your prior, so.
- - You don't write them, that's what models do,
- is they take verbal thinking and they clarify it into math.
- - Sure, but sometimes they're too obvious.
- Yeah, no duh, private, accurate,
- not gonna have the same incentive as a government,
- a private actor faces a moral hazard issue.
- I just, what do I think is missing in this model?
- What about that?
- What is like a key underlying assumption here?
- (upbeat music)
- I think one assumption is that we can say something useful
- about mitigating AI risk without seeing live AI systems.
- There's a sense that we can plan ex ante
- really far ahead of the actual models
- that are providing the existential risk.
- And that might be true in certain circumstances, right?
- If we think our model of existential risk
- is that some evil guy is gonna create a virus
- that kills all of humanity,
- then probably we can think about limiting
- that person's access to the information to create such a virus.
- That seems like a pretty concrete risk
- that we can think about mitigating.
- - And it's actually pretty analogous to challenges
- that society is already things.
- - But if we're talking about this agentic AI system
- that's hard to control.
- - With a Yekowski and strike from nowhere.
- - Yeah, I mean, my sense there is that
- we'll have a better sense of how to control it
- when we see something that's closer to it.
- - We'll be in a better position to address the issues
- as they get closer to reality
- because we'll have something concrete to work with
- and think through it.
- Which is not to say that we shouldn't be investing
- in better control of AI systems now.
- Of course, we should be.
- But I'm not exactly sure that it's hard.
- Like the tech tree is really hard to think through.
- And to me--
- - It's almost essentially impossible to predict
- 'cause if you could predict perfectly
- the next technology, you'd already have it.
- - Yeah, yeah, there's some version of that.
- And there is a sense that humans tend to learn a lot
- about things as they get to play around with them.
- And so we're asking for technologies that are,
- for safety technologies that are ahead of the technologies
- that they're meant to be improving.
- And just modeling that bakes in a lot of assumptions
- is all I could say.
- It's very similar to our argument about interest rates.
- If we have 30% growth and we all know it next year,
- then interest rates will be higher.
- That's the lesson of that paper.
- And the point I made was like,
- well, before the growth rate is 30%,
- we'll probably have some growth rates of 20%.
- - Right. - Maybe some 5% growth rates--
- - Nature doesn't make jumps like that.
- - Yeah, like as we get closer,
- we will have more opportunity to adjust to the society.
- Now, I think what the view of the people
- who are very interested in safety
- is that actually we're there already.
- They're worried that it's gonna be this year.
- It's gonna be next year
- that we are gonna have this fully agentic,
- superhuman AI that we can't control.
- I'm curious, is this all this boils down to in the end?
- - What is this boil down to?
- Give me the sentence that it boils down to
- and I'll give you an answer.
- - So, if you think that the quote unquote,
- time of trial tribulations is two years or five,
- then, yeah, you gotta throw everything you got at it.
- - Do you think remediation is effective?
- - If you think remediation is effective.
- But if you think it's 30 years, 50 years, 100 years,
- an option is a wait and see,
- a little bit of a wait and see.
- - A little wait and see.
- - There's no wait and see here.
- - So, let me talk about that point for a second,
- 'cause I actually see this as an interesting source
- of tension between the first Jones paper
- and then the second Jones paper
- and then Philip and Ashenbrenner,
- where kind of one framing is,
- do we stop developing AI, right?
- And one framing is, we are on a period
- where AI development is risky,
- but then we will either destroy ourselves
- or come off on the other side better off, right?
- And that man, my intuition is that the world
- should look more like the latter.
- It seems really implausible
- that the best thing for humanity
- is going to be pausing AI development
- until forever, until we--
- - What did Kowski say?
- We should delay AI development
- until we figure out solve decision theory and morality.
- - I, that seems like too long.
- - Okay, some other limitations that jump out.
- - Wait, just to clarify, I said.
- So you believe that there's a proportional hazard
- of existential risk or we'll solve it in X years.
- We either solve it in X years or not,
- and that's the end of it.
- Which do you think is a better model?
- - I think the right model is
- that whenever you develop a new technology,
- you are changing your society.
- And there's that statue of Ozymandias, right?
- How does that poem go, right?
- Ozymandias, King of Kings, nothing beside remains.
- To me, the one issue that is really not talked about
- enough here is what exactly constitutes an X risk,
- because I think that's really important.
- But let's again go back to the assumption
- that X risk means all value is destroyed
- and also the AI children, the AI destroys itself also, right?
- I don't think there's a unique time of trials.
- I think that as society advances,
- there's always going to be the next way
- we could destroy ourselves, right?
- We invented nukes and then we could have
- destroyed ourselves with nukes and then we'll invent AI
- and we can destroy ourselves with AI.
- And then we'll invent some other amazing,
- horrible technology that we could destroy ourselves with next.
- And I think for every individual technology,
- probably the right model is a time of trials model, right?
- Where you bring out the new technology,
- you're figuring out how it works,
- you haven't quite mastered it,
- you're figuring out as it goes,
- probably that's the period in which there's the greatest
- uncertainty risk, what you want to call it, about X risk,
- but then you overcome that.
- But that kind of like in aggregate,
- you're always encountering new technologies
- that you're going through that curve.
- - I see.
- But in your conception, is AI one technology
- or is it many technologies?
- - Probably if you're going to take that model literally,
- it would have to be many technologies, right?
- So there'd be like the generative AI version
- and then maybe there's the version that comes after that.
- - Yeah, and then this makes me think of like how knife edge
- is the result in this Jones paper based on T, right?
- The time of tribulations model
- does really focus on investment today,
- whereas a lower proportional hazard model
- kind of suggests a proportional investment.
- Yeah.
- - I guess I just come away really unconvinced
- by we should just shut it all down right now.
- I feel I think Jones sometimes toys
- with shut it all down right now is a plausible option,
- but I certainly don't come away with that
- as something that would be desirable.
- - But he doesn't advocate for shutting it all down.
- - He gets some parameter spaces in the first paper
- where you should accept no years of AI development.
- - Sure, but I guess in the optimal investment,
- the maximum is about 20% of GDP
- or maybe 30% of GDP depending on how we value.
- - You're right.
- - Some scenarios.
- - Which is not shutting it all down,
- but I think both of us are expressing
- our skepticism of the ability of the economy
- to provide enough AI safety researchers to even us.
- - There's a certain percentage of humans
- that are gonna be AI safety researchers
- whether you pay them zero dollars or a million dollars.
- Okay, other limitations that jumped out at me.
- One is he keeps on thinking about Jones,
- really all of these papers want to think about
- these beliefs as like continuous objects,
- but it really feels, I don't know if you've read the internet,
- but they seem super bimodal, beliefs about amelioration,
- ability, beliefs about the risk of AI,
- beliefs about the helpfulness of AI.
- It really seems like people are,
- it's not this nice, normal distribution
- or uniform distribution of beliefs.
- - I don't know if that matters that much.
- - It matters if the framing,
- which sometimes in Jones's first paper, the framing,
- 'cause let me say it's something,
- I fucking love you, Chad Jones.
- Come on the show, you're a great guy.
- But I read this abstract for the AER insights
- and the abstract doesn't say anything
- about what the paper's fun.
- - Very frustrating abstract.
- - First of all, first sense of this abstract,
- fucking you cliche Pavlam, AI could be good or bad.
- You get a hundred words and you spent like 10% of them
- on AI could be good or bad, dude.
- - Yeah, and you don't tell me what the actual finding is.
- All right, so note to authors,
- please put your finding in the abstract.
- But why do I lead with that?
- - The reason I bring that up is because, okay,
- so what's the threshold?
- And it seems like the takeaway is that the exact amount
- of, or exact amount of AI you should develop
- should be really sensitive.
- You said it's not that sensitive,
- but it should be pretty sensitive
- to all of these different assumptions.
- And I'm saying if people's assumptions are all over,
- these people are super hype
- and these people are super anti,
- it doesn't really seem like you're finding
- a sensitive to the assumptions.
- It seems like you're either in camp one or camp two.
- To me, the solution to that,
- if we were agnostic is a weighted average
- and I still think all the insights hold here.
- - All right, fair enough.
- - So I don't think I'm--
- - Not a limitation.
- - I don't think it's that weak.
- You could say, hey, actually, I side with this side
- and therefore when we're gonna do this
- or you're gonna be one of these guys that's like,
- I side with this other,
- the people who don't believe at existential risk
- is a serious issue.
- And then obviously if you're gonna side with them,
- you're gonna have values that are equal to zero
- for everything.
- - Fair enough, not a limit.
- Maybe you don't think of that as limitation.
- Okay, next one, positive versus normative.
- We danced around this a lot.
- - Yes.
- - What the fuck is this model supposed to do?
- I said this to Chad.
- I'm like, Chad, in my brain,
- a model is why do you write models in economics?
- Either you write them because you describe
- how the world is, that's a positive model,
- or you write them to describe what people should do.
- That's a normative model.
- These models are so weird because they're not positive
- and they're not normative.
- They're not a positive description
- of the one world government
- that will make all of these decisions XYZ.
- And they're not normative
- because we talked about a thousand reasons.
- They're not normative, right?
- They're ignoring the vast majority of humans on Earth
- who aren't super rich.
- They're failing to take into account plausible arguments
- about the social utility function
- should be less risk averse
- than the individual utility function.
- How do you think about,
- what is even the point of these models?
- What's the Strauss in reading?
- I'm actually less worried about it than you.
- - Okay.
- - Why?
- I agree with you that it's neither here nor there,
- but even if we had a more coherent moral framework,
- let's say if we were more normative here.
- - We came out with this is what Rawls says we should do.
- - Rawls says gamma is 1.5, whatever.
- It would still be sensitive to these factors.
- It would be sensitive to the mortality rate.
- It would be sensitive to our estimates of existential risk.
- - And the Strauss in reading, I think for economists,
- this is saying, hey, this is how we usually think about things
- and if that's right,
- then actually we should be spending a large share of our GDP
- on solving this issue.
- And then for maybe the people who are really into AI risk
- or some of the computer scientists that are giving percentages,
- hey guys, you gave me this percent.
- If we took that percent seriously,
- our society's completely screwed up.
- Like we're doing everything wrong.
- So maybe it's not 1%, maybe it's 0.1%.
- - It's the Strauss in reading is you flip it on its head.
- It's that you say, you guys claim that the risk is 20%
- we blow ourselves up, but are you acting?
- There's a 20% chance we're blow ourselves up.
- - Yeah, exactly.
- But that I think is the value of this.
- Cause obviously we're contributing to a big policy debate.
- All of us, as a few listeners.
- - Yeah, every, I think all of us are probably involved
- in this debate to some extent.
- And we're not like dictators that control representative agent
- that dictates this is the percentage of GDP that we spend
- or we now all agree to stop AI development.
- We're also embedded in the society that's very decentralized.
- And so having these arguments is gonna,
- like this paper probably can marginally shift our actions
- in a particular direction.
- I think what is being lost a little bit here
- is how should individuals behave?
- - Okay, I see the individual question in some ways
- is easier than the social question.
- - It is easier, but the social question is not,
- we can only shift it on the margin.
- - Individual maybe we're relevant.
- - Yeah, individuals more relevant.
- And in the sense of, I don't think there's,
- even if the entire AI community in the US coordinated
- and said, hey, we're stopping development of AI,
- it would still keep going in other parts of the world.
- - Could you even stop it if you wanted to?
- - Yeah, that's like weak.
- - Certainly if open AI or anthropic shut its doors,
- it would be slowed, it's still gonna go.
- And so the question is, as an individual, what do you do?
- And I think this is a very interesting trade-off.
- For example, even if you believe AI risk
- is relatively high compared to the population,
- you may still want to work at an AI lab.
- Why? That gives you--
- - The warning.
- - That gives you the situational awareness.
- - Oh, we're both.
- - And that gives you the capital to control,
- to try to develop methods to control the AI risk.
- This is kind of part of the individual level dilemma.
- There are plenty of people that I think would love
- for government regulations or global regulations
- to do something about AI development,
- but that's not in the cards.
- There are people trying, but it doesn't seem to be in the cards.
- And so their individual decision is,
- do you sit at a nonprofit in pontificate?
- Do you work at an AI company and try to direct
- where the research is going?
- That I think is an interesting
- and more practical set of questions.
- And I'm not sure, I think--
- - Chad Jones isn't gonna write that paper.
- - No, but these papers do imply something for that.
- You can plug in your beliefs.
- And if under your beliefs and your moral framework,
- it says that we should invest this much money
- into 1.8% of GDP, let's say, into AI safety
- when we see that we're nowhere near.
- Then maybe you should be working on researching that.
- Or maybe you should make as much money as pontificate.
- This is your classic.
- - To build a big enough vault to hide it.
- - Earn to give.
- - Earn for escape bunkers.
- - Yeah.
- - I think that's a really interesting
- direction for your research.
- I wanted to bring up one last limitation,
- which is, Andre, I want you to imagine the following story.
- Okay?
- Stranger comes up to you on the street.
- Ordinary looking guy.
- Says to you, Andre, I don't have a gun on me.
- I don't have any weapons on me.
- You probably beat me up.
- But give me all the money in your wallet right now
- or something really bad is going to happen to your family.
- How do you think about that situation?
- - I've met this mugger because--
- - Oh, novel.
- - What did you do?
- - Clearly, I did not give them all my resources.
- - So why do I bring up the story, Andre?
- So we sometimes think about these situations
- where there is a small, but maybe not negligible chance
- of a really bad outcome.
- And in general, there's this kind of problem
- of small chance of tail risk,
- how much should I be willing to go out of my way
- to ameliorate that?
- And my concern with these sorts of settings,
- that sometimes you might call these Pascal's mugger.
- I wrote Pascal like Pascal Restrapo, but Pascal,
- if you guys know Blaze Pascal,
- he wrote a book of Christian apologetics
- in the 1500s called Pences or Thoughts.
- And in it, he has an argument for why you might want
- to believe in God, called Pascal's wager.
- The way that argument works is,
- hey, look, if you believe in God and he doesn't exist,
- you waste a little bit of your time,
- but if you believe in God and he does exist,
- you know, you get heaven and you avoid hell.
- So this is supposed to be,
- even if you think there's only a really small chance
- that God exists, you still go for it
- because there's infinite upside.
- All of this sort of argument,
- these x-risk arguments about AI
- have the sort of flip side flavor to them.
- Do exactly what I say, ameliorate exactly what I want
- to ameliorate, or there's a small chance
- that you and everyone you love will be destroyed.
- And there's something about the form of that argument
- that I'm really hesitant to accept
- because I feel if I accept that once,
- I'm gonna be accepting that from every expert
- who shows up and says, there's a 2% chance
- that all of the copper in the world
- could spontaneously detonate and kill everyone on earth.
- And we need to spend 5% on GDP on fixing that.
- How do I prevent myself being conned by experts like this?
- - Yeah, so it's interesting.
- It depends on the specific threat.
- I do have some expertise in it.
- I've been reading a lot about these topics.
- I've interacted with AI systems.
- I've thought a lot about technology in general, right?
- So to me, I have to evaluate the argument myself.
- I'm not gonna just blindly trust an expert.
- - Beloved listeners of this podcast,
- obviously we bring a lot of expertise to you every day.
- But I feel myself,
- when I read these surveys of computer scientists
- that you get this PDF of percentage chance AI destroys everyone.
- Let me be straussian for a second.
- When somebody comes to me and says,
- my problem is the most important problem
- in the world give me more money.
- I have a little different interpretation of that.
- - I agree that we can go off of our own intuitions
- and smart people who aren't super tied into AI
- have identified this as a problem.
- But I guess this is just,
- I can't spend 5% of GDP saving us from everything.
- - Right.
- - So in the same way that I need a dentist that I trust
- and I need a doctor that I trust
- that I need a computer repairs person that I retrust.
- The form of this argument is scary.
- Even though it's logically consistent,
- it's scary that it makes me vulnerable to exploitation.
- - Yeah, I can see how you would say that.
- - I would simply evaluate the claim
- and know whether it was true or not.
- - There's like a question like thinking through it yourself.
- That's clearly something that we can do.
- There is a societal question
- we don't live in a centralized society.
- People are able to convince other people
- they'll convince some percentage of people
- and resources will be allocated according to that.
- If you talk to people who are very concerned
- about existential risk of AI,
- they'll tell you that no one cares about what they say.
- No one takes them seriously.
- I see that there's like a moral hazard here, right?
- Everyone wants to convince everyone else
- that their pet cause is the most important.
- But I guess I'm just not that it doesn't seem
- like that problematic to me in this case.
- I think there are problematic forms of it, right?
- In the sense that you might imagine technology companies
- cynically using this to create regulations
- that prevent competition,
- but we just have to evaluate this.
- - Right, you don't need an existential risk
- to get bad.
- - Yeah, you have to think hard about the details
- and I think that's the best we can do.
- We should, let me just put it this way.
- I think it's plausible to spend more time worrying
- about non existential AI risks.
- And it seems like AI safety research is pretty similar,
- regardless of whether it's considering existential risks
- or non existential risks.
- Does that make sense?
- Let's say an AI system gets out of control
- and doesn't kill everyone, just kills.
- - For months.
- - 1% of the global population.
- Now it'd still be a catastrophe.
- - Where would you get your meat of syrup?
- - Try to prevent.
- So yeah, to me it seems research in this direction
- is actually not just about existential risk.
- It's actually about safety, about controlling AI systems.
- And therefore, I'm a little bit less worried
- about, you know, misallocation of research.
- - Right, there's a portion of this
- that's gonna be helpful no matter what.
- If we think AI is important, getting AI aligned
- is a useful thing, even if we don't think AI
- has the potential to kill everybody.
- So you're not so worried about that, fair enough.
- I just wish we go around and we're saying,
- I want this AI to be aligned.
- I go around my life, nobody's aligned with me.
- My doctor's not aligned with me.
- My dentist's not aligned with me.
- My boss isn't aligned with me.
- I go to the chiropractor, he can barely align my back.
- I don't know, it doesn't keep me up at night
- that things aren't perfectly aligned with me.
- - Sure, I agree with you.
- I think the proportion of my day,
- I don't think you're about alignment.
- And I kept maybe points to a key issue here is that
- misalignment is not an existential risk
- without super intelligence and super intelligence.
- We're assuming that it also gets you all the resources
- you need to accomplish, you're misaligned objective, right?
- - All right, Andre, I know we already started talking
- about this, but are you ready to justify your posterior?
- - Yeah, I felt like I have already,
- just to find my best.
- - Do you have any of us in one sentence, one more time?
- So on the first paper, your one sentence was?
- - Yeah, I'm willing to tolerate a bit more existential risk
- as a result of this.
- It didn't change my beliefs about the yearly probability
- of existential risk, which I think is much lower
- than the one you've assumed in that paper.
- - I come away not particularly moved in my belief
- that we should be willing to tolerate a lot of claimed risk
- from the AI community, but it really does suggest
- that we need to get our act together as a society
- and figure out what our social utility function
- over consumption is, because we seem to have
- very different intuitions about whether society
- should be more or less risk averse than individual.
- - And then the percentage of spending,
- I come away with thinking that if you're the type of person
- who is interested in AI and is interested in AI safety,
- you'll be doing a lot of social value,
- investigating those topics.
- There's a plausible argument for working on that,
- but I do feel like there is gonna be very high diminishing
- returns to investment on this topic.
- And as a result, I don't favor numbers.
- There's big in Chad Jones papers.
- - I think that's right.
- I think you gotta really show me the big machine
- that turns money into AI safety
- before I write that trillion dollar check.
- - Yes.
- - And I guess I have this additional concern on top of you,
- which is I just don't wanna write any trillion dollar checks.
- And I'm afraid everybody's gonna come up to me
- asking for trillion dollar checks.
- And the other thing I really wanna see from this,
- and I know Chad is aware of this if you talk to him,
- is that this is such like a US Western centric analysis, right?
- Why don't we care about what the median person
- on Earth's opinion about this would be,
- who presumably have a lot more risk tolerance
- than the rich Americans?
- The fact that that seems missing here.
- - I'm not sure.
- - Let's say instead of statistical value of life of 10 million,
- I just feel like once again,
- if you really care about the median income,
- just plug that number in.
- - But he has done, he has done that,
- but it leads to a very different number.
- And I can maybe even listeners subscribe
- to our premium version for Seth's calculation
- where he actually does that calculation,
- but I think you'll get a much, much lower level of AI spending
- and a much higher level of buying actual consumption goods
- for poor people.
- - But I guess what I'd counter that with is
- that it would still be much higher than we currently spend.
- - Then we come back to the question
- of how much of open AI spending's right now
- counts as X-risk mitigation, right?
- - Let's imagine you're an AI lab
- that's developing advanced AI systems.
- Is that AI safety research or something else?
- - Or is that AI danger research?
- - Yes.
- All right, thanks for joining us once again
- for Justified Posteriors.
- Please comment and subscribe to our sub-stack.
- And know that if we delay AI,
- it will require killing something of what is essential to us.
- The unbounded optimism about the power of thought and freedom,
- or as the way Emerson would've put it,
- the true romance the universe exists to realize
- the transformation of genius into practical power.
- - Wow.
- - See ya.
- - See ya soon.
- (upbeat music)
- (upbeat music)
+Seth (0:00:00): [ on-hold music] Welcome to Justified Posteriors, the podcast that updates priors about the economics of AI and technology. I'm Seth Benzel, trading a potential increase in utility for a measurable risk of death every time I post a podcast, coming to you from not Chapman University in sunny Southern California, but rather on a fact-finding mission to chilly Boston, where I've encountered my co-host.
+Andrey (0:00:36): And I'm Andrey Fradkin, coming to you from that special time of tribulation where it might all go to nothing.
+Seth (0:00:45): A time of trials we find ourselves in. Why do we think everything might go to nothing, Andrey?
+Andrey (0:00:52): Imagine that we've created a monster, something that is smarter than us.
+Seth (0:00:57): There's an alien off the coast of Venus.
+Andrey (0:00:59): Smarter than us, faster than us, and can manipulate humans at will. What will such a monster do? One possibility is they'll stop caring about us humans and will take all the resources and destroy us.
+Seth (0:01:15): That is certainly one possibility that many people fear, and it has led to a lot of angst out there, wouldn't you say, about these AI technologies that are coming that have so much potential, and yet people have these visions in their head of Terminator death bots coming around and killing everybody, or a slow loss of control as we give up powers to our AI overlords, or even more mundanely, creating tools that are so powerful that fall into the wrong hands that are then used by human actors for bad things. I would say in my brain space, I've been worried more about the human actors misusing AI kind of scenario. These papers that we're looking at today look-- lump those all together than are really particularly distinguishing.
+Andrey (0:02:05): Yeah.
+Seth (0:02:05): So what's our prior? So I-- so what are we talking about today? What are we arguing about?
+Andrey (0:02:09): Yeah, so we're arguing about two related questions. The first of these is suppose that we all agree that AI is gonna bring about an age of wonder, 10% GDP growth rates.
+Seth (0:02:23): Five times the world's historical growth rate. This would be absolutely gangbusters. I know in one of our previous podcasts, we've talked about transformative AI, which is sometimes benchmarked at a 30% additional growth rate because of AI technologies. That's... It's hard to say how much more fantastic 30% is than 10% because they're already pretty far outside human experience numbers, right? 10% real growth is something that some countries can achieve for very short periods of time.
+Andrey (0:02:55): Yeah, like when they're rebuilding after a war.
+Seth (0:02:57): Exactly, like turning things on after COVID or bouncing back from a war, really getting injected with FDI out of nowhere.
+Andrey (0:03:05): Yeah. Yeah. So if that's gonna happen, but there's some amount of risk that as we're zooming to an, a world of ab-abundance that the AIs take over and kill us all, how much risk should we tolerate? I think that's the first question.
+Seth (0:03:21): So let me take a swing at that.
+Andrey (0:03:22): Okay.
+Seth (0:03:22): So if you're telling me we could make the world grow at 10 percentage points more a year for a length of time, but as long as we do that, there is some sort of chance that the world gets blown up, right? It's somehow, it's the development of the AI technology, which is itself the risky thing, right? So as we go down the tech tree, every time we unlock a new tech, we might blow everything up. To me, one thing that immediately jumps out at you is there's not a lot of asking about what the counterfactual is. Is there, like, another safer technology we should be investing in instead? I guess we're thinking about this as the only way to continue developing the technology. You gotta develop AI, or else you're stuck at the current tech level forever. I don't know. I think I'd be willing to accept pretty high rates of risk, right? Certainly in multiple percentage points per year. Alternatively, if you're telling me something more that risk will come down if we delay, or sure, we might get 10% growth from AI, but we could get 7% growth from in-innovations in biotech, then my tolerance for ex-- risk from AI in particular is going to come down low. But I guess to, to answer the question on the nose, the way I see it is that any new technology is going to come with these big unknowns to them, and a lot of people are always gonna be scared about change in a lot of ways, and we can talk later about what is an ex risk, what care-- what counts as a, a fatal shock. But the way I would think about it is if this means shutting down all technological development, I'm willing to accept a lot of claimed risk. But if this is really just shutting down one avenue, but there's other ways for society to develop, I don't know. I guess I would be willing to tolerate a lot less risk. Of course, this all comes down to do you believe the different projections of risk, and we can come back to that question. How do you think about this one, Andrey?
+Andrey (0:05:30): Yeah, I, I share your intuition. I think I always like to think about the upsides of technology. So there are risks if we don't develop technology quickly. For example, maybe AI is gonna help us solve bio risk.
+Seth (0:05:48): [laughs]
+Andrey (0:05:49): Or perhaps it's gonna reduce the chances that nuclear weapons are used. It's very easy to come up with scenarios like these. Um-
+Seth (0:05:56): It could help us fight off the aliens when they invade.
+Andrey (0:05:59): Yeah. So I think a useful thing to think about is the marginal risk of existential The marginal existential risk.
+Seth (0:06:08): Mm-hmm.
+Andrey (0:06:08): It might reduce some risks, it might increase other risks. How much of a risk increase am I willing to tolerate? I agree with you, the counterfactual matters as well. And this is why modeling exercises that make this very clear are useful, I'd say. But I would actually say maybe less than 1%. I just think that even with current technology, if humanity were well-governed, people would have a pretty positive set of lives. And this kind of question of good governance seems really important, and I don't really know how AI interacts with that. There is a presumption, I think, in these conversations that there's a, some sort of central planner or a dictator that determines what we do-
+Seth (0:07:00): Mm-hmm
+Andrey (0:07:00): ... as a humanity in terms of these questions, which I don't think is super realistic. I'm pretty risk-averse in this case.
+Seth (0:07:07): Okay. All right. And then there's the experts telling you that there's a 2% risk, and then there's what your actual perception of risk is. I'm tempted to read this 1 to 2% risk as if all of the experts say there is a 1 to 2% risk-
+Andrey (0:07:22): Mm-hmm
+Seth (0:07:22): ... which might not be my internalized actual risk.
+Andrey (0:07:26): Actually, yes. Yeah.
+Seth (0:07:26): Okay. Another way of asking the question, I guess maybe it's not necessarily more narrow or more broad than the question, is should we develop a, devote a large share of GDP, actually set aside this question of if we assumed a certain rate of risk. Let's just ask the question, should we devote a large share of GDP or a large-scale social effort to slow AI development or increase AI ex- ex- existential risk research? In the papers that we read, this is talked about, like, in terms of a fraction of GDP being devoted to this cause, maybe 1% of GDP, maybe 2% of GDP, maybe half a percent of world GDP. And I gotta tell you, Andre, [laughs] I am pretty, pretty low confidence in this belief. I would say maybe there is a 10% chance that going into reading these papers, I felt that we should devote a significant fraction of world GDP to AI risk amelioration and/or delaying AI development. And fundamentally, that's just because world GDP is $100 trillion. I do not know how we could plausibly spend a trillion dollars on AI safety. There's, like, a capacity problem here, right? Further, I think there's an important argument that I think when people talk about X risk, they lump together situations that are really different. They will lump together situations that are like all humans are dead, but we have AI descendants who are relatively human-like, who are relatively utilitarian, who we think experience consciousness. We might have Ms, right? And that might be all hum- maybe one person's definition of X risk is that all humanity died, but actually, that's a decent future, just our descendants are robot babies. Alternatively, you might imagine a future where there's plenty of humans, but they're, we've neutered ourselves. We've neutered our capacity to continue developing, right? Maybe we're in this Butlerian Jihad version where we've banned all robots, and we get feudal Dune-like stagnation for generations and generations. That's a kind of X risk, too. That's, the Dune universe is not an exciting one, despite we've strongly prevented ourselves being dominated by AI. So I guess I'm less scared by X risk given that society always changes and always evolves.
+Andrey (0:09:59): But what's your percentage?
+Seth (0:10:00): Percentage of GDP, I don't know. Like, maybe if you're asking me how many billions of dollars should be spent on X risk, the answer, I think, is this is over and above what the labs would do that's just, like, myopically useful for the lab's alignment research. This is on top of that.
+Andrey (0:10:18): I don't think the paper makes that distinction, but you can answer-
+Seth (0:10:21): Okay
+Andrey (0:10:21): ... it however you like.
+Seth (0:10:22): Okay. So I will answer it like, what should the government policy be over and above the myopic research lab's own interest in aligning the AI? I think it's in, like, single-digit billions or maybe double-digit billions. I don't think you can talk me up to half a percent of world GDP or a percent of world GDP.
+Andrey (0:10:40): I think before reading this paper, I was very much in your boat. My viewpoint is that it's great that the AI labs are working on safety. It's great from a long-termist perspective. It's also great from a short-termist perspective, 'cause we need to control the models. That's a very useful capability. But I also thought as a prior that over and above that, a few billion here and there would be just fine. But let's dig into the papers and see whether we've updated.
+Seth (0:11:11): Oh, yeah. All right. So we got to read a bunch of really exciting papers this week. Let's go to the evidence. [upbeat music] Okay. So the first pair of papers that we looked at were by Chad Jones, who's this amazing economist out of Stanford, a macro theorist who's an incredibly clear writer and makes reading his papers a real pleasure, 'cause sometimes you read theory papers, and it's just not fun. But he's fun to read, wouldn't you agree?
+Andrey (0:11:49): Yeah. Yeah. He is, he's a master of distilling an idea, probably the best in the business.
+Seth (0:11:55): Yeah. He makes you feel jealous, because he's the kind of guy who writes the idea that's, "I could have said that," because it's so clear and so beautiful. Okay. So the first paper we looked at by Chad Jones was called The AI Dilemma: Growth versus Existential Risk. This came out in AER Insights. And he thinks about two models. The first model is one where there's a representative agent who is discounting the future at a certain rate. So there's one guy who's making decisions for all of the world, and that guy has to make a decision about how far down the line does he want to develop AI, right? And he faces this trade-off, where I can ... If I develop AI for another year, that's gonna boost my GDP by 10%, but there's some chance I'll blow up the world. And the default numbers he plays around with are a 10% extra growth rate and a one or 2% risk of existential death per year. I would say the main finding is, in this model, just how sensitive the amount of AI you develop is to the exact details of how you set up the problem. So let's think about how utility functions work. So [laughs]
+Andrey (0:13:06): [laughs] Wait.
+Seth (0:13:06): Go ahead.
+Andrey (0:13:06): I don't need to think about it. I know my utility function.
+Seth (0:13:10): Okay. So you tell me, are you more or less risk-averse than log utility?
+Andrey (0:13:14): I am more risk-averse.
+Seth (0:13:15): Dude, here's the thing. Log utility's pretty risk-averse. Have you ever played around ... So, like, one fun game you can do at home, listeners, is go online and you can play around with this thing called the Kelly criteria. So the Kelly criteria will tell you how much to bet on a wager if you have log preferences over consumption, right? So let's say you have a wager where you think way more than the bookie. The bookie says there's a 50% chance that the Yankees will win, but you have insider information. There's a 75% chance that the Yankees will win. The question is, how much do you wager on the Yankees winning? And the answer is you should not wager 100% of your budget because for risk-aversion reasons. That first dollar you have is a lot more valuable than the thousandth dollar you have, and therefore, you don't wanna risk everything on this bet, even if you know it's a good bet. And so go ahead and play around with the Kelly criteria and you'll find things like even if you have a 75% ... You have this 75% edge, big edges lead to relatively narrow bets. I view log utility functions as a pretty conservative utility function when, like placed in the real world, when a lot of people are happy to accept any wager that has positive expected value.
+Andrey (0:14:32): Let me push back on that.
+Seth (0:14:33): Oh, please.
+Andrey (0:14:33): Un- unsurprisingly, we're getting into the nitty-gritty-
+Seth (0:14:36): [laughs]
+Andrey (0:14:36): ... but my ... I think that, like at our wealth levels, it is a very conservative utility function.
+Seth (0:14:43): Okay.
+Andrey (0:14:44): But it might not be very conservative when we're talking about death.
+Seth (0:14:50): Mm.
+Andrey (0:14:50): What is the risk of death that you're willing to take to make s- some extra money? You might think that's a very different calculation than losing some money, given that you already have a stock of wealth.
+Seth (0:15:06): Right. So one kind of thing that's going on in this modeling is he doesn't ... Sometimes people think about, "If I got killed by a mugger, that would be really horrible," or you think sometimes society operates under this kind of implicit assumption that if someone gets murdered, that's a horrible thing. The perspective of this paper is if someone gets murdered, they miss some percentage of their lifetime consumption [laughs] that they would've had if they were still alive, right? Which that's not how people in the real world work. People don't say, "Oh, no, I'm gonna die. I'm not gonna be able to go to Disneyland next year." They say, "I'm gonna die." [laughs]
+Andrey (0:15:41): But I, I, yeah. I agree with you. I, I just think there's a conceptual ... When you go very close to zero or you're at zero consumption-
+Seth (0:15:48): Yeah. What's the log of zero? To the viewers at home, plug that into your calculator. [laughs]
+Andrey (0:15:51): [laughs]
+Seth (0:15:52): Hit log of zero.
+Andrey (0:15:53): Yeah.
+Seth (0:15:53): That's actually a major problem for this paper is 'cause he really ... He has to fudge the you're dead case. There's a big U-bar constant that deals with the log of zero consumption-
+Andrey (0:16:04): Yes
+Seth (0:16:05): ... is equal to negative infinity issue.
+Andrey (0:16:06): That's why I think for this sort of problem, a utility function that's more risk-averse than log utility is probably apropos.
+Seth (0:16:13): It gets you more interesting results, but if you're ask- I guess, uh, the other issue, and we'll return to this, is are we thinking about this in a positive way or a normative way? Should we be thinking about the utility function that we think someone actually has? That's a little bit implausible. It's a representative agent. There is no representative agent. Or are we thinking about this as normatively describing what a rational world government would do? And I don't know. Would a rational world government be more risk-averse or less risk-averse than a normal person? I'm really sympathetic to the argument that a world government should be less risk-averse than an individual, given that standard utilitarianism suggests that utility is linear in utility. And if you can spread the wealth around, you can get pretty much linear utility returns to spending at some level. So log seems pretty risk-averse. How do you respond to that idea, that maybe we should think about utility as basically being linear in consumption if we're a world government?
+Andrey (0:17:18): I think, once again, everyone dying being ... I mean, that ... I'm taking exis- existential risk here as being everyone.
+Seth (0:17:26): Okay.
+Andrey (0:17:26): Everyone is actually dead.
+Seth (0:17:27): Okay.
+Andrey (0:17:27): Um-
+Seth (0:17:28): And the robots that are our children don't like us.
+Andrey (0:17:30): I, I'm not talking about transhumanist-
+Seth (0:17:32): Okay
+Andrey (0:17:32): ... combinations of AI and humans and, and stuff. That's a fun little thing to think about. But very seriously, I'm thinking about specific, every human dies.
+Seth (0:17:43): So you're ... It's like the AI gets access to the nukes and is immediately, "Go nuke everything."
+Andrey (0:17:48): Yeah. They poison the atmosphere. They unleash a virus that kills every human.
+Seth (0:17:53): And destroys itself, 'cause we need the thing that survives to not be valued.
+Andrey (0:17:58): Yeah. Let's say that-
+Seth (0:17:59): Sure
+Andrey (0:17:59): ... just for simplicity's sake. In that case, the government, whether it should be more or less risk-averse than individual human, there's an argument for saying it should be more risk-averse. Why?
+Seth (0:18:10): Mm-hmm.
+Andrey (0:18:10): There's presumably some value of humanity existing, and that value is over and above Any individual's existence. Individuals go into battle knowing that there's a risk they might die for their country. So the country seems more risk-avert. I would think that the country, at least when it comes to saving all of humanity, should be more risk-averse than a human saving their own life.
+Seth (0:18:36): If I'm thinking about the utility function you're describing, it seems like I could model that as linear with a kink, right?
+Andrey (0:18:42): Yeah.
+Seth (0:18:42): So that there's a big effect from existing, and then it could be linear on top of that. And I think the linear on top of that is what's relevant for this analysis, 'cause it's how much at the margin does the additional consumption help us?
+Andrey (0:18:55): There's another issue in this utility modeling, is do you value another dollar the same when you have $50,000 versus when you have $10 million?
+Seth (0:19:05): And we think at the individual level, you don't.
+Andrey (0:19:07): But I don't think at the collective level, you don't either. And-
+Seth (0:19:10): Because the way my logic is, I can always make a second Andre, and it seems logical that a universe with two Andres has twice as much utility as a universe with one Andre. What's wrong with there?
+Andrey (0:19:20): I guess, you know, this... A key part of J- the Jones model-
+Seth (0:19:25): Mm-hmm
+Andrey (0:19:25): ... is the population growth rate.
+Seth (0:19:27): And that actually shows up as a discount rate because I'm s- there's how much do I care about the future generations' utility.
+Andrey (0:19:33): So there isn't, like, this technology, this cloning technology, although who knows, AI might be able to create it. There isn't this cloning technology for the government to use to accomplish your hypothetical. And it-
+Seth (0:19:45): Of course there is. It's called having... They don't have to be a literal clone. I can make a baby. [laughs] Governments can't create babies. Okay, that-
+Andrey (0:19:51): They cannot create babies, uh, unfortunately-
+Seth (0:19:53): [laughs]
+Andrey (0:19:53): ... for society and for a lot of things. But I, I think given a- an income distribution, right, and a s- set of people, if you have, already have more income, it seems logical that an additional dollar is less valuable. That, that seems pretty uncontroversial.
+Seth (0:20:12): Okay. Let's go with that assumption, and what do they find? They say that what Jones says is if you assume log utility and a 1% chance of the world getting blown up in every year, you're gonna do 40 years of AI for a 33% cumulative chance of blowing up the world. However, bump that up to 2% risk of death in every year, and you're not gonna develop any AI. That's, that threshold is so sensitive to these w- seemingly small changes in death rate. Similarly, if you go from log utility to a more risk-averse utility function, you also shut down people wanting to use the AI. And then later, in the second half of the paper, he goes on to think about, what if it's not a 10% growth rate, it's, like, literally infinite growth rate? And there, it's the asymptotic shape of the utility function is really the important thing, right? That's important to know. [laughs] Log of infinity is not infinity. [laughs]
+Andrey (0:21:09): No, no, I actually disagree with your point.
+Seth (0:21:11): Okay.
+Andrey (0:21:11): His point is not that at infinity, the all, y- the curvature matters at a growth rate of 10% just as equally as it does at in- at infinity. I actually-
+Seth (0:21:20): Hmm
+Andrey (0:21:21): ... don't agree with your point. At a 10% growth rate, having a risk aversion of one... Or having gamma coefficient of 1.01 means that you'll accept a 54% chance of existential risk. So you don't need infinity to do this.
+Seth (0:21:37): Fair point.
+Andrey (0:21:38): So I wouldn't focus on this distinction between infinity and 10% at all. I think the real point here is that the risk aversion is what matters. So if you are very close to log utility, essentially you're getting more utility even as your consumption is very high.
+Seth (0:21:52): Right.
+Andrey (0:21:53): Imagine you're a billionaire. You're still getting a lot of value out of marginal dollars. And if that's the case, you're willing to accept a lot of existential risk, uh-
+Seth (0:22:03): Because you're balancing infinity against finite risk.
+Andrey (0:22:06): On the other hand, if you have a gamma coefficient that's higher, such as two or three, you now get to tolerances of around 2% existential risk or even 0.5% existential risk.
+Seth (0:22:22): I think that's the main point of this paper is you can get lots of different answers about the right amount of AI development depending on... So social risk tolerance being one major factor. What is the exact... Uh, you say it's less important the trade-off between the growth rate and the risk rate. That's in there, too, but the number one thing is what's the asymptotic shape of this utility function?
+Andrey (0:22:45): Yeah. So I think the other interesting thing here that he states goes back to our discussion of how many humans are there or how long do people live?
+Seth (0:22:57): Mm.
+Andrey (0:22:57): He says that if the mortality rate drops by 50%, people live a lot longer. What will happen is that society should be willing to tolerate a lot more existential risk. And this goes to the point about counting people up in a utilitarian framework. And not just people, but people years, because it could be twice as many people, it could be people live twice as long. So if you have another year of life, you're willing to pay a lot of existential risk for that because you have a personal existential risk, which is you might die at any given year. So if that goes down by a lot, then you're willing to tolerate a lot of existential risk. What do you think about that, Seth?
+Seth (0:23:39): Yeah. So this is something I spent some time thinking about because it really does come out of, again, how do you write down the utility function? And the way he writes down the utility function is that you get these really strongly, strong, more risk-averse than log reductions in marginal utility of consumption within a period. But as I add more periods, the more periods are additive, right? So of course, adding more periods of life is gonna be better for a rich person than consuming more while they're already alive. Do I think that's how real human utility works? You could... I read sci-fi where humans get bored of living longer after 150 years. The asymmetry there is too strong, I think, given how far out this scenario is asking us to contemplate.
+Andrey (0:24:27): This goes back to the positive normative debate, right? So some people argue that we shouldn't discount at all, meaning that we should take human lives a million years from now as seriously as we take human lives now. In that case, that kind of augurs a little bit of conservativeness.
+Seth (0:24:47): Because you definitely, if you have an infinity of future ahead of you, you don't want to accept any risk today.
+Andrey (0:24:53): Yes. But if we're talking about just personal decisions, and you think you might get bored of living at around 150 years-
+Seth (0:25:00): [laughs]
+Andrey (0:25:00): ... then yeah, that, that's not captured in this, in this framework.
+Seth (0:25:03): Yeah. So it's, like, provocative, but I guess, like, it comes out of the mechanism of how he wrote it down, right? Which is, for rich people, a longer life is more valuable than more money within a shorter life. Probably a lot of rich people, if you asked them that, would have that answer. But it neither seems to positively describe everyone, nor seems to describe how people should think about their lives.
+Andrey (0:25:29): Yeah. I think one thing I keep coming back to in this debate is, what does it mean to live a life when you know that, or you don't know 100%, but with very high probability, that humanity will go extinct?
+Seth (0:25:42): Oh, that would be depressing.
+Andrey (0:25:44): This is an interesting question, right? It goes... There are a lot of thought experiments about this. For example, like, what if we w- were the last generation? And it's not that, like, we-
+Seth (0:25:52): Children of men.
+Andrey (0:25:53): Yeah, children of men. It's not like we were being killed, but it's just that no more kids were around, and then everyone died of natural causes, right?
+Seth (0:26:02): Mm-hmm.
+Andrey (0:26:02): I think people have different reactions to that.
+Seth (0:26:04): Mm-hmm.
+Andrey (0:26:04): I think there's a lot of preference heterogeneity here. And I think this similarly, you can imagine that even under the threat of 20% existential risk, people are still living happy lives, enjoying the fruits of abundance of AI. Or you could imagine that this leads to existential despair, rendering all the riches worthless. It's hard to know. I imagine that in any such society, there will be different sects. It almost seems religious. And then we have to think about aggregating these different people's preferences.
+Seth (0:26:33): Yeah. That's hard. This makes me think about other times humanity has faced existential risks, and it reminds me of a quote. Somebody asked Kennedy during the Cuban Missile Crisis what he thought the odds were that it would turn into a hot nuclear war, and do you remember what per- probability he quoted?
+Andrey (0:26:50): No, I don't remember.
+Seth (0:26:51): He said one in three chance this turns into-
+Andrey (0:26:53): That's-
+Seth (0:26:53): ... a hot war.
+Andrey (0:26:54): That's high.
+Seth (0:26:55): That's really high for... What were they fighting over again? Whether the nukes were slightly closer to us in Cuba. [laughs]
+Andrey (0:27:02): Yeah.
+Seth (0:27:02): So maybe the answer there is that Kennedy was wrong. Kennedy and Khrushchev were wrong. They were irrationally aggressive. Or maybe that's positively describing society really does have a lot of risk tolerance.
+Andrey (0:27:17): Yeah. I don't think that they fully realize those risks. I think humans do have a hard time thinking about probabilities, and they're not well calibrated. I think coming back to this paper, I do think that there is a very interesting change in focus by focusing on life extension, right?
+Seth (0:27:37): Mm-hmm.
+Andrey (0:27:37): It was a pushback against the doomers in the sense that the doomers are undervaluing all the medical innovation that could potentially happen through AI.
+Seth (0:27:48): Even the potential x-risk amelioration, right? Do you... I got to believe you've read Deutsch's Beginning of Infinity, right?
+Andrey (0:27:55): Yes. Yes.
+Seth (0:27:55): And so he tells the story of the Eastern Islanders, right? These Eastern Islanders, they achieved a high level of civilization on their island. They seem basically chill with themselves. This is how the story goes. They're in touch with nature. But because they end up in this high equilibrium trap, they run out of trees and starve to death. You would hope that this literature would more take into account the fact that you might use AI to save the world also.
+Andrey (0:28:21): And to be clear, the people in this space have talked. They've thought about it. They just tend to be a little dismissive of those possibilities.
+Seth (0:28:29): And it doesn't show up, and I know Chad is trying to be even-handed, which is why it's maybe slightly disappointing it doesn't show up here.
+Andrey (0:28:35): I just like to think of it as a net. But it is hard to estimate that because most of the questions that experts in this field are asked are just, what is the probability that AI kills us all? And they don't get asked, what is the probability that AI saves us-
+Seth (0:28:49): Mm
+Andrey (0:28:50): ... from various x-risks. I imagine an asteroid coming to Earth would, which has some probability.
+Seth (0:28:56): Right.
+Andrey (0:28:56): Presumably, having better AI will be helpful for that.
+Seth (0:28:59): You gotta imagine.
+Andrey (0:29:00): Yeah.
+Seth (0:29:00): Tell us about the second paper we read by Chad.
+Andrey (0:29:02): Let's update our posteriors-
+Seth (0:29:03): Ooh
+Andrey (0:29:03): ... on this one-
+Seth (0:29:04): Ooh
+Andrey (0:29:04): ... and let's go to-
+Seth (0:29:05): Okay
+Andrey (0:29:05): ... the next one. [upbeat music]
+Seth (0:29:16): Having read that paper, you asked me how much x-risk I'm willing to tolerate for a 10% sustained growth rate. I came into this saying, if the alternative is shutting down all technological development of society forever, I'm willing to tolerate a little bit. If the alternative is... So that's where I was coming in for this. Having read this, I come back to really what I see as a fundamental philosophical tension, which is, on the one hand, I have this strong utilitarian intuition that what you should do is maximize expected utility, and if on average the thing maximizes expected utility, do it. But on the other hand, we have these intuitions about risk aversion and diminishing marginal utility. And the question is, which intuition should I reach for? Should I reach for the intuition of you, we're already rich enough, or do I reach for the intuition of twice as many entrees is twice as good? [laughs] And to be honest, I'm not sure that this paper is able to move me all that much because that's a question about what the social utility function should be, and this is more of an exploration of what different social utility functions get you. I guess it is interesting to see that with log preferences, which are a reasonable break-base case, we're not willing to tolerate a 2%, let's call that net increase in risk. So maybe that does move me down a little bit in terms of risk aversion. Other thing we can talk about when we get to limitations is we're already, you know, rich people from a high-income country. You might imagine the median person on Earth is still, might be more willing to roll the dice a little bit more.
+Andrey (0:31:03): Yeah. Yeah. That's definitely an interesting point. I guess for me reading this paper, I would say that I'm willing to... I said I was risk-averse to start with.
+Seth (0:31:11): Mm.
+Andrey (0:31:11): I said I tolerate less than 1% chance of X risk per year. If we say that my prior was about 0.5%, I would say that this has made me tolerate a bit more.
+Seth (0:31:23): Mm.
+Andrey (0:31:23): I've always been pretty positive on the healthcare benefits of AI, potential healthcare benefits of AI. But looking through the math, how it implies that we should be a lot more tolerant of risk if we can extend lifespans, that to me is a very powerful argument. So I think I'm willing to tolerate maybe 1% chance of, of X, X risk as a result. So I'm increasing my tolerance, but I'd still not go all the way to some of these very large numbers that he posits, like 25%.
+Seth (0:31:54): You start getting to the ranges of eventually you will [laughs] if you start taking these 25% gambles, eventually you are gonna destroy the Earth. I guess in my answer, one little part of it is it's hard for me to really get to thinking it's a 2% risk. I read that as experts say there is a 2% risk.
+Andrey (0:32:11): Yes. Yeah. I think the X risk is not as high as 2%. There's also this question, uh, we haven't been very clear about.
+Seth (0:32:17): [laughs]
+Andrey (0:32:17): Is it a cumulative risk? Is it a per year risk?
+Seth (0:32:20): It does add up.
+Andrey (0:32:21): Yeah, it does add up. I think the per year risk is tiny. I think over the history of hu- over the future of humanity, I think it might be a quite a sizable risk.
+Seth (0:32:28): Mm.
+Andrey (0:32:28): But over the next 10 years, I think it's tiny.
+Seth (0:32:32): Okay, so let's talk about this second paper. Chad Jones also wrote a paper called How Much Should We Spend on X Risk? This is an early-stage working paper, version 0.5. So you listeners are getting the insights long before the professional community.
+Andrey (0:32:47): Yeah. This is a reframing of a very similar kind of problem. So let's say that there is some existential risk, and we're not able to control that baseline risk too much, but we do have some technologies that we're able to use. So if society chooses to invest in AI safety research, then the risk does go down, although not necessarily all the way to zero. And Chad's question is just, what is the share of GDP that we should be willing to spend on this risk reduction? And he compares it interestingly to COVID.
+Seth (0:33:24): Oh, how does that comparison work?
+Andrey (0:33:26): So during COVID, I think about 0.3%, there's about a 0.3% mortality, and there was a loss of GDP of about 4%. And if we take that at kind of face value, that should tell us something about the fact that society is willing to reduce its GDP, or alternatively invest GDP into mitigation, which could just mean less economic activity, in order to have people die less. Now, of course, COVID is quite different, as it never was an existential risk. And as we already talked about, everyone in humanity dying versus some people dying is a very different question. But he gestures at that. But he has a very simple framework for thinking about-
+Seth (0:34:10): Elegant
+Andrey (0:34:11): ... for thinking about this. So he posits that there is a parameter, which is the effectiveness of spending, right?
+Seth (0:34:18): Mm.
+Andrey (0:34:19): Which is just the elasticity of how much risk is reduced when you spend as a society. Then there's the baseline risk to be mitigated. And then lastly, there is the value of life, that he uses pretty standard US-based numbers.
+Seth (0:34:37): US being the key here.
+Andrey (0:34:38): Yes. And he says that kind of a very simple back of the envelope version of his model implies that we should be spending about 1.8% of GDP on reducing existential risk. Um-
+Seth (0:34:50): Big number, Andre. [laughs]
+Andrey (0:34:51): So, so yeah, that number is, is epically big. It, it's in some sense way bigger, orders of magnitude bigger than what we currently spend. So very provocative.
+Seth (0:35:00): It's roughly four times the size of what we're currently planning on spending on AI altogether. We talked about this OpenAI $500 billion spending round. 2% of world GDP would be 2 trillion. So we're talking about kind of spending like four X what the biggest AI project is on just existential risk reduction.
+Andrey (0:35:21): Yes.
+Seth (0:35:21): Which sounds like a lot, Andre. [laughs]
+Andrey (0:35:23): So that is a lot. And so he then considers a wide variety of scenarios that kind of move from that back of the envelope calculation to something that's more of a standard macroeconomic model. And he actually comes up with even bigger numbers.
+Seth (0:35:41): Mm.
+Andrey (0:35:41): So when he puts in a real macro model in this, he gets a baseline optimal spend of 15.8%.
+Seth (0:35:49): Damn.
+Andrey (0:35:50): So what is this sensitive to? One of the things that it's very sensitive to is what he calls the time of perils.
+Seth (0:35:57): Mm.
+Andrey (0:35:57): So what is the time of perils?
+Seth (0:36:00): Friend of the show, Phil Trammell, explained this to us.
+Andrey (0:36:03): You might think that we might figure out how to keep AI on a leash. That might take us some time. But once we figure it out, then it's no longer an existential risk.
+Seth (0:36:13): That's one way of saying it. I think the distinction that I think about, is the risk from the AI the deployment of an unsafe system, or is the risk from the AI the developing the new system? It, it's in the first Chad Jones model we talked about, the risk is from going one more year of AI development. In these time of trials models- The way that it tends to work is there's AI of a certain amount of riskiness that is creating a growth rate, and over time, you can make the AI safer, and it's like deploying the risky AI is the risk. And under those kinds of models, you actually want to, if anything, race through economic growth. You want to get the most advanced AI as fast as possible so that you're a society that's rich enough to know how to align AIs.
+Andrey (0:37:02): I'm not-
+Seth (0:37:02): That's a paper I had... Ma- That's a paper... Sorry. [chuckles]
+Andrey (0:37:05): All right.
+Seth (0:37:05): I'm now introducing a paper that was not one of our official readings.
+Andrey (0:37:09): So I, I guess that's not quite how this paper frames it in the sense that-
+Seth (0:37:14): This is a static paper.
+Andrey (0:37:16): Mostly what he's saying is that if you have more years of perils, you're gonna want to spend less money on this.
+Seth (0:37:25): If you have more years of peril, you want to spend less per year or less in aggregate?
+Andrey (0:37:30): Less share of GDP.
+Seth (0:37:31): Talk us through that logic.
+Andrey (0:37:33): Yeah. So my understanding of that logic was that the risk might take longer to materialize, so we have more chance to figure out how to solve it. If the risk is gonna be very quick, if existential risk is gonna materialize next year, then obviously we should devote an enormous amount of resources to it.
+Seth (0:37:55): If the risk from AI is in developing... GPT-5 is either gonna save the world or destroy it, we should spend a lot of resources getting GPT-5, right?
+Andrey (0:38:05): Yes.
+Seth (0:38:06): But if alternatively, it's more we get five and then we get six, and they get a little bit more dangerous every time you bring them out, you've got a lot of time to work on amelioration technologies. Is that right?
+Andrey (0:38:16): Yes. So I think that's, that was one thing that I had in mind. And then I think the other kind of key thing about this paper is the specific function that models how GDP spent is converted to reductions in existential risk.
+Seth (0:38:33): An optimistic utility. [chuckles] An optimistic function is how I would describe it.
+Andrey (0:38:37): Yeah. I think he says that there's some portion that cannot be eliminated, and then he says that there is some parameter that just governs how effective the spending is. And I think the key thing about that parameter is it's not super diminishing, right?
+Seth (0:38:57): It's an average equals marginal benefit.
+Andrey (0:38:59): Yeah. As a result, like, your trillionth dollar-
+Seth (0:39:03): [laughs]
+Andrey (0:39:03): ... spent on AI safety is-
+Seth (0:39:06): What spend it on, Andre?
+Andrey (0:39:07): ... is, is similar to-
+Seth (0:39:09): What would you even spend the trillionth dollar on AI safety on? I feel like that's the big una- asked question in this paper. [laughs]
+Andrey (0:39:17): Yeah. So I think I'm with you. One way to think about it is that it could just be not pursuing economic activity.
+Seth (0:39:27): The idea is we don't deploy that AI that could have given us growth 'cause-
+Andrey (0:39:31): Yes
+Seth (0:39:31): ... it's too risky. Okay, maybe. All right.
+Andrey (0:39:33): So I think that's the most positive way of... The way that makes the most sense with this model, right? So if we think that the deployment of AI is something that we can control, but we're forbearing on it, maybe through regulation, that's gonna reduce GDP, but that gives us more time to figure out how to deploy it safely.
+Seth (0:39:52): Mm-hmm. What, I, should I... Do you have any thoughts about the model? I also wanted to briefly mention two related papers.
+Andrey (0:39:59): Yeah. So my key thought on this model is that the numbers are huge. I think the weakness of the model is a lack of recognition of diminishing returns to AI safety.
+Seth (0:40:10): The limitation of the model is any data on that at all. [chuckles]
+Andrey (0:40:14): But that's the limitation of this entire debate. I think we don't... I think we have a lot of uncertainty, and uncertainty, given asymmetric risks, should favor some amount of investment.
+Seth (0:40:24): Let's come back to that in a minute-
+Andrey (0:40:25): Okay
+Seth (0:40:25): ... and with our limitations. Okay. So I just wanted to briefly bring up, uh, two complementary papers on similar subjects. The first is an interesting one by Leopold Aschenbrenner. We've already done one of his papers, Situational Awareness, along with Phil Trammell, friend of the show, an SDEL postdoc, who have a paper that is looking at AI risk and argues that we will go through what they call a Hotelling curve, in the sense that when you have zero AI, you should have zero AI risk, and when you have lots and lots of AI, you should have very low AI risk because society will be super rich, and they'll be able to s- devote lots and lots of resources to ameliorating AI. But there's this kind of intermediate zone where we're still developing AI and it's risky, but we're too poor to spend a giant share of our GDP on making the AI safe. And so that's how you get this time of trials dynamic that seems to have influenced Chad Jones' thinking. A little couple snaps to our friends over there. There is another paper that people might be interested in, Robust Technology Regulation. This is by a pair of PhD students at MIT, Andrew Koh and Sivakorn Wanmuang. Very interesting little paper that tries to bring in a principal-agent element here, right? They're concerned with this question of you've got a principal that wants AI deployed, but not super risky AI deployed, and an agent which is gonna be a little bit more risk-loving than the... You can imagine the EU regulator versus OpenAI, right? And what they find there is the companies are always gonna be tempted to be more risky than the regulator wants. And what they argue is that pretty much therefore the government has to put strict limits on development because you can't trust the lab saying, "Oh, we developed halfway, and it seems really safe." Basically, all of that information is cheap talk, and the government's gotta put strict limits. The growing research agenda of people thinking about these subjects as we move into our limitations I want to emphasize that these are limitations for this generation of thinking about it, and we don't see these, I don't see these as essential limitations, but rather limitations of the thinking we've seen so far. Andre's like, "These are essential limitations we will never like." [chuckles]
+Andrey (0:42:52): No. I guess we're getting to limitations. I like these exercises 'cause it makes people be very clear about their assumptions. And since this is an area lots of people are thinking about, it's good to bring some rigor there. But sometimes when I hear about some of these papers, they're just so fricking obvious.
+Seth (0:43:09): [laughs]
+Andrey (0:43:10): Like, you just told me about two papers. It's like you have a prior and you write a model to confirm your prior. So-
+Seth (0:43:16): You don't write a m- You- That's what models do, is they take verbal thinking and they clarify it into math.
+Andrey (0:43:22): Sure, but sometimes, like, they're too obvious.
+Seth (0:43:25): [laughs]
+Andrey (0:43:25): Yeah, no duh. A private actor is not gonna have the same incentive as a government. A private actor has, faces a, a moral hazard issue. I just... W- what do I think is missing in these models about that? What is a, like a key underlying assumption here? [upbeat music] I think one assumption is that we can say something useful about mitigating AI risk without seeing live AI systems. There's a sense that we can plan ex ante really far ahead of the actual models that are providing the existential risk. And that might be true in certain circumstances, right? If we think our model of existential risk is that some evil guy is gonna create a virus that kills all of humanity, then probably we can think about limiting that person's access to the information to create such a virus. That seems like a pretty concrete risk that we can think about mitigating. Um-
+Seth (0:44:31): And it's actually pretty analogous-
+Andrey (0:44:32): Yeah
+Seth (0:44:32): ... to challenges that society has already faced.
+Andrey (0:44:34): But if we're talking about this agentic AI system that's hard to control-
+Seth (0:44:39): With a Yudkowsky and strike-
+Andrey (0:44:41): Yeah
+Seth (0:44:41): ... from nowhere.
+Andrey (0:44:42): Yeah. I mean, my sense there is that we'll have a better sense of how to control it when we see something that's closer to it. We'll be in a better position to address the issues as they get closer to reality because we'll have something concrete to work with and think through. Which is not to say that we shouldn't be investing in better control of AI systems now. Of course, we should be. But I'm not exactly sure that... It's hard. Like, the tech tree is really hard to think through. And to me-
+Seth (0:45:14): It's, uh, almost essentially impossible to predict.
+Andrey (0:45:16): Yeah.
+Seth (0:45:16): 'Cause if you could predict perfectly the next technology, you'd already have it.
+Andrey (0:45:20): Yeah. Yeah. There's some version of that. And there is a sense that we l- humans tend to learn a lot about things as they get to play around with them. And so we're asking for technologies that are, for safety technologies that are ahead of the technologies that they're meant to be improving. And just modeling that bakes in a lot of assumptions is all I could say. It's very similar to our argument about interest rates.
+Seth (0:45:45): Mm-hmm.
+Andrey (0:45:46): If we have 30% growth and we all know it next year, then interest rates will be high. That's the lesson of that paper. And the point I made was like, well, before the growth rate is 30%, we'll probably have some growth rates of 20%.
+Seth (0:46:00): Right.
+Andrey (0:46:00): Maybe some 5% growth rates too.
+Seth (0:46:03): Nature doesn't make jumps like that.
+Andrey (0:46:04): Yeah. Like, the, there, as we get closer, we will have more opportunity to adjust as a society. Now, I think what the view of the people who are very interested in safety is that actually we're there r- already. They're worried that it's gonna be this year, it's gonna be next year.
+Seth (0:46:22): Mm-hmm.
+Andrey (0:46:23): That we are gonna have this fully agentic, superhuman AI that we can't control. I'm curious what... Is this all this boils down to in the end?
+Seth (0:46:33): What does this boil down to? Give me the sentence that it boils down to and I'll give you an answer.
+Andrey (0:46:38): So if you think that the quote unquote, "time of trial"-
+Seth (0:46:43): Mm-hmm
+Andrey (0:46:43): ... tribulations is two years or five-
+Seth (0:46:47): Mm
+Andrey (0:46:47): ... then yeah, you gotta throw everything you got at it.
+Seth (0:46:51): If you think remediation is effective.
+Andrey (0:46:52): If you think remediation is effective. But if you think it's 30 years, 50 years, 100 years, an option is a wait-and-see. A little bit of a wait-and-see.
+Seth (0:47:03): Little wait-and-see.
+Andrey (0:47:04): There's no wait-and-see here.
+Seth (0:47:06): Uh, so let me talk about that point for a second, 'cause I actually see this as an interesting source of tension between the first Jones paper and then the second Jones paper, and then Philipp and Ashtonbrenner, where kind of one framing is, do we stop developing AI, right?
+Andrey (0:47:23): Mm-hmm.
+Seth (0:47:23): And one framing is, we are on a period-
+Andrey (0:47:27): Mm
+Seth (0:47:27): ... where AI development is risky, but then we will either destroy ourselves or come off on the other side better off, right? And that, man, my intuition is that the world should look more like the latter. It seems really implausible that the best thing for humanity is going to be pausing AI development until forever, until we ma- What did, what did Yudkowsky say? We should delay [chuckles] AI development until we figure out, solve decision theory and morality. I, that seems like too long. Okay, some other limitations that jumped out.
+Andrey (0:47:57): Wait, to clarify, Seth.
+Seth (0:47:58): Yeah.
+Andrey (0:47:58): So you believe that there's a proportional hazard of existential risk, or we'll solve it in X years. We either solve it in X years or not, and that's the end of it. Which do you think is a better model?
+Seth (0:48:10): I think the right model is that whenever you develop a new technology, you are changing your society. And there's that statue of Ozymandias, right? The, how does that poem go, right? Ozymandias, king of kings, nothing beside remains. To me, the one issue that is really not talked about enough here is what exactly constitutes an X risk, because I think that's really important. But let's, again, go back to the assumption that x-risk means the, all value is destroyed, and also the AI children, the AI destroys itself also, right? So we ... I don't think there's a unique time of trials. I think that as society advances, there's always going to be the next way we could destroy ourselves, right? We invented nukes, and then we could have invent- destroyed ourselves with nukes. And then we'll invent AI, and we can destroy ourselves with AI. And then we'll invent some other amazing, horrible technology that we could destroy ourselves with next. And I think for every individual technology, probably the right model is a time of trials model, right? Where you bring out the new technology, you're figuring out how it works. You haven't quite mastered it. You're figuring out as it goes. Probably that's the period in which there's the greatest uncertainty, risk, what you wanna call it, about x-risk. But then you overcome that. But that kind of like, in aggregate, you're always encountering new technologies that you're going through that curve.
+Andrey (0:49:44): I see. But in your conception, is AI one technology, or is it many technologies?
+Seth (0:49:50): I, probably, if you're gonna take that model literally, it would have to be many technologies, right? So there'd be, like, the generative AI version, and then maybe there's the version that comes after that.
+Andrey (0:49:59): Yeah. And then this makes me think of, like, how knife edge is the result in this Jones paper based on T, right? If the time of tribulations model does really focus on investment today, whereas a lower proportional hazard model kind of suggests a proportional investment. Yeah.
+Seth (0:50:18): I, I guess I just come away really unconvinced by, we should just shut it all down right now. Phil, I think Jones sometimes toys with shut it all down right now as a plausible option. But I certainly don't come away with that as something that would be desirable.
+Andrey (0:50:33): But he doesn't advocate for shutting it all down.
+Seth (0:50:36): He gets some parameter spaces in the first paper where you should accept no years of AI development.
+Andrey (0:50:41): Sure, but I guess in the optimal investment, the maximum is about 20% of GDP, or maybe 30% of GDP, depending on how we value-
+Seth (0:50:52): You're right, in some scenarios. But-
+Andrey (0:50:53): Yeah. Which is not shutting it all down. But, uh, but yeah, I think both of us are expressing our skepticism of the ability of the economy to provide enough AI safety researchers to even-
+Seth (0:51:04): It's, there's a certain percentage of humans that are gonna be AI safety researchers, whether you pay them zero dollars or a million dollars. [laughs]
+Andrey (0:51:11): Yeah.
+Seth (0:51:12): Okay. Other limitations that jumped out at me. One is he keeps on thinking about, Jones, really all of these papers, wanna think about these beliefs as, like, continuous objects. But it really feels, I don't know if you've read the internet, but they seem super bimodal, beliefs about amelioration ability, beliefs about the risk of AI, beliefs about the avail- the helpfulness of AI. It really [laughs] seems like people are ... It's not this nice normal distribution or uniform distribution of beliefs.
+Andrey (0:51:39): I don't know if that matters that much.
+Seth (0:51:41): It matters if the framing, which sometimes in Jones's first paper, the framing ... 'Cause let me say something. I fucking love you, Chad Jones. Come on the show. You're a great guy. But I read this abstract for the AER Insights, and the abstract doesn't say anything about what the paper finds.
+Andrey (0:51:58): Yeah. [laughs]
+Seth (0:51:58): Very frustrating abstract. S- for- first of all, first sentence of this abstract, fucking, you cliché pablum, AI could be good or bad. You get 100 words, and you spend, what, 10% of them on AI could be good or bad, dude. [laughs] Yeah, and you don't tell me what the actual finding is, right? So note to authors, please put your finding in the abstract. But w- why do I lead with that? The reason I bring that up is because, okay, so what's the threshold? And he, it seems like the takeaway is that the exact amount of, or exact amount of AI you should develop should be really sensitive. You said it's, it's not that sensitive, but it should be pretty sensitive to all of these different assumptions. And I'm saying, if people's assumptions are all over, there's, these people are super hype, and these people are super anti, it doesn't really seem like your finding is sensitive to the assumptions. It seems like you're either in camp one or camp two.
+Andrey (0:52:52): To me, the solution to that, if we're agnostic, is a weighted average, and I still think all the insights hold here.
+Seth (0:52:58): Right. Fair enough.
+Andrey (0:52:59): So I don't think, I'm-
+Seth (0:53:00): Not a limitation.
+Andrey (0:53:01): I don't think it's that weak. You could say, "Hey, actually, I side with this side, and therefore, when we're gonna do this," or you're gonna be one of these guys that's like, "I side with this other," the people who don't believe existential risk is a serious issue. And then obviously, if you're gonna side with them, you're gonna, you're gonna have values that are equal to zero for everything.
+Seth (0:53:19): Fair enough. Not a lim- maybe you don't think of that as a limitation. Okay.
+Andrey (0:53:22): Yeah. I-
+Seth (0:53:22): Next one.
+Andrey (0:53:23): Yeah.
+Seth (0:53:23): Positive versus normative. We danced around this a lot.
+Andrey (0:53:26): Yes.
+Seth (0:53:26): What the fuck is this model supposed to do? I said this to Chad. I'm like, "Chad, in my brain, a model is ... Why do you write models in economics? Either you write them because you describe how the world is, that's a positive model, or you write them to describe what people should do. That's a normative model." These models are so weird because they're not positive, and they're not normative. They're not a positive description of the one world government that will make all of these decisions, XYZ. And they're not normative because we talked about 1,000 reasons they're not normative, right? They're ignoring the vast majority of humans on Earth who aren't super rich. They're th- failing to take into account plausible arguments about the social utility function should be less risk-averse than the individual utility function. How do you think about, what is even the point of these models?
+Andrey (0:54:20): What's the Straussian reading? I'm actually less worried about it than you.
+Seth (0:54:24): Okay.
+Andrey (0:54:25): Why? I agree with you that it's neither here nor there. But even if we had a more coherent moral framework, let's say, if we were more normative here, we-
+Seth (0:54:37): Came out with, this is what Rawls says we should do.
+Andrey (0:54:39): Rawls says gamma is 1.5, whatever. It would still be sensitive to these factors, right? It would be sensitive To the mortality rate. It'll, it will be sensitive to our estimates of-
+Seth (0:54:51): Right
+Andrey (0:54:51): ... existential risk. And the Straussian reading, I think for economists, this is saying, "Hey, like, this is how we usually think about things, and if that's right, then actually we should be spending a large share of our GDP on solving this issue." And then for maybe the people who are really into AI risk or some of the computer scientists that are giving percentages, "Hey, guys, you gave me this percent. If we took that percent seriously, like, our society is completely screwed up. Like, we're doing everything wrong. So maybe it's not 1%, maybe it's .1%."
+Seth (0:55:24): It's the Straussian reading is you flip it on its head. It's that you say, "You guys claim that the risk is 20% we blow ourselves up, but are you acting there's a 20% chance we'll blow ourselves up?"
+Andrey (0:55:36): Yeah, exactly. That I think is the value of this, because obviously w- we're contributing to a big policy debate, all of us, the, as a field.
+Seth (0:55:43): You listeners.
+Andrey (0:55:44): Yeah. Every- I think all of us are probably involved in this debate to some extent, and we're not like dictators that control a representative agent that dictates this is the percentage of GDP-
+Seth (0:55:54): [laughs]
+Andrey (0:55:54): ... that we spend or we now all s- agree to stop AI development. We're also embedded in this society that's very decentralized. And so, uh, having these arguments is gonna ... Like, this paper probably can marginally shift-
+Seth (0:56:10): Mm-hmm
+Andrey (0:56:10): ... uh, our actions in a particular direction. I think what is being lost a little bit here is how should individuals behave?
+Seth (0:56:19): Okay. I see the individual question in some ways as easier than the social question.
+Andrey (0:56:24): It is easier, but the social question is not... We can only shift it on the margin.
+Seth (0:56:30): Individual may be more relevant.
+Andrey (0:56:31): Yeah. Individual is more relevant. And in, in a sense, I don't think there's... E- even if the entire AI community in the US coordinated and said, "Hey, we're stopping development of AI," it would still keep going-
+Seth (0:56:44): [laughs]
+Andrey (0:56:44): ... in other parts of the world. I mean, and this is kind of-
+Seth (0:56:46): Could you even stop it if you wanted to?
+Andrey (0:56:47): Yeah. That's like, we certainly, if OpenAI or Anthropic shut its doors, it would be slowed. It's still gonna go, and so the question is, as an individual, what do you do? And I think this is the, a very interesting trade-off. For example, even if you believe AI risk is relatively high compared to the population, you may still want to work at an AI lab. Why? That gives you-
+Seth (0:57:13): The warning. [laughs]
+Andrey (0:57:14): That gives you the situational awareness.
+Seth (0:57:16): Ooh. Ooh, Leopold.
+Andrey (0:57:18): And that gives you the capital to control, to try to develop methods to control the AI, right? This is kind of part of the individual level dilemma. There are plenty of people that I think w- would love for government regulations or global regulations to do something about AI development, but that's not in the cards. There are people trying, but it doesn't seem to be in the cards. And so their individual decision is, do you sit at a nonprofit and pontificate? Do you work at an AI company and try to direct where the research is going? That I think is an interesting and more practical set of questions, and I'm not sure... I think I'm not sure-
+Seth (0:58:01): Chad Jones isn't gonna write that paper.
+Andrey (0:58:02): Yeah. [laughs] No, but these papers do imply something for that.
+Seth (0:58:06): Hmm.
+Andrey (0:58:07): You can plug in your beliefs, and if under your beliefs and your moral framework, it says that we should invest this much money into 1.8% of GDP, let's say, into AI safety, and we see that we're nowhere near, then maybe you should be working on researching that. Or maybe you should make as much money as possible.
+Seth (0:58:28): [laughs]
+Andrey (0:58:29): This is your classic-
+Seth (0:58:30): To build a big enough vault-
+Andrey (0:58:32): Yeah
+Seth (0:58:32): ... to hide in.
+Andrey (0:58:33): Earn to give.
+Seth (0:58:34): Earn for escape bunker.
+Andrey (0:58:36): Yeah.
+Seth (0:58:36): I think that's a really interesting direction future research. I wanted to bring up one last limitation, which is, Andre, I want you to imagine the following story, okay? A stranger comes up to you on the street. Ordinary looking guy says to you, "Andre, I don't have a gun on me."
+Andrey (0:58:55): Hmm.
+Seth (0:58:56): "I don't have any weapons on me. You'd probably beat me up, but give me all the money in your wallet right now or something really bad's going to happen to your family." How do you think about that situation?
+Andrey (0:59:09): I've met this mugger before. [laughs]
+Seth (0:59:11): Oh, no. What did you do?
+Andrey (0:59:13): Clearly, I did not give him all my resources.
+Seth (0:59:17): So, uh, why do I bring up this story, Andre? So we sometimes think about these situations where there is a small but maybe not negligible chance of a really bad outcome. And in general, there's this kind of problem of s- small chance of tail risk, how much should I be willing to go out of my way to ameliorate that? And my concern with these sorts of settings, and sometimes you might call these Pascal's mugger. I wrote Pascual like Pascual Restrepo, but Pascal. If you guys know Blaise Pascal, he wrote a book of Christian apologetics in the 1500s called Pensées or Thoughts, and in it he has an argument for why you might want to believe in God called Pascal's Wager. The way that argument works is, hey, look, if you believe in God and he doesn't exist, you waste a little bit of your time. But if you believe in God and he does exist, you know you get heaven and you avoid hell. So this is supposed to be, even if you think there's only a really small chance that God exists, you should still go for it because there's infinite upside. All, uh, this sort of argument, these x-risk arguments about AI, have the sort of flip side flavor to them. Do exactly what I say, ameliorate exactly what I want to ameliorate, or there's a small chance that you and everyone you love will be destroyed. And there's something about the form of that argument that I'm really hesitant to accept, because I feel if I accept that once, I'm going to be accepting that from every expert who shows up and says, "There's a 2% chance that all of the copper in the world could spontaneously detonate and kill everyone on Earth, and we need to spend 5% on GDP on fixing that." How do I prevent myself being conned by experts like this?
+Andrey (1:01:04): Yeah. So it's interesting. It depends on the specific threat. I do have some expertise in it. I've been reading a lot about these topics. I've interacted with AI systems. I've thought a lot about technology in general, right? So to me, I have to evaluate the argument myself. I'm not gonna just blindly trust an expert.
+Seth (1:01:29): Beloved listeners of this podcast, obviously we bring a lot of expertise to you every day, but I feel myself, when I read these surveys of computer scientists, that you get this PDF of percentage chance AI destroys everyone. Let me be Straussian for a second. When somebody comes to me and says, "My problem is the most important problem in the world, give me more money," I have a little different interpretation of that. I, I agree that we can go off of our own intuitions, and smart people who aren't super tied into AI have identified this as a problem. But I guess this is just, I can't spend 5% of GDP saving us from everything, right? [laughs] So in the same way that I don't wa- [laughs] I need a dentist that I trust, and I need a doctor that I trust, and I need a computer repair s- person that I re- tru- trust, the form of this argument is scary. Even though it's logically consistent, it's scary that it makes me vulnerable to exploitation.
+Andrey (1:02:32): Yeah. I can see how you would say that.
+Seth (1:02:35): I would simply evaluate the claim and know whether it was true or not. [laughs]
+Andrey (1:02:39): There's, like, a question of, like, thinking through it yourself. That's clearly-
+Seth (1:02:42): Mm
+Andrey (1:02:42): ... something that we can do. There is, as a s- societal question, we don't live in a centralized society. People are able to convince other people. They'll convince a, some percentage of people, and resources will be allocated according to that. If you talk to people who are very concerned about existential risk of AI, they'll tell you that no one cares about what they say. No one takes them seriously. I see that there's, like, moral hazard here, right?
+Seth (1:03:11): Right.
+Andrey (1:03:11): Everyone wants to convince everyone else that their pet cause is the most important. But I guess I'm just not that... It doesn't seem like that problematic to me in this case. I think there are problematic forms of it, right, i- in the sense that you might imagine technology companies cynically using this to create regulations that prevent competition. But we'll just have to evaluate the specific proposals.
+Seth (1:03:37): Right. Yeah, you don't need an existential risk to get bad regulatory capture.
+Andrey (1:03:40): Yeah. You have to think hard about the details, and I think that's the best we can do. We sh- It, there... Let me just put it this way. I think it's plausible to spend more time worrying about non-existential AI risks.
+Seth (1:03:53): [laughs]
+Andrey (1:03:53): And it seems like AI safety research is pretty similar, regardless of whether it's considering existential risks or non-existential risks. Does that make sense? Let's say an AI system gets out of control and doesn't kill everyone, just kill, kills-
+Seth (1:04:07): Vermont
+Andrey (1:04:07): ... 1% of the global population. That would still be a catastrophe that we should try to-
+Seth (1:04:10): Where would you get your maple syrup?
+Andrey (1:04:12): ... try to prevent. So yeah, to me it seems research in this direction is actually not just about existential risk. It's actually about safety, about controlling AI systems. And therefore, I'm a little bit less worried about, you know, misallocation of research.
+Seth (1:04:32): Right. There's a portion of this that's gonna be helpful no matter what. If we think AI's important, getting AI aligned is a useful thing, even if we don't think AI has the potential to kill everybody. So you're not so worried about that. Fair enough. I just wish... We go around and we say, "I want this AI to be aligned." I go around my life, nobody's aligned with me. My doctor's not aligned with me. My dentist's not aligned with me. My boss isn't aligned with me. I go to the chiropractor, he can barely align my back. I don't know. It doesn't keep me up at night that things aren't perfectly aligned with me.
+Andrey (1:05:02): Sure. I agree with you. I think the proportion of my day that I spend thinking about alignment... And, and that k- maybe points to a key issue here, is that misalignment is not an existential risk without super intelligence.
+Seth (1:05:15): But-
+Andrey (1:05:16): And super intelligence, we're assuming that it also gets you all the resources you need to accomplish your misaligned objective, right?
+Seth (1:05:24): All right. Andre, are... I know we already started talking about this, but are you ready to justify your posterior?
+Andrey (1:05:30): Yeah. I felt like I have already justified my posterior.
+Seth (1:05:32): Give it, give it to us in one sentence one more time. So in the first paper, your one sentence was...
+Andrey (1:05:38): Yeah. I'm willing to tolerate a bit more existential risk as a result of this. It didn't change my beliefs about the ins- the yearly probability of existential risk, which I think is much lower than the one you've assumed in that paper.
+Seth (1:05:51): I come away not particularly moved in my belief that I sh- we should be willing to tolerate a lot of claimed risk [laughs] from the AI community. Uh, but it really does suggest that we need to get our act together as a society and figure out what our social utility function over consumption is, because we seem to have very different intuitions about whether society should be more or less risk-averse than individuals.
+Andrey (1:06:16): [laughs] And then the percentage of spending-
+Seth (1:06:18): Mm-hmm
+Andrey (1:06:18): ... I come away with thinking that if you're the type of person who is interested in AI and is interested in AI safety, you'll be doing a lot of social value investigating those topics. There's a plausible argument for working on that. But I do feel like there is gonna be very high diminishing returns-
+Seth (1:06:39): Right
+Andrey (1:06:39): ... to investment on this topic. Uh, and as a result, I don't favor numbers that are as big as in Char- in Chad Jones' papers.
+Seth (1:06:47): I think that's right. I think you gotta really show me the big money m- the big machine that turns money into AI safety before I write that trillion-dollar check.
+Andrey (1:06:57): Yes.
+Seth (1:06:58): And I guess I have this additional concern on top of you, which is, I just don't wanna write any trillion-dollar checks.
+Andrey (1:07:05): [laughs]
+Seth (1:07:05): And I've, I'm afraid everybody's gonna come up to me asking for trillion-dollar checks. And the other thing I really wanna see from this, and I know Chad is a- aware of this if you talk to him, is that this is such, like, a US Western-centric analysis, right? Why don't we care about what the median person on Earth's opinion about this would be, who presumably have a lot more risk tolerance than the rich Americans? The fact, th- that's, that seems missing here.
+Andrey (1:07:35): I'm not sure. Let's say instead of statistical value of life of 10 million, I, I just feel like, once again, if you really care about the median income, just plug that number in.
+Seth (1:07:45): And I, he has done, he has done that. But it, it leads to, but it leads to a very different number. And I can do, maybe even listeners, subscribe to our premium version for Seth's calculation where he actually does that calculation. But I think you'll get a much, much lower level of AI spending and a much higher level of buying actual consumption goods for poor people.
+Andrey (1:08:06): But I guess what I'd counter that with is that it would still be much higher than we currently spend.
+Seth (1:08:11): Then we come back to the question of how much of open AI spendings right now counts as X risk mitigation, right? [laughs]
+Andrey (1:08:17): Let's imagine you're an AI lab that's developing advanced AI systems. Is that AI safety research or something else?
+Seth (1:08:24): Or is that AI danger research?
+Andrey (1:08:26): Yes, yes. All right. Thanks for joining us once again for Justified Posteriors. Please comment and subscribe to our Substack.
+Seth (1:08:35): And know that if we delay AI, it will require killing something of what is essential to us, the unbounded optimism about the power of thought and freedom. Or, as the way Emerson would have put it, "The true romance the universe exists to realize the transformation of genius into practical power."
+Andrey (1:08:52): Wow.
+Seth (1:08:53): See ya. See you soon. [outro music]

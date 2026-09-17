@@ -1,1477 +1,411 @@
- (upbeat music)
- - Welcome to the Justified Pustere Years Podcast,
- the podcast that updates your beliefs
- about economics of AI and technology.
- I'm Seth Benzel, cursed by inadequate intelligence,
- but blessed with a top tier interlocutor
- coming to you from Chapman University
- in sunny Southern California.
- And I'm Andre Fracken, cursed by having read
- too many dystopian science fiction novels
- to be too impressed by yet another one
- coming to you from Cambridge, Massachusetts.
- And I should say, in case you didn't know this,
- dear listeners, I am an associate professor
- of marketing and economics at Boston University.
- I was legally obliged to say this by my dean.
- But I should also mention that we may perhaps
- be interested in a sponsor.
- So if you are enjoying the show
- and have any ideas for sponsorship for us,
- please do let us know.
- - Yes, please do.
- Your money goes a long way to fund
- hair treatments for Andre's incurable baldness.
- - No, my baldness is a choice.
- - It's okay, all right, awesome.
- So we'll spend the money on something else
- then probably.
- - Yeah, possibly.
- - So today it's funny that you brought up
- dystopian science fiction because what we read today
- kind of had the vibe of some dystopian sci-fi.
- Have you read a lot of dystopian sci-fi?
- What are your favorites in the genre?
- - I mean, it's hard to beat 1984, I have to say.
- - Of course.
- 1984 was definitely coming back,
- coming to mind several times as I read this essay.
- What is your favorite dystopian science fiction?
- - Ooh, what's my favorite dystopian science fiction?
- I would have to say the one that is kind of
- the most like oppressively horrible
- might be I have no mouth and I'm a screw.
- Have you ever read that one?
- - No.
- - Oh, it's pretty, it says bad as the title bears.
- And actually, you know, this is like a super rabbit hole,
- but has a really good point and click adventure game
- from the early 90s associated with it
- that was like influenced by the author.
- Anyway, go check it out.
- I have no math and I'm a scream.
- If you don't want to sleep tonight.
- - This will be in the show notes, dear listeners.
- - Just amazing.
- So yeah, so sci-fi,
- our discussion topic today comes to us
- from a friend of the show and expert economists
- slash anthropologist Matt Bean,
- who has previously made amazing sci-fi recommendations to me
- such as the book, There Is No Anti-Mimetics Division,
- which is also highly recommended guys out there, haven't.
- - Highly dreaded as well.
- - So this guy had a really good taste and he said,
- Andre and Seth, I love your podcast.
- When are you going to do this essay,
- The Intelligence Curse,
- which is really kind of skating the line
- between economics, political economy
- and what I would describe as hard dystopian sci-fi.
- So The Intelligence Curse is what we read.
- It was written by Luke Drago
- and Rudolph Lane in April 2025.
- So it's really hot off the presses.
- Did you know anything about these authors
- before we started reading it, Andre?
- I did not recognize these names at all.
- - There are less wrong contributors, is that right?
- - There we go, they're in the rationalist space.
- It definitely has that flavor.
- As you read through it, a lot of the touchstones
- in terms of citations are either very common rationalist
- touchstones or the kinds of guys we love,
- like they're citations to Anton Kornek at UVA,
- who's a great economist thinking about automation issues.
- Also, I don't know if I got listens to podcasts,
- but if he does, he would be a friend of the show.
- So anyway, so thank you, Matt, for that recommendation.
- Everybody keep your recommendations rolling in.
- I think maybe I will just in a sentence,
- highlight the kind of the high level argument to the paper,
- and then we'll jump into our priors.
- The highest level argument of the paper
- is basically trying to make an analogy
- between AI-enabled automation
- and this thing in economics known as the resource curse, right?
- The resource curse is an idea that's been around
- for a long time, but the modern version comes
- to us via Jeffrey Sachs,
- a potential sometimes co-author of myself
- and professor at the Columbia Earth Institute,
- who in 1995, with Warner wrote a paper
- doing a series across country regressions,
- suggesting that countries that export a lot
- of raw materials and get wealth from that
- tend to do poorly around economic performance, right?
- And so in the sort of 30 years since then,
- there's been this giant literature on the resource curse,
- first asking, does it really exist?
- Does having natural resources is that bad for your country?
- And then secondarily, if that was true,
- why would it be the case, right?
- You know, a famous joke about this is the Saudi economist
- talking to the American and saying, you know,
- all else equal would be better if Saudi Arabia
- had struck water instead of striking oil, right?
- It's this idea that some kind of resources,
- the wealth comes a little bit too easy
- and that they can lead to all sorts of political
- and economic problems down the line.
- That and then again, that's the context.
- And then the argument of the paper is that, but AI,
- so we'll get AI and that's gonna screw up our governance,
- it's gonna screw up our society,
- it's gonna screw up our economics and politics.
- Andre, before we get kind of into our priors,
- how much health familiar were you
- with this resource curse literature kind of outside of AI?
- How important an issue do you think it is
- in the kind of the natural resource context
- when it was first invented?
- - Yeah, so I mean, it's been a long time since I've thought
- about resource curse it probably over 10 years ago,
- but I'm familiar with the arguments, of course.
- Look, I think it's pretty important.
- It's a pretty, it allows dictators to stay in power
- without the support of their people
- in a way that one might think would be a lot less tenable
- without the resources.
- But I'm also like not a, I'm not a determinist,
- and I don't think the authors are,
- we can get to that, but I think we certainly
- have examples of countries where they have
- a lot of natural resources,
- and they don't suffer from these outcomes, right?
- So like a lot of things in macroeconomics, you know,
- - Norway is an example that comes up.
- - Norway, but look, the U.S. is an example, right?
- I mean, the U.S. is a ton of resources or Canada,
- and so I would just say it's not,
- it's not determinative.
- It is certainly a factor that seems important.
- - Well, I think maybe, let me ask you this.
- At this point, do you think it would be useful?
- I ran into a useful literature review
- by Herbert Kennedy School Professor Frankl
- about six different reasons
- that have been given for the resource curse.
- Do you think it'd be useful at this stage
- to run through them?
- - Sure, let's do it.
- - The first argument is that long-term trends
- in world prices make exports of resources
- a bad long-term play 'cause maybe those prices
- always come down, that's not so clear, right?
- It does seem like commodity prices have blooms and busts
- and people are always gonna need copper.
- Second argument is price of volatility.
- If you're a country that's really highly dependent
- on these resource flows,
- if the price of oil is flying around back and forth,
- it might be very difficult to have
- kind of a same fiscal policy as your resources
- wildly fluctuate, and you kind of see this a lot of time
- in countries that have resources and bad politics
- is that they'll be the kind of the good time,
- they give out all these good use,
- and then when the bad time comes,
- they can't maintain the goodies, right?
- You think about these in like fuel subsidies
- in Iran and other countries that have oil.
- Third one, permanent crowding out of manufacturing.
- So there's a sense in which this is kind of
- like the Cesar Hidalgo argument
- that you kind of want to be growing
- your economy's complexity over time.
- And if natural resource development
- is the most productive use of your resources,
- you're kind of not moving up the value chain.
- So you kind of get your country stuck.
- A fourth reason is autocratic/allegarctic institutions, right?
- This is the reason that I think the essay
- we're gonna read has been focused on, right?
- Do I need the people if I can just, you know,
- put an army right next to the oil well,
- and then I don't have to worry
- about anything else going in the country.
- The fifth is an arctic institution kind of the opposite, right?
- So now I have oil.
- Everybody's gonna invade me and fight over the oil, right?
- And now I'm gonna have bad governance that way.
- And then finally, this idea of kind of a cyclical Dutch disease
- where it has to do with commodity prices being high,
- leading to a very strong currency,
- oh, sorry, forget how exactly this is supposed to work.
- But the way it's supposed to work is
- the Dutch disease country has a stop strong currency
- in the wrong times and a weak currency in the wrong times.
- You want a strong currency to import capital to develop.
- And then you want a weak currency when it comes to exporting,
- but somehow the timing gets screwed up
- and countries can't have the strong currency
- at the right time, right?
- All of these seem like plausible reasons that, you know,
- it's called the Dutch disease
- because this was supposed to have affected
- a Southeast Asian countries that were conquered
- by the Dutch for their resources.
- All of them plausible,
- all of them continue to be researched.
- But Andre, I think the consensus is exactly as you put it,
- that nobody thinks that any of these forces are determinative.
- All of them seem to conceptually have solutions, right?
- One of the super obvious ones is the price volatility, right?
- There's an obvious solution to price volatility, right?
- Which is, you know, you kind of do budget smoothing,
- which is what a lot of resource rich nations do.
- If you look at Russia, they kind of budget themselves
- based on like, we want the budget to clear at, you know,
- $60 a barrel for oil.
- And we know some years are going to be above that,
- some years are going to be below that.
- And then the country can kind of do the income smoothing.
- So that would be an example of how these factors
- that could theoretically screw up your country
- for resources don't heck still.
- - Seth, just for this buzz.
- Are you giving an example of Russia as a well-run economy?
- What are you talking about that?
- No.
- - Russia is not an example.
- Well, oh, shit.
- So I'm sorry.
- (laughing)
- Stuff.
- That's a great question, Andre.
- I am not saying that Russia is not a country
- that is affected by resource curse issues,
- but I am saying I have met the economists at Russia
- who are in charge of figuring out how the budget works
- over 20 years periods based on different oil prices.
- And there's a lot more long-term thinking
- about that particular mechanism for resources
- to screw up your economy,
- even if maybe they're not protected against autocracy.
- - That makes no sense.
- I'm sorry, Seth, but I'm just, that makes no sense.
- - The country doesn't do good planning for oil prices?
- - The country doesn't do good planning for oil crisis.
- They have, look, I believe they have smart economies,
- economists in the central bank,
- but they certainly have experienced large fluctuation
- due to oil prices in their economy,
- and also their country that famously
- doesn't care about its people,
- and their quality of living.
- It's just a strange example of like what other examples
- like Norway exists to give Russia, yeah.
- - All right, all right.
- So ignore one.
- - No, no, no.
- - Yeah, like it's just, it's just, yeah.
- - All right, fair enough.
- I have no one would give Russia as an example
- of completely breaking the resource curse.
- So, all right, maybe that was a little bit of a rabbit hole.
- Let's kind of circle around to the questions
- that we wanna discuss as we get into today's paper.
- (upbeat music)
- So, we have a couple of priors that we wanted to introduce.
- The first is the idea that AI enabled automation
- will allow elites to be less responsive
- to the needs of median people.
- And just to put like a time scale on this,
- let's say by 2050, because you know,
- who knows in a thousand years, whatever, right?
- How do you evaluate a claim like that, Andre?
- - With a lot of uncertainty.
- - No.
- - So is it 50/50?
- Is it as simple as that?
- - No, no, it's not like us.
- I mean, they're just like to think about this thing.
- And there's true of a lot of topics we cover
- is you really just have to start thinking about
- science fiction futures, right?
- And certainly we can imagine the science fiction future
- where, you know, and this is the one they're going to,
- you know, imagine theories where the only thing
- that manages is capital.
- And then there are gonna be a bunch of humans
- that are in control.
- And you can imagine they have like humanoid robots
- and other military technologies
- that just make them completely unresponsive
- to the populace.
- And, you know, and that's kind of the version
- in which, you know, they have to be,
- they don't have to be as responsive anymore.
- So, so you can also imagine another world where,
- but it becomes a lot easier to collect the voice
- of the people.
- People have a lot more free times.
- They're much more engaged in politics.
- You know, even the people at the top,
- they care about what their peers think about them.
- And therefore, you know, we can get a more responsive government.
- I think, you know, I think it really depends
- on where you start from.
- I think that's kind of my...
- - We can't start from today.
- You want to do U.S. or you say you can't...
- - Yeah, which country, which country...
- - So let's say the U.S. if that...
- Let's say the U.S. but in 2050, if that helps.
- - It's...
- - I'm close to 50/50 South.
- - Now yes, I love it.
- - You are in decision.
- - I am in knowledge.
- - I just have a hard time,
- even the strong culture of democracy
- and like the norms imbued
- in our politicians, it seems hard to me
- to imagine that they will start ignoring what the people...
- - Let me throw in a subtlety here, right?
- We just came off of our AI persuasion episode, right?
- What the people want might be an oginess
- to what the elites to cause them to want.
- - For sure, for sure.
- But, you know, I still couldn't...
- - Yeah, I mean, this is a prior.
- Yeah, I mean...
- - Well, yes, it's a prior.
- - I think that...
- Now let me add in, let me be an economist and say,
- on the margin.
- - Ooh.
- (laughing)
- - I think on the margin it can make them
- a little less responsive to the voice of the people.
- So I'll put it at like 55, 45.
- But I think there are lots of possibilities
- in which they're actually much more responsive.
- - I think that's right.
- - I come maybe in a little bit harder here at around 60%.
- I think what I'm thinking about here are,
- it's, I am, okay, the way I come at this is,
- what are things that would sort of
- make the government fluff to be more responsive, right?
- Or make elites more responsive?
- First off, we know that big wars tend to create inequality.
- It could definitely be a big, or sorry, equality.
- It could definitely be a big war by 2050.
- Another scenario is by 2050, there are simply,
- I guess 2050 is a little bit too short a term
- for our population collapse.
- But in a world with many fewer humans,
- the individual humans might become more valuable.
- That's kind of a more...
- - That's not all right.
- - But I'll just say that's a little bit,
- 'cause we're talking about the median person, so...
- - Okay.
- - Yeah, I...
- - The median alive person,
- not the median hypothetically born person.
- - I mean, yeah, I don't know,
- that seems a very third order to me
- to like, think about this issue, but I'm not sure.
- - Well, I guess, but the reason I bring it up
- is because one of the main mechanisms here
- is gonna be wage collapse.
- - Yeah.
- - And you would expect a less of a wage collapse
- if there are not enough humans, right?
- - Sure, fair enough.
- - Okay.
- - And then, okay, so here's, so one thing I think about
- in terms of the balance of power shifting
- towards ordinary people is kind of like...
- So, all right, so what's the tension here?
- So, we all know, as Hayek told us,
- the reason that communism usually doesn't work
- is that there's this information centralization issue.
- You can't get all the info to the central planner.
- People have posited that AI would allow
- for greater centralization of this information and authority.
- The question then becomes something of a race.
- This is the way I think about it.
- A race between AI's ability to cognize
- and take care of and capture all of the complexity
- of the world against AI allowing the world
- to get complex faster and faster, right?
- And create all of these micro-knowledge's
- that would be hard to assemble.
- Or another way to think of that,
- it is AI might make humans weirder in a way
- that makes them harder to control
- even without necessarily empowering them directly.
- These are all factors that I think might pull
- in the other direction, but I agree with you
- that kind of like my at the margin intuition take
- is AI automation does seem to be kind of
- a power centralizing force all else equal.
- - Yeah, and then I guess we'd say just for other countries,
- I would have a very different answer.
- - Yeah.
- - Do you want to go into that or just leave that late?
- - Um, you just say, you know, right?
- Like in a dictatorship, you can imagine that
- this actually allows you to ignore your people
- even more, you know.
- Yeah, all right.
- - Second one, AI, this is the kind of even more speculative.
- AI enabled automation will lead to a new social contract
- by 2050.
- And this has got to be like, you know,
- we don't like add a constitutional amendment in the US.
- In the US.
- And this like goes beyond like tweaks at the margins.
- This is not, we just pass a new law or like,
- I think this would, this would require like
- either a big UBI or like giant AI regulations
- or even constitutional amendments
- beyond tweaks at the margins.
- That's what I have in mind here.
- What probability do you have on that?
- - 20%.
- - 20%.
- I'd be in the same ballpark.
- 2050 is pretty fast.
- We would really need to see the beginning of that right now.
- The kinds of UBIs that I think would be sustainable by 2050
- are I would say not discontinuous
- with the kind of social contract that originally exists.
- We'd be talking about UBIs of thousands of dollars a year,
- not a hundred thousand a year, right?
- And those are very much in line
- with kind of current social support policies.
- So kind of in my vision, like the default path to 25, 2050
- does include some increases in social support,
- but not like the new social contract levels.
- - Yeah, yeah.
- I think I'd be like a slightly different take on this.
- If we do see substantial labor replacement
- and unemployment as a result,
- I think we'll need a social contract
- that is less oriented towards work mandates
- and requirements and just a less work oriented
- social safety and that's, I think,
- a much more fundamental rethinking
- than just tweaking the marginal social welfare program.
- - It's so funny that you say that
- 'cause like the 90s were all about,
- we're gonna fix welfare,
- so now it's gonna be about work.
- - Yeah, yeah, but I think the future.
- I think the reason why I'm quite still
- have a very low probability on this
- is I just think our government institutions
- are incapable of passing legislation at this point.
- And it's hard, it's not impossible
- for there to be like a cross party coalition
- in response to very large social change,
- it's certainly possible.
- I view my percentage as pretty substantial,
- but my prior is that we're gonna,
- we might have like state level action
- or we might even have like corporate level action, right?
- But a federal government is just seems crippled.
- - When we started the podcast, if I recall correctly,
- our very first episode was situational awareness,
- which has a vision of, within the next five years,
- government nationalization of AI companies
- and those AI companies being deeply embedded in governance
- and national security.
- Would that count as a significant enough social rewrite
- for you or that's like just on the threshold?
- It would have to be--
- - Well, I was really thinking about social programs
- specifically for this question, so I wasn't--
- - But that'd be nationalization
- of like a giant part of the economy hypothetically.
- - I just, I guess I'm not disagreeing with you
- that it's a big change, it's just,
- that's not what I was talking about.
- - It's not a social contract.
- - Yes, exactly.
- It's more that you know, you nationalize an industry
- that's happened before, you know, at various parts, right?
- So it's not--
- - But you could see that as a,
- so and we'll get into this as we discuss the paper,
- but you could see that as the first move
- in a radical rewrite of the social contract
- in a way that's bad for normal people.
- - Potentially, yeah.
- - All right, you wanna get to the argument, yes.
- (upbeat music)
- - So, unlike most of the things we've read,
- and really I think the only thing we've read
- that's been similar to this is situational awareness,
- this is trying to do what I would call
- narrative political economy.
- It's trying to tell you a story
- about where the world is gonna go,
- and I guess it's in the tradition
- of great American Jeremiah ads, right?
- If you think about Jeremiah saying,
- "Repents, or you will be destroyed."
- This is very much one of those.
- At a very high level,
- before we get into the actual arguments,
- I think there's kind of like a meta problem
- with this form of argument, right?
- This is kind of the same issue that we had
- with situational awareness,
- a similar issue that we would have with the 2027 project,
- which we considered doing an episode on,
- but ended up not doing AI 2027,
- it's the Scott Alexander hypothetical, what will AI do project.
- And then this one here,
- which is kind of this rationalist arguments,
- modus tollens that I don't think works.
- The way that it works is,
- here's a bunch of individual steps
- that I think are individually possible,
- and I can put 10 of them together,
- and therefore the 10 steps together are jointly possible.
- And that's not how probability works, right?
- If you multiply together 10 very unlikely steps,
- then, or even if you multiply together 10 likely steps,
- even if 10 steps are each 60%,
- it's very hard to get all 10 of them
- to go in a certain way.
- So as we go into this, it's an interesting vision.
- I would call this scenario planning.
- If I was writing this essay,
- I would call it the intelligence curse,
- or the intelligence badness scenario,
- rather than this is the bad thing.
- - It's like a war game that the government might play,
- to see if they're prepared for an attack or something.
- - Right, so before we get into it,
- I think we both agree that this is better treated
- as scenario analysis than prediction.
- - Yeah.
- - All right.
- So we're just gonna run through the paper.
- Chapter one gives the broad overview,
- which compares the intelligence,
- what introduces this idea of an intelligence curse
- as analogous to a resource curse?
- What if a country suddenly got an infinite supply
- of free AI labor?
- Wouldn't that screw it up in some way?
- Question mark.
- Chapter two lays out stuff that we've covered
- before in previous episodes,
- but maybe takes it to an extreme, right?
- So chapter two argues that AI is important
- and will take all of our jobs.
- So as we continue here, listeners,
- remember that we're discussing a vision,
- also in which a lot of physical jobs are automated as well,
- which probably pushes out the timeline
- for this significantly, right?
- This isn't just white collar work
- being automated in the vision of this paper.
- And it also doesn't include any sort of concepts
- that we've talked about before
- that AI might lead to the creation of new jobs
- that aren't unautomatable or take time to automate, right?
- So this is really a vision where the AI comes in,
- it takes all our jobs.
- Capital share of income approaches 100%
- and what happens next.
- It's an extreme scenario,
- it's what I'm happy to talk through,
- but it's not one that I think is happening this century.
- - Okay, and I guess they do have like additional,
- like subtleties to their argument,
- like they think about who is likely
- to lose their jobs first and why.
- And I think there's this kind of interesting
- sociological almost thought there
- that the people at the lower end,
- at the lower part of the corporate hierarchy
- are gonna lose them first.
- And, you know, that a lot of this is quite a bit about power,
- but that eventually all organizations
- will have to be kind of AI oriented
- because there's no other way to compete.
- And so I think any of this competition angle
- is really important here for their entire argument, right?
- - Right, right.
- So there's this idea which is that capital has,
- it's not discussed in this paper,
- but in the background of this is the idea
- that all capital has to be devoted
- to its highest marginal product purpose.
- And then they don't discuss this explicitly,
- but that could be an interpretation of one of their solutions
- when they call for decentralization, right?
- If we all have our own pockets of capital
- and can build our own homesteads,
- at least theoretically to the optimistic rationalist,
- that kind of fixes the problem
- 'cause we all get our own robot to all do our own thing, right?
- Rather than get the pressed from the top down,
- there are economic reasons why that might not
- could even potentially be an equilibrium.
- - Yeah, no.
- - In chapter two, we just get a start by saying UBI
- won't work for political reasons.
- We're gonna at a teaser leader of why UBI
- isn't going to solve this problem.
- And again, this is not a universe
- where everybody moves into plumbing.
- We've also automated plumbing.
- All right, chapter two, we've taken all our jobs.
- What happens next?
- - Dr. Gar jobs.
- - Great, perfect.
- Chapter three.
- The argument is is that our jobs disappearing
- is going to lead to a higher capital share,
- higher marginal product of capital, higher interest rates.
- This is gonna be a more important source of power
- and therefore labor a less important source of power.
- Here's one of the points in the paper
- where I start to be really frustrated
- by their lack of clear terms.
- As far as I can tell, there is not a definition
- of power in this paper, which is tough
- when they're constantly saying,
- this is gonna increase power, this is gonna decrease power.
- The way that I think about power,
- and Andre, maybe you might don't love this distinction,
- is to distinguish between absolute and relative power, right?
- So there's power in the sense of,
- how much can my dollar buy, right?
- And you would assume that in the economy
- of a thousand years from now,
- your dollar will be able to buy way, way more
- than your dollar will be able to buy today.
- Real terms, not nominal, et cetera, et cetera.
- So that'd be a sense in which the absolute power
- of money must increase.
- And then there's a question about
- whether money is going to be relatively more important, right?
- And here the contrast is with labor
- and I guess social capital, right?
- There's other kinds of capital other than monetary capital.
- And the argument here is, well, labor is gonna be valueless.
- So if all you have is your labor, you're screwed.
- And then there's a kind of a hint
- that like even social capital is not gonna be worth
- that much in this future.
- 'Cause you know, hey, I can do social capital.
- You don't need humans for that.
- I am very much sympathetic to the idea
- that money will buy more in the future.
- That seems to be a really solid prediction,
- 99% confidence.
- But, and I'm also convinced
- that capital might become more important vis-a-vis labor.
- Whether or not that caches out economically,
- I would predict the labor share to continue to decrease,
- maybe not to zero percent.
- - Yeah, I mean, I guess I was...
- I was interpreting this as being a slightly different form
- of power or if that makes sense, right?
- So if you add...
- - Yeah, well, what's your, give me your definition
- of power that we'll talk about it.
- - Well, I can imagine governments or large corporations
- just having, quote-unquote, having the resources.
- And it's hard to, yes, if we keep
- the existing capital of institutions and so on and so forth,
- a given unit of dollar will buy more
- because production will be higher, presumably,
- although you might think that maybe some of the production
- will go to things that are not consumption goods for humans.
- And then the other thing is humans
- like consuming positional goods a lot.
- So then, you know, that's also caveat.
- But I think the government or these corporations
- could just choose to direct their resources in a way
- that's not beneficial to consumers, for example.
- So I think that's kind of one thing
- that we have in mind.
- And the other thing is if people truly do lose
- their labor income and unless they're sitting
- on a ton of capital, even if the dollar buys more,
- they will just have way less dollars, right?
- Right, so that's, it's certainly,
- I mean, that's kind of the open question, right?
- Yeah, I'm very convinced that the labor share may go down,
- but the labor share going down could be compatible
- with the wage going up.
- We're reading a paper where the vision is the wage
- kind of collapses to zero for most people.
- But to me, that's hardly a super confident prediction.
- One phrase, have you ever heard this term,
- schlep code Andre, I've never heard this term before.
- Leep code code, so I, you know, a cultural aside,
- I understand the word schlep to me like a journey
- and particularly a burdensome journey.
- Yes.
- I do not think Louv Drago or Rudolph Lane
- have a Yiddish background and they may be using
- this word incorrectly.
- So, you know, see us if you want consultation on that issue.
- Finally, an important argument in this chapter
- is that not only will inequality explode,
- but also there will be a collapse in social mobility.
- And actually that's kind of the most interesting argument.
- I hadn't really thought about that super hard.
- It's definitely the most intriguing,
- even if a little bit underdeveloped.
- The idea here is is that if you think about exceptional
- human successes, it, especially out of nowhere,
- out of, you know, from a humble family,
- the diamond in the rough, so if you will,
- that's usually about the superior labor power
- of those people, right?
- Those people were able to do something
- that nobody else could allowing them to rise.
- This essay that we just read is kind of pessimistic about
- that ever being able to happen in the future.
- I have some thoughts about this.
- What did you think of that argument?
- That it's gonna kill social mobility
- as well as increase inequality?
- - I mean, this is, once again, like the scenario planning
- story, if you take the premises that labor is useless,
- you do create perhaps a situation of hopelessness
- amongst people because so much of, you know,
- how people get through their lives is to think
- that they can do better and that there's kind of a quest
- that they should be on and, you know,
- and they're, of course, lots of freedom to that.
- I think one of my fundamental views is most of what things,
- most of the things people do is about status
- and that is not going away with AI.
- And so it's just gonna be hard to predict
- what's gonna be the highest status thing, but it will exist.
- Now, given I don't know what activities
- will constitute high status, it's hard for me to know
- whether it's easier or harder for humans
- to achieve that.
- I guess I could imagine there to be decreased
- social mobility as humans are more segregated
- in a variety of ways, but then that seems hard to imagine
- given the internet.
- - Well, let me tell you a story.
- So I think this is going a little bit beyond the scope
- of the essay.
- This is a little bit more what I've talked to Matt
- being about offline is this idea that to the extent
- that any sort of children are invested in
- with the ability to race with the machine,
- it'll be limited to the elites, right?
- So like, let's imagine a world where only 1% of people
- can have jobs, those will be reserved for the children
- of the elites who are prepared and groomed for them
- with high resources.
- - I disagree.
- And I think because fundamentally of you,
- AI is democratizing technology on the human capital
- formation front.
- I just think that if you're a talented person
- from anywhere in the world, AI makes it way easier
- to get to the frontier.
- You essentially have--
- - AI is tool, AI is tool is completely ignored
- in this thing.
- - AI as an educational tool for the 0.1%
- is the greatest technology in history.
- - For other people, maybe we don't have, you know,
- the same termination or the same interests
- and stuff, maybe it's net harm because it's too easy to cheat.
- But I think for the 0.1%, it is an accelerator.
- - Wait, 1%.
- I mean, you could tell a story where like AI also leads
- to like greater assortative matching amongst couples
- and then like this all turns into--
- - It's a gataca situation.
- - Right, you could get like a gataca here, right?
- So maybe gataca plus automation gets you
- the perfect in social immobility, but it's not just
- and you would need a social innovation
- in addition to the AI innovation, right?
- - Yeah, and I just don't demographically,
- I don't see gataca before 21st, I just--
- - Yeah, the timing is way too
- 'cause you'd have to start gaticating right now.
- - Yeah, and yeah, we're just not very fast.
- - Yeah.
- - We're not even, we're not even,
- you were talking about maybe a Saudi prince somewhere
- as gaticating.
- (laughing)
- My new favorite verb, gaticating.
- Oh my gosh.
- - What else do I wanna say about this?
- I guess I would just say that there is an observed
- international relationship called the Gatsby curve
- that does seem to relate social inequality
- to social mobility.
- I know this research has come under criticism,
- but you know, what we're talking about
- cross-country paddle regressions, my understanding is
- is that the more unequal your society,
- the harder it is to move up or down with percentiles,
- which makes sense if the runs are farther apart.
- So maybe there's just a mechanical sense
- in which inequality is more inattractable
- for social mobility, just setting aside the AI.
- - Yeah, but I guess if we care less about economic productivity
- and we care more about things like cultural productivity
- and everyone has a lot of free time,
- I just imagine like video games are a great example.
- People who are very good at video games
- have a lot of status.
- I actually just don't see a world where that goes away
- and anyone can play video games.
- - Yeah, we've already eaten chess.
- We've already established that once the AI solves the game,
- we're still interested in the game, right?
- - For sure.
- - So no problems with that.
- Okay, so moving to the next chapter,
- now we get to the curse itself.
- It's a little bit fuzzy how this happens.
- I don't think maybe the authors have a strict mechanism in mind here,
- but they're imagining that powerful actors will seize the AI
- and use it to cement their own power.
- You might imagine that states have an incentive
- to help with the centralization of power
- and that once states or I guess AI companies
- that have taken over the role of the state
- have achieved this 1984 style dystopia, I guess.
- That's kind of where this book goes immediately.
- - Yeah, or at the very least,
- just like, they don't care about the people,
- they just do it in their own.
- If the AI/elites at the very top,
- their number one mission life is to go to Mars,
- that's just where all the resources are going to go.
- - Right, we'll get whatever the elites want.
- And this is a world where what the elites want
- is not social equality and, you know,
- a very little social, they have very little utility
- inherent utility on the wealth being their populations.
- - Right, or even on like closely related second order things,
- like the love and admiration of their population.
- - Yeah, yeah.
- - So I guess I would say that in this vision,
- the vision in my opinion is very cynical.
- It's this very, I guess, like narrow path development,
- awesome olu vision, where awesome olu Johnson vision,
- where kind of all countries everywhere
- want to be the most horrible stationary banded they can, right?
- And the only thing that stops them
- are these concerns about, well, you know,
- I do have to educate my populace
- so they can be good stormtroopers, right?
- Do you think that's right or is that a little bit too cynical?
- - No, it's too cynical.
- I mean, I don't think that's right at all.
- I think like the more steel man version of their argument
- might be something as follows, like there are many countries
- and you just have to compete with the other countries
- however that plays out and the other countries
- are gonna have no qualms about using AI to the fullest
- and therefore, you know, any country
- that cares about its people is gonna fall behind.
- - Right, cares about its people in a way
- that is not directly Darwinian.
- You might imagine that a country
- that actually successfully does the situational awareness,
- the project and wins the race to AGI.
- Like, I thought that the point of doing that
- would be like you'd be beyond competitive concerns, right?
- And you'd have like solved the economy at that point.
- - Yeah, or you have a global government,
- certainly things that are very common tropes
- and, you know, science fiction or not.
- - I mean, to get a little bit more science fictiony, right?
- There's no kind of homesteader frontier outlet
- that is considered in this essay, right?
- In a world where, sure, if you stay in one of the mega cities,
- you're just gonna be a prol on the dole,
- that's kind of a sad sort of future.
- But you can also imagine a future
- where you have the option of being the prol on the dole
- or, you know, fucking off with your, sorry.
- - Docking off. - Imagine a future.
- They're talking off.
- You can imagine a future instead
- where people decide to just sort of fly off
- and make a homestead underwater in a floating city on Mars
- and, you know, there'd be, it would be too expensive
- for the 1984 totalitarian state
- to like worry about trying to govern these far flung places.
- It seems like this is a future you could run away from, right?
- - Maybe, I doubt it's too expensive.
- It could be deliberate decision to just have a zone
- where it's like, you know, you guys do your own stuff.
- But yeah, I mean, this kind of gets me to something
- I was thinking about the entire time I was reading this,
- which is property rights.
- - Oh.
- (laughs)
- - Right, I mean, so much of, so many of these questions
- are just hinging on, or not just hinging,
- but it's really mediated by do we keep property rights or not?
- - Right.
- - Because if humans have property rights,
- like if someone owns a home, they can stay in the home, right?
- Like, if someone owns a machine or a computer or whatever,
- it like, they can keep using it.
- And that kind of limits the sense
- in which the government is gonna take advantage of the people.
- Now, if the government says, you know,
- property rights were a great idea before AI,
- but now, you know, we don't need property.
- - Centralize it all, baby.
- - Yeah, we're the benevolent planners.
- We know what to do here.
- So we're just--
- - Trust Big Brother.
- - We're just gonna take your home, you know,
- then we'll get into a very different set of weirdness.
- I guess, and it's certainly true that in plenty
- of resource-first countries,
- you don't really have nice property rights regimes, right?
- So, but to me, it's just like, like for example,
- there are plenty of people right now that have, you know,
- investments, and if we're gonna get this AI scenario,
- they're gonna have a lot of capital, right?
- And that's a lot of people.
- It's not just gonna be like one person, right?
- So, you know, what do we make of that?
- That seems unlikely that they're all gonna agree
- with each other about what to do.
- And so we're gonna have some amount of, you know,
- political competition at the very least, right?
- And also economic competition.
- But as the AI just says, hey, you know,
- stocks are a great idea, but we have a better way.
- And, you know, all those people with index funds
- have a good one.
- Yeah, that's a very different one.
- - I so agree.
- I think one of the biggest weaknesses of this essay
- is like the movement from AI companies
- will create a huge amount of wealth
- to governments will become 1984, right?
- There has to be like a really specific nationalization
- or sort of like fascist government AI company alliance
- in a very particular way for it to work out this way, right?
- - Yes, yes.
- - I also kind of, and taken into that in this essay,
- we keep on hearing about the elites.
- The elites think this, the elites think that.
- But as I just talked that out,
- what Sam Oldman wants and what Donald Trump wants
- are like probably really different things, right?
- So it actually kind of does matter which elite you get.
- - Yeah, I mean, you get, you know,
- within very seemingly tiny differences
- and believes you get your Elon versus Sam Oldman philosophy
- is right, you know, who in principle started opening AI
- for the same exact reason,
- but seemingly disagree on everything now.
- So yeah.
- - Right, that's perfect, right?
- And so it seems just so, so contingent, right?
- So to the, so I mean, I guess this is where we'll come back
- to in the conclusion, but like,
- this is an interesting scenario to think through,
- but every step on this path isn't fairly contingent.
- - Okay, yes.
- - Yes.
- - What other thing that I thought about while reading here
- was I wish there had been more of a discussion
- to like actually fully automated societies.
- We actually do have some examples of partially
- or highly automated societies when we think about ancient Sparta
- where 90% of the population was hellots.
- And, you know, the Spartan leaders just like hung out
- in practiced war because that was their big cultural thing.
- In Athens, I just found an estimate that maybe 75%
- of the citizens of the people in Athens were slaves
- with only 25% being citizens.
- And these seem to be societies that we wouldn't call
- like modern democracies.
- Certainly we wouldn't call Sparta a modern democracy.
- But these are societies that at least for the people
- who counted really don't seem to have been collapsing
- to 1984 style totalitarianism, right?
- You could even draw the analogy
- to the Confederacy in the South, right?
- Although that example is a little bit more problematic
- 'cause over the course of the Civil War,
- they do end up centralizing a lot of power in Virginia.
- What do you think, I mean, that's just my argument
- is they should have thought about that a little bit.
- - I don't think they disagree with it.
- Like, I kind of, the way I read this was that
- some amount of humans do get the good treatment, you know,
- maybe they're the capital owners or so on, right?
- And I guess they would just say
- that this is just a much bigger deal.
- So I have 75% automation you're gonna get, you know, 99.9%
- automation and that's, you know, that can,
- and then-- - That's qualitative change, yeah.
- - Qualitative elites are a very tiny portion of society, right?
- And so in some sense, they're like, yeah, like fine, one.
- Let's say there's 1% of America
- that gets to keep on living a nice life.
- That's still a problem and we need, you know, solutions.
- - Right, I guess the kind of the analogy I wanna draw there
- is that there's a clear line between, you know,
- the citizen and the slave that, you know,
- the Greeks really didn't, I mean,
- if you lost a war, you could be captured
- and become a slave certainly.
- But it seems like that natural sort of analogous line
- exists today in between humans and robots, right?
- And it's unclear why we couldn't maintain that line.
- - Well, I think they argue that I guess
- that the political economy is that we wouldn't, right?
- That's kind of the-- - Right.
- And so that's why I wanna understand.
- So why didn't the political economy of Athens
- lead to, you know, the one despot
- with everybody being their slave, right?
- Or maybe you might argue that that's like what Babylon was,
- right, you know, in the great city of Ur,
- there was one God king and everyone was their slave.
- - No, I mean, the non-slaves in Athens
- were still doing things, right?
- They were doing important tasks that were not automated away.
- They just had a much nicer-- - Oh, artisanal,
- military tasks, right?
- - Yeah, scientific-- - But basic production,
- basic production you might say was automated.
- - Yeah, yeah, and I guess the argument here is that
- it's not just basic production, it's automated, correct?
- - Yeah, military, yeah.
- - Yeah, it's a good question about like, you know,
- elites here, who are the elites in the society?
- It could be people, you know, who just were early investors
- and open AI, it could be people who are the best
- at coming up with new AI models, you know,
- it could be the best live performers, you know,
- who knows who these elites are.
- I mean, except for that last one, according to these essay,
- not the last one, there's a really funny joke in here
- where it's like, if you go to someone in a thousand,
- you know, a hundred years and ask them why they're wealthy,
- the answer is probably going to be like,
- my uncle was an early, was like a first 10 worker
- at Open AI, so that's why I get to rule the world.
- - Yeah, yes.
- - Which I mean, is really good as rhetoric,
- but like it doesn't work as agile political economy.
- And okay, one last point here, which is that
- if you're looking for a book
- where there's a really high ratio of automation to humans,
- but it's not a vision I would call one of like,
- elites dominating non-elites,
- highly recommend Asimov's The Naked Sun,
- where the colonists of Mars live on sort of vast plantations
- where like one guy has a thousand robots and AI's
- serving them on their Martian plantation,
- and it's not necessarily a great word old,
- but you wouldn't call it totalitarian in any way.
- - Good, I'll have to check that out.
- All right, let's get to the policy,
- 'cause I guess the next party is kind of policy solutions,
- right, so this is, or at the hand,
- where it really starts to hunch.
- - Oh yeah, oh yeah.
- - So of course, the first thing is,
- something must be done.
- (laughing)
- - Yes.
- - That's what we all agree.
- - This 10-step process that will lead to 1984 inevitably
- must be stopped.
- - I mean, look, that obviously this is, you know,
- a rhetorical piece with the political agenda,
- but I do think that, you know, we shouldn't question
- even just the tendency of something must be done,
- not that like people shouldn't be doing things,
- but things are being done every day,
- but I think, yeah, I oftentimes wait and see,
- has a lot of advantages, maybe.
- - Well put.
- - Okay, but one thing they're pessimistic about
- is the idea that revolts and ordinary politics
- will be able to prevent the centralization of power
- in the hands of elites, right?
- They see revolts as basically relying
- on the relative power of like the mob versus the army,
- which they see has to be in secular decline.
- And they also just feel like the way
- that political finance works is, is that the elites
- will be able to win any sort of democratic vote
- that they get into.
- - The elites don't agree.
- I mean, I think I go back to this point constantly.
- We have a lot of elites and they don't all agree.
- And so I just imagine that you think--
- - Yeah, I just imagine that that's gonna, you know,
- certainly a lot of elites today are Democrats.
- A lot of elites favor more distribution,
- redistribution, a lot of elites favor less.
- I mean, and they have different preferences.
- So it's just, I'm not as nihilistic.
- I certainly, it is plausible that some group of elites
- gets into power and that stage is a coup and so on.
- - 1984 SS.
- - Yeah, yeah.
- But not in a little class.
- - Well put.
- Okay, so now let's, so that's not gonna work.
- It's the threat of revolution isn't gonna keep them in line
- according to this essay, maybe we disagree.
- What do the authors think is gonna work?
- First of all, and we can put this in the show notes.
- I love the image that headlines the final chapter,
- which is like giant massive people
- building more Acropolis.
- There's like not enough Acropolis.
- Which I, again, you know, Athens was in some sense
- a highly automated society
- if you call slaves, robots, whatever.
- - Seth, I like my Acropolis built by human beings.
- - Proteasmal Acropolis, there we go.
- That'll be the name of our architecture podcast.
- - Yeah.
- - It's an artistic Acropolis.
- Okay.
- Okay, the first is the idea that we should develop
- and diffuse AI enabled technology
- that augments human productivity
- and keeps humans in the loop of economic value production.
- I mean, that sounds like a banal platitude.
- - It's, I'm just so sick of hearing this.
- Honestly, it's like, it's not because I disagree with it,
- but because it's so obvious
- and because everyone says it.
- And the truth of the matter is,
- we're in a capitalist economy.
- And if that's like a good mode of production,
- you know, I think we'll keep doing it.
- By the way, I do think it's a good mode of production.
- So I think it will happen.
- It's just very anodyne, non-anxious thing.
- It's called, if that makes sense.
- - Right, anodyne, very well put.
- The next argument, this is a little bit spicier is,
- I mean, I read in here an actual argument
- that we should be slowing down the pace of automation.
- This quote I picked out was,
- "The longer human economic relevance lasts,
- "the more time there is for people to wake up to AI,
- "effort discussion it and movement building around governance."
- Heavy side, dude.
- This is even more speculative than everything else.
- I mean, there's not even an argument here.
- It's just like, maybe if we delay,
- things will be better in the future.
- It's like, it's like, it's like,
- it's the very, very beginning of an argument.
- - It just seems so hard in the following sense.
- Like even if you believe this was true,
- entire premise of this essay is that--
- - Yes, you can't do it.
- - So you can't do it because of competitive reason,
- because other countries will do it.
- And now, like, obviously this is a movement,
- it's a global movement,
- and they're trying to essentially achieve
- substantial mind share.
- And so, if you're at 10% of the global population,
- I believe this, maybe there are substantial slowdown effects.
- So it's not the craziest thing in the world,
- but it does seem, once again, a bit,
- not really workable in a micro sense.
- - Yeah, you're worried about workability.
- I just don't think it's obvious to me
- that making these decisions 30 years from now
- will make better decisions
- than if we make the decisions today, right?
- They're obviously the details of the technology
- very much are dependent
- and they'll have to be constantly adjusting
- to market conditions, et cetera, et cetera.
- But if we're thinking about a high level principles argument,
- kind of the argument of this paper
- is that society is gonna get
- more and more inequality tolerant
- and less and less enlightenment value suffused.
- And if you buy that, shouldn't we make the decision now?
- - Yeah, yeah, I guess the other thing is,
- they believe that further on
- we'll have much better technologies
- for controlling the AIs, right?
- Which is something that's a little bit
- confusing in this entire argument
- because I always thought that it was promised
- that the government does control AI.
- The issue is not the government doesn't control AI.
- It's just the issue is that it does.
- - Yeah, so yeah, it's this fuzzy thing.
- I guess their kind of default vision
- is a close alliance of the government
- and the CAI company,
- rather than explicit nationalization.
- It's not super clear.
- - But the government is the AI that went out of control
- or is the government a human
- that has pressure control over the AI?
- Because some of the technology that they are suggesting,
- like easy fine tuning and interpretability research
- and all this stuff, that's really great for a dictator.
- That's like amazing.
- - Right, I mean, all of these,
- something like interpretability is gonna be useful
- to both good people and bad people.
- It's unclear why this is unambiguously a good thing.
- - Yeah.
- - Finally, they talk about long,
- in the long term, we need to focus on decentralization
- and user alignment of AIs.
- I mean, it's sort of interesting, right?
- Because they have this story about how individuals
- are gonna screw up AI by being too self-centered.
- And then their conclusion is that AI
- should allow people to be more self-centered
- and not have society-wide preferences.
- - I mean, I get that part of it.
- - I guess if I had to go through the details of arguments,
- like if all individuals humans had super powerful AIs
- and the government couldn't control them.
- Now, to me, it was a very interesting argument
- coming from this crowd because it's like,
- their entire worry is that like one person
- with a super powerful AI can ruin it for everyone.
- And so this is a fundamental tension, right?
- I mean, I've viewed as an entire anthropic agenda, right?
- They're obsessed with AI safety
- and yet they're developing AI
- to be more and more capable every second, right?
- So yeah, it just seems like a non-sequitur orthogonal maybe
- because there are different issues there.
- I think a more interesting proposal
- is then AI systems from owning assets
- and being a C-suite board member.
- What do you think about that?
- (laughing)
- - We can't make that say that one more time.
- - Then AI systems from owning assets
- and being a C-suite board member.
- So owning assets, I think, is really important here.
- So this is gonna come to my posterior.
- One thing I was thinking about a long time in this essay
- was in models with representatives,
- so now let's get a little bit of technical,
- which is I know what our audience loves.
- If you have a model of an economy
- where people are allowed to lend and borrow to each other,
- we are some people, everybody lives forever
- just to keep things simple,
- but some people are more short-termist
- and some people are more long-termist,
- and eventually the long-termist people
- will get all of the money
- and the short-termist people
- will become permanent debtors, right?
- And you might imagine, if you set up an AI,
- said you are the most long-lived economic agent
- imaginable, a vast wealth in the very, very long run,
- you could imagine a very, very wealthy,
- immortal AI system emerging.
- To a certain extent,
- you might say that that's kind of like what Harvard is,
- any of these big philanthropic institutions
- that are infinitely lived
- that acquire these big hedge funds
- and just grow and grow and grow
- because they're sufficiently long-terms.
- To make a literary and sci-fi connection,
- this is discussed in Gulliver's Travels,
- where Gulliver meets the land of the immortals
- and the immortals, he expects them to be all rich,
- because why don't you just all invest in 5% bonds
- and like after a century, you'll be super duper rich.
- And there are reasons why it doesn't work in that essay,
- but it's clear that this is an old concern
- that immortal agents will eventually get all of the money.
- What do you think about that part of this?
- So anyway, that might answer, that would be my concern.
- The reason I would be tempted to ban AI is-
- - But that's a very different reason, Seth.
- I guess like, that's a very interesting,
- I mean, we can do a separate episode on that,
- but I think it's not, oh yeah,
- it's not this short-termist thing about,
- they have a much more, like I assume the idea
- that the AI hedge fund is just gonna win,
- they're gonna take all of our assets and stuff, right?
- - Right, and open AI will be 99% of the value
- of the stock market.
- - Yeah, that's right.
- - Yeah, so should AI be banned from owning assets,
- in my opinion, other considerations dominate
- the considerations of this paper.
- - Yeah, and I guess in my opinion,
- I thought I have an issue with enforceability.
- I think an AI, if we have autonomous AI's,
- I think preventing them from owning assets is impossible.
- How about that?
- Why?
- - Because they can form agreements with individuals,
- essentially, and yes, you can,
- now there's still an individual in the loop and so on,
- but that's one version of that.
- The other version of that is a crypto wallets are programmable,
- they're out there, we ain't stopping shit.
- Maybe I'm too much of a nihilist,
- but I just don't see how we could.
- - Just to be clear here, are you imagining,
- when you say ban AI from having assets,
- do you mean there wouldn't be allowed to be a human
- that owns an AI that owns an asset?
- Are you saying there wouldn't be allowed to be an AI
- that doesn't have a human on top of it?
- - I think, well, I think they're trying to argue
- that there wouldn't be an AI
- that doesn't have a human on top of it,
- but I guess what I'm saying is that
- the AI can control humans through economic incentives
- to act as a proxy and have a bank account.
- And then the other thing is that crypto wallets
- are decentralized and programmable and useful.
- So--
- - That is true.
- - Yeah, thank you from the early Ethereum investor.
- All right.
- - Yeah.
- - All right, are we ready to move into posteriors?
- - I mean, do you wanna say anything about digital advocates,
- verification and feedback collection?
- There's some other policy suggestions.
- - Yeah, if you wanna blitz through those,
- I don't have strong feelings.
- I feel like we would need full episodes
- to kind of really do address this.
- - Yeah, I guess like, I think those are interesting ideas,
- doubles and details, broadly, good ideas,
- regardless of whether this is happening again.
- - That the AI safety is also here.
- Also, we should do some around AI safety.
- - Yeah, yeah, like, you know,
- listen to our episode about AI safety.
- - Yeah, I mean, these are all like, you know,
- good technologies to have,
- but they're good technologies to have
- in so many states of the world
- that I'm not sure that they should be pushed through here.
- (upbeat music)
- (upbeat music)
- - Okay, so moving to our posteriors.
- So we first ask,
- ask, will AI enabled automation allow it leads
- to be less responsive to the needs of median people?
- I, and this is in the year 2050, you are at 55%.
- I was at 60%.
- Did you move at all from reading this essay?
- - I mean,
- I guess I must have to talk about a couple of percents
- or something, but--
- - You know, about 55 to 57?
- - Yeah, and yeah.
- - I'll take that.
- I would maybe,
- I think I feel the same way.
- I think by making these issues a little bit more salient,
- the political economy part of,
- there's a story from the Enlightenment,
- which is democracy became important
- because of military technology, right?
- There's a story where the Levian mosques
- and France, you know, giving everybody in the country guns,
- and that, you know, this is a very stylized history
- of European warfare.
- And then all those guys with the guns shooting,
- they do the knights, obviously knights were out
- for 500 years before this, but you get the idea
- that this is what created modern democracy.
- It's that people power beat elite power, right?
- In these actual military conflicts,
- I think that's really important.
- I wanna understand more how AI will shape
- the relative power of mass versus elite ideas.
- I mean, we're both closely watching the war in Ukraine.
- A lot of people have talked about, you know,
- when this war is over, you're gonna have people
- on both sides who are extremely skilled
- at conducting surgical drone assassinations
- and like getting out without being detected.
- I mean, is that, would you think about that guy
- as more like a knight or a more like the mass mobilization
- forces under grand RNA?
- - I mean, I think it just depends on how far ahead
- the government's AI is in front of a phone else, right?
- Because if it's truly far ahead,
- it can just hack everything, right?
- Like there's a sense in which, and this usual,
- you're giving it these superior powers
- that are all encompassing and so yeah,
- it would just like know when the drones are coming
- and it wouldn't be an issue.
- - Right, and this gives to a classic topic
- that we've talked about,
- which is does AI favor the offense or the defense?
- Is it closely related issue?
- - Sure, it'll come back to.
- - Yeah.
- - Finally, AI enabled automation will lead
- to a new social contract again by 2050.
- We were both kind of in the 20% range.
- I think, man, actually coming out of reading this,
- I might, I can't say I move at all.
- 'Cause I don't think that this scenario is like
- even in like the top,
- even if it was the most likely scenario,
- there are so many thousands of scenarios,
- it's hard to be really moved by one particular addition.
- - Yeah, and I guess if it was like 100 years from now,
- you know, the longer the time horizon,
- the more likely we are to have a new social contract.
- - Even without AI. - Yeah, even without AI.
- Even without AI. - Even without AI, yes.
- Yeah.
- (upbeat music)
- All right, well, thanks for joining us.
- Please like, comment, subscribe,
- and let us know if there are any topics you wanna cover.
- And once again, if you have any leads
- on any potential sponsors that are interested
- in funding this excellent podcast,
- please do let us know.
- - Yes, we love getting your comments.
- Thank you again, Matt.
- And we'll look forward to discussing
- many papers you suggest in the future.
- (upbeat music)
+Seth (0:00:00): [intro music] Welcome to the Justified Posterior's podcast, the podcast that updates your beliefs about economics of AI and technology. I'm Seth Benzel, cursed by inadequate intelligence but blessed with a top-tier interlocutor, coming to you with Chap from Chapman University in sunny Southern California.
+Andrey (0:00:27): And I'm Andre Frackin, cursed by having read too many dystopian science fiction novels to be too, uh, oppressed by yet another one, coming to you from [laughs] uh, Cambridge, Massachusetts. And I should say, in case you didn't know this, dear listeners, I am, uh, an associate professor of marketing and economics at Boston University. I was legally obliged to say this by my dean. Um, but I should also mention, uh, that we may perhaps be interested in a sponsor. So if you are enjoying, um, the show and have, uh, any ideas for a sponsorship for us, uh, please do let us know.
+Seth (0:01:11): Yes, please do. Uh, your money goes a long way to fund, uh, hair treatments for Andre's, uh, incurable baldness.
+Andrey (0:01:19): No, uh, so... My baldness is a choice, Seth.
+Seth (0:01:26): It's okay. All right. Awesome.
+Andrey (0:01:27): [laughs]
+Seth (0:01:28): Uh, so, uh, we'll spend the money on something else then probably.
+Andrey (0:01:30): Yeah, possibly.
+Seth (0:01:31): So today, uh, it's funny that you brought up dystopian science fiction because what we read today kind of had the vibe of some dystopian sci-fi. Have you read a lot of dystopian sci-fi? What, what are your favorites in the genre?
+Andrey (0:01:44): I mean, it's hard to beat '1984,' I have to say.
+Seth (0:01:48): Of course. '1984' was definitely coming back, coming to mind several times as I, uh, read this essay.
+Andrey (0:01:54): Uh, what is your favorite-
+Seth (0:01:55): Yeah
+Andrey (0:01:55): ... dystopian science fiction?
+Seth (0:01:57): Ooh, what's my favorite dystopian science fiction? I would have to say the one that is kind of the most like oppressively horrible might be 'I Have No Mouth and I Must Scream.' Have you ever read that one?
+Andrey (0:02:12): No.
+Seth (0:02:14): Oh, it's pretty... It, it is, it's as bad as the title, dude. [laughs] Uh, and actually, and, you know, this is like a super rabbit hole, but has a really good point-and-click adventure game from the early '90s associated with it-
+Andrey (0:02:28): Oh
+Seth (0:02:28): ... that was like influenced by the author. Anyway, go check it out. 'I Have No Mouth and I Must Scream.'
+Andrey (0:02:32): Yeah.
+Seth (0:02:32): If you don't wanna sleep tonight-
+Andrey (0:02:34): This will be-
+Seth (0:02:35): Great, great read
+Andrey (0:02:35): ... in the show notes, dear, dear listeners.
+Seth (0:02:37): [laughs] Amazing. Um, so yeah. So sci-fi. Our, our discussion topic today comes to us f- uh, from a friend of the show, an expert economist/anthropologist, Matt Boone, uh, who has previously made amazing sci-fi recommendations to me, such as the book, 'There Is No Antimemetics Division,' which is also highly recommended-
+Andrey (0:03:03): Very good book
+Seth (0:03:04): ... if you guys out there haven't.
+Andrey (0:03:05): Highly enjoyed it as well.
+Seth (0:03:07): So this guy had really good taste, and he said, uh, "Andre and Seth, I love your podcast. When are you going to do this essay, 'The Intelligence Curse?'" Which is really kind of skating the line between economics, political economy, and what I would describe as hard dystopian sci-fi. [laughs]
+Andrey (0:03:26): [laughs]
+Seth (0:03:28): Uh, so 'The Intelligence Curse' is what we read. It was written by, uh, Luke Drago and Rudolph Lane in April 2025, so it's really hot off the presses. Um, did you know anything about these authors before we started reading it, Andre?
+Andrey (0:03:40): No.
+Seth (0:03:40): I did not recognize these names at all.
+Andrey (0:03:41): I think they're Less Wrong contributors. Is that right?
+Seth (0:03:45): There we go. They're in the, they're in the rationalist space. It definitely has that flavor. As you read through it, a lot of the, the touchstones in terms of citations are either, you know, very common rationalist touchstones or the kinds of guys we love, like there's citations to Anton Korinek at UVA, who's a great economist thinking about automation issues. Also fr- [laughs] I don't know if that guy listens to podcasts, but if he does, he would be a friend of the show.
+Andrey (0:04:10): [laughs]
+Seth (0:04:11): Um, so anyway, so thank you, Matt, for that recommendation. Everybody, keep your recommendations rolling in. I think maybe I will just in a sentence highlight the kind of the high-level argument of the paper, and then we'll jump into our priors. The highest level argument of the paper is basically trying to make an analogy between AI-enabled automation and this thing in economics known as the resource curse, right? Um, the resource curse is an idea that's been around for a long time, but the modern version comes to us via Jeffrey Sachs, uh, a potential, a, a sometimes co-author of myself, uh, and professor at the Columbia Earth Institute, who in 1995 with Warner wrote a paper doing a series of cross-country regressions suggesting that countries that export a lot of raw materials and get wealth from that tend to like do poorly among, uh, uh, around economic performance, right? And so in the sort of 30 years since then, there's been this giant literature on the resource curse first asking, does it really exist? Does having natural resources, is that bad for your country? And then secondarily, if that was true, why would it be the case, right? You know, um, a famous joke about this is, uh, the Saudi economist talking to the American and saying, "You know, all else equal, it would have been better if Saudi Arabia had struck wa- water instead of striking oil," right? It's this idea that m- some kind of resources, uh, the, the wealth comes a little bit too easy, and that they can lead to all sorts of political and economic, uh, problems down the line. Um, that, and then, okay, that's, that's the context. And then the argument of the paper is that, but AI. So we'll get AI, and that's gonna screw up our governance, it's gonna screw up our society, it's gonna screw up our, uh, economics and politics.
+Andrey (0:06:06): Mm-hmm.
+Seth (0:06:07): Um- Andre, before we get kind of into our priors, um, how much, how familiar were you with this resource curse literature kind of outside of AI? How, um, how important an issue do you think it is, um, in the kind of the natural resource context when it was first, uh, invented?
+Andrey (0:06:27): Yeah, so I, I mean, it's been a long time since I've, uh, thought about resource curses, probably over 10 years ago. Um, but I'm familiar with the arguments, of course. Look, I, I, I, I think it's pretty important. Uh, it's a pretty... It allows dictators to stay in power without the support of their people, uh, in a way that one might think, uh, would be a lot less tenable, uh, without the resources. Um, but I'm also, like, not a, I'm not a determinist and, and I don't think the authors are. We, you know, we can get to that. But I think, uh, we certainly have examples of countries where they have a lot of natural resources, and they don't suffer from these outcomes, right? So, so, like a lot of things in macroeconomics, you know, the-
+Seth (0:07:16): Norway is an example that comes up in the paper
+Andrey (0:07:17): ... Norway. But look, the US is an example, right? I mean, the US has a ton of resources, or Canada. Um, and so, uh, and I would just say it's not, it's not determinative. It is certainly a factor that seems important. What do you think?
+Seth (0:07:34): What do you... Um, at, uh, well, I think maybe at, it... Let me ask you this. At this point, do you think it would be useful... I, I ran into a useful literature review by Harvard Kennedy School Professor Frankel-
+Andrey (0:07:45): Mm
+Seth (0:07:45): ... about, um, six different reasons that have been given for the resource curse. Do you think it'd be useful at this stage to run through them?
+Andrey (0:07:52): Sure. Let's do it.
+Seth (0:07:53): All right. The first argument is that long-term trends in world prices make export res- export, uh, exports of resources a bad long-term play, 'cause maybe those prices always come down.
+Andrey (0:08:05): Mm-hmm.
+Seth (0:08:05): That's not so clear, right? It does seem like, you know, commodity prices have booms and busts and, you know, people are always gonna need copper. Second argument is price volatility. If you're a country that's really highly dependent on these resource flows, if the price of oil is flying around back and forth, it might be very difficult to have kind of a sane fiscal policy as your resources wildly fluctuate. And you kind of see this a lot of time in countries that have resources and bad politics, is that there'll be kind of the good time, they give out all these goodies, and then when the bad time comes, they can't maintain the goodies, right? You think about these in, like, fuel subsidies in, in Iran and other countries that have oil. Third one, permanent crowding out of manufacturing. So there's a sense in which this is kind of like the Caesar Hidalgo argument, that you kind of wanna be growing your economy's complexity over time, and if natural resource development is the most productive use of your resources, you're kind of not moving up the value chain. So you kind of get your country stuck. A fourth reason is autocratic/oligarchic institutions, right? This is the reason that I think the essay we're gonna read has been focused on, right? Do I need the people if I can just, you know, put an army right next to the oil well, and then I don't have to worry about anything else going in the country? The fifth is anarchic institution, kind of the opp- the opposite, right? So now I have oil, everybody's gonna invade me and fight over the oil, right? And now I'm gonna have bad governance that way. And then finally, this idea of kind of a cyclical Dutch disease where it has to do with commodity prices being high, leading to a very strong currency. Oh, sorry, I forget how exactly how this is supposed to work. But the way it's supposed to work is the, the Dutch disease country has a stop strong currency in the wrong times and a weak currency in the wrong times.
+Andrey (0:09:56): Mm-hmm. Mm-hmm.
+Seth (0:09:56): You know, you want a strong currency to import capital to develop, and then you want a weak currency when it comes to exporting. But, uh, somehow the timing gets screwed up and countries can't have the strong currency at the right time, right? Um, all of these seem like plausible reasons that, you know, it's called the Dutch disease because this was supposed to have affected Southeast Asian countries, uh, it, you know, that were conquered by the Dutch for their resources. Um, all of them plausible, all of them continue to be researched, but Andre, I think the consensus is exactly as you put it, that nobody thinks that any of these forces are determinative. All of them seem to conceptually have pro- solutions, right? For, uh, one of the super obvious ones, the price volatility, right? There's an obvious solution to price volatility, right? Which is, you know, you kind of do budget smoothing. Which is, um, which is what a, a lot of resource-rich nations do. If you look at Russia, they kind of budget themselves based on, like, we want the budget to clear at, you know, $60 a barrel for oil, and we know some years they're gonna be above that, and some years are gonna be below that, and then the country can kind of do the income smoothing. So that would be an example of how s- these factors that could theoretically screw up your country from resources don't have to.
+Andrey (0:11:11): Seth, just for the bus. Are you [laughs] are you giving an example of Russia as a well-run, uh, economy? What, what are you talking about, man? No.
+Seth (0:11:24): Russia is not an exam- Well, oh, shit. So, sorry. [laughs] Uh, Seth, that's a, that's a great question, Andre. I am not saying that Russia is not a country that is affected by resource curse issues, but I am saying I have met the economists at Russia who are in charge of figuring out how the budget works over 20 years periods based on different oil prices. And there's a lot more long-term thinking about that particular mechanism for resources to screw up your economy, uh, even if, uh, maybe they're not protected against autocracy.
+Andrey (0:12:03): Uh, that makes no sense. I'm, I'm sorry, Seth, that, I'm just, that makes-
+Seth (0:12:06): Please
+Andrey (0:12:06): ... that makes no sense. Um, like the country-
+Seth (0:12:08): That the country doesn't do good planning for oil crises?
+Andrey (0:12:10): The country doesn't do good planning for oil crises. They have- They have-- Look, I, I believe you, they have smart economies-- economists in the central bank, but, uh, they certainly have experienced large fluctuations due, due to oil prices in their economy. And also they're a country that famously doesn't care about its people, uh-
+Seth (0:12:32): Right
+Andrey (0:12:32): ... and the-their, their quality of living. It just, it's just a strange example, you know, like when, when other examples like Norway exist to give Russia. I, uh, yeah. Uh-
+Seth (0:12:42): All right. Fine. All right. So Norway.
+Andrey (0:12:44): No, no. It ju-
+Seth (0:12:44): Norway. We do-
+Andrey (0:12:45): I, I... Yeah, like it just, it just... No. Like-
+Seth (0:12:49): All right. Fair enough. Uh, I've-- no one would give Russia as an example of completely breaking the resource curse. So all right, maybe that was a little bit of a rabbit hole. Let's kind of circle around to the questions that we want to discuss as we get into today's paper. [upbeat music] So, um, we have a couple of priors that we wanted to introduce. The first is the idea that AI-enabled automation will allow elites to be less responsive to the needs of median people. And just to put like a timescale on this, let's say by 2050, because, you know, who knows, in 1,000 years, whatever, right? Um, how do you evaluate a claim like that, Andre?
+Andrey (0:13:34): With a lot of uncertainty. Ooh.
+Seth (0:13:37): So is it 50/50? Is it as simple as that?
+Andrey (0:13:38): No. No, nothing like that. But, uh, I mean, there are just... Like to think about this, and, and this is true of a lot of topics we cover is, is you really just have to start thinking about science fiction futures, right?
+Seth (0:13:54): Mm-hmm.
+Andrey (0:13:54): And, and certainly we can imagine a science fiction future where, you know, and this is the one they're going to int- uh, you know, imagine here is where the only thing that matters is capital, and then there are gonna be a bunch of humans that are in control, and you can imagine they have like humanoid robots and other military technologies that just make them completely unresponsive to the populace. And then, and, and, you know, and that, that's kind of the, the version under which, you know, they have to be-- they don't have to be as responsive anymore, right? So, so you can also imagine another world where, um, like, uh, it becomes a lot easier to collect the voice of the people. People have a lot more free time, so they're much more engaged in politics. Um, you know, even the people at the top, they care about what their peers think about them and, and therefore, you know, we can get a more responsive government. Um, I think, you know, on... I think it really depends on where you start from. I gue- I think that's kind of my-
+Seth (0:14:57): We can't start from today. You wanna do US or are you saying-
+Andrey (0:15:00): Yeah. I was like which country? Which country, which culture?
+Seth (0:15:02): Okay. So let's say, let's say the US if the-- Let's say the US, but in 2050, if that helps.
+Andrey (0:15:08): It's... I'm close to 50/50, Seth. I-
+Seth (0:15:17): Nice. I love it. Pure indecision.
+Andrey (0:15:21): I-
+Seth (0:15:21): Pure knowledge
+Andrey (0:15:22): ... I just have a hard time. Given the strong culture of, of democracy and like the norms imbued in our politicians, it seems hard to me to imagine that they will start ignoring what the people want. Um, that-
+Seth (0:15:49): Let me, let me throw in a subtlety here.
+Andrey (0:15:50): Yeah.
+Seth (0:15:51): Right? We just came off of our AI persuasion episode.
+Andrey (0:15:53): Yes.
+Seth (0:15:53): Right? What the people want might be endogenous to what the elites cause them to want.
+Andrey (0:15:58): For sure. For sure. But, um, you know, I, I still, I still could have... How about-- I mean, this is a prior. Yeah. I mean-
+Seth (0:16:09): Please, it's a prior
+Andrey (0:16:09): ... I th- I think the... Now let me add in, let me be an economist and say on the margin.
+Seth (0:16:14): Ooh. [laughs]
+Andrey (0:16:17): I think, I think on the margin it, it can, it can make them a little less responsive to the voice of the people. So I'll put it at like 55/45. But I, I think there are lots of possibilities in which they're actually much more responsive.
+Seth (0:16:31): I think that's right. I come maybe in a little bit harder here at around 60%. I think what I'm thinking about here are... It's, I am w- Okay. [chuckles] The way I come at this is, what are things that would sort of make the government have to be more responsive, right? Or make elites more responsive. Um, first off, we know that big wars tend to create inequality. There could definitely be a big war or, sorry, equality. There could definitely be a big war by 2050. Um, another scenario is by 2050, there are simply... I guess 2050 is a little bit too short a term for a population collapse. But in a world with many fewer humans, the individual humans might become more valuable. That's kind of a more far out future thing.
+Andrey (0:17:22): That's not-- But I would just say that that's a little bit... 'Cause we're talking about the median person, so.
+Seth (0:17:28): Okay.
+Andrey (0:17:28): Um, yeah, I-
+Seth (0:17:30): The median alive person, not the median hypothetically born person. Um-
+Andrey (0:17:35): Yeah. I don't know. That seems very third order to me to like think-
+Seth (0:17:39): Okay. Fair enough
+Andrey (0:17:39): ... think about this issue, but I'm not sure.
+Seth (0:17:40): Well, I guess if-- But, but the reason I bring it up is because one of the main mechanisms here is gonna be wage collapse.
+Andrey (0:17:46): Yeah.
+Seth (0:17:46): And you would expect a less of a wage collapse if there are not enough humans, right? [chuckles]
+Andrey (0:17:51): Sure. Sure. Fair enough.
+Seth (0:17:52): Okay. Um, and then, okay, so here's... So one thing I think about in terms of the balance of power shifting towards ordinary people is kind of like... So all right. So what are, what's, what's the tension here? So we all know, a- as Hayek told us, the reason that communism usually doesn't work is that there's this information centralization issue. You can't get all of the info to the central planner. People have posited that AI would allow for greater centralization of, of this information and authority The question then becomes something of a race, this is the way I think about it, a race between AI's ability to cognizance and take care of and capture all of the complexity of the world against AI allowing the world to get complex faster and faster, right? And create all of these micro-knowledges that would be hard to assemble. Or another way to think of that is AI might make humans weirder in a way that makes them harder to control, even without necessarily empowering them directly. Um, these are all factors that I think might pull in the other direction, but I agree with you that kind of like my at the margin intuition take is AI automation does seem to be kind of a power centralizing force, all else equal.
+Andrey (0:19:21): Yeah. And then, and then I guess, I guess we'd say just for other countries, I would have a very different answer.
+Seth (0:19:28): Mm.
+Andrey (0:19:29): Yeah.
+Seth (0:19:29): Uh, do you wanna, do you wanna go into that or, uh, just leave that latent?
+Andrey (0:19:33): Um, you, you just say, you know, right, like in a dictatorship you could, you can imagine that, uh, this actually allows you to ignore your people even, even more, you know. But yeah.
+Seth (0:19:48): All right. Second one, AI... This is the kind of even more speculative.
+Andrey (0:19:52): Mm-hmm.
+Seth (0:19:53): AI-enabled automation will lead to a new social contract by 2050. And this has gotta be like, you know, we don't like add a constitutional amendment-
+Andrey (0:20:01): In the US.
+Seth (0:20:02): In the US, and this like goes beyond, like, s- tweaks at the margins. This is not we just pass a new law or like... I think this would, this would require like either a big UBI or like giant AI regulations, or even constitutional amendments beyond tweaks at the margins. That's what I have in mind here. What probability do you have on that?
+Andrey (0:20:33): 20%.
+Seth (0:20:34): 20%. I'd be in the same ballpark. 2050 is pretty fast. We would really need to see the, the f- the, the beginning of that right now. The kinds of UBIs that I think would be sustainable by 2050 are, I would say, not discontinuous with the kind of social contract that orig- that currently exists. We'd be talking about UBIs of thousands of dollars a year, not 100,000 a year, right? Um, and those are very much in line with kind of current social support policies. So kind of in my vision, like the default path to 25, 25, 2050 does include some increases in social support, but not, not like the, the, not new social contract levels.
+Andrey (0:21:22): Yeah. Yeah. I think, I think I have like a slightly different take on this. Um-
+Seth (0:21:27): Yeah
+Andrey (0:21:28): ... if we do see substantial labor replacement and unemployment as a result, um, I think we'll need a social contract that is less oriented towards work mandates and requirements, and just a less work-oriented, uh, social safety net, right? And that's, I think, a much more fundamental rethinking than just tweaking the, the marginal, uh, social welfare program. Um-
+Seth (0:21:57): It's so funny that you say that 'cause like the '90s were all about we're gonna fix welfare, so now it's gonna be about work.
+Andrey (0:22:02): Yeah. Yeah. Um, and but, but I think-
+Seth (0:22:06): Back to the future
+Andrey (0:22:06): ... I think the reason why I'm quite, still have a very low probability on this is I just think our government institutions are incapable of passing, uh, s- legislation at this point. And I, and it's hard to-
+Seth (0:22:20): Right
+Andrey (0:22:20): ... And like it really, it's not impossible for there to be like a cross-party coalition in response to very large social change. It's pl- certainly possible. I, you know, I view my percentage as pretty substantial, but it, but my prior is that we're gonna-
+Seth (0:22:39): Well, let me talk about-
+Andrey (0:22:39): We might need, or we might have like, you know, state level action, or we might even have like corporate level action, right? Uh, but a federal government is, just seems crippled.
+Seth (0:22:52): When we, uh, started the podcast, if I recall correctly, our very first episode was, uh, situational awareness, which has a vision of within the next five years, um, government nationalization of AI companies and those AI companies being deeply embedded in governance and national security.
+Andrey (0:23:12): Yeah.
+Seth (0:23:12): Would that count as a significant enough social rewrite for you, or that's like just on the threshold? It would have to be-
+Andrey (0:23:18): Well, I was-
+Seth (0:23:19): ... something else
+Andrey (0:23:19): ... I was really thinking about social programs specifically for this question. Um, so I wasn't-
+Seth (0:23:25): But that'd be nationalization of like a giant part of the economy, hypothetically.
+Andrey (0:23:30): I just... I guess I'm not disagreeing here. It's, with you that it's a big change, it's just that's not what I was talking about. I, I-
+Seth (0:23:37): It's not a social contract change.
+Andrey (0:23:38): Yeah, exactly. It's more that, uh, you know, you nationalize an industry. That's happened before, you know, at various points.
+Seth (0:23:45): Okay.
+Andrey (0:23:46): Right? So it's not-
+Seth (0:23:47): But you could, you could see that as a... So, and we'll get into this as we discuss the paper, but you could see that as the first move in a radical rewrite of the social contract in a way that's bad for normal people.
+Andrey (0:23:58): Potentially, yeah. All right.
+Seth (0:24:01): Argument.
+Andrey (0:24:01): You wanna get to the argument. Yes. [upbeat music]
+Seth (0:24:10): So, um, unlike most of the things we've read, um, and really I, I think the only thing we've read that's been similar to this is situational awareness. This is trying to do what I would call narrative political economy. It's trying to tell you a story about where the world is gonna go, and I guess it's in the tradition of great American Jeremiads, right? If you think about Jeremiah saying, "Repent or you will be destroyed," this is very much one of those. At a very high level, before we get into the actual arguments I think there's kind of like a meta problem with this form of argument, right? This is kind of the same issue that we had with situational awareness, a similar issue that we would have with the 2027 project, which we considered doing an episode on, but ended up not doing. AI 2027 was the Scott Alexander hypothetical what will AI do project. Uh, and then this one here, which is kind of this rationalist argument, modus tollens, that I don't think works. The, the way that it works is here's a bunch of individual steps that I think are individually plausible, and I can put 10 of them together, and therefore, the 10 steps together are jointly plausible. And that's not how probability works, [laughs] right? If you multiply together 10 very unlikely steps, then... Or even if you multiply together 10 likely steps, even if 10 steps are each 60%, it's very hard to get all 10 of them to go in a certain way. So as we go into this, it's an interesting vision. I would call this scenario planning. If I was writing this essay, I would call it the AI, the intelligence curse, or the intelligence badness scenario, rather than this is the bad thing that's going to happen.
+Andrey (0:25:56): It's, it's like a war, war game that, uh, the government might play, you know, to see if they're prepared for an attack or something.
+Seth (0:26:04): Right. So before we get into it, I think we both agree that this is better treated as scenario analysis than prediction.
+Andrey (0:26:11): Yeah.
+Seth (0:26:12): All right. Um, so we're just gonna run through the paper. Uh, chapter one gives the broad overview, which compares, uh, the intelligence, what introduces this idea of an intelligence curse as analogous to a resource curse. What if a country suddenly got an infinite supply of free AI labor? Wouldn't that screw it up in some way, question mark. Uh, chapter two lays out stuff that we've covered before in previous episodes, but maybe takes it, takes it to an extreme, right? So chapter two argues that AI is important and will take all of our jobs. So as we continue here, listeners, remember that we're discussing a vision also in which a lot of physical jobs are automated as well, which probably pushes out the timeline for this significantly, right? This isn't just white-collar work being automated in the vision of this paper. Um, and it also doesn't include any sort of concepts that we've talked about before that AI might lead to the creation of new jobs that are un-automatable or take time to automate, right? So this is really a vision where the AI comes in, it takes all our jobs, capital share of income approaches 100%, and what happens next? Uh, it's an extreme scenario. It's one I'm happy to talk through, but it's not one that I think is happening this century.
+Andrey (0:27:33): Okay. And I guess they, they, they do have, like, additional, like, s- subtleties to their argument. Like, they think about, you know, who's likely to lose their jobs first and why. And I think there's this kind of interesting sociological almost thought there that the people at the lower end, at the lower part of the corporate hierarchy are gonna lose them first. Um, and you know, that it's, that a lot of this is quite, quite a bit about power, uh, but that eventually, uh, all organizations will have to be kind of a, AI-oriented because there's no other way to compete. And so I think, I think this competition angle is really important here for their entire argument, right?
+Seth (0:28:20): Right. Right. So there's this idea which is that capital has... I- it's not discussed in this paper, but in the background of this is the idea that all capital has to be devoted to its highest marginal product purpose. Um, and then I, I, they don't ex- discuss this explicitly, but that could be an interpretation of one of their solutions when they call for decentralization, right? If we all have our own pockets of capital and can build our own homesteads, at least theoretically, to the optimistic rationalist, that kind of fixes the problem, 'cause we all get our own robot to all do our own thing, right? Rather than get oppressed from the top down. There are economic reasons why that might not p- even potentially be an equilibrium.
+Andrey (0:29:00): Yeah, no.
+Seth (0:29:02): Um, in chapter two, we just get a start by saying, uh, UBI won't work for political reasons. We're gonna get a teaser leader of why UBI isn't going to solve this problem. Um, and again, this is not a universe where everybody moves into plumbing. We've also automated plumbing. All right, chapter two, we've taken all our jobs. What happens next?
+Andrey (0:29:21): They're, took our jobs.
+Seth (0:29:22): [laughs] Great. Perfect. Chapter three. The argument is, is that, um, our jobs disappearing is going to lead to a higher capital share, higher marginal product of capital, higher interest rates. This is gonna be a more important source of power, and therefore, labor, a less important source of power. Here's one of the points in the paper where I start to be really frustrated by their lack of clear terms. As far as I can tell, there is not a definition of power in this paper, uh, which is tough when they're constantly saying, "This is gonna increase power. This is gonna decrease power." The way that I think about power, and Andre, maybe you might don't love this distinction, is to distinguish between absolute and relative power, right? So, uh, there's power in the sense of how much can my dollar buy, right? And you would assume that in the economy of 1,000 years from now, your dollar will be able to buy way, way more than your dollar will be able to buy today. Real terms, not nominal, you know, et cetera, et cetera. Uh, so that'd be a sense in which the absolute power of money must increase. And then there's a question about whether m- money is going to be relatively more important, right? And here, the contract is, is with, contrast is with labor and I guess social capital, right? There's other kinds of capital other than monetary capital, and the argument here is, well, labor's gonna be valueless, so if you ha- if all you have is your labor, you're screwed. And then there's a kind of a hint that, like, even social capital's not gonna be worth that much in this future, 'cause, you know, AI can do social capital. You don't, you, you don't need humans for that. Um, I am very much sympathetic to the idea that money will buy more in the future. That seems to be a really solid prediction, 99% confidence. [laughs] Uh, but... And I'm also convinced that capital might become more important vis-a-vis labor. Whether or not that cashes out economically, um, I would predict the labor share to continue to decrease, maybe not to 0%.
+Andrey (0:31:34): Yeah, I mean, I, I, I guess I was, I was interpreting this as m- being a slightly different form of power, if that makes sense, right? So if you have-
+Seth (0:31:45): Yeah, what were- what's your... Give me your definition of power, then we'll talk about it.
+Andrey (0:31:48): Well, um, I, I can imagine governments or large corporations, um, just having, quote-unquote, "having the resources." Um, and it's hard to... Yes, so if we keep the existing capitalist institutions and, and so on and so forth, uh, a given unit of dollar will, uh, buy more because production will be higher, presumably. Although you might think that based on the production will go to things that are not consumption goods for humans. Um, and then the other thing is humans like consuming positional goods a lot, so then, you know, that's also a caveat. But I think, I think, uh, I think the government or the, these corporations could just choose to direct their resources in a way that's not beneficial to consumers, for example. Um, so I think that's kind of one thing, uh, that we have in mind. And the other thing is, um, if people truly do lose their labor income, and unless they're sitting on a ton of capital, um, even if the dollar buys more, they will just have way less dollars, right?
+Seth (0:33:04): Right. So, uh, that's... It's, it's certainly... I mean, that's kind of the open question, right? Yeah, I'm, I'm very convinced that the labor share may go down, but the labor share going down could be compatible with the wage going up. We're reading a paper where the vision is the wage kind of collapses to zero for most people, but to me, that's, that's hardly a super confident prediction. Um, one phrase, have you ever heard this term schleppcode, Andre? I've never heard this term before.
+Andrey (0:33:34): Schlep coat?
+Seth (0:33:36): Schlepcode.
+Andrey (0:33:37): Oh.
+Seth (0:33:37): Code. Like to... So, uh, I, you know, uh, cultural aside, uh, I understand the word schlepp to mean, like, a journey, and particularly a burdensome journey.
+Andrey (0:33:48): Yes.
+Seth (0:33:49): Um, I do not think Luke Drago or Rudolph Lane, uh, have a Yiddish background, and they may be using this word incorrectly. So, you know, see us if you want consultation on that issue. Uh, finally, an important argument in this chapter is that not only will inequality explode, but also there will be a d- uh, a collapse in social mobility. And actually, that's kind of the most interesting argument. I hadn't really thought about that super hard. Uh, it's definitely the most intriguing, even if a little bit underdeveloped. The idea here is, is that if you think about exceptional human successes, it t- especially out of nowhere, out of, you know, from a, uh, humble family, the diamond in the rough, s- if you will, that's usually about the superior labor power of those people, right? Those people were able to do something that nobody else could, allowing them to rise. Um, this essay that we just read is kind of pessimistic about that ever being able to happen in the future. Um, I have some thoughts about this. What did you think of that argument, that, that it's gonna kill social mobility as well as increase inequality?
+Andrey (0:35:00): I mean, this is, once again, like the scenario planning story. I... If you take the premises that labor is useless, um, you do create perhaps a situation of, uh, hopelessness, um, amongst people because so much of, you know, how people get through their lives is to think that they can do better and that there's kind of a quest that they should be on and, you know, and there are, of course, lots of versions of that. Um, I, I am... I think one of my fundamental views is most of what things, most of the things people do is about status. And, uh, that is not going away with AI. And so-
+Seth (0:35:44): [laughs]
+Andrey (0:35:45): ... it's just gonna be hard to predict what's, what's gonna be the high status thing. Uh, but it will exist. Now, given I don't know what activities will constitute high status, it's hard for me to know whether it's easier or harder for humans to achieve that. I guess I could imagine there to be decreased social mobility as humans are more segregated, uh, in a variety of ways, but then that seems hard to imagine given the internet. Um-
+Seth (0:36:16): Well, let me tell you a story. H- So I think this is a little, going a little bit beyond the scope of the essay. This is a little bit more what I've talked to Matt Bean about offline, is this idea that to the extent that any sort of children are invested in with the ability to race with the machine-
+Andrey (0:36:34): Mm-hmm
+Seth (0:36:34): ... it'll be limited to the elites, right? So, like, i- let's imagine a world where only 1% of people can have jobs. Those will be reserved for the children of e- the elites who are prepared and groomed for them with high resources.
+Andrey (0:36:47): I disagree. Um-
+Seth (0:36:49): Mm-hmm
+Andrey (0:36:49): ... and I, and I think because fundamentally I view AI as democratizing technology on the human capital formation front. Uh, I just think that if you're a talented person from anywhere in the world, AI makes it way easier to get to the frontier You essentially have-
+Seth (0:37:05): AI as tool, AI as tool is completely ignored in this paper
+Andrey (0:37:09): AI as an educational tool for the 0.1% is the greatest technology in history. For other people, maybe who don't have, you know, the same determination or the same interests and, and stuff, maybe it's net harm because it's too easy to cheat. But I think for the 0.1%, it is an accelerator.
+Seth (0:37:29): 0.1%. I mean, you could tell a story where, like, AI also leads to, like, greater assortative matching amongst couples, and then, like, this all turns into-
+Andrey (0:37:38): Yeah, it's a Gattaca situation
+Seth (0:37:39): ... that tool point. Right, you could get, like, a Gattaca here, right? So maybe Gattaca plus automation gets you to perfect im- social immobility, but it's not just... That you would need a s- you would need a social innovation in addition to the, the AI innovation, right?
+Andrey (0:37:55): Yeah. And I don't, and I just don't-
+Seth (0:37:56): Um-
+Andrey (0:37:56): Demographically, I don't see Gattaca before 2050. I just-
+Seth (0:38:00): Yeah, the ti- the timing is, the timing is way too... 'Cause you'd have to start Gattaca-ing right now. [laughs]
+Andrey (0:38:04): Yeah, yeah. And we're, we're just not there yet. Yeah.
+Seth (0:38:07): We're not even, we're not even... You're, like, you were talking about maybe a Saudi prince somewhere is Gattaca-ing. [laughs]
+Andrey (0:38:14): [laughs] It's my new favorite verb, Gattaca-ing. Oh, my gosh. [laughs]
+Seth (0:38:19): Um, what else do I wanna say about this? Um, I guess I would just say that, um, there is an observed international relationship called the Gatsby curve that does seem to relate social inequality to social mobility. I know this research has come under criticism, but, you know, while we're talking about cross-country panel regressions, uh, my understanding is, is that the more unequal your society, the harder it is to move up or down percentiles, which makes sense if, like, the rungs are farther apart.
+Andrey (0:38:51): Yeah.
+Seth (0:38:52): So th- maybe there's just a mechanical sense in which inequality is more inattractable, uh, for social mobility, just setting aside the AI.
+Andrey (0:39:00): Yeah. But I guess if we care less about economic productivity, and we care more about things like cultural productivity, and everyone has a lot of free time, I, I... Here, just imagine, like, like, video games are a great example. Like-
+Seth (0:39:13): Mm-hmm
+Andrey (0:39:14): ... people who are very good at video games have a lot of status. I actually just don't see a world where that goes away. And anyone can play video games. So...
+Seth (0:39:25): Yeah, we've already-
+Andrey (0:39:25): Yeah
+Seth (0:39:25): ... beaten chess. We've already established-
+Andrey (0:39:27): Yeah
+Seth (0:39:27): ... that once the AI solves the game, we're still interested-
+Andrey (0:39:29): Yes
+Seth (0:39:29): ... in the game, right?
+Andrey (0:39:31): For sure.
+Seth (0:39:31): Uh, so no problems with that. Okay, so moving to the next chapter, now we get to the curse itself. Uh, it's a little bit fuzzy how this happens. I don't think maybe the authors have a strict mechanism in mind here, but they're imagining that powerful actors will seize the AI and use it to cement their own power.
+Andrey (0:39:51): Mm-hmm.
+Seth (0:39:51): You might imagine that states have an incentive to help with this centralization of power, and that once states, or I guess AI companies that have taken over the role of the state, have achieved this 1984 style dystopia, I guess, uh, that's kinda where this book goes immediately. [laughs]
+Andrey (0:40:08): Yeah. Or, or at the very least, just, like, they, you know, they don't care about the people. They're just doing their own... You know, if the, if the AI/elites at the very top, you know, their number one mission in life is to go to Mars, that's, that's just where all the resources are gonna go.
+Seth (0:40:24): Right. We'll get whatever the elites want. Um, and this is a world where, what, what the elites want is not social equality and, you know, [laughs] a vast array of people-
+Andrey (0:40:33): They have very little social... They have very little utility, inherent utility on the wellbeing of their populations.
+Seth (0:40:42): Right. Or even on, like, closely related second-order things, like the love and admiration of their populations-
+Andrey (0:40:47): Yep
+Seth (0:40:47): ... right?
+Andrey (0:40:48): Yep, yep, yep.
+Seth (0:40:49): Um, so I guess I would say that in this vision, it... The vision, in my opinion, is very cynical. It's this very, I guess, like, narrow path development Acemoglu vision where, Acemoglu-Johnson vision, where kind of all countries everywhere want to be the most horrible stationary bandit they can, right?
+Andrey (0:41:15): Mm-hmm.
+Seth (0:41:15): And the only thing that stops them are these concerns about, well, you know, I do have to educate my populace so they can be good stormtroopers, right?
+Andrey (0:41:24): Yes. Yeah, yeah.
+Seth (0:41:25): Um, do you think that's right, or is that a little bit too cynical?
+Andrey (0:41:28): No, it's too cynical. I, I mean, I, I don't think that's right at all. I, I, I think, like, the more sh- steel man version of their argument might be something as follows. Like, there are many countries, and, um, you just have to compete with the other countries, however that plays out. And the other countries are gonna have no qualms about, uh, using AI to the fullest, and therefore, you know, any country that cares about its people is gonna fall behind.
+Seth (0:42:00): Right, cares about its people in a way that is not directly Darwinian madness-
+Andrey (0:42:04): Yes. Yeah, yeah
+Seth (0:42:04): ... right?
+Andrey (0:42:05): Exactly, yeah.
+Seth (0:42:05): You might imagine that a country that actually successfully does the simulate, the situational awareness, the project, and wins the race to AGI, like, I thought that the point of doing that would be, like, you'd be beyond competitive concerns, right, and you have, you'd have, like, solved the economy at that point. [laughs]
+Andrey (0:42:24): Yeah. Or, or, like, you have a global government. Certainly things that are very common tropes in, you know, science fiction are not necessarily-
+Seth (0:42:32): I mean, and, yeah. I mean, to not get... to get a little bit more science fiction-y, right, there's n- there's no, um, kind of homesteader frontier outlet that is considered in this essay, right? In a world where, sure, if you stay in one of the mega cities, you're just gonna be a prole on the dole, that, that's kind of a, kind of a sad sort of future. But you can also imagine a future where you have the option of being the prole on the dole or, you know, fucking off with your... Sorry.
+Andrey (0:43:09): Duck your gum.
+Seth (0:43:09): Imagine a future [laughs] Ducking off. You can imagine a future instead where people decide to just sort of, uh, fly off and make a homestead underwater, in a floating city, on Mars. And, you know, there'd be... It would be too expensive for the 1984 totalitarian state to, like, worry about trying to govern these far-flung places. It seems like this is a future you could run away from, right? [laughs]
+Andrey (0:43:40): May- maybe. I doubt it's too expensive. I- it could be deliberate decision to just have a zone where it's like, you know, you guys do your own, your own stuff. Uh, but-
+Seth (0:43:49): Mm-hmm
+Andrey (0:43:49): ... but yeah. I mean, this kind of gets me to something I was thinking about the entire time I was reading this, which is property rights.
+Seth (0:43:58): Ooh. [laughs]
+Andrey (0:44:02): Right? I, I mean, so much of... So many of these questions are just hinging on... Or not just hinging, but it's really mediated by, do we s- do we keep property rights or not?
+Seth (0:44:14): Right.
+Andrey (0:44:14): Right? Because if humans have property rights, uh, like, if someone owns a home, um, they can stay in the home, right? Like, the... You know, if someone owns a machine or a computer or, or whatever, like, they can keep using it. And, um, that, that kind of limits the sense in which the government is gonna take advantage of the people. Now, if the government says, you know, property rights were a great idea before AI, but now-
+Seth (0:44:40): [laughs]
+Andrey (0:44:41): ... you know, we don't need property-
+Seth (0:44:42): Centralize it all, baby. [laughs]
+Andrey (0:44:44): Yeah. We, we kn- we're the benevolent planners. We know what to do here, so we're just gonna-
+Seth (0:44:48): Trust Big Brother
+Andrey (0:44:48): ... we're just gonna take your home. Um, you know, th- then, then we get into a very different set of weirdnesses, I, I guess. And it's certainly true that in plenty of resource-cursed countries, you don't really have nice property right regimes, right? So, uh, but, but, but to me it's just... Like, like for example, there are plenty of people right now that have, you know, investments and if we're gonna get this AI scenario, they're gonna have a lot of capital, right? Like, that's... And that's a lot of people. It's not just gonna be, like, one person, right? So, you know, what do we, uh, what do we make of that? That, that, that seems unlikely that they're all gonna agree with each other about what to do, and so we're gonna have some amount of, you know, political competition at the very least, right? And also economic competition. Um, but if, but if the AI just says, "Hey, you know, stocks were a great idea, but we have a better way. And, uh, you know, all the people with index funds have a, you know, have a good one." Uh, [laughs] um-
+Seth (0:45:51): [laughs]
+Andrey (0:45:51): ... you know, that's a very different world.
+Seth (0:45:54): I, I so agree. I think one of the biggest weaknesses of this essay is, like, the movement from AI companies will create a huge amount of wealth to governments will become 1984, right?
+Andrey (0:46:07): Yeah.
+Seth (0:46:08): The, there has to be, like, a really specific nationalization or sort of, like, fascist government, AI company alliance in a very particular way for it to work out this way, right?
+Andrey (0:46:20): Yes. Yes.
+Seth (0:46:22): Um, I also kind of... And taken into that, in this essay we keep on hearing about the elites. The elites think this, the elites think that. But as I just talked that out, what Sam Altman wants and what Donald Trump wants are, like, probably really different things, right? So it actually kind of does matter which elite you get.
+Andrey (0:46:42): Yeah. I mean, you get even, you know, within very seemingly tiny differences and, uh, beliefs you get your Elon versus Sam Altman philosophies, right? You know, who in principle started OpenAI for the same exact reason but seemingly disagree on everything now, so yeah.
+Seth (0:47:00): Right. It, that's perfect. Right, and so it seems just so, so contingent, right? So to the... So I, I mean, I guess this is where we're gonna come back to in the conclusion, but, like, this is a interesting scenario to think throu- through, but every step on this path is very contingent, right? [laughs]
+Andrey (0:47:15): Yeah. Yes.
+Seth (0:47:16): Um, one other thing that I thought about while reading here was I wish there had been more of a discussion to, like, actually fully automated societies. We actually do have some examples of partially or highly automated societies when we think about ancient Sparta, where 90% of the population was Helots.
+Andrey (0:47:36): Mm.
+Seth (0:47:36): And, you know, the Spartan leaders just, like, hung out and practiced war because that was their big cultural thing. In Athens, I just found an estimate that maybe 75% of the citizens, of the people in Athens were slaves, with only 25% being citizens.
+Andrey (0:47:52): Oh.
+Seth (0:47:52): And these seem to be societies that we wouldn't call, like, modern democracies. Certainly we wouldn't call Sparta a modern democracy. But these are societies that, at least for the people who counted, really don't seem to have been collapsing into 1984 style totalitarianism, right? Um, I... You could even draw the analogy to the Confederacy in the South, right? A- although that example's a little bit more problematic, 'cause over the course of the Civil War they do end up, um, centralizing a lot of power in, in Virginia. Um, what do you think the... I mean, I, I'm... That's just my, uh, my argument, is they should have thought about that a little bit.
+Andrey (0:48:31): I, I don't think they disagree with you. Like, I, I kind of... The way I read this was that some amount of humans do get the good treatment, you know. Maybe they're the capital owners or, or so on, right? And, um, and I guess they were just saying that this is just a much bigger deal. Instead of 75% automation, you're gonna get, you know, 99, 99.9% automation, and that's, you know, a, you know, that can... And the elite-
+Seth (0:48:59): That's a qualitative change
+Andrey (0:49:00): ... the, the elite-
+Seth (0:49:01): Qualitative difference, yeah
+Andrey (0:49:01): ... the elites are a very tiny portion of society, right? So in some sense, they're like, yeah, like, fine, one... Let's say there's 1% of America that gets to keep on living a nice life. That's still a problem, and we need, you know, solutions.
+Seth (0:49:16): Right. I, I guess the, kind of the analogy I wanna draw there is that there's a clear line between, you know, the citizen and the slave-
+Andrey (0:49:24): Yeah
+Seth (0:49:24): ... that, you know, the Greeks really didn't... I mean, if you lost a war, you could be captured and become a slave, certainly.
+Andrey (0:49:29): Yes.
+Seth (0:49:29): Uh, but it seems like that natural sort of analogous line exists today in between humans and robots, right? And it's unclear why we couldn't maintain that line.
+Andrey (0:49:39): Well, I think they-
+Seth (0:49:40): I mean, maybe we-
+Andrey (0:49:40): ... they, they argue that, I guess, that, that the politic- the political economy is that we wouldn't, right? That's kind of the entire-
+Seth (0:49:47): Right. And so that's why I want to understand. So why didn't the political e- economy of Athens lead to, you know, the one despot with everybody being their slave, right? Or, you know, maybe, maybe you might argue that that's like what Babylon was, right? You know, in the great city of Ur, there was-
+Andrey (0:50:02): No
+Seth (0:50:02): ... one god-king and everyone was their slave.
+Andrey (0:50:04): No, no. I mean, the, the non-slaves in Athens, um, were still doing things, right? They were doing important tasks that were not automated away. They just had a much nicer life.
+Seth (0:50:17): Cultural, artisanal, military tasks, right?
+Andrey (0:50:19): Yeah. Scientific.
+Seth (0:50:20): But, but basic production, basic production you might say was automated.
+Andrey (0:50:23): Yeah. Yeah. And I guess the argument here is that it's not just basic production that's automated, correct?
+Seth (0:50:30): Yeah, milit- yeah.
+Andrey (0:50:30): Yeah.
+Seth (0:50:31): Military tasks got automated.
+Andrey (0:50:31): And so the question about like, you know, elites here. Who are the elites in this society? It could be people, you know, who just were early investors in OpenAI. It could be people who are the best at, uh, coming up with new AI models. Uh, you know, it could be the best live performers. You know, who, who knows who these elites are.
+Seth (0:50:51): Well, they don't... I mean, except for that last one. According to this essay, not the last one. There's a really funny joke in here where it's like if you go to someone in a thou- you know, in 100 years and ask them why they're wealthy, the answer is probably going to be like, "My uncle was an early, was like a first 10 worker at OpenAI. [laughs] So that's why I get to rule the world." [laughs]
+Andrey (0:51:10): Yeah. Yes.
+Seth (0:51:12): Which, I mean, is really good as rhetoric, but like it, it doesn't work [laughs] as, as actual political economy. [laughs] And okay, one last point here, which is that if you're looking for a book, uh, where there's a really high ratio of automation to humans, uh, but it's not a vision I would call one of like elites dominating non-elites, highly recommend Asimov's The Naked Sun-
+Andrey (0:51:39): Mm
+Seth (0:51:39): ... where, uh, the colonists of Mars live on sort of vast plantations where like one guy has 1,000 robots and AIs serving them on their Martian plantation. And it's not, it's not necessarily a great world, but you wouldn't call it totalitarian in any way.
+Andrey (0:51:57): I'll have to check that out. Um-
+Seth (0:51:59): Um.
+Andrey (0:51:59): All right, let's get to the policy, 'cause I guess the next part is kind of the-
+Seth (0:52:02): All right
+Andrey (0:52:03): ... policy solutions, right? So this is where the hand-waving really starts to happen. [laughs]
+Seth (0:52:09): Ooh, yeah. Oh, yeah.
+Andrey (0:52:11): So the first-
+Seth (0:52:12): Uh, yes
+Andrey (0:52:12): ... of course, of course the first thing is something must be done.
+Seth (0:52:15): [laughs]
+Andrey (0:52:22): [laughs]
+Seth (0:52:22): Yes. [laughs]
+Andrey (0:52:25): That's what we all, we all agree on.
+Seth (0:52:27): This, this, this, this 10-step process that will lead to 1984 inevitably-
+Andrey (0:52:31): [laughs]
+Seth (0:52:33): ... [laughs] must be stopped. [laughs]
+Andrey (0:52:36): Um, I mean, look, the, obviously this is, you know, a rhetorical piece with a political agenda, but I, but I do think that, you know, we should, we should question even just the tendency of something must be done. Not that like people shouldn't be doing things, but, um, things are be-
+Seth (0:52:55): People think that you can just do things
+Andrey (0:52:56): ... things are, things are be, things are being done every day. But I, but I think, um, yeah, I oftentimes wait, wait and see has a lot of advantages. Maybe. Um-
+Seth (0:53:11): Well put.
+Andrey (0:53:12): Yeah.
+Seth (0:53:12): Okay. But, uh, one thing they're pessimistic about is the idea that revolts and ordinary politics will be able to prevent the centralization of power in the hands of elites, right? They see revolts as basically relying on the relative power of like the mob versus the army, which they see has to be in a secular decline. Um, and they also just feel like the way that political finance works is, is that the elites will be able to win any sort of democratic vote that they get into.
+Andrey (0:53:47): The elites don't agree. I mean, I think I go back to this point constantly. We have a lot of elites, and they don't all agree. And so I, I just imagine-
+Seth (0:53:54): It's just a unified elite
+Andrey (0:53:55): ... yeah, I just imagine that, that that's gonna, you know... You know, certainly a lot of elites today are Democrats. A lot of elites favor more distribution, uh, redistribution. A lot of elites favor less. I mean, uh, and they, and they have different pref- preferences. So it's just, um, I'm not as nihilistic. I certainly... It is plausible that some group of elites gets into power and then stages a coup and, and so on.
+Seth (0:54:21): 1984 assess.
+Andrey (0:54:22): Yeah, yeah.
+Seth (0:54:23): [laughs]
+Andrey (0:54:24): But not inevitable.
+Seth (0:54:27): Well put. Um, okay, so now let's... Uh, so that's not gonna work. It's, the threat of revolution isn't gonna keep them in line according to this essay. Maybe we disagree. What do the authors think is gonna work? First of all, and we can put this in the show notes, I love the, uh, the, the image that headlines the final chapter, which is like giant mass of people building more Acropolis. There's like not enough Acropolis. [laughs] Which I, again, you know, Athens was in some sense a highly automated society, if you call slaves robots, but whatever.
+Andrey (0:55:00): Seth, I like my Acropoli built by human hands.
+Seth (0:55:03): [laughs] Artisanal Acropoli. There we go. That'll be the name of our, uh, architecture podcast.
+Andrey (0:55:11): Yeah. Yes.
+Seth (0:55:11): Is, uh, Artisanal Acropoli. Okay. [laughs] Um, okay. The first is the idea that we should develop and diffuse AI-enabled technology that augments human productivity and keeps humans in the loop of economic value production. Uh, I mean, that sounds... I mean, it sounds like a banal platitude. [laughs]
+Andrey (0:55:33): It's, I'm just so sick of hearing this, honestly.
+Seth (0:55:36): [laughs]
+Andrey (0:55:36): It's like, it's, because, not because I disagree with it, because, but because it's so obvious, and because everyone says it. And the truth of the matter is, um, we're in a capitalist economy, and if that's, like, a good mode of production, um, you know, I, I think we'll keep doing it. And by the way, I do think it's a good mode of production, so I think it will happen. It's just very anodyne, non-interesting. It's, uh, call, if that makes sense.
+Seth (0:56:04): Right. Anodyne, very well put. Uh, the next argument, this is a little bit spicier, is, I mean, I read in here an actual argument that we should be slowing down the pace of automation. Uh, this quote I picked out was, "The longer human economic relevance lasts, the more time there is for people to wake up to AI, and for discussion and movement-building around governance." Heavy sigh, dude. This is even more speculative than everything else. [laughs] It's, it's...
+Andrey (0:56:34): Yeah.
+Seth (0:56:34): I mean, there's not even an argument here. It's just like, maybe if we delay, things will be better in the future. It, it's like, it's, it's hope. It's like, it's, this is-
+Andrey (0:56:42): Yeah
+Seth (0:56:42): ... the very, very beginning of an argument.
+Andrey (0:56:44): It just seems so hard in the, in the following sense. Like, even if you believe this was true, entire premise of this essay is that-
+Seth (0:56:51): Is you can't do it
+Andrey (0:56:51): ... is that you can't do it because of competitive reasons, because other countries will do it. And now-
+Seth (0:56:56): Right
+Andrey (0:56:56): ... like, obviously, this is a movement, this is a global movement, and they're trying to essentially achieve substantial mind share. And so, you know, if you had 10% of the global population that believes this, you know, maybe there are substantial slow-down effect. So it's not, it's not craziest thing in the world, but it is, it does seem, once again, a bit, you know, it, not really workable in a micro sense, yeah.
+Seth (0:57:23): Yeah, you're, you're worried about workability. I'm just, I just don't think it's obvious to me that making these decisions 30 years from now will make better decisions than if we make the decisions today, right? There are obviously the details of the technology very much are dependent, and they'll have to be constantly adjusting to market conditions, et cetera, et cetera. But if we're thinking about, like, a high-level principles argument, kind of the argument of this paper is is that society is gonna get more and more inequality-tolerant and less and less enlightenment-value suffused. And if you buy that, shouldn't we make the decision now?
+Andrey (0:57:59): Yeah. Yeah, I, I guess the other thing is, you know, they believe that further on we'll have much better technologies for, uh, controlling the AIs, right, which is something that's a little bit confusing in this entire argument, because I always thought that it was premise that the government does control AI. The issue is not that the government doesn't control AI, it's just the issue is that it does.
+Seth (0:58:22): Yeah, so yeah, it's this fuzzy thing. I, I guess the, their kind of default vision is a close alliance of the government-
+Andrey (0:58:30): Yeah
+Seth (0:58:30): ... and the AI company, rather than explicit nationalization. It's, uh, not super clear.
+Andrey (0:58:36): But, but the, but-
+Seth (0:58:37): Uh-
+Andrey (0:58:37): ... the government, is the government the, the AI that went out of control? Or is the government a human that has perfect control over the AI? Because w- some of the technology that they, you know, are suggesting, like easy fine tuning, and interpretability research, and all this stuff, that's really great for a dictator. That's, like, amazing, no?
+Seth (0:58:54): [laughs] Right. I mean, all of these, uh, something like interpretability, uh, is gonna be useful to both good people and bad people. It's unclear why this is unambiguously a good thing.
+Andrey (0:59:06): Yeah.
+Seth (0:59:07): Um, finally, um, he talks about, they talk about long, in the long term we need to focus on decentralization and user alignment of AIs. Um, I mean, I, that's kinda, it's sort of interesting, right? Because they have this story about how individuals are gonna screw up AI by being too self-centered, and then their conclusion is that AI should allow people to be more self-centered and not have society-wide preferences.
+Andrey (0:59:40): I mean, I guess I-
+Seth (0:59:40): Can you follow that part of it?
+Andrey (0:59:41): I guess if, if I had to, like, go through the details of this argument, it's like, if, if, if all individuals, hu- humans had super powerful AIs, then the government couldn't control them. Now, to me, this is a very interesting argument coming from this crowd, because it's like-
+Seth (0:59:56): [laughs]
+Andrey (0:59:56): ... their entire worry is that, like, one person with a super powerful AI can ruin it for everyone. And so this is, this is a fundamental tension, right, between-
+Seth (1:00:07): Right
+Andrey (1:00:07): ... you know, just, I, I view it as an entire, like, anthropic en- agenda, right? You know, they're obsessed with AI safety, and yet they're developing AI to be more and more capable every second, right? So, um, yeah, it doesn't... It just seems like a non-sequitur, orthogonal maybe, uh, because there are s- different issues there. I think a more interesting proposal is ban AI systems from owning assets and being a C-suite board member. What do you think about that?
+Seth (1:00:33): [laughs] Wait, that went fast. Say that one more time. [laughs]
+Andrey (1:00:39): Ban AI systems from owning assets and being a-
+Seth (1:00:42): Okay
+Andrey (1:00:42): ... C-suite board member.
+Seth (1:00:45): So, owning assets I think is really important here. So, uh, uh, this is gonna, like, come to my posterior. One thing I was thinking about a long time in this essay was in models with representative... So now let's get a little bit technical, which is, I know what our, our audience loves. If you have a model of an economy where people are allowed to lend and borrow to each other, where some people, e- everybody lives forever, just to keep things simple, but some people are more short-termist and some people are more long-termist, in, eventually the long-termist people will get all of the money, and the short-termist people will become permanent debtors, right? And you might imagine if you set up an AI, said you are the most long-lived economic agent imaginable, amass wealth in the very, very long run, you could imagine a very, very wealthy immortal AI system emerging. To a certain extent, you might say that that's kind of like what Harvard is. Any of these big philanthropic institutions that are infinitely lived that acquire these big hedge funds and just grow and grow and grow because they're sufficiently long terms. To make a, a literary and sci-fi connection, this is discussed in, um, Gulliver's Travels, where Gulliver meets the land of the immortals, and the immortals, he expects them to be all rich because why don't you just all invest in 5% bonds, and, like, after a, a century you'll be super-duper rich. Uh, and there are reasons why it doesn't work in that essay, but it's, it's clear that this is a, an old concern-
+Andrey (1:02:19): Yeah
+Seth (1:02:19): ... that immortal agents will eventually get all of the money.
+Andrey (1:02:21): Yeah.
+Seth (1:02:22): What do you think about that part of this? So a- anyway, that my answer. That would be my concern. The reason I would be tempted to ban AI from-
+Andrey (1:02:30): But that's a very different reason, Seth. I, I guess, like-
+Seth (1:02:33): Okay
+Andrey (1:02:33): ... I... That's very interesting. I mean, we can do a separate episode on that, but I think it's not this-
+Seth (1:02:38): Oh, yeah
+Andrey (1:02:39): ... it's not this short-termist, uh, thing about... You know, they have a much more, like, they have, I assume, the idea that the AI hedge fund is just gonna win. They're gonna take all of our assets and stuff.
+Seth (1:02:52): [laughs]
+Andrey (1:02:53): Right? And-
+Seth (1:02:54): Right, and then, and open AI will, you know, be 99% of the value of the stock market.
+Andrey (1:02:58): Yeah. Yeah, that's right.
+Seth (1:03:01): Uh, yeah, so should AIs, uh, be banned from, uh, owning assets? Uh, in my opinion, other considerations dominate the considerations of this paper.
+Andrey (1:03:10): Yeah. And I guess in my opinion, I, I have an issue with enforceability. Uh, um, I think an AI, if, if we have autonomous AIs, I think preventing them from owning assets is impossible. How about that? Uh, why?
+Seth (1:03:33): But that, but that-
+Andrey (1:03:33): Because they can form agreements with individuals, essentially. And yes, you can... Now there's still an individual in the loop and so on, but that's one version of that. The other version of that is that crypto wallets are programmable. They're out there. We ain't, we ain't stopping shit. Uh-
+Seth (1:03:50): [laughs]
+Andrey (1:03:50): ... maybe I'm too much of a nihilist, but I just don't see how, how we could.
+Seth (1:03:56): Are you, uh, just to be clear here, are you imagining, when you say ban AI from having assets, do you mean there wouldn't be allowed to be a human that owns an AI that owns an asset, or are you saying there wouldn't be allowed to be an AI that doesn't have a human on top of it?
+Andrey (1:04:11): I think, well, I think they're trying to argue that there wouldn't be an AI that doesn't have a human on top of it. But I guess what I'm saying is that, uh, the AI can control humans through economic incentives to act as their proxies and have a bank account. Um, and then the other thing is that crypto wallets are decentralized and programmable and useful. So-
+Seth (1:04:32): As we are
+Andrey (1:04:33): ... uh-
+Seth (1:04:34): Yeah, I, I, yeah, thank you from the early Ethereum investor. All right.
+Andrey (1:04:38): Yeah.
+Seth (1:04:40): [laughs] All right, are we ready to move into posteriors?
+Andrey (1:04:43): Um, sure. I mean, do you wanna say anything about digital advocates, verification, and feedback collection?
+Seth (1:04:49): I think, uh-
+Andrey (1:04:50): There's some other policy suggestions
+Seth (1:04:52): ... y- yeah, if you, if you wanna blitz through those. I don't have strong feelings. I feel like we would need full episodes to kind of really do them justice.
+Andrey (1:04:59): Yeah, I, I guess, like, I think those are interesting ideas. Devils in de- details. Um, broadly good ideas, regardless of whether this is happening now.
+Seth (1:05:10): Yeah, the AI safety is also-
+Andrey (1:05:11): Yeah
+Seth (1:05:11): ... here also. We should do something-
+Andrey (1:05:12): Yeah
+Seth (1:05:12): ... on the AI safety.
+Andrey (1:05:13): Yeah, like, you know.
+Seth (1:05:14): Listen to our episode about AI safety.
+Andrey (1:05:16): Yeah, I mean, these are all, like, uh, you know, good technologies to have, but they're good technologies to have in so many states of the world that, uh, I'm not sure that they should be pushed through here.
+Seth (1:05:27): [upbeat music] Okay, so moving to our posteriors. So we first ask, asked, "Will AI-enabled automation allow elites to be less responsive to the needs of median people?" I, and this is in the year 2050. You were at 55%. I was at 60%. Did you move at all from reading this essay?
+Andrey (1:05:56): I mean, I, I guess I must have to, to, like, a couple of percents or something, but yeah.
+Seth (1:06:03): You moved from 55 to 57?
+Andrey (1:06:05): Yeah, yeah.
+Seth (1:06:05): All right. I'll take that. I would maybe... Um, I, I think I, I feel the same way. I think by making these issues a little bit more salient, the political economy part of... There's a story from the Enlightenment, which is democracy became important because of military technology, right? There's a story where the Levée en masse and France, you know, giving everybody in the country guns, uh, and that, you know, you know, this is a very stylized history of European warfare, and then all those guys with the guns shooting the du- the knights. Obviously, knights were out for 500 years before this, but you get the idea that, that this is what created modern democracy. It's that people power beat elite power-
+Andrey (1:06:53): Mm-hmm
+Seth (1:06:53): ... right, in these actual military conflicts. I think that's really important. I wanna understand more how AI will shape the relative power of mass versus elite ideas. I mean, we're both closely watching the war in Ukraine. Um, a lot of people have talked about, um, you know, when this war is over, you're gonna have people on both sides who are extremely skilled at conducting surgical drone assassinations and, like, getting out without being detected. I mean, f- uh, is that, would you think about that guy as more like a knight or more like a, uh, [laughs] more like the mass mobilization forces, uh, under Grand Army?
+Andrey (1:07:40): I mean, I think it just depends on how far ahead the government's AI is in front of everyone else, right? Because if, if it's truly far ahead, it can just hack everything. It can... Right? Like, there's a sense in which... And y- well, as usual, you're, you're giving it these superior powers that are all-encompassing and, and, and so yeah, it would just, like, know when the drones are coming, and it wouldn't be an issue. [laughs]
+Seth (1:08:04): Right. And so and this comes to a, a, a classic topic that we've talked about, which is does AI, uh, s- favor the offense or the defense is a closely related issue-
+Andrey (1:08:12): Yes
+Seth (1:08:12): ... I'm sure we'll come back to.
+Andrey (1:08:14): Yeah.
+Seth (1:08:14): Finally, AI-enabled automation will lead to a new social contract again by 2050. We were both kind of in the 20% range. Um, I think... Man, actually coming out of reading this, I might, I, I can't say I move at all.
+Andrey (1:08:28): Yeah.
+Seth (1:08:29): Um, 'cause I, I don't think that this scenario is like, even in, like, the top... E- even if it was the m- the top most likely scenario, there are so many thousands of scenarios, it's hard to be really moved by one particular vision.
+Andrey (1:08:43): Yeah. And I guess if it was, like, 100 years from now, you know, the longer the time horizon, the more likely we are to have a new social contract due to AI.
+Seth (1:08:51): Even without, yeah, even without AI. [laughs]
+Andrey (1:08:52): Even without AI.
+Seth (1:08:52): Right. Even without AI.
+Andrey (1:08:53): Even without AI. Yes. Yeah. Um. [upbeat music] All right. Well-
+Seth (1:09:04): All right. [laughs]
+Andrey (1:09:05): Um, thanks for joining us. Please like, comment, subscribe, and let us know if there are any topics you wanna cover. And once again, if you have any leads on, uh, any potential sponsors that are interested in, uh, funding this excellent podcast, please do let us know.
+Seth (1:09:21): Yes. Uh, we love getting your comments. Thank you again, Matt, and we'll look forward to discussing many papers you suggest in the future. [outro music]
