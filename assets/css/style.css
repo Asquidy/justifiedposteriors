@@ -1901,7 +1901,7 @@ p {
 
 .transcript-list__row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   justify-content: space-between;
   gap: var(--space-xs) var(--space-md);
@@ -1924,6 +1924,7 @@ p {
 .transcript-list__main {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
   min-width: 0;
 }
 

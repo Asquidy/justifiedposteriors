@@ -46,6 +46,7 @@ GUEST_FULL_NAMES = {
     "bo": "Bo Cowgill", "daniel": "Daniel Rock", "ioana": "Ioana Marinescu", "kevin": "Kevin Bryan",
     "noah": "Noah Smith", "seb": "Seb Krier", "daron": "Daron Acemoglu", "martin": "Martin Beraja",
     "martha": "Martha Gimbel", "alan": "Alan Rozenshtein",
+    "sarah": "Sarah Bana", "phil": "Phil Trammell", "david": "David Deming",
 }
 # Per-episode guest overrides (slug -> {first: full})
 GUEST_OVERRIDES = {
@@ -717,6 +718,9 @@ def main():
         # remove stale outputs
         for old in glob.glob(os.path.join(OUT_DIR, "*.html")):
             if os.path.splitext(os.path.basename(old))[0] not in built:
+                with open(old, encoding="utf-8") as fh:
+                    if "\nhand_cleaned: true\n" in fh.read(4000):
+                        continue  # published by the clean-transcript skill; no raw source here
                 os.remove(old)
                 print("removed stale", old)
     print(f"\n{len(built)} transcripts built", file=sys.stderr)
