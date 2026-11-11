@@ -24,6 +24,21 @@ layout: default
       {% endif %}
     </div>
 
+{% assign youtube_id = page.youtube_id | default: site.data.youtube_videos[page.slug] -%}
+{% if youtube_id and youtube_id != "" %}
+      <div class="transcript-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ youtube_id | escape }}"
+          title="{{ page.title | escape }} — YouTube video"
+          width="800"
+          height="450"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+{% endif %}
+
     {% unless page.speaker_labels %}
       <p class="transcript-note">The source recording for this episode has no speaker labels, so this transcript runs as continuous dialogue without attributing individual lines.</p>
     {% endunless %}
