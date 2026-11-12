@@ -1,0 +1,57 @@
+---
+layout: none
+title: AI Buildout Lab
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the revenue, construction, and financing assumptions in the October 2026 NBER working paper of Financing the AI Buildout.">
+  <title>AI Buildout Lab | Justified Posteriors</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#analysis">Skip to analysis</a>
+  <header class="top">
+    <div class="wrap masthead">
+      <a class="identity" href="{{ '/' | relative_url }}"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Justified Posteriors</a>
+      <a class="source" href="https://www.nber.org/papers/w35865" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="top" class="wrap">
+    <section class="intro" aria-labelledby="title">
+      <div>
+        <p class="edition">Research companion <span>·</span> October 2026 NBER working paper</p>
+        <h1 id="title">AI Buildout Lab</h1>
+        <p class="dek">Stress-test how much gets built, what it has to earn, and who takes the losses when demand falls short.</p>
+      </div>
+      <button type="button" id="share" class="button share"><span aria-hidden="true">↗</span> Copy scenario link</button>
+    </section>
+    <div class="scenario">
+      <div class="presets" id="presets" aria-label="Scenario presets"></div>
+      <span id="scenario-name" class="scenario-name"></span>
+    </div>
+    <section class="metrics" aria-label="Scenario results" id="metrics"></section>
+    <section id="analysis" class="analysis" aria-label="Explore assumptions">
+      <nav class="tabs" aria-label="Analysis views" id="tabs">
+        <button type="button" data-view="revenue" aria-pressed="true">Revenue hurdle</button>
+        <button type="button" data-view="gpu" aria-pressed="false">GPU value curve</button>
+        <button type="button" data-view="buildout" aria-pressed="false">Buildout &amp; capex</button>
+        <button type="button" data-view="financing" aria-pressed="false">Financing risk</button>
+        <button type="button" data-view="notes" aria-pressed="false">Belief exercise</button>
+      </nav>
+      <div class="workspace">
+        <aside id="controls" aria-labelledby="controls-title"></aside>
+        <section id="results" aria-label="Analysis results"></section>
+      </div>
+    </section>
+    <footer>
+      <p>Based on Stijn Van Nieuwerburgh’s <a href="https://www.nber.org/papers/w35865" target="_blank" rel="noopener">Financing the AI Buildout</a>. NBER Working Paper 35865, October 2026. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6444363" target="_blank" rel="noopener">Full text on SSRN</a>.</p>
+      <a class="footer-link" href="#top">Back to top ↑</a>
+    </footer>
+    <div role="status" id="notification" class="toast" hidden></div>
+  </main>
+</body>
+</html>
