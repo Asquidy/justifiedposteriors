@@ -41,16 +41,13 @@ wrap_class: wrap--wide
 
       <div class="belief-row__content" hidden>
         {% assign matched_transcript = site.transcripts | where: "episode_url", episode.url | first %}
-        {% if episode.url or matched_transcript %}
         <p class="belief-episode-link">
-          {% if episode.url %}
-          <a href="{{ episode.url }}" target="_blank" rel="noopener">Listen / read this episode &#8599;</a>
-          {% endif %}
+          <a href="{{ site.links.apple }}" target="_blank" rel="noopener">Listen on Apple Podcasts &#8599;</a>
+          <a href="{{ site.links.spotify }}" target="_blank" rel="noopener">Listen on Spotify &#8599;</a>
           {% if matched_transcript %}
           <a href="{{ matched_transcript.url | relative_url }}">Read the transcript</a>
           {% endif %}
         </p>
-        {% endif %}
 
         <div class="belief-table-wrapper">
           <table class="belief-table">

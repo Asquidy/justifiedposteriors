@@ -19,9 +19,8 @@ layout: default
     </div>
 
     <div class="transcript-actions">
-      {% if page.episode_url %}
-        <a class="transcript-actions__link" href="{{ page.episode_url }}" target="_blank" rel="noopener">Listen to this episode &#8599;</a>
-      {% endif %}
+      <a class="transcript-actions__link" href="{{ site.links.apple }}" target="_blank" rel="noopener">Listen on Apple Podcasts &#8599;</a>
+      <a class="transcript-actions__link" href="{{ site.links.spotify }}" target="_blank" rel="noopener">Listen on Spotify &#8599;</a>
     </div>
 
 {% assign youtube_id = page.youtube_id | default: site.data.youtube_videos[page.slug] -%}

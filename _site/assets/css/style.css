@@ -2004,6 +2004,9 @@ p {
 }
 
 .transcript-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
   margin-bottom: var(--space-md);
 }
 
